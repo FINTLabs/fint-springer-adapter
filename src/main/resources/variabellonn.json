@@ -1,0 +1,70 @@
+{
+  "anvist": "2016-12-01T23:45:59Z",
+  "attestert": "2016-12-01T12:34:56Z",
+  "kontert": "2016-12-01T01:23:45Z",
+  "periode": {
+    "slutt": "2016-12-11T00:00:00Z",
+    "start": "2016-12-01T00:00:00Z"
+  },
+  "systemId": {
+    "identifikatorverdi": "VL_JIOPTPUSO"
+  },
+  "variabelttillegg": [
+    {
+      "antall": 10000,
+      "beskrivelse": "Kjøregodtgjørelse",
+      "kontostreng": {
+        "_links": {
+          "art": [
+            {
+              "href": "${administrasjon.kodeverk.art}/systemid/1"
+            }
+          ],
+          "ansvar": [
+            {
+              "href": "${administrasjon.kodeverk.ansvar}/systemid/2"
+            }
+          ],
+          "funksjon": [
+            {
+              "href": "${administrasjon.kodeverk.funksjon}/systemid/3"
+            }
+          ]
+        }
+      },
+      "periode": {
+        "slutt": "2016-12-11T00:00:00Z",
+        "start": "2016-12-01T00:00:00Z"
+      },
+      "_links": {
+        "lonnsart": [
+          {
+            "href": "${administrasjon.kodeverk.lonnsart}/systemid/1234"
+          }
+        ]
+      }
+    }
+  ],
+  "_links": {
+    "arbeidsforhold": [
+      {
+        "href": "${administrasjon.personal.arbeidsforhold}/systemid/100003_1"
+      }
+    ],
+    "konterer": [
+      {
+        "href": "${administrasjon.personal.personalressurs}/ansattnummer/100003"
+      }
+    ],
+    "attestant": [
+      {
+        "href": "${administrasjon.personal.personalressurs}/ansattnummer/100002"
+      }
+    ],
+    "anviser": [
+      {
+        "href": "${administrasjon.personal.personalressurs}/ansattnummer/100001"
+      }
+    ]
+  }
+}
