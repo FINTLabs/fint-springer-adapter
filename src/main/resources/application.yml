@@ -5,7 +5,7 @@ springfox:
  title: '@title@'
  version: '@version@'
 
-base-url: https://play-with-fint.felleskomponent.no/administrasjon/personal/provider
+base-url: https://beta.felleskomponent.no/administrasjon/personal/provider
 fint:
  adapter:
   organizations: fake.no
