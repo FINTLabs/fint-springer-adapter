@@ -19,6 +19,7 @@ import java.io.IOException;
 import java.util.Collection;
 import java.util.EnumSet;
 import java.util.List;
+import java.util.Objects;
 import java.util.concurrent.ConcurrentLinkedQueue;
 import java.util.stream.Collectors;
 
@@ -28,6 +29,9 @@ public class FravarRepository implements Handler {
 
     @Autowired
     ObjectMapper objectMapper;
+
+    @Autowired
+    IdentifikatorFactory identifikatorFactory;
 
     private Collection<FravarResource> repository = new ConcurrentLinkedQueue<>();
 
@@ -55,6 +59,7 @@ public class FravarRepository implements Handler {
                 case UPDATE_FRAVAR:
                     List<FravarResource> data = objectMapper.convertValue(response.getData(), objectMapper.getTypeFactory().constructCollectionType(List.class, FravarResource.class));
                     log.trace("Converted data: {}", data);
+                    data.stream().filter(i-> i.getSystemId()==null||i.getSystemId().getIdentifikatorverdi()==null).forEach(i->i.setSystemId(identifikatorFactory.create()));
                     data.forEach(r -> repository.removeIf(i -> i.getSystemId().getIdentifikatorverdi().equals(r.getSystemId().getIdentifikatorverdi())));
                     repository.addAll(data);
                     response.setResponseStatus(ResponseStatus.ACCEPTED);

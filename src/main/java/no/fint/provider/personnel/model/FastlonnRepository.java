@@ -29,6 +29,9 @@ public class FastlonnRepository implements Handler {
     @Autowired
     ObjectMapper objectMapper;
 
+    @Autowired
+    IdentifikatorFactory identifikatorFactory;
+
     private Collection<FastlonnResource> repository = new ConcurrentLinkedQueue<>();
 
     @PostConstruct
@@ -55,6 +58,7 @@ public class FastlonnRepository implements Handler {
                 case UPDATE_FASTLONN:
                     List<FastlonnResource> data = objectMapper.convertValue(response.getData(), objectMapper.getTypeFactory().constructCollectionType(List.class, FastlonnResource.class));
                     log.trace("Converted data: {}", data);
+                    data.stream().filter(i-> i.getSystemId()==null||i.getSystemId().getIdentifikatorverdi()==null).forEach(i->i.setSystemId(identifikatorFactory.create()));
                     data.forEach(r -> repository.removeIf(i -> i.getSystemId().getIdentifikatorverdi().equals(r.getSystemId().getIdentifikatorverdi())));
                     repository.addAll(data);
                     response.setResponseStatus(ResponseStatus.ACCEPTED);
@@ -62,6 +66,7 @@ public class FastlonnRepository implements Handler {
                 default:
                     response.setStatus(Status.ADAPTER_REJECTED);
                     response.setResponseStatus(ResponseStatus.REJECTED);
+                    response.setStatusCode("INVALID_ACTION");
                     response.setMessage("Invalid action");
             }
         } catch (Exception e) {

@@ -29,6 +29,9 @@ public class VariabellonnRepository implements Handler {
     @Autowired
     ObjectMapper objectMapper;
 
+    @Autowired
+    IdentifikatorFactory identifikatorFactory;
+
     private Collection<VariabellonnResource> repository = new ConcurrentLinkedQueue<>();
 
     @PostConstruct
@@ -55,6 +58,7 @@ public class VariabellonnRepository implements Handler {
                 case UPDATE_VARIABELLONN:
                     List<VariabellonnResource> data = objectMapper.convertValue(response.getData(), objectMapper.getTypeFactory().constructCollectionType(List.class, VariabellonnResource.class));
                     log.trace("Converted data: {}", data);
+                    data.stream().filter(i-> i.getSystemId()==null||i.getSystemId().getIdentifikatorverdi()==null).forEach(i->i.setSystemId(identifikatorFactory.create()));
                     data.forEach(r -> repository.removeIf(i -> i.getSystemId().getIdentifikatorverdi().equals(r.getSystemId().getIdentifikatorverdi())));
                     repository.addAll(data);
                     response.setResponseStatus(ResponseStatus.ACCEPTED);
