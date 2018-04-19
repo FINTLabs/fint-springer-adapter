@@ -16,6 +16,7 @@ import org.springframework.stereotype.Repository;
 
 import javax.annotation.PostConstruct;
 import java.io.IOException;
+import java.util.ArrayList;
 import java.util.Collection;
 import java.util.EnumSet;
 import java.util.List;
@@ -62,6 +63,7 @@ public class VariabellonnRepository implements Handler {
                     data.forEach(r -> repository.removeIf(i -> i.getSystemId().getIdentifikatorverdi().equals(r.getSystemId().getIdentifikatorverdi())));
                     repository.addAll(data);
                     response.setResponseStatus(ResponseStatus.ACCEPTED);
+                    response.setData(new ArrayList<FintLinks>(data));
                     break;
                 default:
                     response.setStatus(Status.ADAPTER_REJECTED);
