@@ -53,9 +53,6 @@ public class FastlonnRepository implements Handler {
         log.trace("Event data: {}", response.getData());
         try {
             switch (PersonalActions.valueOf(response.getAction())) {
-                case GET_ALL_FASTLONN:
-                    response.setData(repository.stream().collect(Collectors.toList()));
-                    break;
                 case UPDATE_FASTLONN:
                     List<FastlonnResource> data = objectMapper.convertValue(response.getData(), objectMapper.getTypeFactory().constructCollectionType(List.class, FastlonnResource.class));
                     log.trace("Converted data: {}", data);
@@ -63,7 +60,8 @@ public class FastlonnRepository implements Handler {
                     data.forEach(r -> repository.removeIf(i -> i.getSystemId().getIdentifikatorverdi().equals(r.getSystemId().getIdentifikatorverdi())));
                     repository.addAll(data);
                     response.setResponseStatus(ResponseStatus.ACCEPTED);
-                    response.setData(new ArrayList<FintLinks>(data));
+                case GET_ALL_FASTLONN:
+                    response.setData(new ArrayList<>(repository));
                     break;
                 default:
                     response.setStatus(Status.ADAPTER_REJECTED);
