@@ -1,7 +1,6 @@
 package no.fint.provider.personnel.model;
 
 import no.fint.model.felles.kompleksedatatyper.Identifikator;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.concurrent.atomic.AtomicInteger;
@@ -9,8 +8,7 @@ import java.util.concurrent.atomic.AtomicInteger;
 @Service
 public class IdentifikatorFactory {
 
-    @Autowired
-    private AtomicInteger atomicInteger;
+    private AtomicInteger atomicInteger = new AtomicInteger();
 
     public Identifikator create() {
         Identifikator identifikator = new Identifikator();
