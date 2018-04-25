@@ -1,5 +1,6 @@
-package no.fint.provider.personnel.model
+package no.fint.provider.personnel.service
 
+import no.fint.provider.personnel.service.IdentifikatorFactory
 import spock.lang.Specification
 
 import java.util.concurrent.atomic.AtomicInteger

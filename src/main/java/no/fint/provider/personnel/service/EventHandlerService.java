@@ -7,7 +7,6 @@ import no.fint.event.model.Status;
 import no.fint.event.model.health.Health;
 import no.fint.event.model.health.HealthStatus;
 import no.fint.model.administrasjon.personal.PersonalActions;
-import no.fint.model.relation.FintResource;
 import no.fint.model.resource.FintLinks;
 import no.fint.provider.adapter.event.EventResponseService;
 import no.fint.provider.adapter.event.EventStatusService;
@@ -15,6 +14,9 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import javax.annotation.PostConstruct;
+import java.io.IOException;
+import java.io.PrintWriter;
+import java.io.StringWriter;
 import java.util.Collection;
 import java.util.EnumMap;
 import java.util.concurrent.ThreadLocalRandom;
@@ -67,16 +69,28 @@ public class EventHandlerService {
             postHealthCheckResponse(event);
         } else {
             if (event != null && eventStatusService.verifyEvent(event).getStatus() == Status.ADAPTER_ACCEPTED) {
-                PersonalActions action = PersonalActions.valueOf(event.getAction());
                 Event<FintLinks> responseEvent = new Event<>(event);
+                try {
+                    PersonalActions action = PersonalActions.valueOf(event.getAction());
 
-                actionsHandlerMap.getOrDefault(action, e -> {
-                    log.warn("No handler found for {}", action);
-                    e.setStatus(Status.ADAPTER_REJECTED);
-                    e.setResponseStatus(ResponseStatus.REJECTED);
-                    e.setMessage("Unsupported action");
-                }).accept(responseEvent);
-
+                    actionsHandlerMap.getOrDefault(action, e -> {
+                        log.warn("No handler found for {}", action);
+                        e.setStatus(Status.ADAPTER_REJECTED);
+                        e.setResponseStatus(ResponseStatus.REJECTED);
+                        e.setMessage("Unsupported action");
+                        e.setStatusCode("UNSUPPORTED_ACTION");
+                    }).accept(responseEvent);
+                } catch (Exception e) {
+                    log.info("Unable to handle event {}", event, e);
+                    responseEvent.setResponseStatus(ResponseStatus.ERROR);
+                    responseEvent.setStatusCode("EXCEPTION");
+                    try (StringWriter s = new StringWriter(); PrintWriter w = new PrintWriter(s)) {
+                        e.printStackTrace(w);
+                        responseEvent.setMessage(s.toString());
+                    } catch (IOException e1) {
+                        log.error("Error", e1);
+                    }
+                }
                 eventResponseService.postResponse(responseEvent);
             }
         }

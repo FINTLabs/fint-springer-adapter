@@ -1,4 +1,4 @@
-package no.fint.provider.personnel.model;
+package no.fint.provider.personnel.service;
 
 import no.fint.model.felles.kompleksedatatyper.Identifikator;
 import org.springframework.stereotype.Service;

@@ -8,7 +8,9 @@ import no.fint.event.model.Status;
 import no.fint.model.administrasjon.personal.PersonalActions;
 import no.fint.model.resource.FintLinks;
 import no.fint.model.resource.administrasjon.personal.FravarResource;
+import no.fint.provider.personnel.behaviour.Behaviour;
 import no.fint.provider.personnel.service.Handler;
+import no.fint.provider.personnel.service.IdentifikatorFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.core.io.Resource;
 import org.springframework.core.io.support.PathMatchingResourcePatternResolver;
@@ -16,9 +18,11 @@ import org.springframework.stereotype.Repository;
 
 import javax.annotation.PostConstruct;
 import java.io.IOException;
-import java.util.*;
+import java.util.ArrayList;
+import java.util.Collection;
+import java.util.EnumSet;
+import java.util.List;
 import java.util.concurrent.ConcurrentLinkedQueue;
-import java.util.stream.Collectors;
 
 @Slf4j
 @Repository
@@ -29,6 +33,9 @@ public class FravarRepository implements Handler {
 
     @Autowired
     IdentifikatorFactory identifikatorFactory;
+
+    @Autowired
+    List<Behaviour<FravarResource>> behaviours;
 
     private Collection<FravarResource> repository = new ConcurrentLinkedQueue<>();
 
@@ -57,6 +64,9 @@ public class FravarRepository implements Handler {
                     data.forEach(r -> repository.removeIf(i -> i.getSystemId().getIdentifikatorverdi().equals(r.getSystemId().getIdentifikatorverdi())));
                     repository.addAll(data);
                     response.setResponseStatus(ResponseStatus.ACCEPTED);
+                    response.setData(new ArrayList<>(data));
+                    behaviours.forEach(b -> data.forEach(b.acceptPartially(response)));
+                    break;
                 case GET_ALL_FRAVAR:
                     response.setData(new ArrayList<>(repository));
                     break;
