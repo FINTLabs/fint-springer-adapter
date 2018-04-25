@@ -14,6 +14,7 @@ public class RejectFravarWithoutReason implements Behaviour<FravarResource> {
         if (fravar.getFravarsgrunn().isEmpty()) {
             event.setResponseStatus(ResponseStatus.REJECTED);
             event.setMessage("Fravær må ha fraværsgrunn");
+            event.setStatusCode("FVX003");
             log.info("Rejecting {}", event);
         }
     }

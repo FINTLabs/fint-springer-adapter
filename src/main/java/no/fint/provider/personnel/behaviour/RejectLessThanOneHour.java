@@ -15,6 +15,7 @@ public class RejectLessThanOneHour implements Behaviour<VariabellonnResource> {
         if (variabellonn.getVariabelttillegg().stream().mapToLong(VariabelttilleggResource::getAntall).anyMatch(l -> l < 100L)) {
             event.setResponseStatus(ResponseStatus.REJECTED);
             event.setMessage("Antall kan ikke være under 100");
+            event.setStatusCode("VLX004");
             log.info("Rejecting {}", event);
         }
     }
