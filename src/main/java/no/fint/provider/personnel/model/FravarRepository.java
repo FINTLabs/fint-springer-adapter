@@ -61,11 +61,14 @@ public class FravarRepository implements Handler {
                     List<FravarResource> data = objectMapper.convertValue(response.getData(), objectMapper.getTypeFactory().constructCollectionType(List.class, FravarResource.class));
                     log.trace("Converted data: {}", data);
                     data.stream().filter(i-> i.getSystemId()==null||i.getSystemId().getIdentifikatorverdi()==null).forEach(i->i.setSystemId(identifikatorFactory.create()));
-                    data.forEach(r -> repository.removeIf(i -> i.getSystemId().getIdentifikatorverdi().equals(r.getSystemId().getIdentifikatorverdi())));
-                    repository.addAll(data);
                     response.setResponseStatus(ResponseStatus.ACCEPTED);
-                    response.setData(new ArrayList<>(data));
+                    response.setData(null);
                     behaviours.forEach(b -> data.forEach(b.acceptPartially(response)));
+                    if (response.getResponseStatus() == ResponseStatus.ACCEPTED) {
+                        response.setData(new ArrayList<>(data));
+                        data.forEach(r -> repository.removeIf(i -> i.getSystemId().getIdentifikatorverdi().equals(r.getSystemId().getIdentifikatorverdi())));
+                        repository.addAll(data);
+                    }
                     break;
                 case GET_ALL_FRAVAR:
                     response.setData(new ArrayList<>(repository));
