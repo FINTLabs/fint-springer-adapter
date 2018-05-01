@@ -20,13 +20,7 @@ public class RejectLessThanOneHour implements Behaviour<VariabellonnResource> {
             event.setResponseStatus(ResponseStatus.REJECTED);
             event.setMessage("Antall kan ikke være under 100");
             event.setStatusCode("VLX004");
-            Problem problem = new Problem();
-            problem.setField("variabelttillegg.antall");
-            problem.setMessage("Antall kan ikke være under 100");
-            if (Objects.isNull(event.getProblems())) {
-                event.setProblems(new ArrayList<>());
-            }
-            event.getProblems().add(problem);
+            addProblem(event, "variabelttillegg.antall", "Antall kan ikke være under 100");
             log.info("Rejecting {}", event);
         }
     }

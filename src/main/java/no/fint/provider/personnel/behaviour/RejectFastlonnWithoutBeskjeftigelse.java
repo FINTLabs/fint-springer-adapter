@@ -19,13 +19,7 @@ public class RejectFastlonnWithoutBeskjeftigelse implements Behaviour<FastlonnRe
             event.setResponseStatus(ResponseStatus.REJECTED);
             event.setMessage("Fastlønn må ha minst én beskjeftigelse");
             event.setStatusCode("FLX002");
-            Problem problem = new Problem();
-            problem.setField("beskjeftigelse");
-            problem.setMessage("Fastlønn må ha minst én beskjeftigelse");
-            if (Objects.isNull(event.getProblems())) {
-                event.setProblems(new ArrayList<>());
-            }
-            event.getProblems().add(problem);
+            addProblem(event, "beskjeftigelse", "Fastlønn må ha minst én beskjeftigelse");
             log.info("Rejecting {}", event);
         }
     }

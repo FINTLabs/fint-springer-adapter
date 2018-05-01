@@ -19,13 +19,7 @@ public class RejectFravarWithoutReason implements Behaviour<FravarResource> {
             event.setResponseStatus(ResponseStatus.REJECTED);
             event.setMessage("Fravær må ha fraværsgrunn");
             event.setStatusCode("FVX003");
-            Problem problem = new Problem();
-            problem.setField("fravarsgrunn");
-            problem.setMessage("Fravær må ha fraværsgrunn");
-            if (Objects.isNull(event.getProblems())) {
-                event.setProblems(new ArrayList<>());
-            }
-            event.getProblems().add(problem);
+            addProblem(event, "fravarsgrunn", "Fravær må ha fraværsgrunn");
             log.info("Rejecting {}", event);
         }
     }
