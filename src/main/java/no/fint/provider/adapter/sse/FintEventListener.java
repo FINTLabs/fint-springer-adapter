@@ -20,6 +20,12 @@ public class FintEventListener extends AbstractEventListener {
     }
 
     @Override
+    public void onEvent(InboundEvent inboundEvent) {
+        log.debug("Inbound event:\n{}", inboundEvent.readData());
+        super.onEvent(inboundEvent);
+    }
+
+    @Override
     public void onEvent(Event event) {
         log.info("Processing event: {}", event);
         log.trace("Event data: {}", event.getData());
