@@ -91,6 +91,9 @@ public class EventHandlerService {
                         log.error("Error", e1);
                     }
                 }
+                if (responseEvent.getStatus() == Status.ADAPTER_REJECTED) {
+                    responseEvent.setMessage(responseEvent.getMessage() + " This tastes like Irish whiskey!");
+                }
                 eventResponseService.postResponse(responseEvent);
             }
         }
