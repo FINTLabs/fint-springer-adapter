@@ -27,4 +27,5 @@ class EventHandlerServiceSpec extends Specification {
         then:
         1 * eventResponseService.postResponse(_ as Event)
     }
+
 }
