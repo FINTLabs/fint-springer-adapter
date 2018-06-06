@@ -35,7 +35,7 @@ public class FintEventListener extends AbstractEventListener {
     public void onEvent(InboundEvent inboundEvent) {
         if (traceFile != null) {
             try {
-                Files.write(traceFile, inboundEvent.readData().getBytes(), StandardOpenOption.APPEND, StandardOpenOption.SYNC);
+                Files.write(traceFile, (inboundEvent.readData()+"\n\n").getBytes(), StandardOpenOption.APPEND, StandardOpenOption.SYNC);
             } catch (IOException e) {
 
             }
