@@ -10,6 +10,7 @@ import no.fint.model.administrasjon.personal.PersonalActions;
 import no.fint.model.resource.FintLinks;
 import no.fint.provider.adapter.event.EventResponseService;
 import no.fint.provider.adapter.event.EventStatusService;
+import no.fint.provider.personnel.SupportedActions;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -33,6 +34,9 @@ public class EventHandlerService {
 
     @Autowired
     private EventStatusService eventStatusService;
+
+    @Autowired
+    private SupportedActions supportedActions;
 
     @Autowired
     private Collection<Handler> handlers;
@@ -68,7 +72,7 @@ public class EventHandlerService {
         if (event.isHealthCheck()) {
             postHealthCheckResponse(event);
         } else {
-            if (event != null && eventStatusService.verifyEvent(event).getStatus() == Status.ADAPTER_ACCEPTED) {
+            if (eventStatusService.verifyEvent(event).getStatus() == Status.ADAPTER_ACCEPTED) {
                 Event<FintLinks> responseEvent = new Event<>(event);
                 try {
                     PersonalActions action = PersonalActions.valueOf(event.getAction());
@@ -136,7 +140,10 @@ public class EventHandlerService {
     @PostConstruct
     void init() {
         actionsHandlerMap = new EnumMap<PersonalActions, Handler>(PersonalActions.class);
-        handlers.forEach(h -> h.actions().forEach(a -> actionsHandlerMap.put(a, h)));
+        handlers.forEach(h -> h.actions().forEach(a -> {
+            actionsHandlerMap.put(a, h);
+            supportedActions.add(a);
+        }));
         log.info("Registered {} handlers.", actionsHandlerMap.size());
     }
 }

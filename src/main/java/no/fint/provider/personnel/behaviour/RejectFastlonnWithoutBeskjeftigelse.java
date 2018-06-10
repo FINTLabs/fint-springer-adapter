@@ -2,12 +2,10 @@ package no.fint.provider.personnel.behaviour;
 
 import lombok.extern.slf4j.Slf4j;
 import no.fint.event.model.Event;
-import no.fint.event.model.Problem;
 import no.fint.event.model.ResponseStatus;
 import no.fint.model.resource.administrasjon.personal.FastlonnResource;
 import org.springframework.stereotype.Service;
 
-import java.util.ArrayList;
 import java.util.Objects;
 
 @Service
@@ -15,11 +13,11 @@ import java.util.Objects;
 public class RejectFastlonnWithoutBeskjeftigelse implements Behaviour<FastlonnResource> {
     @Override
     public void accept(Event event, FastlonnResource fastlonn) {
-        if (Objects.isNull(fastlonn.getBeskjeftigelse())||fastlonn.getBeskjeftigelse().isEmpty()) {
+        if (Objects.isNull(fastlonn.getProsent())||fastlonn.getProsent() < 0L) {
             event.setResponseStatus(ResponseStatus.REJECTED);
-            event.setMessage("Fastlønn må ha minst én beskjeftigelse");
+            event.setMessage("Fastlønn må ha prosent > 0");
             event.setStatusCode("FLX002");
-            addProblem(event, "beskjeftigelse", "Fastlønn må ha minst én beskjeftigelse");
+            addProblem(event, "prosent", "Fastlønn må ha prosent > 0");
             log.info("Rejecting {}", event);
         }
     }

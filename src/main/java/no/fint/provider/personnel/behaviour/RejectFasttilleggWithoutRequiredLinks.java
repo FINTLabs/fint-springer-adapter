@@ -2,15 +2,15 @@ package no.fint.provider.personnel.behaviour;
 
 import no.fint.event.model.Event;
 import no.fint.event.model.ResponseStatus;
-import no.fint.model.resource.administrasjon.personal.VariabellonnResource;
+import no.fint.model.resource.administrasjon.personal.FasttilleggResource;
 import org.springframework.stereotype.Service;
 
 import java.util.Objects;
 
 @Service
-public class RejectVariabellonnWithoutRequiredLinks implements Behaviour<VariabellonnResource> {
+public class RejectFasttilleggWithoutRequiredLinks implements Behaviour<FasttilleggResource> {
     @Override
-    public void accept(Event event, VariabellonnResource resource) {
+    public void accept(Event event, FasttilleggResource resource) {
         if (empty(resource.getArbeidsforhold())) {
             addProblem(event, "arbeidsforhold", "Mangler relasjon til Arbeidsforhold");
         }
