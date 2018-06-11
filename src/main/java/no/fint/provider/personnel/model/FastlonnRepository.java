@@ -71,6 +71,7 @@ public class FastlonnRepository implements Handler {
                     }
                     break;
                 case GET_ALL_FASTLONN:
+                    response.setResponseStatus(ResponseStatus.ACCEPTED);
                     response.setData(new ArrayList<>(repository));
                     break;
                 default:

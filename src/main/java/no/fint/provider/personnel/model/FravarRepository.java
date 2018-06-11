@@ -71,6 +71,7 @@ public class FravarRepository implements Handler {
                     }
                     break;
                 case GET_ALL_FRAVAR:
+                    response.setResponseStatus(ResponseStatus.ACCEPTED);
                     response.setData(new ArrayList<>(repository));
                     break;
                 default:

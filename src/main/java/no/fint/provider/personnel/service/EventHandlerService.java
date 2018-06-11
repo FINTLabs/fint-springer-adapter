@@ -144,6 +144,6 @@ public class EventHandlerService {
             actionsHandlerMap.put(a, h);
             supportedActions.add(a);
         }));
-        log.info("Registered {} handlers.", actionsHandlerMap.size());
+        log.info("Registered {} handlers, supporting actions: {}", actionsHandlerMap.size(), supportedActions.getActions());
     }
 }

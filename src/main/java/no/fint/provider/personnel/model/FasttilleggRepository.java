@@ -71,6 +71,7 @@ public class FasttilleggRepository implements Handler {
                     }
                     break;
                 case GET_ALL_FASTTILLEGG:
+                    response.setResponseStatus(ResponseStatus.ACCEPTED);
                     response.setData(new ArrayList<>(repository));
                     break;
                 default:

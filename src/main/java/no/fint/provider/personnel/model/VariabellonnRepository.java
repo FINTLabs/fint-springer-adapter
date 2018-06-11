@@ -71,6 +71,7 @@ public class VariabellonnRepository implements Handler {
                     }
                     break;
                 case GET_ALL_VARIABELLONN:
+                    response.setResponseStatus(ResponseStatus.ACCEPTED);
                     response.setData(new ArrayList<>(repository));
                     break;
                 default:
