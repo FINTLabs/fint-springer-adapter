@@ -22,7 +22,3 @@ fint:
   access-token-uri: https://namidp01.rogfk.no/nidp/oauth/nam/token
   scope: fint-client
 
-logging:
- level:
-  no.fint.provider.adapter.event: DEBUG
-  no.fint.provider.personnel.model: TRACE

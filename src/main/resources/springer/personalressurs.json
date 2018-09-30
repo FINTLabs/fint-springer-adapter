@@ -1,0 +1,268 @@
+{
+  "_embedded": {
+    "_entries": [
+      {
+        "ansattnummer": {
+          "identifikatorverdi": "100000"
+        },
+        "ansettelsesperiode": {
+          "slutt": "2099-12-31T00:00:00Z",
+          "start": "2010-06-04T00:00:00Z"
+        },
+        "brukernavn": {
+          "gyldighetsperiode": {
+            "slutt": "2099-12-31T00:00:00Z",
+            "start": "2010-06-04T00:00:00Z"
+          },
+          "identifikatorverdi": "hsund"
+        },
+        "kontaktinformasjon": {
+          "epostadresse": "harald.sund@rogfk.no",
+          "mobiltelefonnummer": "41414141",
+          "nettsted": "http://www.rogfk.no",
+          "sip": "harald.sund@rogfk.no",
+          "telefonnummer": "51516278"
+        },
+        "systemId": {
+          "identifikatorverdi": "8AC2A702-3E88-4D83-B37E-9DBFB79DD82C"
+        },
+        "_links": {
+          "person": [
+            {
+              "href": "${}/administrasjon/personal/person/fodselsnummer/22057812345"
+            }
+          ],
+          "personalressurskategori": [
+            {
+              "href": "${}/administrasjon/kodeverk/personalressurskategori/systemid/382752"
+            }
+          ],
+          "arbeidsforhold": [
+            {
+              "href": "${}/administrasjon/personal/arbeidsforhold/systemid/100000_1"
+            }
+          ],
+          "fullmakt": [
+            {
+              "href": "${}/administrasjon/fullmakt/fullmakt/systemid/ABC123"
+            },
+            {
+              "href": "${}/administrasjon/fullmakt/fullmakt/systemid/XYZ456"
+            }
+          ],
+          "self": [
+            {
+              "href": "${}/administrasjon/personal/personalressurs/ansattnummer/100000"
+            }
+          ]
+        }
+      },
+      {
+        "ansattnummer": {
+          "identifikatorverdi": "100001"
+        },
+        "ansettelsesperiode": {
+          "slutt": "2099-12-31T00:00:00Z",
+          "start": "2010-06-04T00:00:00Z"
+        },
+        "brukernavn": {
+          "gyldighetsperiode": {
+            "slutt": "2099-12-31T00:00:00Z",
+            "start": "2010-06-04T00:00:00Z"
+          },
+          "identifikatorverdi": "khaug"
+        },
+        "kontaktinformasjon": {
+          "epostadresse": "kari.haug@rogfk.no",
+          "mobiltelefonnummer": "42424242",
+          "nettsted": "http://www.rogfk.no",
+          "sip": "kari.haug@rogfk.no",
+          "telefonnummer": "51516062"
+        },
+        "systemId": {
+          "identifikatorverdi": "D93DE741-FD6E-4DD4-BF5C-7398CECF3712"
+        },
+        "_links": {
+          "person": [
+            {
+              "href": "${}/administrasjon/personal/person/fodselsnummer/01116423456"
+            }
+          ],
+          "personalressurskategori": [
+            {
+              "href": "${}/administrasjon/kodeverk/personalressurskategori/systemid/382752"
+            }
+          ],
+          "arbeidsforhold": [
+            {
+              "href": "${}/administrasjon/personal/arbeidsforhold/systemid/100001_1"
+            }
+          ],
+          "self": [
+            {
+              "href": "${}/administrasjon/personal/personalressurs/ansattnummer/100001"
+            }
+          ]
+        }
+      },
+      {
+        "ansattnummer": {
+          "identifikatorverdi": "100002"
+        },
+        "ansettelsesperiode": {
+          "slutt": "2099-12-31T00:00:00Z",
+          "start": "2010-06-04T00:00:00Z"
+        },
+        "brukernavn": {
+          "gyldighetsperiode": {
+            "slutt": "2099-12-31T00:00:00Z",
+            "start": "2010-06-04T00:00:00Z"
+          },
+          "identifikatorverdi": "kegudnersen"
+        },
+        "kontaktinformasjon": {
+          "epostadresse": "kay.erik.gundersen@rogfk.no",
+          "mobiltelefonnummer": "43434343",
+          "nettsted": "http://www.rogfk.no",
+          "sip": "kay.erik.gundersen@rogfk.no"
+        },
+        "systemId": {
+          "identifikatorverdi": "0385AC48-342D-430B-97C4-2059FD7213D7"
+        },
+        "_links": {
+          "person": [
+            {
+              "href": "${}/administrasjon/personal/person/fodselsnummer/12077134567"
+            }
+          ],
+          "personalressurskategori": [
+            {
+              "href": "${}/administrasjon/kodeverk/personalressurskategori/systemid/450782"
+            }
+          ],
+          "arbeidsforhold": [
+            {
+              "href": "${}/administrasjon/personal/arbeidsforhold/systemid/100002_1"
+            }
+          ],
+          "self": [
+            {
+              "href": "${}/administrasjon/personal/personalressurs/ansattnummer/100002"
+            }
+          ]
+        }
+      },
+      {
+        "ansattnummer": {
+          "identifikatorverdi": "100003"
+        },
+        "ansettelsesperiode": {
+          "slutt": "2099-12-31T00:00:00Z",
+          "start": "2010-06-04T00:00:00Z"
+        },
+        "brukernavn": {
+          "gyldighetsperiode": {
+            "slutt": "2099-12-31T00:00:00Z",
+            "start": "2010-06-04T00:00:00Z"
+          },
+          "identifikatorverdi": "gharaldseid"
+        },
+        "kontaktinformasjon": {
+          "epostadresse": "gudrun.haraldseid@rogfk.no",
+          "mobiltelefonnummer": "44444444",
+          "nettsted": "http://www.rogfk.no",
+          "sip": "gudrun.haraldseid@rogfk.no"
+        },
+        "systemId": {
+          "identifikatorverdi": "B3B2A996-BD1E-4058-9B69-94B0FD9F75C5"
+        },
+        "_links": {
+          "person": [
+            {
+              "href": "${}/administrasjon/personal/person/fodselsnummer/16055445678"
+            }
+          ],
+          "personalressurskategori": [
+            {
+              "href": "${}/administrasjon/kodeverk/personalressurskategori/systemid/382752"
+            }
+          ],
+          "arbeidsforhold": [
+            {
+              "href": "${}/administrasjon/personal/arbeidsforhold/systemid/100003_1"
+            }
+          ],
+          "skoleressurs": [
+            {
+              "href": "${}/systemid/ABCD213"
+            }
+          ],
+          "self": [
+            {
+              "href": "${}/administrasjon/personal/personalressurs/ansattnummer/100003"
+            }
+          ]
+        }
+      },
+      {
+        "ansattnummer": {
+          "identifikatorverdi": "100004"
+        },
+        "ansettelsesperiode": {
+          "slutt": "2099-12-31T00:00:00Z",
+          "start": "2010-06-04T00:00:00Z"
+        },
+        "brukernavn": {
+          "gyldighetsperiode": {
+            "slutt": "2099-12-31T00:00:00Z",
+            "start": "2010-06-04T00:00:00Z"
+          },
+          "identifikatorverdi": "ctollaksen"
+        },
+        "kontaktinformasjon": {
+          "epostadresse": "cathrine.tollaksen@rogfk.no",
+          "mobiltelefonnummer": "45454545",
+          "nettsted": "http://www.rogfk.no",
+          "sip": "cathrine.tollaksen@rogfk.no"
+        },
+        "systemId": {
+          "identifikatorverdi": "70F3F121-C7CF-42D8-8311-9A5FF0AB090B"
+        },
+        "_links": {
+          "person": [
+            {
+              "href": "${}/administrasjon/personal/person/fodselsnummer/12018156789"
+            }
+          ],
+          "personalressurskategori": [
+            {
+              "href": "${}/administrasjon/kodeverk/personalressurskategori/systemid/382752"
+            }
+          ],
+          "arbeidsforhold": [
+            {
+              "href": "${}/administrasjon/personal/arbeidsforhold/systemid/100004_1"
+            },
+            {
+              "href": "${}/administrasjon/personal/arbeidsforhold/systemid/100004_2"
+            }
+          ],
+          "self": [
+            {
+              "href": "${}/administrasjon/personal/personalressurs/ansattnummer/100004"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "_links": {
+    "self": [
+      {
+        "href": "${}/administrasjon/personal/personalressurs/"
+      }
+    ]
+  },
+  "total_items": 5,
+  "_class": "no.fint.model.resource.administrasjon.personal.PersonalressursResource"
+}

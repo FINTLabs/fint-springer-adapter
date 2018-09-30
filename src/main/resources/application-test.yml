@@ -4,7 +4,7 @@ security:
 
 fint:
  adapter:
-  organizations: mock.no
+  organizations: fintlabs.no
   sse-endpoint: http://localhost:8081/provider/sse/%s
   status-endpoint: http://localhost:8081/provider/status
   response-endpoint: http://localhost:8081/provider/response

@@ -1,0 +1,376 @@
+{
+  "_embedded": {
+    "_entries": [
+      {
+        "ansettelsesprosent": 10000,
+        "gyldighetsperiode": {
+          "slutt": "2099-01-01T00:00:00Z",
+          "start": "2017-06-04T19:53:36Z"
+        },
+        "hovedstilling": true,
+        "lonnsprosent": 10000,
+        "stillingsnummer": "1",
+        "stillingstittel": "Fylkesrådmann",
+        "systemId": {
+          "identifikatorverdi": "100000_1"
+        },
+        "tilstedeprosent": 10000,
+        "arslonn": 50300000,
+        "_links": {
+          "personalressurs": [
+            {
+              "href": "${}/administrasjon/personal/personalressurs/ansattnummer/100000"
+            }
+          ],
+          "arbeidssted": [
+            {
+              "href": "${}/administrasjon/organisasjon/organisasjonselement/organisasjonsid/550000"
+            }
+          ],
+          "ansvar": [
+            {
+              "href": "${}/administrasjon/kodeverk/ansvar/systemid/416607"
+            }
+          ],
+          "funksjon": [
+            {
+              "href": "${}/administrasjon/kodeverk/funksjon/systemid/400573"
+            }
+          ],
+          "arbeidsforholdstype": [
+            {
+              "href": "${}/administrasjon/kodeverk/arbeidsforholdstype/systemid/401241"
+            }
+          ],
+          "stillingskode": [
+            {
+              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/411814"
+            }
+          ],
+          "timerperuke": [
+            {
+              "href": "${}/administrasjon/kodeverk/uketimetall/systemid/394634"
+            }
+          ],
+          "self": [
+            {
+              "href": "${}/administrasjon/personal/arbeidsforhold/systemid/100000_1"
+            }
+          ]
+        }
+      },
+      {
+        "ansettelsesprosent": 10000,
+        "gyldighetsperiode": {
+          "slutt": "2099-01-01T00:00:00Z",
+          "start": "2017-06-04T19:53:36Z"
+        },
+        "hovedstilling": true,
+        "lonnsprosent": 10000,
+        "stillingsnummer": "1",
+        "stillingstittel": "Utdanningssjef",
+        "systemId": {
+          "identifikatorverdi": "100001_1"
+        },
+        "tilstedeprosent": 10000,
+        "arslonn": 48000000,
+        "_links": {
+          "personalressurs": [
+            {
+              "href": "${}/administrasjon/personal/personalressurs/ansattnummer/100001"
+            }
+          ],
+          "arbeidssted": [
+            {
+              "href": "${}/administrasjon/organisasjon/organisasjonselement/organisasjonsid/550001"
+            }
+          ],
+          "ansvar": [
+            {
+              "href": "${}/administrasjon/kodeverk/ansvar/systemid/416607"
+            }
+          ],
+          "funksjon": [
+            {
+              "href": "${}/administrasjon/kodeverk/funksjon/systemid/400573"
+            }
+          ],
+          "arbeidsforholdstype": [
+            {
+              "href": "${}/administrasjon/kodeverk/arbeidsforholdstype/systemid/401241"
+            }
+          ],
+          "stillingskode": [
+            {
+              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/898830"
+            }
+          ],
+          "timerperuke": [
+            {
+              "href": "${}/administrasjon/kodeverk/uketimetall/systemid/394634"
+            }
+          ],
+          "self": [
+            {
+              "href": "${}/administrasjon/personal/arbeidsforhold/systemid/100001_1"
+            }
+          ]
+        }
+      },
+      {
+        "ansettelsesprosent": 10000,
+        "gyldighetsperiode": {
+          "slutt": "2099-01-01T00:00:00Z",
+          "start": "2017-06-04T19:53:36Z"
+        },
+        "hovedstilling": true,
+        "lonnsprosent": 10000,
+        "stillingsnummer": "1",
+        "stillingstittel": "Rektor",
+        "systemId": {
+          "identifikatorverdi": "100002_1"
+        },
+        "tilstedeprosent": 10000,
+        "arslonn": 62300000,
+        "_links": {
+          "personalressurs": [
+            {
+              "href": "${}/administrasjon/personal/personalressurs/ansattnummer/100002"
+            }
+          ],
+          "arbeidssted": [
+            {
+              "href": "${}/administrasjon/organisasjon/organisasjonselement/organisasjonsid/560000"
+            }
+          ],
+          "ansvar": [
+            {
+              "href": "${}/administrasjon/kodeverk/ansvar/systemid/437640"
+            }
+          ],
+          "funksjon": [
+            {
+              "href": "${}/administrasjon/kodeverk/funksjon/systemid/400602"
+            }
+          ],
+          "arbeidsforholdstype": [
+            {
+              "href": "${}/administrasjon/kodeverk/arbeidsforholdstype/systemid/401245"
+            }
+          ],
+          "stillingskode": [
+            {
+              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/400552"
+            }
+          ],
+          "timerperuke": [
+            {
+              "href": "${}/administrasjon/kodeverk/uketimetall/systemid/394634"
+            }
+          ],
+          "fravar": [
+            {
+              "href": "${}/administrasjon/personal/fravar/systemid/F75J843W7J029"
+            }
+          ],
+          "self": [
+            {
+              "href": "${}/administrasjon/personal/arbeidsforhold/systemid/100002_1"
+            }
+          ]
+        }
+      },
+      {
+        "ansettelsesprosent": 10000,
+        "gyldighetsperiode": {
+          "slutt": "2099-01-01T00:00:00Z",
+          "start": "2017-06-04T19:53:36Z"
+        },
+        "hovedstilling": true,
+        "lonnsprosent": 10000,
+        "stillingsnummer": "1",
+        "stillingstittel": "Adjunkt",
+        "systemId": {
+          "identifikatorverdi": "100003_1"
+        },
+        "tilstedeprosent": 10000,
+        "arslonn": 47300000,
+        "_links": {
+          "personalressurs": [
+            {
+              "href": "${}/administrasjon/personal/personalressurs/ansattnummer/100003"
+            }
+          ],
+          "arbeidssted": [
+            {
+              "href": "${}/administrasjon/organisasjon/organisasjonselement/organisasjonsid/562000"
+            }
+          ],
+          "ansvar": [
+            {
+              "href": "${}/administrasjon/kodeverk/ansvar/systemid/437639"
+            }
+          ],
+          "funksjon": [
+            {
+              "href": "${}/administrasjon/kodeverk/funksjon/systemid/400602"
+            }
+          ],
+          "arbeidsforholdstype": [
+            {
+              "href": "${}/administrasjon/kodeverk/arbeidsforholdstype/systemid/401241"
+            }
+          ],
+          "stillingskode": [
+            {
+              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/380713"
+            }
+          ],
+          "timerperuke": [
+            {
+              "href": "${}/administrasjon/kodeverk/uketimetall/systemid/394634"
+            }
+          ],
+          "lonn": [
+            {
+              "href": "${}/administrasjon/personal/fastlonn/systemid/FL_DFRTIYUGO"
+            },
+            {
+              "href": "${}/administrasjon/personal/variabellonn/systemid/VL_JIOPTPUSO"
+            }
+          ],
+          "self": [
+            {
+              "href": "${}/administrasjon/personal/arbeidsforhold/systemid/100003_1"
+            }
+          ]
+        }
+      },
+      {
+        "ansettelsesprosent": 6000,
+        "gyldighetsperiode": {
+          "slutt": "2099-01-01T00:00:00Z",
+          "start": "2017-06-04T19:53:36Z"
+        },
+        "hovedstilling": true,
+        "lonnsprosent": 6000,
+        "stillingsnummer": "1",
+        "stillingstittel": "Fagarbeider",
+        "systemId": {
+          "identifikatorverdi": "100004_1"
+        },
+        "tilstedeprosent": 2000,
+        "arslonn": 57100000,
+        "_links": {
+          "personalressurs": [
+            {
+              "href": "${}/administrasjon/personal/personalressurs/ansattnummer/100004"
+            }
+          ],
+          "arbeidssted": [
+            {
+              "href": "${}/administrasjon/organisasjon/organisasjonselement/organisasjonsid/560000"
+            }
+          ],
+          "ansvar": [
+            {
+              "href": "${}/administrasjon/kodeverk/ansvar/systemid/437640"
+            }
+          ],
+          "funksjon": [
+            {
+              "href": "${}/administrasjon/kodeverk/funksjon/systemid/400602"
+            }
+          ],
+          "arbeidsforholdstype": [
+            {
+              "href": "${}/administrasjon/kodeverk/arbeidsforholdstype/systemid/401241"
+            }
+          ],
+          "stillingskode": [
+            {
+              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/453496"
+            }
+          ],
+          "timerperuke": [
+            {
+              "href": "${}/administrasjon/kodeverk/uketimetall/systemid/394634"
+            }
+          ],
+          "self": [
+            {
+              "href": "${}/administrasjon/personal/arbeidsforhold/systemid/100004_1"
+            }
+          ]
+        }
+      },
+      {
+        "ansettelsesprosent": 4000,
+        "gyldighetsperiode": {
+          "slutt": "2099-01-01T00:00:00Z",
+          "start": "2017-06-04T19:53:36Z"
+        },
+        "hovedstilling": false,
+        "lonnsprosent": 4000,
+        "stillingsnummer": "2",
+        "stillingstittel": "Fagarbeider",
+        "systemId": {
+          "identifikatorverdi": "100004_2"
+        },
+        "tilstedeprosent": 4000,
+        "arslonn": 57100000,
+        "_links": {
+          "personalressurs": [
+            {
+              "href": "${}/administrasjon/personal/personalressurs/ansattnummer/100004"
+            }
+          ],
+          "arbeidssted": [
+            {
+              "href": "${}/administrasjon/organisasjon/organisasjonselement/organisasjonsid/568000"
+            }
+          ],
+          "ansvar": [
+            {
+              "href": "${}/administrasjon/kodeverk/ansvar/systemid/437640"
+            }
+          ],
+          "funksjon": [
+            {
+              "href": "${}/administrasjon/kodeverk/funksjon/systemid/400602"
+            }
+          ],
+          "arbeidsforholdstype": [
+            {
+              "href": "${}/administrasjon/kodeverk/arbeidsforholdstype/systemid/401241"
+            }
+          ],
+          "stillingskode": [
+            {
+              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/453496"
+            }
+          ],
+          "timerperuke": [
+            {
+              "href": "${}/administrasjon/kodeverk/uketimetall/systemid/394634"
+            }
+          ],
+          "self": [
+            {
+              "href": "${}/administrasjon/personal/arbeidsforhold/systemid/100004_2"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "_links": {
+    "self": [
+      {
+        "href": "${}/administrasjon/personal/arbeidsforhold/"
+      }
+    ]
+  },
+  "total_items": 6,
+  "_class": "no.fint.model.resource.administrasjon.personal.ArbeidsforholdResource"
+}
