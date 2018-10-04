@@ -6,7 +6,7 @@ import no.fint.event.model.DefaultActions;
 import no.fint.event.model.Event;
 import no.fint.event.model.HeaderConstants;
 import no.fint.event.model.Status;
-import no.fint.provider.adapter.FintAdapterProps;
+import no.fint.provider.adapter.FintAdapterEndpoints;
 import no.fint.provider.springer.SupportedActions;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpEntity;
@@ -14,6 +14,7 @@ import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpMethod;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
+import org.springframework.web.client.RestClientException;
 import org.springframework.web.client.RestTemplate;
 
 /**
@@ -24,7 +25,7 @@ import org.springframework.web.client.RestTemplate;
 public class EventStatusService {
 
     @Autowired
-    private FintAdapterProps props;
+    private FintAdapterEndpoints endpoints;
 
     @Autowired
     private RestTemplate restTemplate;
@@ -35,30 +36,39 @@ public class EventStatusService {
     /**
      * Verifies if we can handle the event and set the status accordingly.
      *
+     *
+     * @param component
      * @param event
      * @return The inbound event.
      */
-    public Event verifyEvent(Event event) {
+    public Event verifyEvent(String component, Event event) {
         if (supportedActions.getActions().contains(event.getAction()) || DefaultActions.getDefaultActions().contains(event.getAction())) {
             event.setStatus(Status.ADAPTER_ACCEPTED);
         } else {
+            log.info("Rejecting {}", event.getAction());
             event.setStatus(Status.ADAPTER_REJECTED);
         }
 
-        postStatus(event);
+        log.info("{}: Posting status for {} ...", component, event.getAction());
+        postStatus(component, event);
         return event;
     }
 
     /**
      * Method for posting back the status to the provider.
      *
+     * @param component
      * @param event
      */
-    public void postStatus(Event event) {
-        log.debug("Status response: {}", event);
-        HttpHeaders headers = new HttpHeaders();
-        headers.put(HeaderConstants.ORG_ID, Lists.newArrayList(event.getOrgId()));
-        ResponseEntity<Void> response = restTemplate.exchange(props.getStatusEndpoint(), HttpMethod.POST, new HttpEntity<>(event, headers), Void.class);
-        log.info("Provider POST status response: {}", response.getStatusCode());
+    public void postStatus(String component, Event event) {
+        try {
+            HttpHeaders headers = new HttpHeaders();
+            headers.put(HeaderConstants.ORG_ID, Lists.newArrayList(event.getOrgId()));
+            String url = endpoints.getProviders().get(component) + endpoints.getStatus();
+            ResponseEntity<Void> response = restTemplate.exchange(url, HttpMethod.POST, new HttpEntity<>(event, headers), Void.class);
+            log.info("{}: Provider POST status response: {}", component, response.getStatusCode());
+        } catch (RestClientException e) {
+            log.warn("{}: Provider POST status error: {}", component, e.getMessage());
+        }
     }
 }

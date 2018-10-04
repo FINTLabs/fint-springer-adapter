@@ -1,0 +1,323 @@
+{
+  "_embedded": {
+    "_entries": [
+      {
+        "gyldighetsperiode": {
+          "slutt": "2099-12-01T00:00:00Z",
+          "start": "1994-01-01T00:00:00Z"
+        },
+        "kode": "DAGTID",
+        "navn": "Dagtidsordning",
+        "systemId": {
+          "gyldighetsperiode": {
+            "slutt": "2099-12-01T00:00:00Z",
+            "start": "1994-01-01T00:00:00Z"
+          },
+          "identifikatorverdi": "394629"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${}/administrasjon/kodeverk/uketimetall/systemid/394629"
+            }
+          ]
+        }
+      },
+      {
+        "gyldighetsperiode": {
+          "slutt": "2099-12-01T00:00:00Z",
+          "start": "1994-01-01T00:00:00Z"
+        },
+        "kode": "34,0",
+        "navn": "34,0 timers uke",
+        "systemId": {
+          "gyldighetsperiode": {
+            "slutt": "2099-12-01T00:00:00Z",
+            "start": "1994-01-01T00:00:00Z"
+          },
+          "identifikatorverdi": "429766"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${}/administrasjon/kodeverk/uketimetall/systemid/429766"
+            }
+          ]
+        }
+      },
+      {
+        "gyldighetsperiode": {
+          "slutt": "2099-12-01T00:00:00Z",
+          "start": "1994-01-01T00:00:00Z"
+        },
+        "kode": "TURNUS",
+        "navn": "Turnusordning",
+        "systemId": {
+          "gyldighetsperiode": {
+            "slutt": "2099-12-01T00:00:00Z",
+            "start": "1994-01-01T00:00:00Z"
+          },
+          "identifikatorverdi": "394631"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${}/administrasjon/kodeverk/uketimetall/systemid/394631"
+            }
+          ]
+        }
+      },
+      {
+        "gyldighetsperiode": {
+          "slutt": "2099-12-01T00:00:00Z",
+          "start": "1994-01-01T00:00:00Z"
+        },
+        "kode": "35,0",
+        "navn": "35,0 timers uke",
+        "systemId": {
+          "gyldighetsperiode": {
+            "slutt": "2099-12-01T00:00:00Z",
+            "start": "1994-01-01T00:00:00Z"
+          },
+          "identifikatorverdi": "429768"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${}/administrasjon/kodeverk/uketimetall/systemid/429768"
+            }
+          ]
+        }
+      },
+      {
+        "gyldighetsperiode": {
+          "slutt": "2099-12-01T00:00:00Z",
+          "start": "1994-01-01T00:00:00Z"
+        },
+        "kode": "40",
+        "navn": "40 timers uke",
+        "systemId": {
+          "gyldighetsperiode": {
+            "slutt": "2099-12-01T00:00:00Z",
+            "start": "1994-01-01T00:00:00Z"
+          },
+          "identifikatorverdi": "394635"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${}/administrasjon/kodeverk/uketimetall/systemid/394635"
+            }
+          ]
+        }
+      },
+      {
+        "gyldighetsperiode": {
+          "slutt": "2099-12-01T00:00:00Z",
+          "start": "1994-01-01T00:00:00Z"
+        },
+        "kode": "33,6",
+        "navn": "33,6 timers uke",
+        "systemId": {
+          "gyldighetsperiode": {
+            "slutt": "2099-12-01T00:00:00Z",
+            "start": "1994-01-01T00:00:00Z"
+          },
+          "identifikatorverdi": "432920"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${}/administrasjon/kodeverk/uketimetall/systemid/432920"
+            }
+          ]
+        }
+      },
+      {
+        "gyldighetsperiode": {
+          "slutt": "2099-12-01T00:00:00Z",
+          "start": "1994-01-01T00:00:00Z"
+        },
+        "kode": "42,0",
+        "navn": "42,0 timers uke",
+        "systemId": {
+          "gyldighetsperiode": {
+            "slutt": "2099-12-01T00:00:00Z",
+            "start": "1994-01-01T00:00:00Z"
+          },
+          "identifikatorverdi": "432922"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${}/administrasjon/kodeverk/uketimetall/systemid/432922"
+            }
+          ]
+        }
+      },
+      {
+        "gyldighetsperiode": {
+          "slutt": "2099-12-01T00:00:00Z",
+          "start": "1994-01-01T00:00:00Z"
+        },
+        "kode": "35,5",
+        "navn": "35,5 timers uke",
+        "systemId": {
+          "gyldighetsperiode": {
+            "slutt": "2099-12-01T00:00:00Z",
+            "start": "1994-01-01T00:00:00Z"
+          },
+          "identifikatorverdi": "394632"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${}/administrasjon/kodeverk/uketimetall/systemid/394632"
+            }
+          ]
+        }
+      },
+      {
+        "gyldighetsperiode": {
+          "slutt": "2099-12-01T00:00:00Z",
+          "start": "1994-01-01T00:00:00Z"
+        },
+        "kode": "FYSIO",
+        "navn": "Fysioterapiordning",
+        "systemId": {
+          "gyldighetsperiode": {
+            "slutt": "2099-12-01T00:00:00Z",
+            "start": "1994-01-01T00:00:00Z"
+          },
+          "identifikatorverdi": "394630"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${}/administrasjon/kodeverk/uketimetall/systemid/394630"
+            }
+          ]
+        }
+      },
+      {
+        "gyldighetsperiode": {
+          "slutt": "2099-12-01T00:00:00Z",
+          "start": "1994-01-01T00:00:00Z"
+        },
+        "kode": "37,5",
+        "navn": "37,5 timers uke",
+        "systemId": {
+          "gyldighetsperiode": {
+            "slutt": "2099-12-01T00:00:00Z",
+            "start": "1994-01-01T00:00:00Z"
+          },
+          "identifikatorverdi": "394634"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${}/administrasjon/kodeverk/uketimetall/systemid/394634"
+            }
+          ]
+        }
+      },
+      {
+        "gyldighetsperiode": {
+          "slutt": "2099-12-01T00:00:00Z",
+          "start": "1994-01-01T00:00:00Z"
+        },
+        "kode": "40,0",
+        "navn": "40,0 timers uke",
+        "systemId": {
+          "gyldighetsperiode": {
+            "slutt": "2099-12-01T00:00:00Z",
+            "start": "1994-01-01T00:00:00Z"
+          },
+          "identifikatorverdi": "394636"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${}/administrasjon/kodeverk/uketimetall/systemid/394636"
+            }
+          ]
+        }
+      },
+      {
+        "gyldighetsperiode": {
+          "slutt": "2099-12-01T00:00:00Z",
+          "start": "1994-01-01T00:00:00Z"
+        },
+        "kode": "BRANN",
+        "navn": "Brannordning",
+        "systemId": {
+          "gyldighetsperiode": {
+            "slutt": "2099-12-01T00:00:00Z",
+            "start": "1994-01-01T00:00:00Z"
+          },
+          "identifikatorverdi": "394628"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${}/administrasjon/kodeverk/uketimetall/systemid/394628"
+            }
+          ]
+        }
+      },
+      {
+        "gyldighetsperiode": {
+          "slutt": "2099-12-01T00:00:00Z",
+          "start": "1994-01-01T00:00:00Z"
+        },
+        "kode": "36,0",
+        "navn": "36,0 timers uke",
+        "systemId": {
+          "gyldighetsperiode": {
+            "slutt": "2099-12-01T00:00:00Z",
+            "start": "1994-01-01T00:00:00Z"
+          },
+          "identifikatorverdi": "394633"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${}/administrasjon/kodeverk/uketimetall/systemid/394633"
+            }
+          ]
+        }
+      },
+      {
+        "gyldighetsperiode": {
+          "slutt": "2099-12-01T00:00:00Z",
+          "start": "1994-01-01T00:00:00Z"
+        },
+        "kode": "34,5",
+        "navn": "34,5 timers uke",
+        "systemId": {
+          "gyldighetsperiode": {
+            "slutt": "2099-12-01T00:00:00Z",
+            "start": "1994-01-01T00:00:00Z"
+          },
+          "identifikatorverdi": "429767"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${}/administrasjon/kodeverk/uketimetall/systemid/429767"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "_links": {
+    "self": [
+      {
+        "href": "${}/administrasjon/kodeverk/uketimetall"
+      }
+    ]
+  },
+  "total_items": 14,
+  "_class": "no.fint.model.resource.administrasjon.kodeverk.UketimetallResource"
+}

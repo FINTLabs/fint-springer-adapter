@@ -1,0 +1,565 @@
+{
+  "_embedded": {
+    "_entries": [
+      {
+        "gyldighetsperiode": {
+          "slutt": "2099-12-01T00:00:00Z",
+          "start": "2014-07-21T11:08:32Z"
+        },
+        "kode": "U",
+        "navn": "Beredskap Brann",
+        "systemId": {
+          "gyldighetsperiode": {
+            "slutt": "2099-12-01T00:00:00Z",
+            "start": "2014-07-21T11:08:32Z"
+          },
+          "identifikatorverdi": "401261"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${}/administrasjon/kodeverk/arbeidsforholdstype/systemid/401261"
+            }
+          ]
+        }
+      },
+      {
+        "gyldighetsperiode": {
+          "slutt": "2099-12-01T00:00:00Z",
+          "start": "2009-08-31T14:08:20Z"
+        },
+        "kode": "B",
+        "navn": "Timelønnet",
+        "systemId": {
+          "gyldighetsperiode": {
+            "slutt": "2099-12-01T00:00:00Z",
+            "start": "2009-08-31T14:08:20Z"
+          },
+          "identifikatorverdi": "401242"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${}/administrasjon/kodeverk/arbeidsforholdstype/systemid/401242"
+            }
+          ]
+        }
+      },
+      {
+        "gyldighetsperiode": {
+          "slutt": "2099-12-01T00:00:00Z",
+          "start": "2009-08-31T14:08:20Z"
+        },
+        "kode": "A",
+        "navn": "Fast",
+        "systemId": {
+          "gyldighetsperiode": {
+            "slutt": "2099-12-01T00:00:00Z",
+            "start": "2009-08-31T14:08:20Z"
+          },
+          "identifikatorverdi": "401241"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${}/administrasjon/kodeverk/arbeidsforholdstype/systemid/401241"
+            }
+          ]
+        }
+      },
+      {
+        "gyldighetsperiode": {
+          "slutt": "2099-12-01T00:00:00Z",
+          "start": "2009-08-31T14:08:20Z"
+        },
+        "kode": "R",
+        "navn": "Vikar - foreldreperm. 100%",
+        "systemId": {
+          "gyldighetsperiode": {
+            "slutt": "2099-12-01T00:00:00Z",
+            "start": "2009-08-31T14:08:20Z"
+          },
+          "identifikatorverdi": "401258"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${}/administrasjon/kodeverk/arbeidsforholdstype/systemid/401258"
+            }
+          ]
+        }
+      },
+      {
+        "gyldighetsperiode": {
+          "slutt": "2099-12-01T00:00:00Z",
+          "start": "2009-08-31T14:08:20Z"
+        },
+        "kode": "P",
+        "navn": "Vikar - ferie",
+        "systemId": {
+          "gyldighetsperiode": {
+            "slutt": "2099-12-01T00:00:00Z",
+            "start": "2009-08-31T14:08:20Z"
+          },
+          "identifikatorverdi": "401256"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${}/administrasjon/kodeverk/arbeidsforholdstype/systemid/401256"
+            }
+          ]
+        }
+      },
+      {
+        "gyldighetsperiode": {
+          "slutt": "2099-12-01T00:00:00Z",
+          "start": "2009-08-31T14:08:20Z"
+        },
+        "kode": "F",
+        "navn": "Engasjement < 6 mnd",
+        "systemId": {
+          "gyldighetsperiode": {
+            "slutt": "2099-12-01T00:00:00Z",
+            "start": "2009-08-31T14:08:20Z"
+          },
+          "identifikatorverdi": "401246"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${}/administrasjon/kodeverk/arbeidsforholdstype/systemid/401246"
+            }
+          ]
+        }
+      },
+      {
+        "gyldighetsperiode": {
+          "slutt": "2099-12-01T00:00:00Z",
+          "start": "2009-08-31T14:08:20Z"
+        },
+        "kode": "K",
+        "navn": "Foreldreperm. 80%",
+        "systemId": {
+          "gyldighetsperiode": {
+            "slutt": "2099-12-01T00:00:00Z",
+            "start": "2009-08-31T14:08:20Z"
+          },
+          "identifikatorverdi": "401251"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${}/administrasjon/kodeverk/arbeidsforholdstype/systemid/401251"
+            }
+          ]
+        }
+      },
+      {
+        "gyldighetsperiode": {
+          "slutt": "2099-12-01T00:00:00Z",
+          "start": "2014-07-21T11:14:02Z"
+        },
+        "kode": "W",
+        "navn": "Eksamensvakt / Sensor",
+        "systemId": {
+          "gyldighetsperiode": {
+            "slutt": "2099-12-01T00:00:00Z",
+            "start": "2014-07-21T11:14:02Z"
+          },
+          "identifikatorverdi": "436560"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${}/administrasjon/kodeverk/arbeidsforholdstype/systemid/436560"
+            }
+          ]
+        }
+      },
+      {
+        "gyldighetsperiode": {
+          "slutt": "2099-12-01T00:00:00Z",
+          "start": "2009-08-31T14:08:20Z"
+        },
+        "kode": "N",
+        "navn": "Permisjon ulønnet",
+        "systemId": {
+          "gyldighetsperiode": {
+            "slutt": "2099-12-01T00:00:00Z",
+            "start": "2009-08-31T14:08:20Z"
+          },
+          "identifikatorverdi": "401254"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${}/administrasjon/kodeverk/arbeidsforholdstype/systemid/401254"
+            }
+          ]
+        }
+      },
+      {
+        "gyldighetsperiode": {
+          "slutt": "2099-12-01T00:00:00Z",
+          "start": "2009-08-31T14:08:20Z"
+        },
+        "kode": "M",
+        "navn": "Permisjon lønnet",
+        "systemId": {
+          "gyldighetsperiode": {
+            "slutt": "2099-12-01T00:00:00Z",
+            "start": "2009-08-31T14:08:20Z"
+          },
+          "identifikatorverdi": "401253"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${}/administrasjon/kodeverk/arbeidsforholdstype/systemid/401253"
+            }
+          ]
+        }
+      },
+      {
+        "gyldighetsperiode": {
+          "slutt": "2099-12-01T00:00:00Z",
+          "start": "2009-08-31T14:08:20Z"
+        },
+        "kode": "C",
+        "navn": "Lærlinger",
+        "systemId": {
+          "gyldighetsperiode": {
+            "slutt": "2099-12-01T00:00:00Z",
+            "start": "2009-08-31T14:08:20Z"
+          },
+          "identifikatorverdi": "401243"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${}/administrasjon/kodeverk/arbeidsforholdstype/systemid/401243"
+            }
+          ]
+        }
+      },
+      {
+        "gyldighetsperiode": {
+          "slutt": "2099-12-01T00:00:00Z",
+          "start": "2009-08-31T14:08:20Z"
+        },
+        "kode": "D",
+        "navn": "Folkevalgt/politiker",
+        "systemId": {
+          "gyldighetsperiode": {
+            "slutt": "2099-12-01T00:00:00Z",
+            "start": "2009-08-31T14:08:20Z"
+          },
+          "identifikatorverdi": "401244"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${}/administrasjon/kodeverk/arbeidsforholdstype/systemid/401244"
+            }
+          ]
+        }
+      },
+      {
+        "gyldighetsperiode": {
+          "slutt": "2099-12-01T00:00:00Z",
+          "start": "2014-12-17T14:08:50Z"
+        },
+        "kode": "V",
+        "navn": "Hospitering/sysselsetting/praksisplass",
+        "systemId": {
+          "gyldighetsperiode": {
+            "slutt": "2099-12-01T00:00:00Z",
+            "start": "2014-12-17T14:08:50Z"
+          },
+          "identifikatorverdi": "403753"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${}/administrasjon/kodeverk/arbeidsforholdstype/systemid/403753"
+            }
+          ]
+        }
+      },
+      {
+        "gyldighetsperiode": {
+          "slutt": "2099-12-01T00:00:00Z",
+          "start": "2014-07-21T11:14:02Z"
+        },
+        "kode": "Y",
+        "navn": "Konstituert",
+        "systemId": {
+          "gyldighetsperiode": {
+            "slutt": "2099-12-01T00:00:00Z",
+            "start": "2014-07-21T11:14:02Z"
+          },
+          "identifikatorverdi": "436561"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${}/administrasjon/kodeverk/arbeidsforholdstype/systemid/436561"
+            }
+          ]
+        }
+      },
+      {
+        "gyldighetsperiode": {
+          "slutt": "2099-12-01T00:00:00Z",
+          "start": "2009-08-31T14:08:20Z"
+        },
+        "kode": "S",
+        "navn": "Vikar - sykdom",
+        "systemId": {
+          "gyldighetsperiode": {
+            "slutt": "2099-12-01T00:00:00Z",
+            "start": "2009-08-31T14:08:20Z"
+          },
+          "identifikatorverdi": "401259"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${}/administrasjon/kodeverk/arbeidsforholdstype/systemid/401259"
+            }
+          ]
+        }
+      },
+      {
+        "gyldighetsperiode": {
+          "slutt": "2099-12-01T00:00:00Z",
+          "start": "2009-08-31T14:08:20Z"
+        },
+        "kode": "Z",
+        "navn": "Annet",
+        "systemId": {
+          "gyldighetsperiode": {
+            "slutt": "2099-12-01T00:00:00Z",
+            "start": "2009-08-31T14:08:20Z"
+          },
+          "identifikatorverdi": "401262"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${}/administrasjon/kodeverk/arbeidsforholdstype/systemid/401262"
+            }
+          ]
+        }
+      },
+      {
+        "gyldighetsperiode": {
+          "slutt": "2099-12-01T00:00:00Z",
+          "start": "2009-08-31T14:08:20Z"
+        },
+        "kode": "H",
+        "navn": "Godtgjørelse",
+        "systemId": {
+          "gyldighetsperiode": {
+            "slutt": "2099-12-01T00:00:00Z",
+            "start": "2009-08-31T14:08:20Z"
+          },
+          "identifikatorverdi": "401248"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${}/administrasjon/kodeverk/arbeidsforholdstype/systemid/401248"
+            }
+          ]
+        }
+      },
+      {
+        "gyldighetsperiode": {
+          "slutt": "2099-12-01T00:00:00Z",
+          "start": "2009-08-31T14:08:20Z"
+        },
+        "kode": "O",
+        "navn": "Vikar - diverse",
+        "systemId": {
+          "gyldighetsperiode": {
+            "slutt": "2099-12-01T00:00:00Z",
+            "start": "2009-08-31T14:08:20Z"
+          },
+          "identifikatorverdi": "401255"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${}/administrasjon/kodeverk/arbeidsforholdstype/systemid/401255"
+            }
+          ]
+        }
+      },
+      {
+        "gyldighetsperiode": {
+          "slutt": "2099-12-01T00:00:00Z",
+          "start": "2009-08-31T14:08:20Z"
+        },
+        "kode": "J",
+        "navn": "Pensjonistlønn",
+        "systemId": {
+          "gyldighetsperiode": {
+            "slutt": "2099-12-01T00:00:00Z",
+            "start": "2009-08-31T14:08:20Z"
+          },
+          "identifikatorverdi": "401250"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${}/administrasjon/kodeverk/arbeidsforholdstype/systemid/401250"
+            }
+          ]
+        }
+      },
+      {
+        "gyldighetsperiode": {
+          "slutt": "2099-12-01T00:00:00Z",
+          "start": "2009-08-31T14:08:20Z"
+        },
+        "kode": "Q",
+        "navn": "Vikar - foreldreperm. 80%",
+        "systemId": {
+          "gyldighetsperiode": {
+            "slutt": "2099-12-01T00:00:00Z",
+            "start": "2009-08-31T14:08:20Z"
+          },
+          "identifikatorverdi": "401257"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${}/administrasjon/kodeverk/arbeidsforholdstype/systemid/401257"
+            }
+          ]
+        }
+      },
+      {
+        "gyldighetsperiode": {
+          "slutt": "2099-12-01T00:00:00Z",
+          "start": "2009-08-31T14:08:20Z"
+        },
+        "kode": "T",
+        "navn": "Vikar - ulønnet permisjon",
+        "systemId": {
+          "gyldighetsperiode": {
+            "slutt": "2099-12-01T00:00:00Z",
+            "start": "2009-08-31T14:08:20Z"
+          },
+          "identifikatorverdi": "401260"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${}/administrasjon/kodeverk/arbeidsforholdstype/systemid/401260"
+            }
+          ]
+        }
+      },
+      {
+        "gyldighetsperiode": {
+          "slutt": "2099-12-01T00:00:00Z",
+          "start": "2009-08-31T14:08:20Z"
+        },
+        "kode": "G",
+        "navn": "Engasjement > 6 mnd",
+        "systemId": {
+          "gyldighetsperiode": {
+            "slutt": "2099-12-01T00:00:00Z",
+            "start": "2009-08-31T14:08:20Z"
+          },
+          "identifikatorverdi": "401247"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${}/administrasjon/kodeverk/arbeidsforholdstype/systemid/401247"
+            }
+          ]
+        }
+      },
+      {
+        "gyldighetsperiode": {
+          "slutt": "2099-12-01T00:00:00Z",
+          "start": "2009-08-31T14:08:20Z"
+        },
+        "kode": "I",
+        "navn": "Oppdragstaker",
+        "systemId": {
+          "gyldighetsperiode": {
+            "slutt": "2099-12-01T00:00:00Z",
+            "start": "2009-08-31T14:08:20Z"
+          },
+          "identifikatorverdi": "401249"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${}/administrasjon/kodeverk/arbeidsforholdstype/systemid/401249"
+            }
+          ]
+        }
+      },
+      {
+        "gyldighetsperiode": {
+          "slutt": "2099-12-01T00:00:00Z",
+          "start": "2009-08-31T14:08:20Z"
+        },
+        "kode": "E",
+        "navn": "Midlertidig",
+        "systemId": {
+          "gyldighetsperiode": {
+            "slutt": "2099-12-01T00:00:00Z",
+            "start": "2009-08-31T14:08:20Z"
+          },
+          "identifikatorverdi": "401245"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${}/administrasjon/kodeverk/arbeidsforholdstype/systemid/401245"
+            }
+          ]
+        }
+      },
+      {
+        "gyldighetsperiode": {
+          "slutt": "2099-12-01T00:00:00Z",
+          "start": "2009-08-31T14:08:20Z"
+        },
+        "kode": "L",
+        "navn": "Foreldreperm. 100%",
+        "systemId": {
+          "gyldighetsperiode": {
+            "slutt": "2099-12-01T00:00:00Z",
+            "start": "2009-08-31T14:08:20Z"
+          },
+          "identifikatorverdi": "401252"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${}/administrasjon/kodeverk/arbeidsforholdstype/systemid/401252"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "_links": {
+    "self": [
+      {
+        "href": "${}/administrasjon/kodeverk/arbeidsforholdstype"
+      }
+    ]
+  },
+  "total_items": 25,
+  "_class": "no.fint.model.resource.administrasjon.kodeverk.ArbeidsforholdstypeResource"
+}

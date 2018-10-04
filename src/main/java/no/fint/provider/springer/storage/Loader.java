@@ -39,6 +39,7 @@ public class Loader {
                         .count();
                 log.info("Added {} elements of {}", count, type);
             }
+            log.info("Completed database initialization.");
         }
     }
 }

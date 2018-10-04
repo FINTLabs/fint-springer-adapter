@@ -4,7 +4,7 @@ import com.google.common.collect.Lists;
 import lombok.extern.slf4j.Slf4j;
 import no.fint.event.model.Event;
 import no.fint.event.model.HeaderConstants;
-import no.fint.provider.adapter.FintAdapterProps;
+import no.fint.provider.adapter.FintAdapterEndpoints;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpEntity;
 import org.springframework.http.HttpHeaders;
@@ -21,7 +21,7 @@ import org.springframework.web.client.RestTemplate;
 public class EventResponseService {
 
     @Autowired
-    private FintAdapterProps props;
+    private FintAdapterEndpoints endpoints;
 
     @Autowired
     private RestTemplate restTemplate;
@@ -29,13 +29,15 @@ public class EventResponseService {
     /**
      * Method for posting back the response to the provider.
      *
+     * @param component
      * @param event Event to post back
      */
-    public void postResponse(Event event) {
-        log.debug("Response: {}", event);
+    public void postResponse(String component, Event event) {
         HttpHeaders headers = new HttpHeaders();
         headers.put(HeaderConstants.ORG_ID, Lists.newArrayList(event.getOrgId()));
-        ResponseEntity<Void> response = restTemplate.exchange(props.getResponseEndpoint(), HttpMethod.POST, new HttpEntity<>(event, headers), Void.class);
-        log.info("Provider POST response: {}", response.getStatusCode());
+        String url = endpoints.getProviders().get(component) + endpoints.getResponse();
+        log.info("{}: Posting response for {} ...", component, event.getAction());
+        ResponseEntity<Void> response = restTemplate.exchange(url, HttpMethod.POST, new HttpEntity<>(event, headers), Void.class);
+        log.info("{}: Provider POST response: {}", component, response.getStatusCode());
     }
 }

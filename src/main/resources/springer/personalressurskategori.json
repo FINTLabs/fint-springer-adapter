@@ -1,0 +1,213 @@
+{
+  "_embedded": {
+    "_entries": [
+      {
+        "gyldighetsperiode": {
+          "slutt": "2099-12-01T00:00:00Z",
+          "start": "2014-06-16T15:02:23Z"
+        },
+        "kode": "6",
+        "navn": "Honorar/godtgjørelse",
+        "systemId": {
+          "gyldighetsperiode": {
+            "slutt": "2099-12-01T00:00:00Z",
+            "start": "2014-06-16T15:02:23Z"
+          },
+          "identifikatorverdi": "425894"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${}/administrasjon/kodeverk/personalressurskategori/systemid/425894"
+            }
+          ]
+        }
+      },
+      {
+        "gyldighetsperiode": {
+          "slutt": "2099-12-01T00:00:00Z",
+          "start": "2014-06-16T15:02:23Z"
+        },
+        "kode": "1",
+        "navn": "Fast",
+        "systemId": {
+          "gyldighetsperiode": {
+            "slutt": "2099-12-01T00:00:00Z",
+            "start": "2014-06-16T15:02:23Z"
+          },
+          "identifikatorverdi": "382752"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${}/administrasjon/kodeverk/personalressurskategori/systemid/382752"
+            }
+          ]
+        }
+      },
+      {
+        "gyldighetsperiode": {
+          "slutt": "2099-12-01T00:00:00Z",
+          "start": "2008-12-16T15:24:30Z"
+        },
+        "kode": "4",
+        "navn": "Sluttet",
+        "systemId": {
+          "gyldighetsperiode": {
+            "slutt": "2099-12-01T00:00:00Z",
+            "start": "2008-12-16T15:24:30Z"
+          },
+          "identifikatorverdi": "382755"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${}/administrasjon/kodeverk/personalressurskategori/systemid/382755"
+            }
+          ]
+        }
+      },
+      {
+        "gyldighetsperiode": {
+          "slutt": "2099-12-01T00:00:00Z",
+          "start": "2014-06-16T15:02:23Z"
+        },
+        "kode": "2",
+        "navn": "Oppdragstaker",
+        "systemId": {
+          "gyldighetsperiode": {
+            "slutt": "2099-12-01T00:00:00Z",
+            "start": "2014-06-16T15:02:23Z"
+          },
+          "identifikatorverdi": "382753"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${}/administrasjon/kodeverk/personalressurskategori/systemid/382753"
+            }
+          ]
+        }
+      },
+      {
+        "gyldighetsperiode": {
+          "slutt": "2099-12-01T00:00:00Z",
+          "start": "2016-03-21T15:51:14Z"
+        },
+        "kode": "8",
+        "navn": "Selvstendig næringsdrivende",
+        "systemId": {
+          "gyldighetsperiode": {
+            "slutt": "2099-12-01T00:00:00Z",
+            "start": "2016-03-21T15:51:14Z"
+          },
+          "identifikatorverdi": "436123"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${}/administrasjon/kodeverk/personalressurskategori/systemid/436123"
+            }
+          ]
+        }
+      },
+      {
+        "gyldighetsperiode": {
+          "slutt": "2099-12-01T00:00:00Z",
+          "start": "2013-04-24T22:32:46Z"
+        },
+        "kode": "3",
+        "navn": "Leverandørrepersentant",
+        "systemId": {
+          "gyldighetsperiode": {
+            "slutt": "2099-12-01T00:00:00Z",
+            "start": "2013-04-24T22:32:46Z"
+          },
+          "identifikatorverdi": "382754"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${}/administrasjon/kodeverk/personalressurskategori/systemid/382754"
+            }
+          ]
+        }
+      },
+      {
+        "gyldighetsperiode": {
+          "slutt": "2099-12-01T00:00:00Z",
+          "start": "2015-01-06T20:19:26Z"
+        },
+        "kode": "5",
+        "navn": "Nyansatt",
+        "systemId": {
+          "gyldighetsperiode": {
+            "slutt": "2099-12-01T00:00:00Z",
+            "start": "2015-01-06T20:19:26Z"
+          },
+          "identifikatorverdi": "382756"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${}/administrasjon/kodeverk/personalressurskategori/systemid/382756"
+            }
+          ]
+        }
+      },
+      {
+        "gyldighetsperiode": {
+          "slutt": "2099-12-01T00:00:00Z",
+          "start": "2014-10-29T13:15:20Z"
+        },
+        "kode": "10",
+        "navn": "Midlertidig",
+        "systemId": {
+          "gyldighetsperiode": {
+            "slutt": "2099-12-01T00:00:00Z",
+            "start": "2014-10-29T13:15:20Z"
+          },
+          "identifikatorverdi": "450782"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${}/administrasjon/kodeverk/personalressurskategori/systemid/450782"
+            }
+          ]
+        }
+      },
+      {
+        "gyldighetsperiode": {
+          "slutt": "2099-12-01T00:00:00Z",
+          "start": "2014-06-16T15:02:23Z"
+        },
+        "kode": "7",
+        "navn": "Politiker",
+        "systemId": {
+          "gyldighetsperiode": {
+            "slutt": "2099-12-01T00:00:00Z",
+            "start": "2014-06-16T15:02:23Z"
+          },
+          "identifikatorverdi": "436122"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${}/administrasjon/kodeverk/personalressurskategori/systemid/436122"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "_links": {
+    "self": [
+      {
+        "href": "${}/administrasjon/kodeverk/personalressurskategori"
+      }
+    ]
+  },
+  "total_items": 9,
+  "_class": "no.fint.model.resource.administrasjon.kodeverk.PersonalressurskategoriResource"
+}

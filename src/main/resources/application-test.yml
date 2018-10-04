@@ -1,13 +1,13 @@
 security:
- basic:
-  enabled: false
+  basic:
+    enabled: false
 
 fint:
- adapter:
-  organizations: fintlabs.no
-  sse-endpoint: http://localhost:8081/provider/sse/%s
-  status-endpoint: http://localhost:8081/provider/status
-  response-endpoint: http://localhost:8081/provider/response
+  adapter:
+    organizations: fintlabs.no
+    endpoints:
+      providers:
+        personal: http://localhost:8081/provider
 
- oauth:
-  enabled: false
+  oauth:
+    enabled: false

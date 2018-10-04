@@ -1,0 +1,81 @@
+{
+  "_embedded": {
+    "_entries": [
+      {
+        "gyldighetsperiode": {
+          "slutt": "2099-12-01T00:00:00Z",
+          "start": "2014-05-01T00:00:00Z"
+        },
+        "kode": "106P1501",
+        "navn": "Lyttevenn",
+        "systemId": {
+          "gyldighetsperiode": {
+            "slutt": "2099-12-01T00:00:00Z",
+            "start": "2014-05-01T00:00:00Z"
+          },
+          "identifikatorverdi": "437135"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${}/administrasjon/kodeverk/prosjekt/systemid/437135"
+            }
+          ]
+        }
+      },
+      {
+        "gyldighetsperiode": {
+          "slutt": "2099-12-01T00:00:00Z",
+          "start": "2015-01-01T00:00:00Z"
+        },
+        "kode": "2P1501",
+        "navn": "Egenkapitalinnskudd Telemark IKS",
+        "systemId": {
+          "gyldighetsperiode": {
+            "slutt": "2099-12-01T00:00:00Z",
+            "start": "2015-01-01T00:00:00Z"
+          },
+          "identifikatorverdi": "881018"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${}/administrasjon/kodeverk/prosjekt/systemid/881018"
+            }
+          ]
+        }
+      },
+      {
+        "gyldighetsperiode": {
+          "slutt": "2099-12-01T00:00:00Z",
+          "start": "2015-01-01T00:00:00Z"
+        },
+        "kode": "108P1501",
+        "navn": "Konferanse psykisk helse",
+        "systemId": {
+          "gyldighetsperiode": {
+            "slutt": "2099-12-01T00:00:00Z",
+            "start": "2015-01-01T00:00:00Z"
+          },
+          "identifikatorverdi": "891033"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${}/administrasjon/kodeverk/prosjekt/systemid/891033"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "_links": {
+    "self": [
+      {
+        "href": "${}/administrasjon/kodeverk/prosjekt"
+      }
+    ]
+  },
+  "total_items": 3,
+  "_class": "no.fint.model.resource.administrasjon.kodeverk.ProsjektResource"
+}

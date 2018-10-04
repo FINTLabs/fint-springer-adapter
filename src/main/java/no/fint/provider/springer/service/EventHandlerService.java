@@ -21,7 +21,7 @@ import java.util.Map;
 import java.util.concurrent.ThreadLocalRandom;
 
 /**
- * The EventHandlerService receives the <code>event</code> from SSE endpoint (provider) in the {@link #handleEvent(Event)} method.
+ * The EventHandlerService receives the <code>event</code> from SSE endpoint (provider) in the {@link #handleEvent(String, Event)} method.
  */
 @Slf4j
 @Service
@@ -64,13 +64,14 @@ public class EventHandlerService {
      *     }
      * </pre>
      *
+     * @param component
      * @param event The <code>event</code> received from the provider
      */
-    public void handleEvent(Event event) {
+    public void handleEvent(String component, Event event) {
         if (event.isHealthCheck()) {
-            postHealthCheckResponse(event);
+            postHealthCheckResponse(component, event);
         } else {
-            if (eventStatusService.verifyEvent(event).getStatus() == Status.ADAPTER_ACCEPTED) {
+            if (eventStatusService.verifyEvent(component, event).getStatus() == Status.ADAPTER_ACCEPTED) {
                 String action = event.getAction();
                 Event<FintLinks> responseEvent = new Event<>(event);
 
@@ -85,7 +86,8 @@ public class EventHandlerService {
                     responseEvent.setResponseStatus(ResponseStatus.ERROR);
                     responseEvent.setMessage(ExceptionUtils.getStackTrace(e));
                 } finally {
-                    eventResponseService.postResponse(responseEvent);
+                    log.info("{}: Response for {}: {}, {} items", component, responseEvent.getAction(), responseEvent.getResponseStatus(), responseEvent.getData().size());
+                    eventResponseService.postResponse(component, event);
                 }
 
             }
@@ -97,7 +99,7 @@ public class EventHandlerService {
      *
      * @param event The event object
      */
-    public void postHealthCheckResponse(Event event) {
+    public void postHealthCheckResponse(String component, Event event) {
         Event<Health> healthCheckEvent = new Event<>(event);
         healthCheckEvent.setStatus(Status.TEMP_UPSTREAM_QUEUE);
 
@@ -108,7 +110,7 @@ public class EventHandlerService {
             healthCheckEvent.setMessage("The adapter is unable to communicate with the application.");
         }
 
-        eventResponseService.postResponse(healthCheckEvent);
+        eventResponseService.postResponse(component, healthCheckEvent);
     }
 
     /**

@@ -1,0 +1,5032 @@
+{
+  "_embedded": {
+    "_entries": [
+      {
+        "gyldighetsperiode": {
+          "slutt": "2099-12-01T00:00:00Z",
+          "start": "2016-03-15T15:45:25Z"
+        },
+        "kode": "3212",
+        "navn": "Seksjon for inntak og gjennomføring",
+        "systemId": {
+          "gyldighetsperiode": {
+            "slutt": "2099-12-01T00:00:00Z",
+            "start": "2016-03-15T15:45:25Z"
+          },
+          "identifikatorverdi": "450693"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${}/administrasjon/kodeverk/ansvar/systemid/450693"
+            }
+          ]
+        }
+      },
+      {
+        "gyldighetsperiode": {
+          "slutt": "2099-12-01T00:00:00Z",
+          "start": "2013-12-01T00:00:00Z"
+        },
+        "kode": "322406",
+        "navn": "Avdeling for EL - Elektro (+SS)",
+        "systemId": {
+          "gyldighetsperiode": {
+            "slutt": "2099-12-01T00:00:00Z",
+            "start": "2013-12-01T00:00:00Z"
+          },
+          "identifikatorverdi": "413899"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${}/administrasjon/kodeverk/ansvar/systemid/413899"
+            }
+          ]
+        }
+      },
+      {
+        "gyldighetsperiode": {
+          "slutt": "2099-12-01T00:00:00Z",
+          "start": "2013-12-01T00:00:00Z"
+        },
+        "kode": "201",
+        "navn": "Revisjon",
+        "systemId": {
+          "gyldighetsperiode": {
+            "slutt": "2099-12-01T00:00:00Z",
+            "start": "2013-12-01T00:00:00Z"
+          },
+          "identifikatorverdi": "416620"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${}/administrasjon/kodeverk/ansvar/systemid/416620"
+            }
+          ]
+        }
+      },
+      {
+        "gyldighetsperiode": {
+          "slutt": "2099-12-01T00:00:00Z",
+          "start": "2014-08-07T10:22:31Z"
+        },
+        "kode": "322413",
+        "navn": "Avdeling for Fagskolen i Kristiansand",
+        "systemId": {
+          "gyldighetsperiode": {
+            "slutt": "2099-12-01T00:00:00Z",
+            "start": "2014-08-07T10:22:31Z"
+          },
+          "identifikatorverdi": "436783"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${}/administrasjon/kodeverk/ansvar/systemid/436783"
+            }
+          ]
+        }
+      },
+      {
+        "gyldighetsperiode": {
+          "slutt": "2099-12-01T00:00:00Z",
+          "start": "2016-01-01T00:00:00Z"
+        },
+        "kode": "324022",
+        "navn": "Avdeling for FAR ST språk, innføringsklassen og spesialund.",
+        "systemId": {
+          "gyldighetsperiode": {
+            "slutt": "2099-12-01T00:00:00Z",
+            "start": "2016-01-01T00:00:00Z"
+          },
+          "identifikatorverdi": "903592"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${}/administrasjon/kodeverk/ansvar/systemid/903592"
+            }
+          ]
+        }
+      },
+      {
+        "gyldighetsperiode": {
+          "slutt": "2099-12-01T00:00:00Z",
+          "start": "2016-01-01T00:00:00Z"
+        },
+        "kode": "324021",
+        "navn": "Avdeling for FAR Drift og miljø,  ST samf.fag",
+        "systemId": {
+          "gyldighetsperiode": {
+            "slutt": "2099-12-01T00:00:00Z",
+            "start": "2016-01-01T00:00:00Z"
+          },
+          "identifikatorverdi": "903591"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${}/administrasjon/kodeverk/ansvar/systemid/903591"
+            }
+          ]
+        }
+      },
+      {
+        "gyldighetsperiode": {
+          "slutt": "2016-12-01T00:00:00Z",
+          "start": "1994-01-01T00:00:00Z"
+        },
+        "kode": "326033",
+        "navn": "Avdeling for KVI HO, HO-arbeidsliv og fellesfag",
+        "systemId": {
+          "gyldighetsperiode": {
+            "slutt": "2016-12-01T00:00:00Z",
+            "start": "1994-01-01T00:00:00Z"
+          },
+          "identifikatorverdi": "437761"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${}/administrasjon/kodeverk/ansvar/systemid/437761"
+            }
+          ]
+        }
+      },
+      {
+        "gyldighetsperiode": {
+          "slutt": "2099-12-01T00:00:00Z",
+          "start": "2013-12-01T00:00:00Z"
+        },
+        "kode": "322905",
+        "navn": "Avdeling for gartneri",
+        "systemId": {
+          "gyldighetsperiode": {
+            "slutt": "2099-12-01T00:00:00Z",
+            "start": "2013-12-01T00:00:00Z"
+          },
+          "identifikatorverdi": "391694"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${}/administrasjon/kodeverk/ansvar/systemid/391694"
+            }
+          ]
+        }
+      },
+      {
+        "gyldighetsperiode": {
+          "slutt": "2016-12-01T00:00:00Z",
+          "start": "1994-01-01T00:00:00Z"
+        },
+        "kode": "326032",
+        "navn": "Avdeling for FLE MK, kroppsøving og FVG IKT",
+        "systemId": {
+          "gyldighetsperiode": {
+            "slutt": "2016-12-01T00:00:00Z",
+            "start": "1994-01-01T00:00:00Z"
+          },
+          "identifikatorverdi": "437760"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${}/administrasjon/kodeverk/ansvar/systemid/437760"
+            }
+          ]
+        }
+      },
+      {
+        "gyldighetsperiode": {
+          "slutt": "2099-12-01T00:00:00Z",
+          "start": "2017-06-01T00:00:00Z"
+        },
+        "kode": "109",
+        "navn": "Fellesnemnd",
+        "systemId": {
+          "gyldighetsperiode": {
+            "slutt": "2099-12-01T00:00:00Z",
+            "start": "2017-06-01T00:00:00Z"
+          },
+          "identifikatorverdi": "917926"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${}/administrasjon/kodeverk/ansvar/systemid/917926"
+            }
+          ]
+        }
+      },
+      {
+        "gyldighetsperiode": {
+          "slutt": "2099-12-01T00:00:00Z",
+          "start": "2016-01-01T00:00:00Z"
+        },
+        "kode": "324001",
+        "navn": "Avdeling for EVG Administrasjon og fellestjenester",
+        "systemId": {
+          "gyldighetsperiode": {
+            "slutt": "2099-12-01T00:00:00Z",
+            "start": "2016-01-01T00:00:00Z"
+          },
+          "identifikatorverdi": "903590"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${}/administrasjon/kodeverk/ansvar/systemid/903590"
+            }
+          ]
+        }
+      },
+      {
+        "gyldighetsperiode": {
+          "slutt": "2016-12-01T00:00:00Z",
+          "start": "2013-12-01T00:00:00Z"
+        },
+        "kode": "326009",
+        "navn": "UTGÅTT - Avdeling for MDD, TIP,  fellesfag (realfag), rådg., bibliotek, IKT, kantine og renhold [LYN]",
+        "systemId": {
+          "gyldighetsperiode": {
+            "slutt": "2016-12-01T00:00:00Z",
+            "start": "2013-12-01T00:00:00Z"
+          },
+          "identifikatorverdi": "391721"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${}/administrasjon/kodeverk/ansvar/systemid/391721"
+            }
+          ]
+        }
+      },
+      {
+        "gyldighetsperiode": {
+          "slutt": "2099-12-01T00:00:00Z",
+          "start": "2014-12-22T11:07:35Z"
+        },
+        "kode": "363501",
+        "navn": "Faggruppe IT service",
+        "systemId": {
+          "gyldighetsperiode": {
+            "slutt": "2099-12-01T00:00:00Z",
+            "start": "2014-12-22T11:07:35Z"
+          },
+          "identifikatorverdi": "870762"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${}/administrasjon/kodeverk/ansvar/systemid/870762"
+            }
+          ]
+        }
+      },
+      {
+        "gyldighetsperiode": {
+          "slutt": "2099-12-01T00:00:00Z",
+          "start": "2014-12-22T11:07:35Z"
+        },
+        "kode": "364501",
+        "navn": "Faggruppe drift og vedlikehold",
+        "systemId": {
+          "gyldighetsperiode": {
+            "slutt": "2099-12-01T00:00:00Z",
+            "start": "2014-12-22T11:07:35Z"
+          },
+          "identifikatorverdi": "870766"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${}/administrasjon/kodeverk/ansvar/systemid/870766"
+            }
+          ]
+        }
+      },
+      {
+        "gyldighetsperiode": {
+          "slutt": "2099-12-01T00:00:00Z",
+          "start": "2016-01-01T00:00:00Z"
+        },
+        "kode": "324052",
+        "navn": "Avdeling for LIS Drift og miljø, TP",
+        "systemId": {
+          "gyldighetsperiode": {
+            "slutt": "2099-12-01T00:00:00Z",
+            "start": "2016-01-01T00:00:00Z"
+          },
+          "identifikatorverdi": "903597"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${}/administrasjon/kodeverk/ansvar/systemid/903597"
+            }
+          ]
+        }
+      },
+      {
+        "gyldighetsperiode": {
+          "slutt": "2099-12-01T00:00:00Z",
+          "start": "2016-02-23T12:44:01Z"
+        },
+        "kode": "1081",
+        "navn": "Ungdommens fylkesutvalg",
+        "systemId": {
+          "gyldighetsperiode": {
+            "slutt": "2099-12-01T00:00:00Z",
+            "start": "2016-02-23T12:44:01Z"
+          },
+          "identifikatorverdi": "893979"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${}/administrasjon/kodeverk/ansvar/systemid/893979"
+            }
+          ]
+        }
+      },
+      {
+        "gyldighetsperiode": {
+          "slutt": "2099-12-01T00:00:00Z",
+          "start": "2016-01-01T00:00:00Z"
+        },
+        "kode": "325012",
+        "navn": "Avdeling for FLE KDA, spesialund, hverdags- og arbeidsliv",
+        "systemId": {
+          "gyldighetsperiode": {
+            "slutt": "2099-12-01T00:00:00Z",
+            "start": "2016-01-01T00:00:00Z"
+          },
+          "identifikatorverdi": "903602"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${}/administrasjon/kodeverk/ansvar/systemid/903602"
+            }
+          ]
+        }
+      },
+      {
+        "gyldighetsperiode": {
+          "slutt": "2099-12-01T00:00:00Z",
+          "start": "2013-12-01T00:00:00Z"
+        },
+        "kode": "9",
+        "navn": "Felles inntekter og utgifter",
+        "systemId": {
+          "gyldighetsperiode": {
+            "slutt": "2099-12-01T00:00:00Z",
+            "start": "2013-12-01T00:00:00Z"
+          },
+          "identifikatorverdi": "416606"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${}/administrasjon/kodeverk/ansvar/systemid/416606"
+            }
+          ]
+        }
+      },
+      {
+        "gyldighetsperiode": {
+          "slutt": "2099-12-01T00:00:00Z",
+          "start": "2013-12-01T00:00:00Z"
+        },
+        "kode": "321502",
+        "navn": "Ungdomsskoleavdelingen - grunnskoleopplæring",
+        "systemId": {
+          "gyldighetsperiode": {
+            "slutt": "2099-12-01T00:00:00Z",
+            "start": "2013-12-01T00:00:00Z"
+          },
+          "identifikatorverdi": "411871"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${}/administrasjon/kodeverk/ansvar/systemid/411871"
+            }
+          ]
+        }
+      },
+      {
+        "gyldighetsperiode": {
+          "slutt": "2099-12-01T00:00:00Z",
+          "start": "2013-12-01T00:00:00Z"
+        },
+        "kode": "105",
+        "navn": "Hovedutvalg for kultur og utdanning",
+        "systemId": {
+          "gyldighetsperiode": {
+            "slutt": "2099-12-01T00:00:00Z",
+            "start": "2013-12-01T00:00:00Z"
+          },
+          "identifikatorverdi": "416617"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${}/administrasjon/kodeverk/ansvar/systemid/416617"
+            }
+          ]
+        }
+      },
+      {
+        "gyldighetsperiode": {
+          "slutt": "2099-12-01T00:00:00Z",
+          "start": "2014-09-17T15:21:00Z"
+        },
+        "kode": "3219",
+        "navn": "PP tjenesten",
+        "systemId": {
+          "gyldighetsperiode": {
+            "slutt": "2099-12-01T00:00:00Z",
+            "start": "2014-09-17T15:21:00Z"
+          },
+          "identifikatorverdi": "437690"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${}/administrasjon/kodeverk/ansvar/systemid/437690"
+            }
+          ]
+        }
+      },
+      {
+        "gyldighetsperiode": {
+          "slutt": "2099-12-01T00:00:00Z",
+          "start": "2013-12-01T00:00:00Z"
+        },
+        "kode": "3430",
+        "navn": "Seksjon for plan og miljø",
+        "systemId": {
+          "gyldighetsperiode": {
+            "slutt": "2099-12-01T00:00:00Z",
+            "start": "2013-12-01T00:00:00Z"
+          },
+          "identifikatorverdi": "416639"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${}/administrasjon/kodeverk/ansvar/systemid/416639"
+            }
+          ]
+        }
+      },
+      {
+        "gyldighetsperiode": {
+          "slutt": "2099-12-01T00:00:00Z",
+          "start": "2013-12-01T00:00:00Z"
+        },
+        "kode": "3251",
+        "navn": "Sirdal videregående skole",
+        "systemId": {
+          "gyldighetsperiode": {
+            "slutt": "2099-12-01T00:00:00Z",
+            "start": "2013-12-01T00:00:00Z"
+          },
+          "identifikatorverdi": "416635"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${}/administrasjon/kodeverk/ansvar/systemid/416635"
+            }
+          ]
+        }
+      },
+      {
+        "gyldighetsperiode": {
+          "slutt": "2099-12-01T00:00:00Z",
+          "start": "2013-12-01T00:00:00Z"
+        },
+        "kode": "9213",
+        "navn": "Avdrag på lån",
+        "systemId": {
+          "gyldighetsperiode": {
+            "slutt": "2099-12-01T00:00:00Z",
+            "start": "2013-12-01T00:00:00Z"
+          },
+          "identifikatorverdi": "416653"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${}/administrasjon/kodeverk/ansvar/systemid/416653"
+            }
+          ]
+        }
+      },
+      {
+        "gyldighetsperiode": {
+          "slutt": "2099-12-01T00:00:00Z",
+          "start": "2014-12-22T11:07:35Z"
+        },
+        "kode": "363504",
+        "navn": "Dokumentsenter",
+        "systemId": {
+          "gyldighetsperiode": {
+            "slutt": "2099-12-01T00:00:00Z",
+            "start": "2014-12-22T11:07:35Z"
+          },
+          "identifikatorverdi": "870765"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${}/administrasjon/kodeverk/ansvar/systemid/870765"
+            }
+          ]
+        }
+      },
+      {
+        "gyldighetsperiode": {
+          "slutt": "2099-12-01T00:00:00Z",
+          "start": "2014-09-17T14:08:54Z"
+        },
+        "kode": "33050",
+        "navn": "Farsund tannklinikk",
+        "systemId": {
+          "gyldighetsperiode": {
+            "slutt": "2099-12-01T00:00:00Z",
+            "start": "2014-09-17T14:08:54Z"
+          },
+          "identifikatorverdi": "437646"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${}/administrasjon/kodeverk/ansvar/systemid/437646"
+            }
+          ]
+        }
+      },
+      {
+        "gyldighetsperiode": {
+          "slutt": "2099-12-01T00:00:00Z",
+          "start": "2016-01-01T00:00:00Z"
+        },
+        "kode": "325011",
+        "navn": "Avdeling for FLE BA, EL og drift og miljø",
+        "systemId": {
+          "gyldighetsperiode": {
+            "slutt": "2099-12-01T00:00:00Z",
+            "start": "2016-01-01T00:00:00Z"
+          },
+          "identifikatorverdi": "903601"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${}/administrasjon/kodeverk/ansvar/systemid/903601"
+            }
+          ]
+        }
+      },
+      {
+        "gyldighetsperiode": {
+          "slutt": "2099-12-01T00:00:00Z",
+          "start": "2013-12-01T00:00:00Z"
+        },
+        "kode": "1",
+        "navn": "Fylkesordfører",
+        "systemId": {
+          "gyldighetsperiode": {
+            "slutt": "2099-12-01T00:00:00Z",
+            "start": "2013-12-01T00:00:00Z"
+          },
+          "identifikatorverdi": "416603"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${}/administrasjon/kodeverk/ansvar/systemid/416603"
+            }
+          ]
+        }
+      },
+      {
+        "gyldighetsperiode": {
+          "slutt": "2016-12-01T00:00:00Z",
+          "start": "1994-01-01T00:00:00Z"
+        },
+        "kode": "326022",
+        "navn": "Avdeling for FAR ST språk, innføringsklassen og spesialund.",
+        "systemId": {
+          "gyldighetsperiode": {
+            "slutt": "2016-12-01T00:00:00Z",
+            "start": "1994-01-01T00:00:00Z"
+          },
+          "identifikatorverdi": "437757"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${}/administrasjon/kodeverk/ansvar/systemid/437757"
+            }
+          ]
+        }
+      },
+      {
+        "gyldighetsperiode": {
+          "slutt": "2099-12-01T00:00:00Z",
+          "start": "2013-12-01T00:00:00Z"
+        },
+        "kode": "93",
+        "navn": "Andre felles inntekter/utgifter",
+        "systemId": {
+          "gyldighetsperiode": {
+            "slutt": "2099-12-01T00:00:00Z",
+            "start": "2013-12-01T00:00:00Z"
+          },
+          "identifikatorverdi": "416612"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${}/administrasjon/kodeverk/ansvar/systemid/416612"
+            }
+          ]
+        }
+      },
+      {
+        "gyldighetsperiode": {
+          "slutt": "2099-12-01T00:00:00Z",
+          "start": "2013-12-01T00:00:00Z"
+        },
+        "kode": "107",
+        "navn": "Råd for mennesker med nedsatt funksjonsevne",
+        "systemId": {
+          "gyldighetsperiode": {
+            "slutt": "2099-12-01T00:00:00Z",
+            "start": "2013-12-01T00:00:00Z"
+          },
+          "identifikatorverdi": "416619"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${}/administrasjon/kodeverk/ansvar/systemid/416619"
+            }
+          ]
+        }
+      },
+      {
+        "gyldighetsperiode": {
+          "slutt": "2099-12-01T00:00:00Z",
+          "start": "2014-09-17T14:08:53Z"
+        },
+        "kode": "33041",
+        "navn": "Vennesla tannklinikk",
+        "systemId": {
+          "gyldighetsperiode": {
+            "slutt": "2099-12-01T00:00:00Z",
+            "start": "2014-09-17T14:08:53Z"
+          },
+          "identifikatorverdi": "437643"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${}/administrasjon/kodeverk/ansvar/systemid/437643"
+            }
+          ]
+        }
+      },
+      {
+        "gyldighetsperiode": {
+          "slutt": "2099-12-01T00:00:00Z",
+          "start": "2014-08-07T10:22:31Z"
+        },
+        "kode": "322415",
+        "navn": "Avdeling for kurs",
+        "systemId": {
+          "gyldighetsperiode": {
+            "slutt": "2099-12-01T00:00:00Z",
+            "start": "2014-08-07T10:22:31Z"
+          },
+          "identifikatorverdi": "436785"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${}/administrasjon/kodeverk/ansvar/systemid/436785"
+            }
+          ]
+        }
+      },
+      {
+        "gyldighetsperiode": {
+          "slutt": "2099-12-01T00:00:00Z",
+          "start": "2014-09-17T15:21:00Z"
+        },
+        "kode": "3213",
+        "navn": "Seksjon for fagopplæring",
+        "systemId": {
+          "gyldighetsperiode": {
+            "slutt": "2099-12-01T00:00:00Z",
+            "start": "2014-09-17T15:21:00Z"
+          },
+          "identifikatorverdi": "437689"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${}/administrasjon/kodeverk/ansvar/systemid/437689"
+            }
+          ]
+        }
+      },
+      {
+        "gyldighetsperiode": {
+          "slutt": "2099-12-01T00:00:00Z",
+          "start": "2014-12-23T11:33:40Z"
+        },
+        "kode": "3635",
+        "navn": "IT - seksjonen",
+        "systemId": {
+          "gyldighetsperiode": {
+            "slutt": "2099-12-01T00:00:00Z",
+            "start": "2014-12-23T11:33:40Z"
+          },
+          "identifikatorverdi": "437685"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${}/administrasjon/kodeverk/ansvar/systemid/437685"
+            }
+          ]
+        }
+      },
+      {
+        "gyldighetsperiode": {
+          "slutt": "2099-12-01T00:00:00Z",
+          "start": "2015-07-02T13:16:30Z"
+        },
+        "kode": "362002",
+        "navn": "Faggruppe HR",
+        "systemId": {
+          "gyldighetsperiode": {
+            "slutt": "2099-12-01T00:00:00Z",
+            "start": "2015-07-02T13:16:30Z"
+          },
+          "identifikatorverdi": "870756"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${}/administrasjon/kodeverk/ansvar/systemid/870756"
+            }
+          ]
+        }
+      },
+      {
+        "gyldighetsperiode": {
+          "slutt": "2099-12-01T00:00:00Z",
+          "start": "2017-01-01T00:00:00Z"
+        },
+        "kode": "323010",
+        "navn": "Avdeling for Hverdagslivstrening",
+        "systemId": {
+          "gyldighetsperiode": {
+            "slutt": "2099-12-01T00:00:00Z",
+            "start": "2017-01-01T00:00:00Z"
+          },
+          "identifikatorverdi": "914916"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${}/administrasjon/kodeverk/ansvar/systemid/914916"
+            }
+          ]
+        }
+      },
+      {
+        "gyldighetsperiode": {
+          "slutt": "2099-12-01T00:00:00Z",
+          "start": "2016-02-01T08:59:37Z"
+        },
+        "kode": "322311",
+        "navn": "Avdeling for studiespes. - Fremmedspråk",
+        "systemId": {
+          "gyldighetsperiode": {
+            "slutt": "2099-12-01T00:00:00Z",
+            "start": "2016-02-01T08:59:37Z"
+          },
+          "identifikatorverdi": "436158"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${}/administrasjon/kodeverk/ansvar/systemid/436158"
+            }
+          ]
+        }
+      },
+      {
+        "gyldighetsperiode": {
+          "slutt": "2099-12-01T00:00:00Z",
+          "start": "2013-12-01T00:00:00Z"
+        },
+        "kode": "323004",
+        "navn": "Avdeling for Helse og oppvekstfag og Restaurant og matfag",
+        "systemId": {
+          "gyldighetsperiode": {
+            "slutt": "2099-12-01T00:00:00Z",
+            "start": "2013-12-01T00:00:00Z"
+          },
+          "identifikatorverdi": "391703"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${}/administrasjon/kodeverk/ansvar/systemid/391703"
+            }
+          ]
+        }
+      },
+      {
+        "gyldighetsperiode": {
+          "slutt": "2099-12-01T00:00:00Z",
+          "start": "2013-12-01T00:00:00Z"
+        },
+        "kode": "9112",
+        "navn": "Konsesjonskraft",
+        "systemId": {
+          "gyldighetsperiode": {
+            "slutt": "2099-12-01T00:00:00Z",
+            "start": "2013-12-01T00:00:00Z"
+          },
+          "identifikatorverdi": "416645"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${}/administrasjon/kodeverk/ansvar/systemid/416645"
+            }
+          ]
+        }
+      },
+      {
+        "gyldighetsperiode": {
+          "slutt": "2016-12-01T00:00:00Z",
+          "start": "2013-12-01T00:00:00Z"
+        },
+        "kode": "3260",
+        "navn": "Lister videregående skole",
+        "systemId": {
+          "gyldighetsperiode": {
+            "slutt": "2016-12-01T00:00:00Z",
+            "start": "2013-12-01T00:00:00Z"
+          },
+          "identifikatorverdi": "416636"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${}/administrasjon/kodeverk/ansvar/systemid/416636"
+            }
+          ]
+        }
+      },
+      {
+        "gyldighetsperiode": {
+          "slutt": "2099-12-01T00:00:00Z",
+          "start": "2013-12-01T00:00:00Z"
+        },
+        "kode": "322805",
+        "navn": "Avdeling for karriereveiledning",
+        "systemId": {
+          "gyldighetsperiode": {
+            "slutt": "2099-12-01T00:00:00Z",
+            "start": "2013-12-01T00:00:00Z"
+          },
+          "identifikatorverdi": "391053"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${}/administrasjon/kodeverk/ansvar/systemid/391053"
+            }
+          ]
+        }
+      },
+      {
+        "gyldighetsperiode": {
+          "slutt": "2099-12-01T00:00:00Z",
+          "start": "2013-12-01T00:00:00Z"
+        },
+        "kode": "3230",
+        "navn": "Mandal videregående skole",
+        "systemId": {
+          "gyldighetsperiode": {
+            "slutt": "2099-12-01T00:00:00Z",
+            "start": "2013-12-01T00:00:00Z"
+          },
+          "identifikatorverdi": "416633"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${}/administrasjon/kodeverk/ansvar/systemid/416633"
+            }
+          ]
+        }
+      },
+      {
+        "gyldighetsperiode": {
+          "slutt": "2099-12-01T00:00:00Z",
+          "start": "2016-01-01T00:00:00Z"
+        },
+        "kode": "324042",
+        "navn": "Avdeling for LYN BA, TP, filologfag og kroppsøving",
+        "systemId": {
+          "gyldighetsperiode": {
+            "slutt": "2099-12-01T00:00:00Z",
+            "start": "2016-01-01T00:00:00Z"
+          },
+          "identifikatorverdi": "903595"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${}/administrasjon/kodeverk/ansvar/systemid/903595"
+            }
+          ]
+        }
+      },
+      {
+        "gyldighetsperiode": {
+          "slutt": "2099-12-01T00:00:00Z",
+          "start": "2013-12-01T00:00:00Z"
+        },
+        "kode": "3224",
+        "navn": "Kvadraturen skolesenter",
+        "systemId": {
+          "gyldighetsperiode": {
+            "slutt": "2099-12-01T00:00:00Z",
+            "start": "2013-12-01T00:00:00Z"
+          },
+          "identifikatorverdi": "416629"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${}/administrasjon/kodeverk/ansvar/systemid/416629"
+            }
+          ]
+        }
+      },
+      {
+        "gyldighetsperiode": {
+          "slutt": "2099-12-01T00:00:00Z",
+          "start": "2013-12-01T00:00:00Z"
+        },
+        "kode": "322102",
+        "navn": "Avdeling for drift og miljø",
+        "systemId": {
+          "gyldighetsperiode": {
+            "slutt": "2099-12-01T00:00:00Z",
+            "start": "2013-12-01T00:00:00Z"
+          },
+          "identifikatorverdi": "411877"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${}/administrasjon/kodeverk/ansvar/systemid/411877"
+            }
+          ]
+        }
+      },
+      {
+        "gyldighetsperiode": {
+          "slutt": "2099-12-01T00:00:00Z",
+          "start": "2013-12-01T00:00:00Z"
+        },
+        "kode": "322408",
+        "navn": "Avdeling for ST - Studiespesialisering",
+        "systemId": {
+          "gyldighetsperiode": {
+            "slutt": "2099-12-01T00:00:00Z",
+            "start": "2013-12-01T00:00:00Z"
+          },
+          "identifikatorverdi": "413901"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${}/administrasjon/kodeverk/ansvar/systemid/413901"
+            }
+          ]
+        }
+      },
+      {
+        "gyldighetsperiode": {
+          "slutt": "2099-12-01T00:00:00Z",
+          "start": "2013-12-01T00:00:00Z"
+        },
+        "kode": "322306",
+        "navn": "Avdeling for service og samferdsel",
+        "systemId": {
+          "gyldighetsperiode": {
+            "slutt": "2099-12-01T00:00:00Z",
+            "start": "2013-12-01T00:00:00Z"
+          },
+          "identifikatorverdi": "411886"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${}/administrasjon/kodeverk/ansvar/systemid/411886"
+            }
+          ]
+        }
+      },
+      {
+        "gyldighetsperiode": {
+          "slutt": "2016-12-01T00:00:00Z",
+          "start": "2013-12-01T00:00:00Z"
+        },
+        "kode": "326018",
+        "navn": "UTGÅTT - Avdeling for ST (språk, samf. og økonomi) og ST med formgiving [FLE]",
+        "systemId": {
+          "gyldighetsperiode": {
+            "slutt": "2016-12-01T00:00:00Z",
+            "start": "2013-12-01T00:00:00Z"
+          },
+          "identifikatorverdi": "391730"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${}/administrasjon/kodeverk/ansvar/systemid/391730"
+            }
+          ]
+        }
+      },
+      {
+        "gyldighetsperiode": {
+          "slutt": "2016-12-01T00:00:00Z",
+          "start": "2013-12-01T00:00:00Z"
+        },
+        "kode": "326008",
+        "navn": "UTGÅTT - Avdeling for Karriereveiledning",
+        "systemId": {
+          "gyldighetsperiode": {
+            "slutt": "2016-12-01T00:00:00Z",
+            "start": "2013-12-01T00:00:00Z"
+          },
+          "identifikatorverdi": "391720"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${}/administrasjon/kodeverk/ansvar/systemid/391720"
+            }
+          ]
+        }
+      },
+      {
+        "gyldighetsperiode": {
+          "slutt": "2099-12-01T00:00:00Z",
+          "start": "2013-12-01T00:00:00Z"
+        },
+        "kode": "3420",
+        "navn": "Seksjon for samferdsel",
+        "systemId": {
+          "gyldighetsperiode": {
+            "slutt": "2099-12-01T00:00:00Z",
+            "start": "2013-12-01T00:00:00Z"
+          },
+          "identifikatorverdi": "416638"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${}/administrasjon/kodeverk/ansvar/systemid/416638"
+            }
+          ]
+        }
+      },
+      {
+        "gyldighetsperiode": {
+          "slutt": "2099-12-01T00:00:00Z",
+          "start": "2013-12-01T00:00:00Z"
+        },
+        "kode": "9111",
+        "navn": "Rammetilskudd",
+        "systemId": {
+          "gyldighetsperiode": {
+            "slutt": "2099-12-01T00:00:00Z",
+            "start": "2013-12-01T00:00:00Z"
+          },
+          "identifikatorverdi": "416644"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${}/administrasjon/kodeverk/ansvar/systemid/416644"
+            }
+          ]
+        }
+      },
+      {
+        "gyldighetsperiode": {
+          "slutt": "2099-12-01T00:00:00Z",
+          "start": "2013-12-01T00:00:00Z"
+        },
+        "kode": "322305",
+        "navn": "Avdeling for medier og kommunikasjon",
+        "systemId": {
+          "gyldighetsperiode": {
+            "slutt": "2099-12-01T00:00:00Z",
+            "start": "2013-12-01T00:00:00Z"
+          },
+          "identifikatorverdi": "411885"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${}/administrasjon/kodeverk/ansvar/systemid/411885"
+            }
+          ]
+        }
+      },
+      {
+        "gyldighetsperiode": {
+          "slutt": "2099-12-01T00:00:00Z",
+          "start": "2013-12-01T00:00:00Z"
+        },
+        "kode": "321503",
+        "navn": "Ungdomsavdelingen - VGO",
+        "systemId": {
+          "gyldighetsperiode": {
+            "slutt": "2099-12-01T00:00:00Z",
+            "start": "2013-12-01T00:00:00Z"
+          },
+          "identifikatorverdi": "411873"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${}/administrasjon/kodeverk/ansvar/systemid/411873"
+            }
+          ]
+        }
+      },
+      {
+        "gyldighetsperiode": {
+          "slutt": "2099-12-01T00:00:00Z",
+          "start": "2013-12-01T00:00:00Z"
+        },
+        "kode": "322302",
+        "navn": "Avdeling for merkantile tjenester",
+        "systemId": {
+          "gyldighetsperiode": {
+            "slutt": "2099-12-01T00:00:00Z",
+            "start": "2013-12-01T00:00:00Z"
+          },
+          "identifikatorverdi": "411882"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${}/administrasjon/kodeverk/ansvar/systemid/411882"
+            }
+          ]
+        }
+      },
+      {
+        "gyldighetsperiode": {
+          "slutt": "2099-12-01T00:00:00Z",
+          "start": "2013-12-01T00:00:00Z"
+        },
+        "kode": "3215",
+        "navn": "SMI skolen",
+        "systemId": {
+          "gyldighetsperiode": {
+            "slutt": "2099-12-01T00:00:00Z",
+            "start": "2013-12-01T00:00:00Z"
+          },
+          "identifikatorverdi": "416626"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${}/administrasjon/kodeverk/ansvar/systemid/416626"
+            }
+          ]
+        }
+      },
+      {
+        "gyldighetsperiode": {
+          "slutt": "2099-12-01T00:00:00Z",
+          "start": "2016-01-01T00:00:00Z"
+        },
+        "kode": "325031",
+        "navn": "Avdeling for KVI RM, SS,  RM/SS-arbeidsliv og drift og miljø",
+        "systemId": {
+          "gyldighetsperiode": {
+            "slutt": "2099-12-01T00:00:00Z",
+            "start": "2016-01-01T00:00:00Z"
+          },
+          "identifikatorverdi": "903606"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${}/administrasjon/kodeverk/ansvar/systemid/903606"
+            }
+          ]
+        }
+      },
+      {
+        "gyldighetsperiode": {
+          "slutt": "2099-12-01T00:00:00Z",
+          "start": "2013-12-01T00:00:00Z"
+        },
+        "kode": "322703",
+        "navn": "Avdeling for restaurant og matfag",
+        "systemId": {
+          "gyldighetsperiode": {
+            "slutt": "2099-12-01T00:00:00Z",
+            "start": "2013-12-01T00:00:00Z"
+          },
+          "identifikatorverdi": "429785"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${}/administrasjon/kodeverk/ansvar/systemid/429785"
+            }
+          ]
+        }
+      },
+      {
+        "gyldighetsperiode": {
+          "slutt": "2099-12-01T00:00:00Z",
+          "start": "2015-07-02T13:16:30Z"
+        },
+        "kode": "362004",
+        "navn": "Faggruppe HMS",
+        "systemId": {
+          "gyldighetsperiode": {
+            "slutt": "2099-12-01T00:00:00Z",
+            "start": "2015-07-02T13:16:30Z"
+          },
+          "identifikatorverdi": "870758"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${}/administrasjon/kodeverk/ansvar/systemid/870758"
+            }
+          ]
+        }
+      },
+      {
+        "gyldighetsperiode": {
+          "slutt": "2099-12-01T00:00:00Z",
+          "start": "2013-12-01T00:00:00Z"
+        },
+        "kode": "9231",
+        "navn": "Aksjer",
+        "systemId": {
+          "gyldighetsperiode": {
+            "slutt": "2099-12-01T00:00:00Z",
+            "start": "2013-12-01T00:00:00Z"
+          },
+          "identifikatorverdi": "416658"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${}/administrasjon/kodeverk/ansvar/systemid/416658"
+            }
+          ]
+        }
+      },
+      {
+        "gyldighetsperiode": {
+          "slutt": "2099-12-01T00:00:00Z",
+          "start": "2014-09-17T14:08:54Z"
+        },
+        "kode": "33052",
+        "navn": "Flekkefjord tannklinikk",
+        "systemId": {
+          "gyldighetsperiode": {
+            "slutt": "2099-12-01T00:00:00Z",
+            "start": "2014-09-17T14:08:54Z"
+          },
+          "identifikatorverdi": "437648"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${}/administrasjon/kodeverk/ansvar/systemid/437648"
+            }
+          ]
+        }
+      },
+      {
+        "gyldighetsperiode": {
+          "slutt": "2016-12-01T00:00:00Z",
+          "start": "1994-01-01T00:00:00Z"
+        },
+        "kode": "326023",
+        "navn": "Avdeling for FAR ST realfag og kroppsøving",
+        "systemId": {
+          "gyldighetsperiode": {
+            "slutt": "2016-12-01T00:00:00Z",
+            "start": "1994-01-01T00:00:00Z"
+          },
+          "identifikatorverdi": "437758"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${}/administrasjon/kodeverk/ansvar/systemid/437758"
+            }
+          ]
+        }
+      },
+      {
+        "gyldighetsperiode": {
+          "slutt": "2099-12-01T00:00:00Z",
+          "start": "2013-12-01T00:00:00Z"
+        },
+        "kode": "9240",
+        "navn": "Overskudd / underskudd tidligere år",
+        "systemId": {
+          "gyldighetsperiode": {
+            "slutt": "2099-12-01T00:00:00Z",
+            "start": "2013-12-01T00:00:00Z"
+          },
+          "identifikatorverdi": "416659"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${}/administrasjon/kodeverk/ansvar/systemid/416659"
+            }
+          ]
+        }
+      },
+      {
+        "gyldighetsperiode": {
+          "slutt": "2099-12-01T00:00:00Z",
+          "start": "2014-12-23T11:33:40Z"
+        },
+        "kode": "3620",
+        "navn": "Organisasjonsseksjonen",
+        "systemId": {
+          "gyldighetsperiode": {
+            "slutt": "2099-12-01T00:00:00Z",
+            "start": "2014-12-23T11:33:40Z"
+          },
+          "identifikatorverdi": "437682"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${}/administrasjon/kodeverk/ansvar/systemid/437682"
+            }
+          ]
+        }
+      },
+      {
+        "gyldighetsperiode": {
+          "slutt": "2016-12-01T00:00:00Z",
+          "start": "2013-12-01T00:00:00Z"
+        },
+        "kode": "326001",
+        "navn": "Avdeling for FVG Fellestjenester",
+        "systemId": {
+          "gyldighetsperiode": {
+            "slutt": "2016-12-01T00:00:00Z",
+            "start": "2013-12-01T00:00:00Z"
+          },
+          "identifikatorverdi": "391713"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${}/administrasjon/kodeverk/ansvar/systemid/391713"
+            }
+          ]
+        }
+      },
+      {
+        "gyldighetsperiode": {
+          "slutt": "2099-12-01T00:00:00Z",
+          "start": "2016-02-23T12:48:09Z"
+        },
+        "kode": "1051",
+        "navn": "Klagenemnda",
+        "systemId": {
+          "gyldighetsperiode": {
+            "slutt": "2099-12-01T00:00:00Z",
+            "start": "2016-02-23T12:48:09Z"
+          },
+          "identifikatorverdi": "890888"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${}/administrasjon/kodeverk/ansvar/systemid/890888"
+            }
+          ]
+        }
+      },
+      {
+        "gyldighetsperiode": {
+          "slutt": "2099-12-01T00:00:00Z",
+          "start": "2014-09-17T14:08:54Z"
+        },
+        "kode": "33051",
+        "navn": "Lyngdal tannklinikk",
+        "systemId": {
+          "gyldighetsperiode": {
+            "slutt": "2099-12-01T00:00:00Z",
+            "start": "2014-09-17T14:08:54Z"
+          },
+          "identifikatorverdi": "437647"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${}/administrasjon/kodeverk/ansvar/systemid/437647"
+            }
+          ]
+        }
+      },
+      {
+        "gyldighetsperiode": {
+          "slutt": "2099-12-01T00:00:00Z",
+          "start": "2016-01-01T00:00:00Z"
+        },
+        "kode": "325014",
+        "navn": "Avdeling for FLE ST filologfag og bibliotek",
+        "systemId": {
+          "gyldighetsperiode": {
+            "slutt": "2099-12-01T00:00:00Z",
+            "start": "2016-01-01T00:00:00Z"
+          },
+          "identifikatorverdi": "903604"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${}/administrasjon/kodeverk/ansvar/systemid/903604"
+            }
+          ]
+        }
+      },
+      {
+        "gyldighetsperiode": {
+          "slutt": "2099-12-01T00:00:00Z",
+          "start": "2014-12-22T11:07:34Z"
+        },
+        "kode": "362502",
+        "navn": "Faggruppe lønn",
+        "systemId": {
+          "gyldighetsperiode": {
+            "slutt": "2099-12-01T00:00:00Z",
+            "start": "2014-12-22T11:07:34Z"
+          },
+          "identifikatorverdi": "870760"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${}/administrasjon/kodeverk/ansvar/systemid/870760"
+            }
+          ]
+        }
+      },
+      {
+        "gyldighetsperiode": {
+          "slutt": "2099-12-01T00:00:00Z",
+          "start": "2016-04-11T07:47:49Z"
+        },
+        "kode": "33030",
+        "navn": "Slottet tannklinikk",
+        "systemId": {
+          "gyldighetsperiode": {
+            "slutt": "2099-12-01T00:00:00Z",
+            "start": "2016-04-11T07:47:49Z"
+          },
+          "identifikatorverdi": "437637"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${}/administrasjon/kodeverk/ansvar/systemid/437637"
+            }
+          ]
+        }
+      },
+      {
+        "gyldighetsperiode": {
+          "slutt": "2099-12-01T00:00:00Z",
+          "start": "2013-12-01T00:00:00Z"
+        },
+        "kode": "322801",
+        "navn": "Avdeling for drift og økonomi",
+        "systemId": {
+          "gyldighetsperiode": {
+            "slutt": "2099-12-01T00:00:00Z",
+            "start": "2013-12-01T00:00:00Z"
+          },
+          "identifikatorverdi": "391049"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${}/administrasjon/kodeverk/ansvar/systemid/391049"
+            }
+          ]
+        }
+      },
+      {
+        "gyldighetsperiode": {
+          "slutt": "2099-12-01T00:00:00Z",
+          "start": "2016-02-23T12:48:09Z"
+        },
+        "kode": "1052",
+        "navn": "Y-nemnda",
+        "passiv": true,
+        "systemId": {
+          "gyldighetsperiode": {
+            "slutt": "2099-12-01T00:00:00Z",
+            "start": "2016-02-23T12:48:09Z"
+          },
+          "identifikatorverdi": "890889"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${}/administrasjon/kodeverk/ansvar/systemid/890889"
+            }
+          ]
+        }
+      },
+      {
+        "gyldighetsperiode": {
+          "slutt": "2099-12-01T00:00:00Z",
+          "start": "2013-12-01T00:00:00Z"
+        },
+        "kode": "322807",
+        "navn": "Avdeling for norsk og bibliotek",
+        "systemId": {
+          "gyldighetsperiode": {
+            "slutt": "2099-12-01T00:00:00Z",
+            "start": "2013-12-01T00:00:00Z"
+          },
+          "identifikatorverdi": "391684"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${}/administrasjon/kodeverk/ansvar/systemid/391684"
+            }
+          ]
+        }
+      },
+      {
+        "gyldighetsperiode": {
+          "slutt": "2099-12-01T00:00:00Z",
+          "start": "2016-08-01T00:00:00Z"
+        },
+        "kode": "322106",
+        "navn": "Avdeling for kroppsøving og drama",
+        "systemId": {
+          "gyldighetsperiode": {
+            "slutt": "2099-12-01T00:00:00Z",
+            "start": "2016-08-01T00:00:00Z"
+          },
+          "identifikatorverdi": "898435"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${}/administrasjon/kodeverk/ansvar/systemid/898435"
+            }
+          ]
+        }
+      },
+      {
+        "gyldighetsperiode": {
+          "slutt": "2016-12-01T00:00:00Z",
+          "start": "2013-12-01T00:00:00Z"
+        },
+        "kode": "326012",
+        "navn": "Avdeling for FLE KDA, spesialund, hverdags- og arbeidsliv",
+        "systemId": {
+          "gyldighetsperiode": {
+            "slutt": "2016-12-01T00:00:00Z",
+            "start": "2013-12-01T00:00:00Z"
+          },
+          "identifikatorverdi": "391724"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${}/administrasjon/kodeverk/ansvar/systemid/391724"
+            }
+          ]
+        }
+      },
+      {
+        "gyldighetsperiode": {
+          "slutt": "2099-12-01T00:00:00Z",
+          "start": "2013-12-01T00:00:00Z"
+        },
+        "kode": "36",
+        "navn": "Fylkesrådmannens stab",
+        "systemId": {
+          "gyldighetsperiode": {
+            "slutt": "2099-12-01T00:00:00Z",
+            "start": "2013-12-01T00:00:00Z"
+          },
+          "identifikatorverdi": "416609"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${}/administrasjon/kodeverk/ansvar/systemid/416609"
+            }
+          ]
+        }
+      },
+      {
+        "gyldighetsperiode": {
+          "slutt": "2099-12-01T00:00:00Z",
+          "start": "2013-12-01T00:00:00Z"
+        },
+        "kode": "322901",
+        "navn": "Avdeling for arbeidslivstrening",
+        "systemId": {
+          "gyldighetsperiode": {
+            "slutt": "2099-12-01T00:00:00Z",
+            "start": "2013-12-01T00:00:00Z"
+          },
+          "identifikatorverdi": "391690"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${}/administrasjon/kodeverk/ansvar/systemid/391690"
+            }
+          ]
+        }
+      },
+      {
+        "gyldighetsperiode": {
+          "slutt": "2099-12-01T00:00:00Z",
+          "start": "2013-12-01T00:00:00Z"
+        },
+        "kode": "101",
+        "navn": "Fylkesting",
+        "systemId": {
+          "gyldighetsperiode": {
+            "slutt": "2099-12-01T00:00:00Z",
+            "start": "2013-12-01T00:00:00Z"
+          },
+          "identifikatorverdi": "416613"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${}/administrasjon/kodeverk/ansvar/systemid/416613"
+            }
+          ]
+        }
+      },
+      {
+        "gyldighetsperiode": {
+          "slutt": "2099-12-01T00:00:00Z",
+          "start": "2013-12-01T00:00:00Z"
+        },
+        "kode": "322412",
+        "navn": "Avdeling for HT - Hverdagslivstrening",
+        "systemId": {
+          "gyldighetsperiode": {
+            "slutt": "2099-12-01T00:00:00Z",
+            "start": "2013-12-01T00:00:00Z"
+          },
+          "identifikatorverdi": "391043"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${}/administrasjon/kodeverk/ansvar/systemid/391043"
+            }
+          ]
+        }
+      },
+      {
+        "gyldighetsperiode": {
+          "slutt": "2099-12-01T00:00:00Z",
+          "start": "2016-01-01T00:00:00Z"
+        },
+        "kode": "324051",
+        "navn": "Avdeling for LIS DH, EL, SS, fellesfag og spesialund.",
+        "systemId": {
+          "gyldighetsperiode": {
+            "slutt": "2099-12-01T00:00:00Z",
+            "start": "2016-01-01T00:00:00Z"
+          },
+          "identifikatorverdi": "903596"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${}/administrasjon/kodeverk/ansvar/systemid/903596"
+            }
+          ]
+        }
+      },
+      {
+        "gyldighetsperiode": {
+          "slutt": "2099-12-01T00:00:00Z",
+          "start": "2013-12-01T00:00:00Z"
+        },
+        "kode": "322802",
+        "navn": "Avdeling for arbeidslivstrening og hverdagslivstrening",
+        "systemId": {
+          "gyldighetsperiode": {
+            "slutt": "2099-12-01T00:00:00Z",
+            "start": "2013-12-01T00:00:00Z"
+          },
+          "identifikatorverdi": "391050"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${}/administrasjon/kodeverk/ansvar/systemid/391050"
+            }
+          ]
+        }
+      },
+      {
+        "gyldighetsperiode": {
+          "slutt": "2099-12-01T00:00:00Z",
+          "start": "2014-12-22T11:07:34Z"
+        },
+        "kode": "362501",
+        "navn": "Faggruppe regnskap",
+        "systemId": {
+          "gyldighetsperiode": {
+            "slutt": "2099-12-01T00:00:00Z",
+            "start": "2014-12-22T11:07:34Z"
+          },
+          "identifikatorverdi": "870759"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${}/administrasjon/kodeverk/ansvar/systemid/870759"
+            }
+          ]
+        }
+      },
+      {
+        "gyldighetsperiode": {
+          "slutt": "2099-12-01T00:00:00Z",
+          "start": "2013-12-01T00:00:00Z"
+        },
+        "kode": "323008",
+        "navn": "Avdeling for Språk, samfunnsfag og økonomi",
+        "systemId": {
+          "gyldighetsperiode": {
+            "slutt": "2099-12-01T00:00:00Z",
+            "start": "2013-12-01T00:00:00Z"
+          },
+          "identifikatorverdi": "391707"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${}/administrasjon/kodeverk/ansvar/systemid/391707"
+            }
+          ]
+        }
+      },
+      {
+        "gyldighetsperiode": {
+          "slutt": "2016-12-01T00:00:00Z",
+          "start": "2013-12-01T00:00:00Z"
+        },
+        "kode": "326014",
+        "navn": "Avdeling for FLE ST filologfag og bibliotek",
+        "systemId": {
+          "gyldighetsperiode": {
+            "slutt": "2016-12-01T00:00:00Z",
+            "start": "2013-12-01T00:00:00Z"
+          },
+          "identifikatorverdi": "391726"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${}/administrasjon/kodeverk/ansvar/systemid/391726"
+            }
+          ]
+        }
+      },
+      {
+        "gyldighetsperiode": {
+          "slutt": "2099-12-01T00:00:00Z",
+          "start": "2013-12-01T00:00:00Z"
+        },
+        "kode": "3228",
+        "navn": "Kristiansand Katedralskole Gimle",
+        "systemId": {
+          "gyldighetsperiode": {
+            "slutt": "2099-12-01T00:00:00Z",
+            "start": "2013-12-01T00:00:00Z"
+          },
+          "identifikatorverdi": "416631"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${}/administrasjon/kodeverk/ansvar/systemid/416631"
+            }
+          ]
+        }
+      },
+      {
+        "gyldighetsperiode": {
+          "slutt": "2099-12-01T00:00:00Z",
+          "start": "2013-12-01T00:00:00Z"
+        },
+        "kode": "102",
+        "navn": "Fylkesutvalg",
+        "systemId": {
+          "gyldighetsperiode": {
+            "slutt": "2099-12-01T00:00:00Z",
+            "start": "2013-12-01T00:00:00Z"
+          },
+          "identifikatorverdi": "416614"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${}/administrasjon/kodeverk/ansvar/systemid/416614"
+            }
+          ]
+        }
+      },
+      {
+        "gyldighetsperiode": {
+          "slutt": "2099-12-01T00:00:00Z",
+          "start": "2014-12-18T16:07:47Z"
+        },
+        "kode": "330",
+        "navn": "Fylkestannhelsesjefens stab",
+        "systemId": {
+          "gyldighetsperiode": {
+            "slutt": "2099-12-01T00:00:00Z",
+            "start": "2014-12-18T16:07:47Z"
+          },
+          "identifikatorverdi": "437634"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${}/administrasjon/kodeverk/ansvar/systemid/437634"
+            }
+          ]
+        }
+      },
+      {
+        "gyldighetsperiode": {
+          "slutt": "2099-12-01T00:00:00Z",
+          "start": "2013-12-01T00:00:00Z"
+        },
+        "kode": "322409",
+        "navn": "Avdeling for PB - Påbygg",
+        "systemId": {
+          "gyldighetsperiode": {
+            "slutt": "2099-12-01T00:00:00Z",
+            "start": "2013-12-01T00:00:00Z"
+          },
+          "identifikatorverdi": "413902"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${}/administrasjon/kodeverk/ansvar/systemid/413902"
+            }
+          ]
+        }
+      },
+      {
+        "gyldighetsperiode": {
+          "slutt": "2099-12-01T00:00:00Z",
+          "start": "2013-12-01T00:00:00Z"
+        },
+        "kode": "9310",
+        "navn": "Diverse felles inntekter/utgifter",
+        "systemId": {
+          "gyldighetsperiode": {
+            "slutt": "2099-12-01T00:00:00Z",
+            "start": "2013-12-01T00:00:00Z"
+          },
+          "identifikatorverdi": "416664"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${}/administrasjon/kodeverk/ansvar/systemid/416664"
+            }
+          ]
+        }
+      },
+      {
+        "gyldighetsperiode": {
+          "slutt": "2016-12-01T00:00:00Z",
+          "start": "1994-01-01T00:00:00Z"
+        },
+        "kode": "326052",
+        "navn": "Avdeling for LIS Drift og miljø, TP",
+        "systemId": {
+          "gyldighetsperiode": {
+            "slutt": "2016-12-01T00:00:00Z",
+            "start": "1994-01-01T00:00:00Z"
+          },
+          "identifikatorverdi": "437765"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${}/administrasjon/kodeverk/ansvar/systemid/437765"
+            }
+          ]
+        }
+      },
+      {
+        "gyldighetsperiode": {
+          "slutt": "2099-12-01T00:00:00Z",
+          "start": "2013-12-01T00:00:00Z"
+        },
+        "kode": "322809",
+        "navn": "Avdeling for samfunnsfag",
+        "systemId": {
+          "gyldighetsperiode": {
+            "slutt": "2099-12-01T00:00:00Z",
+            "start": "2013-12-01T00:00:00Z"
+          },
+          "identifikatorverdi": "391686"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${}/administrasjon/kodeverk/ansvar/systemid/391686"
+            }
+          ]
+        }
+      },
+      {
+        "gyldighetsperiode": {
+          "slutt": "2099-12-01T00:00:00Z",
+          "start": "2013-12-01T00:00:00Z"
+        },
+        "kode": "323009",
+        "navn": "Avdeling for Service og samferdsel og Kontor",
+        "systemId": {
+          "gyldighetsperiode": {
+            "slutt": "2099-12-01T00:00:00Z",
+            "start": "2013-12-01T00:00:00Z"
+          },
+          "identifikatorverdi": "885954"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${}/administrasjon/kodeverk/ansvar/systemid/885954"
+            }
+          ]
+        }
+      },
+      {
+        "gyldighetsperiode": {
+          "slutt": "2099-12-01T00:00:00Z",
+          "start": "2013-12-01T00:00:00Z"
+        },
+        "kode": "322704",
+        "navn": "Avdeling for design og håndverk",
+        "systemId": {
+          "gyldighetsperiode": {
+            "slutt": "2099-12-01T00:00:00Z",
+            "start": "2013-12-01T00:00:00Z"
+          },
+          "identifikatorverdi": "391045"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${}/administrasjon/kodeverk/ansvar/systemid/391045"
+            }
+          ]
+        }
+      },
+      {
+        "gyldighetsperiode": {
+          "slutt": "2099-12-01T00:00:00Z",
+          "start": "2013-12-01T00:00:00Z"
+        },
+        "kode": "32",
+        "navn": "Opplæringsavdelingen felles",
+        "systemId": {
+          "gyldighetsperiode": {
+            "slutt": "2099-12-01T00:00:00Z",
+            "start": "2013-12-01T00:00:00Z"
+          },
+          "identifikatorverdi": "416607"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${}/administrasjon/kodeverk/ansvar/systemid/416607"
+            }
+          ]
+        }
+      },
+      {
+        "gyldighetsperiode": {
+          "slutt": "2099-12-01T00:00:00Z",
+          "start": "2013-12-01T00:00:00Z"
+        },
+        "kode": "9215",
+        "navn": "Fordelte avdrag",
+        "systemId": {
+          "gyldighetsperiode": {
+            "slutt": "2099-12-01T00:00:00Z",
+            "start": "2013-12-01T00:00:00Z"
+          },
+          "identifikatorverdi": "416655"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${}/administrasjon/kodeverk/ansvar/systemid/416655"
+            }
+          ]
+        }
+      },
+      {
+        "gyldighetsperiode": {
+          "slutt": "2099-12-01T00:00:00Z",
+          "start": "2014-08-26T12:48:17Z"
+        },
+        "kode": "322310",
+        "navn": "Avdeling for studiespes. - Norsk og samfunnsfag",
+        "systemId": {
+          "gyldighetsperiode": {
+            "slutt": "2099-12-01T00:00:00Z",
+            "start": "2014-08-26T12:48:17Z"
+          },
+          "identifikatorverdi": "436157"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${}/administrasjon/kodeverk/ansvar/systemid/436157"
+            }
+          ]
+        }
+      },
+      {
+        "gyldighetsperiode": {
+          "slutt": "2016-12-01T00:00:00Z",
+          "start": "2013-12-01T00:00:00Z"
+        },
+        "kode": "326016",
+        "navn": "UTGÅTT - Avdeling for ST (samf og økonomi) og renhold [EIL]",
+        "systemId": {
+          "gyldighetsperiode": {
+            "slutt": "2016-12-01T00:00:00Z",
+            "start": "2013-12-01T00:00:00Z"
+          },
+          "identifikatorverdi": "391728"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${}/administrasjon/kodeverk/ansvar/systemid/391728"
+            }
+          ]
+        }
+      },
+      {
+        "gyldighetsperiode": {
+          "slutt": "2099-12-01T00:00:00Z",
+          "start": "2016-01-01T00:00:00Z"
+        },
+        "kode": "325001",
+        "navn": "Avdeling for FVG Administrasjon og fellestjenester",
+        "systemId": {
+          "gyldighetsperiode": {
+            "slutt": "2099-12-01T00:00:00Z",
+            "start": "2016-01-01T00:00:00Z"
+          },
+          "identifikatorverdi": "903600"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${}/administrasjon/kodeverk/ansvar/systemid/903600"
+            }
+          ]
+        }
+      },
+      {
+        "gyldighetsperiode": {
+          "slutt": "2099-12-01T00:00:00Z",
+          "start": "2014-09-17T14:08:53Z"
+        },
+        "kode": "33040",
+        "navn": "Søgne tannklinikk",
+        "systemId": {
+          "gyldighetsperiode": {
+            "slutt": "2099-12-01T00:00:00Z",
+            "start": "2014-09-17T14:08:53Z"
+          },
+          "identifikatorverdi": "437642"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${}/administrasjon/kodeverk/ansvar/systemid/437642"
+            }
+          ]
+        }
+      },
+      {
+        "gyldighetsperiode": {
+          "slutt": "2099-12-01T00:00:00Z",
+          "start": "2014-12-22T11:07:35Z"
+        },
+        "kode": "363502",
+        "navn": "Faggruppe IT infrastruktur",
+        "systemId": {
+          "gyldighetsperiode": {
+            "slutt": "2099-12-01T00:00:00Z",
+            "start": "2014-12-22T11:07:35Z"
+          },
+          "identifikatorverdi": "870763"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${}/administrasjon/kodeverk/ansvar/systemid/870763"
+            }
+          ]
+        }
+      },
+      {
+        "gyldighetsperiode": {
+          "slutt": "2099-12-01T00:00:00Z",
+          "start": "2015-01-15T16:35:05Z"
+        },
+        "kode": "363503",
+        "navn": "Faggruppe digitalisering og systemforvaltning",
+        "systemId": {
+          "gyldighetsperiode": {
+            "slutt": "2099-12-01T00:00:00Z",
+            "start": "2015-01-15T16:35:05Z"
+          },
+          "identifikatorverdi": "870764"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${}/administrasjon/kodeverk/ansvar/systemid/870764"
+            }
+          ]
+        }
+      },
+      {
+        "gyldighetsperiode": {
+          "slutt": "2099-12-01T00:00:00Z",
+          "start": "2013-12-01T00:00:00Z"
+        },
+        "kode": "322404",
+        "navn": "Avdeling for kantine",
+        "systemId": {
+          "gyldighetsperiode": {
+            "slutt": "2099-12-01T00:00:00Z",
+            "start": "2013-12-01T00:00:00Z"
+          },
+          "identifikatorverdi": "391041"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${}/administrasjon/kodeverk/ansvar/systemid/391041"
+            }
+          ]
+        }
+      },
+      {
+        "gyldighetsperiode": {
+          "slutt": "2016-12-01T00:00:00Z",
+          "start": "1994-01-01T00:00:00Z"
+        },
+        "kode": "326090",
+        "navn": "Avdeling for Karriere Lister",
+        "systemId": {
+          "gyldighetsperiode": {
+            "slutt": "2016-12-01T00:00:00Z",
+            "start": "1994-01-01T00:00:00Z"
+          },
+          "identifikatorverdi": "437766"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${}/administrasjon/kodeverk/ansvar/systemid/437766"
+            }
+          ]
+        }
+      },
+      {
+        "gyldighetsperiode": {
+          "slutt": "2099-12-01T00:00:00Z",
+          "start": "2017-01-01T00:00:00Z"
+        },
+        "kode": "322420",
+        "navn": "Avdeling for ST - Studiespesialisering - Ingeniørveien",
+        "systemId": {
+          "gyldighetsperiode": {
+            "slutt": "2099-12-01T00:00:00Z",
+            "start": "2017-01-01T00:00:00Z"
+          },
+          "identifikatorverdi": "915041"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${}/administrasjon/kodeverk/ansvar/systemid/915041"
+            }
+          ]
+        }
+      },
+      {
+        "gyldighetsperiode": {
+          "slutt": "2099-12-01T00:00:00Z",
+          "start": "2013-12-01T00:00:00Z"
+        },
+        "kode": "322402",
+        "navn": "Avdeling for elevtjenester",
+        "systemId": {
+          "gyldighetsperiode": {
+            "slutt": "2099-12-01T00:00:00Z",
+            "start": "2013-12-01T00:00:00Z"
+          },
+          "identifikatorverdi": "391039"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${}/administrasjon/kodeverk/ansvar/systemid/391039"
+            }
+          ]
+        }
+      },
+      {
+        "gyldighetsperiode": {
+          "slutt": "2099-12-01T00:00:00Z",
+          "start": "2014-12-22T11:07:35Z"
+        },
+        "kode": "362503",
+        "navn": "Faggruppe budsjett",
+        "systemId": {
+          "gyldighetsperiode": {
+            "slutt": "2099-12-01T00:00:00Z",
+            "start": "2014-12-22T11:07:35Z"
+          },
+          "identifikatorverdi": "870761"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${}/administrasjon/kodeverk/ansvar/systemid/870761"
+            }
+          ]
+        }
+      },
+      {
+        "gyldighetsperiode": {
+          "slutt": "2099-12-01T00:00:00Z",
+          "start": "2013-12-01T00:00:00Z"
+        },
+        "kode": "323002",
+        "navn": "Avdeling for Byggfag, Tekn. og industriell produksjon og Elektrofag",
+        "systemId": {
+          "gyldighetsperiode": {
+            "slutt": "2099-12-01T00:00:00Z",
+            "start": "2013-12-01T00:00:00Z"
+          },
+          "identifikatorverdi": "391701"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${}/administrasjon/kodeverk/ansvar/systemid/391701"
+            }
+          ]
+        }
+      },
+      {
+        "gyldighetsperiode": {
+          "slutt": "2099-12-01T00:00:00Z",
+          "start": "2013-12-01T00:00:00Z"
+        },
+        "kode": "323007",
+        "navn": "Avdeling for Realfag og Idrett",
+        "systemId": {
+          "gyldighetsperiode": {
+            "slutt": "2099-12-01T00:00:00Z",
+            "start": "2013-12-01T00:00:00Z"
+          },
+          "identifikatorverdi": "391706"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${}/administrasjon/kodeverk/ansvar/systemid/391706"
+            }
+          ]
+        }
+      },
+      {
+        "gyldighetsperiode": {
+          "slutt": "2099-12-01T00:00:00Z",
+          "start": "2013-12-01T00:00:00Z"
+        },
+        "kode": "322104",
+        "navn": "Avdeling for musikk og dans",
+        "systemId": {
+          "gyldighetsperiode": {
+            "slutt": "2099-12-01T00:00:00Z",
+            "start": "2013-12-01T00:00:00Z"
+          },
+          "identifikatorverdi": "411879"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${}/administrasjon/kodeverk/ansvar/systemid/411879"
+            }
+          ]
+        }
+      },
+      {
+        "gyldighetsperiode": {
+          "slutt": "2099-12-01T00:00:00Z",
+          "start": "2013-12-01T00:00:00Z"
+        },
+        "kode": "322910",
+        "navn": "Avdeling for teknikk og industriell produksjon",
+        "systemId": {
+          "gyldighetsperiode": {
+            "slutt": "2099-12-01T00:00:00Z",
+            "start": "2013-12-01T00:00:00Z"
+          },
+          "identifikatorverdi": "391699"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${}/administrasjon/kodeverk/ansvar/systemid/391699"
+            }
+          ]
+        }
+      },
+      {
+        "gyldighetsperiode": {
+          "slutt": "2099-12-01T00:00:00Z",
+          "start": "2013-12-01T00:00:00Z"
+        },
+        "kode": "3229",
+        "navn": "Søgne videregående skole",
+        "systemId": {
+          "gyldighetsperiode": {
+            "slutt": "2099-12-01T00:00:00Z",
+            "start": "2013-12-01T00:00:00Z"
+          },
+          "identifikatorverdi": "416632"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${}/administrasjon/kodeverk/ansvar/systemid/416632"
+            }
+          ]
+        }
+      },
+      {
+        "gyldighetsperiode": {
+          "slutt": "2016-12-01T00:00:00Z",
+          "start": "2013-12-01T00:00:00Z"
+        },
+        "kode": "326019",
+        "navn": "UTGÅTT - Avdeling for stab og ledelse",
+        "systemId": {
+          "gyldighetsperiode": {
+            "slutt": "2016-12-01T00:00:00Z",
+            "start": "2013-12-01T00:00:00Z"
+          },
+          "identifikatorverdi": "391731"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${}/administrasjon/kodeverk/ansvar/systemid/391731"
+            }
+          ]
+        }
+      },
+      {
+        "gyldighetsperiode": {
+          "slutt": "2099-12-01T00:00:00Z",
+          "start": "2013-12-01T00:00:00Z"
+        },
+        "kode": "322804",
+        "navn": "Avdeling for idrettsfag",
+        "systemId": {
+          "gyldighetsperiode": {
+            "slutt": "2099-12-01T00:00:00Z",
+            "start": "2013-12-01T00:00:00Z"
+          },
+          "identifikatorverdi": "391052"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${}/administrasjon/kodeverk/ansvar/systemid/391052"
+            }
+          ]
+        }
+      },
+      {
+        "gyldighetsperiode": {
+          "slutt": "2099-12-01T00:00:00Z",
+          "start": "2015-12-17T08:01:47Z"
+        },
+        "kode": "3211",
+        "navn": "Seksjon for plan og utvikling",
+        "systemId": {
+          "gyldighetsperiode": {
+            "slutt": "2099-12-01T00:00:00Z",
+            "start": "2015-12-17T08:01:47Z"
+          },
+          "identifikatorverdi": "891872"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${}/administrasjon/kodeverk/ansvar/systemid/891872"
+            }
+          ]
+        }
+      },
+      {
+        "gyldighetsperiode": {
+          "slutt": "2099-12-01T00:00:00Z",
+          "start": "2013-12-01T00:00:00Z"
+        },
+        "kode": "322705",
+        "navn": "Avdeling for fellesfag",
+        "systemId": {
+          "gyldighetsperiode": {
+            "slutt": "2099-12-01T00:00:00Z",
+            "start": "2013-12-01T00:00:00Z"
+          },
+          "identifikatorverdi": "391046"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${}/administrasjon/kodeverk/ansvar/systemid/391046"
+            }
+          ]
+        }
+      },
+      {
+        "gyldighetsperiode": {
+          "slutt": "2016-06-01T00:00:00Z",
+          "start": "2016-06-08T21:52:10Z"
+        },
+        "kode": "33053",
+        "navn": "Hægebostad tannklinikk",
+        "systemId": {
+          "gyldighetsperiode": {
+            "slutt": "2016-06-01T00:00:00Z",
+            "start": "2016-06-08T21:52:10Z"
+          },
+          "identifikatorverdi": "437649"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${}/administrasjon/kodeverk/ansvar/systemid/437649"
+            }
+          ]
+        }
+      },
+      {
+        "gyldighetsperiode": {
+          "slutt": "2099-12-01T00:00:00Z",
+          "start": "2013-12-01T00:00:00Z"
+        },
+        "kode": "9230",
+        "navn": "Utlån",
+        "systemId": {
+          "gyldighetsperiode": {
+            "slutt": "2099-12-01T00:00:00Z",
+            "start": "2013-12-01T00:00:00Z"
+          },
+          "identifikatorverdi": "416657"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${}/administrasjon/kodeverk/ansvar/systemid/416657"
+            }
+          ]
+        }
+      },
+      {
+        "gyldighetsperiode": {
+          "slutt": "2099-12-01T00:00:00Z",
+          "start": "2014-09-17T14:08:53Z"
+        },
+        "kode": "33025",
+        "navn": "SSK - tannklinikken",
+        "systemId": {
+          "gyldighetsperiode": {
+            "slutt": "2099-12-01T00:00:00Z",
+            "start": "2014-09-17T14:08:53Z"
+          },
+          "identifikatorverdi": "437636"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${}/administrasjon/kodeverk/ansvar/systemid/437636"
+            }
+          ]
+        }
+      },
+      {
+        "gyldighetsperiode": {
+          "slutt": "2099-12-01T00:00:00Z",
+          "start": "2013-12-01T00:00:00Z"
+        },
+        "kode": "323001",
+        "navn": "Avdeling for Service, adm. og økonomi",
+        "systemId": {
+          "gyldighetsperiode": {
+            "slutt": "2099-12-01T00:00:00Z",
+            "start": "2013-12-01T00:00:00Z"
+          },
+          "identifikatorverdi": "391700"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${}/administrasjon/kodeverk/ansvar/systemid/391700"
+            }
+          ]
+        }
+      },
+      {
+        "gyldighetsperiode": {
+          "slutt": "2099-12-01T00:00:00Z",
+          "start": "2013-12-01T00:00:00Z"
+        },
+        "kode": "9260",
+        "navn": "Årets resultat",
+        "systemId": {
+          "gyldighetsperiode": {
+            "slutt": "2099-12-01T00:00:00Z",
+            "start": "2013-12-01T00:00:00Z"
+          },
+          "identifikatorverdi": "416663"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${}/administrasjon/kodeverk/ansvar/systemid/416663"
+            }
+          ]
+        }
+      },
+      {
+        "gyldighetsperiode": {
+          "slutt": "2099-12-01T00:00:00Z",
+          "start": "2013-12-01T00:00:00Z"
+        },
+        "kode": "91",
+        "navn": "Frie inntekter / Frie utgifter",
+        "systemId": {
+          "gyldighetsperiode": {
+            "slutt": "2099-12-01T00:00:00Z",
+            "start": "2013-12-01T00:00:00Z"
+          },
+          "identifikatorverdi": "416610"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${}/administrasjon/kodeverk/ansvar/systemid/416610"
+            }
+          ]
+        }
+      },
+      {
+        "gyldighetsperiode": {
+          "slutt": "2099-12-01T00:00:00Z",
+          "start": "2013-12-01T00:00:00Z"
+        },
+        "kode": "3445",
+        "navn": "Seksjon for kultur",
+        "systemId": {
+          "gyldighetsperiode": {
+            "slutt": "2099-12-01T00:00:00Z",
+            "start": "2013-12-01T00:00:00Z"
+          },
+          "identifikatorverdi": "416641"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${}/administrasjon/kodeverk/ansvar/systemid/416641"
+            }
+          ]
+        }
+      },
+      {
+        "gyldighetsperiode": {
+          "slutt": "2099-12-01T00:00:00Z",
+          "start": "2016-01-01T00:00:00Z"
+        },
+        "kode": "325032",
+        "navn": "Avdeling for KVI Spesialund., hverdagsliv og bibliotek",
+        "systemId": {
+          "gyldighetsperiode": {
+            "slutt": "2099-12-01T00:00:00Z",
+            "start": "2016-01-01T00:00:00Z"
+          },
+          "identifikatorverdi": "903607"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${}/administrasjon/kodeverk/ansvar/systemid/903607"
+            }
+          ]
+        }
+      },
+      {
+        "gyldighetsperiode": {
+          "slutt": "2016-12-01T00:00:00Z",
+          "start": "2013-12-01T00:00:00Z"
+        },
+        "kode": "326013",
+        "navn": "Avdeling for FLE TP og ST realfag",
+        "systemId": {
+          "gyldighetsperiode": {
+            "slutt": "2016-12-01T00:00:00Z",
+            "start": "2013-12-01T00:00:00Z"
+          },
+          "identifikatorverdi": "391725"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${}/administrasjon/kodeverk/ansvar/systemid/391725"
+            }
+          ]
+        }
+      },
+      {
+        "gyldighetsperiode": {
+          "slutt": "2099-12-01T00:00:00Z",
+          "start": "2015-01-09T17:49:34Z"
+        },
+        "kode": "108",
+        "navn": "Ungdommens fylkesting",
+        "systemId": {
+          "gyldighetsperiode": {
+            "slutt": "2099-12-01T00:00:00Z",
+            "start": "2015-01-09T17:49:34Z"
+          },
+          "identifikatorverdi": "870747"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${}/administrasjon/kodeverk/ansvar/systemid/870747"
+            }
+          ]
+        }
+      },
+      {
+        "gyldighetsperiode": {
+          "slutt": "2099-12-01T00:00:00Z",
+          "start": "2013-12-01T00:00:00Z"
+        },
+        "kode": "322702",
+        "navn": "Avdeling for medier og kommunikasjon",
+        "systemId": {
+          "gyldighetsperiode": {
+            "slutt": "2099-12-01T00:00:00Z",
+            "start": "2013-12-01T00:00:00Z"
+          },
+          "identifikatorverdi": "429784"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${}/administrasjon/kodeverk/ansvar/systemid/429784"
+            }
+          ]
+        }
+      },
+      {
+        "gyldighetsperiode": {
+          "slutt": "2016-12-01T00:00:00Z",
+          "start": "1994-01-01T00:00:00Z"
+        },
+        "kode": "326041",
+        "navn": "Avdeling for LYN  Drift og miljø, HO, realfag, spesialund. og voksenoppl.",
+        "systemId": {
+          "gyldighetsperiode": {
+            "slutt": "2016-12-01T00:00:00Z",
+            "start": "1994-01-01T00:00:00Z"
+          },
+          "identifikatorverdi": "437762"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${}/administrasjon/kodeverk/ansvar/systemid/437762"
+            }
+          ]
+        }
+      },
+      {
+        "gyldighetsperiode": {
+          "slutt": "2099-12-01T00:00:00Z",
+          "start": "2013-12-01T00:00:00Z"
+        },
+        "kode": "9140",
+        "navn": "Generelle statstilskudd",
+        "systemId": {
+          "gyldighetsperiode": {
+            "slutt": "2099-12-01T00:00:00Z",
+            "start": "2013-12-01T00:00:00Z"
+          },
+          "identifikatorverdi": "416648"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${}/administrasjon/kodeverk/ansvar/systemid/416648"
+            }
+          ]
+        }
+      },
+      {
+        "gyldighetsperiode": {
+          "slutt": "2099-12-01T00:00:00Z",
+          "start": "2013-12-01T00:00:00Z"
+        },
+        "kode": "92",
+        "navn": "Finansutgifter / Finansinntekter",
+        "systemId": {
+          "gyldighetsperiode": {
+            "slutt": "2099-12-01T00:00:00Z",
+            "start": "2013-12-01T00:00:00Z"
+          },
+          "identifikatorverdi": "416611"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${}/administrasjon/kodeverk/ansvar/systemid/416611"
+            }
+          ]
+        }
+      },
+      {
+        "gyldighetsperiode": {
+          "slutt": "2099-12-01T00:00:00Z",
+          "start": "2015-07-02T13:16:30Z"
+        },
+        "kode": "362003",
+        "navn": "Faggruppe jus",
+        "systemId": {
+          "gyldighetsperiode": {
+            "slutt": "2099-12-01T00:00:00Z",
+            "start": "2015-07-02T13:16:30Z"
+          },
+          "identifikatorverdi": "870757"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${}/administrasjon/kodeverk/ansvar/systemid/870757"
+            }
+          ]
+        }
+      },
+      {
+        "gyldighetsperiode": {
+          "slutt": "2099-12-01T00:00:00Z",
+          "start": "2014-09-17T14:08:54Z"
+        },
+        "kode": "33054",
+        "navn": "Sirdal tannklinikk",
+        "systemId": {
+          "gyldighetsperiode": {
+            "slutt": "2099-12-01T00:00:00Z",
+            "start": "2014-09-17T14:08:54Z"
+          },
+          "identifikatorverdi": "437650"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${}/administrasjon/kodeverk/ansvar/systemid/437650"
+            }
+          ]
+        }
+      },
+      {
+        "gyldighetsperiode": {
+          "slutt": "2099-12-01T00:00:00Z",
+          "start": "2013-12-01T00:00:00Z"
+        },
+        "kode": "9120",
+        "navn": "Momskompensasjonsordningen",
+        "systemId": {
+          "gyldighetsperiode": {
+            "slutt": "2099-12-01T00:00:00Z",
+            "start": "2013-12-01T00:00:00Z"
+          },
+          "identifikatorverdi": "416646"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${}/administrasjon/kodeverk/ansvar/systemid/416646"
+            }
+          ]
+        }
+      },
+      {
+        "gyldighetsperiode": {
+          "slutt": "2016-12-01T00:00:00Z",
+          "start": "2013-12-01T00:00:00Z"
+        },
+        "kode": "326010",
+        "navn": "UTGÅTT - Avdeling for merkantil ansatte",
+        "systemId": {
+          "gyldighetsperiode": {
+            "slutt": "2016-12-01T00:00:00Z",
+            "start": "2013-12-01T00:00:00Z"
+          },
+          "identifikatorverdi": "391722"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${}/administrasjon/kodeverk/ansvar/systemid/391722"
+            }
+          ]
+        }
+      },
+      {
+        "gyldighetsperiode": {
+          "slutt": "2099-12-01T00:00:00Z",
+          "start": "2013-12-01T00:00:00Z"
+        },
+        "kode": "3410",
+        "navn": "Seksjon for samfunn og næring",
+        "systemId": {
+          "gyldighetsperiode": {
+            "slutt": "2099-12-01T00:00:00Z",
+            "start": "2013-12-01T00:00:00Z"
+          },
+          "identifikatorverdi": "416637"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${}/administrasjon/kodeverk/ansvar/systemid/416637"
+            }
+          ]
+        }
+      },
+      {
+        "gyldighetsperiode": {
+          "slutt": "2099-12-01T00:00:00Z",
+          "start": "2013-12-01T00:00:00Z"
+        },
+        "kode": "322410",
+        "navn": "Avdeling for ID - Idrett og kroppsøving",
+        "systemId": {
+          "gyldighetsperiode": {
+            "slutt": "2099-12-01T00:00:00Z",
+            "start": "2013-12-01T00:00:00Z"
+          },
+          "identifikatorverdi": "413903"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${}/administrasjon/kodeverk/ansvar/systemid/413903"
+            }
+          ]
+        }
+      },
+      {
+        "gyldighetsperiode": {
+          "slutt": "2099-12-01T00:00:00Z",
+          "start": "2013-12-01T00:00:00Z"
+        },
+        "kode": "323302",
+        "navn": "Avdeling for drift og miljø",
+        "systemId": {
+          "gyldighetsperiode": {
+            "slutt": "2099-12-01T00:00:00Z",
+            "start": "2013-12-01T00:00:00Z"
+          },
+          "identifikatorverdi": "391709"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${}/administrasjon/kodeverk/ansvar/systemid/391709"
+            }
+          ]
+        }
+      },
+      {
+        "gyldighetsperiode": {
+          "slutt": "2099-12-01T00:00:00Z",
+          "start": "2013-12-01T00:00:00Z"
+        },
+        "kode": "104",
+        "navn": "Hovedutvalg for samferdsel, areal og miljø",
+        "systemId": {
+          "gyldighetsperiode": {
+            "slutt": "2099-12-01T00:00:00Z",
+            "start": "2013-12-01T00:00:00Z"
+          },
+          "identifikatorverdi": "416616"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${}/administrasjon/kodeverk/ansvar/systemid/416616"
+            }
+          ]
+        }
+      },
+      {
+        "gyldighetsperiode": {
+          "slutt": "2099-12-01T00:00:00Z",
+          "start": "2014-09-17T14:08:54Z"
+        },
+        "kode": "33056",
+        "navn": "Kvinesdal tannklinikk",
+        "systemId": {
+          "gyldighetsperiode": {
+            "slutt": "2099-12-01T00:00:00Z",
+            "start": "2014-09-17T14:08:54Z"
+          },
+          "identifikatorverdi": "437652"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${}/administrasjon/kodeverk/ansvar/systemid/437652"
+            }
+          ]
+        }
+      },
+      {
+        "gyldighetsperiode": {
+          "slutt": "2099-12-01T00:00:00Z",
+          "start": "2013-12-01T00:00:00Z"
+        },
+        "kode": "322906",
+        "navn": "Avdeling for gårdsdrift",
+        "systemId": {
+          "gyldighetsperiode": {
+            "slutt": "2099-12-01T00:00:00Z",
+            "start": "2013-12-01T00:00:00Z"
+          },
+          "identifikatorverdi": "391695"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${}/administrasjon/kodeverk/ansvar/systemid/391695"
+            }
+          ]
+        }
+      },
+      {
+        "gyldighetsperiode": {
+          "slutt": "2016-12-01T00:00:00Z",
+          "start": "1994-01-01T00:00:00Z"
+        },
+        "kode": "326051",
+        "navn": "Avdeling for LIS DH, EL, SS, fellesfag og spesialund.",
+        "systemId": {
+          "gyldighetsperiode": {
+            "slutt": "2016-12-01T00:00:00Z",
+            "start": "1994-01-01T00:00:00Z"
+          },
+          "identifikatorverdi": "437764"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${}/administrasjon/kodeverk/ansvar/systemid/437764"
+            }
+          ]
+        }
+      },
+      {
+        "gyldighetsperiode": {
+          "slutt": "2099-12-01T00:00:00Z",
+          "start": "2013-12-01T00:00:00Z"
+        },
+        "kode": "9211",
+        "navn": "Bruk av lånemidler",
+        "systemId": {
+          "gyldighetsperiode": {
+            "slutt": "2099-12-01T00:00:00Z",
+            "start": "2013-12-01T00:00:00Z"
+          },
+          "identifikatorverdi": "416651"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${}/administrasjon/kodeverk/ansvar/systemid/416651"
+            }
+          ]
+        }
+      },
+      {
+        "gyldighetsperiode": {
+          "slutt": "2099-12-01T00:00:00Z",
+          "start": "2013-12-01T00:00:00Z"
+        },
+        "kode": "323301",
+        "navn": "Avdeling for BA-TIP-EL",
+        "systemId": {
+          "gyldighetsperiode": {
+            "slutt": "2099-12-01T00:00:00Z",
+            "start": "2013-12-01T00:00:00Z"
+          },
+          "identifikatorverdi": "391708"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${}/administrasjon/kodeverk/ansvar/systemid/391708"
+            }
+          ]
+        }
+      },
+      {
+        "gyldighetsperiode": {
+          "slutt": "2099-12-01T00:00:00Z",
+          "start": "2013-12-01T00:00:00Z"
+        },
+        "kode": "34",
+        "navn": "Regionalavdelingen",
+        "systemId": {
+          "gyldighetsperiode": {
+            "slutt": "2099-12-01T00:00:00Z",
+            "start": "2013-12-01T00:00:00Z"
+          },
+          "identifikatorverdi": "416608"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${}/administrasjon/kodeverk/ansvar/systemid/416608"
+            }
+          ]
+        }
+      },
+      {
+        "gyldighetsperiode": {
+          "slutt": "2099-12-01T00:00:00Z",
+          "start": "2013-12-01T00:00:00Z"
+        },
+        "kode": "322907",
+        "navn": "Avdeling for naturbruk",
+        "systemId": {
+          "gyldighetsperiode": {
+            "slutt": "2099-12-01T00:00:00Z",
+            "start": "2013-12-01T00:00:00Z"
+          },
+          "identifikatorverdi": "391696"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${}/administrasjon/kodeverk/ansvar/systemid/391696"
+            }
+          ]
+        }
+      },
+      {
+        "gyldighetsperiode": {
+          "slutt": "2099-12-01T00:00:00Z",
+          "start": "2013-12-01T00:00:00Z"
+        },
+        "kode": "322303",
+        "navn": "Avdeling for elektrofag",
+        "systemId": {
+          "gyldighetsperiode": {
+            "slutt": "2099-12-01T00:00:00Z",
+            "start": "2013-12-01T00:00:00Z"
+          },
+          "identifikatorverdi": "411883"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${}/administrasjon/kodeverk/ansvar/systemid/411883"
+            }
+          ]
+        }
+      },
+      {
+        "gyldighetsperiode": {
+          "slutt": "2099-12-01T00:00:00Z",
+          "start": "2013-12-01T00:00:00Z"
+        },
+        "kode": "322304",
+        "navn": "Avdeling for helse- og oppvektsfag",
+        "systemId": {
+          "gyldighetsperiode": {
+            "slutt": "2099-12-01T00:00:00Z",
+            "start": "2013-12-01T00:00:00Z"
+          },
+          "identifikatorverdi": "411884"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${}/administrasjon/kodeverk/ansvar/systemid/411884"
+            }
+          ]
+        }
+      },
+      {
+        "gyldighetsperiode": {
+          "slutt": "2099-12-01T00:00:00Z",
+          "start": "2013-12-01T00:00:00Z"
+        },
+        "kode": "323003",
+        "navn": "Avdeling for Design og håndverk",
+        "systemId": {
+          "gyldighetsperiode": {
+            "slutt": "2099-12-01T00:00:00Z",
+            "start": "2013-12-01T00:00:00Z"
+          },
+          "identifikatorverdi": "391702"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${}/administrasjon/kodeverk/ansvar/systemid/391702"
+            }
+          ]
+        }
+      },
+      {
+        "gyldighetsperiode": {
+          "slutt": "2016-12-01T00:00:00Z",
+          "start": "2013-12-01T00:00:00Z"
+        },
+        "kode": "326006",
+        "navn": "UTGÅTT - Avdeling for AO, EL, SSA, IKT, felles fag, renhold og kantine (LIS)",
+        "systemId": {
+          "gyldighetsperiode": {
+            "slutt": "2016-12-01T00:00:00Z",
+            "start": "2013-12-01T00:00:00Z"
+          },
+          "identifikatorverdi": "391718"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${}/administrasjon/kodeverk/ansvar/systemid/391718"
+            }
+          ]
+        }
+      },
+      {
+        "gyldighetsperiode": {
+          "slutt": "2099-12-01T00:00:00Z",
+          "start": "2014-12-22T11:07:34Z"
+        },
+        "kode": "362001",
+        "navn": "Politisk sekretariat",
+        "systemId": {
+          "gyldighetsperiode": {
+            "slutt": "2099-12-01T00:00:00Z",
+            "start": "2014-12-22T11:07:34Z"
+          },
+          "identifikatorverdi": "870755"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${}/administrasjon/kodeverk/ansvar/systemid/870755"
+            }
+          ]
+        }
+      },
+      {
+        "gyldighetsperiode": {
+          "slutt": "2099-12-01T00:00:00Z",
+          "start": "2015-01-28T13:45:30Z"
+        },
+        "kode": "322490",
+        "navn": "Eksamenskontoret i Vest-Agder",
+        "systemId": {
+          "gyldighetsperiode": {
+            "slutt": "2099-12-01T00:00:00Z",
+            "start": "2015-01-28T13:45:30Z"
+          },
+          "identifikatorverdi": "875627"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${}/administrasjon/kodeverk/ansvar/systemid/875627"
+            }
+          ]
+        }
+      },
+      {
+        "gyldighetsperiode": {
+          "slutt": "2099-12-01T00:00:00Z",
+          "start": "2013-12-01T00:00:00Z"
+        },
+        "kode": "323005",
+        "navn": "Avdeling for Karrieresenter",
+        "systemId": {
+          "gyldighetsperiode": {
+            "slutt": "2099-12-01T00:00:00Z",
+            "start": "2013-12-01T00:00:00Z"
+          },
+          "identifikatorverdi": "391704"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${}/administrasjon/kodeverk/ansvar/systemid/391704"
+            }
+          ]
+        }
+      },
+      {
+        "gyldighetsperiode": {
+          "slutt": "2099-12-01T00:00:00Z",
+          "start": "2016-01-01T00:00:00Z"
+        },
+        "kode": "324090",
+        "navn": "Avdeling for Karriere Lister",
+        "systemId": {
+          "gyldighetsperiode": {
+            "slutt": "2099-12-01T00:00:00Z",
+            "start": "2016-01-01T00:00:00Z"
+          },
+          "identifikatorverdi": "903598"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${}/administrasjon/kodeverk/ansvar/systemid/903598"
+            }
+          ]
+        }
+      },
+      {
+        "gyldighetsperiode": {
+          "slutt": "2099-12-01T00:00:00Z",
+          "start": "2013-12-01T00:00:00Z"
+        },
+        "kode": "322811",
+        "navn": "Avdeling for språkfag",
+        "systemId": {
+          "gyldighetsperiode": {
+            "slutt": "2099-12-01T00:00:00Z",
+            "start": "2013-12-01T00:00:00Z"
+          },
+          "identifikatorverdi": "391688"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${}/administrasjon/kodeverk/ansvar/systemid/391688"
+            }
+          ]
+        }
+      },
+      {
+        "gyldighetsperiode": {
+          "slutt": "2016-12-01T00:00:00Z",
+          "start": "2013-12-01T00:00:00Z"
+        },
+        "kode": "326005",
+        "navn": "UTGÅTT - Avdeling for BA, HO, og fellesfag (språk, samf. og økonomi) [LYN]",
+        "systemId": {
+          "gyldighetsperiode": {
+            "slutt": "2016-12-01T00:00:00Z",
+            "start": "2013-12-01T00:00:00Z"
+          },
+          "identifikatorverdi": "391717"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${}/administrasjon/kodeverk/ansvar/systemid/391717"
+            }
+          ]
+        }
+      },
+      {
+        "gyldighetsperiode": {
+          "slutt": "2099-12-01T00:00:00Z",
+          "start": "2013-12-01T00:00:00Z"
+        },
+        "kode": "3227",
+        "navn": "Tangen videregående skole",
+        "systemId": {
+          "gyldighetsperiode": {
+            "slutt": "2099-12-01T00:00:00Z",
+            "start": "2013-12-01T00:00:00Z"
+          },
+          "identifikatorverdi": "416630"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${}/administrasjon/kodeverk/ansvar/systemid/416630"
+            }
+          ]
+        }
+      },
+      {
+        "gyldighetsperiode": {
+          "slutt": "2099-12-01T00:00:00Z",
+          "start": "2013-12-01T00:00:00Z"
+        },
+        "kode": "322301",
+        "navn": "Avdeling for drift og rådgivning",
+        "systemId": {
+          "gyldighetsperiode": {
+            "slutt": "2099-12-01T00:00:00Z",
+            "start": "2013-12-01T00:00:00Z"
+          },
+          "identifikatorverdi": "411881"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${}/administrasjon/kodeverk/ansvar/systemid/411881"
+            }
+          ]
+        }
+      },
+      {
+        "gyldighetsperiode": {
+          "slutt": "2099-12-01T00:00:00Z",
+          "start": "2013-12-01T00:00:00Z"
+        },
+        "kode": "322411",
+        "navn": "Avdeling for AT - Arbeidstrening",
+        "systemId": {
+          "gyldighetsperiode": {
+            "slutt": "2099-12-01T00:00:00Z",
+            "start": "2013-12-01T00:00:00Z"
+          },
+          "identifikatorverdi": "391042"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${}/administrasjon/kodeverk/ansvar/systemid/391042"
+            }
+          ]
+        }
+      },
+      {
+        "gyldighetsperiode": {
+          "slutt": "2016-12-01T00:00:00Z",
+          "start": "2013-12-01T00:00:00Z"
+        },
+        "kode": "326017",
+        "navn": "UTGÅTT - Avdeling for ST (språk) [EIL]",
+        "systemId": {
+          "gyldighetsperiode": {
+            "slutt": "2016-12-01T00:00:00Z",
+            "start": "2013-12-01T00:00:00Z"
+          },
+          "identifikatorverdi": "391729"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${}/administrasjon/kodeverk/ansvar/systemid/391729"
+            }
+          ]
+        }
+      },
+      {
+        "gyldighetsperiode": {
+          "slutt": "2099-12-01T00:00:00Z",
+          "start": "2013-12-01T00:00:00Z"
+        },
+        "kode": "9210",
+        "navn": "Finansforvaltning",
+        "systemId": {
+          "gyldighetsperiode": {
+            "slutt": "2099-12-01T00:00:00Z",
+            "start": "2013-12-01T00:00:00Z"
+          },
+          "identifikatorverdi": "416650"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${}/administrasjon/kodeverk/ansvar/systemid/416650"
+            }
+          ]
+        }
+      },
+      {
+        "gyldighetsperiode": {
+          "slutt": "2099-12-01T00:00:00Z",
+          "start": "2016-02-01T08:59:01Z"
+        },
+        "kode": "322312",
+        "navn": "Avdeling for studiespes. - Gym",
+        "systemId": {
+          "gyldighetsperiode": {
+            "slutt": "2099-12-01T00:00:00Z",
+            "start": "2016-02-01T08:59:01Z"
+          },
+          "identifikatorverdi": "892871"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${}/administrasjon/kodeverk/ansvar/systemid/892871"
+            }
+          ]
+        }
+      },
+      {
+        "gyldighetsperiode": {
+          "slutt": "2099-12-01T00:00:00Z",
+          "start": "2014-08-26T12:48:17Z"
+        },
+        "kode": "322309",
+        "navn": "Avdeling for studiespes. - Realfag",
+        "systemId": {
+          "gyldighetsperiode": {
+            "slutt": "2099-12-01T00:00:00Z",
+            "start": "2014-08-26T12:48:17Z"
+          },
+          "identifikatorverdi": "436156"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${}/administrasjon/kodeverk/ansvar/systemid/436156"
+            }
+          ]
+        }
+      },
+      {
+        "gyldighetsperiode": {
+          "slutt": "2099-12-01T00:00:00Z",
+          "start": "2014-12-23T11:33:40Z"
+        },
+        "kode": "3645",
+        "navn": "Bygg og innkjøpsseksjonen",
+        "systemId": {
+          "gyldighetsperiode": {
+            "slutt": "2099-12-01T00:00:00Z",
+            "start": "2014-12-23T11:33:40Z"
+          },
+          "identifikatorverdi": "437686"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${}/administrasjon/kodeverk/ansvar/systemid/437686"
+            }
+          ]
+        }
+      },
+      {
+        "gyldighetsperiode": {
+          "slutt": "2016-12-01T00:00:00Z",
+          "start": "2013-12-01T00:00:00Z"
+        },
+        "kode": "326002",
+        "navn": "Avdeling for FVG Kontor, merkantile tjenester, felles",
+        "systemId": {
+          "gyldighetsperiode": {
+            "slutt": "2016-12-01T00:00:00Z",
+            "start": "2013-12-01T00:00:00Z"
+          },
+          "identifikatorverdi": "391714"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${}/administrasjon/kodeverk/ansvar/systemid/391714"
+            }
+          ]
+        }
+      },
+      {
+        "gyldighetsperiode": {
+          "slutt": "2016-12-01T00:00:00Z",
+          "start": "2013-12-01T00:00:00Z"
+        },
+        "kode": "326007",
+        "navn": "UTGÅTT - Avdeling for HO og fellesfag [KVI]",
+        "systemId": {
+          "gyldighetsperiode": {
+            "slutt": "2016-12-01T00:00:00Z",
+            "start": "2013-12-01T00:00:00Z"
+          },
+          "identifikatorverdi": "391719"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${}/administrasjon/kodeverk/ansvar/systemid/391719"
+            }
+          ]
+        }
+      },
+      {
+        "gyldighetsperiode": {
+          "slutt": "2099-12-01T00:00:00Z",
+          "start": "2013-12-01T00:00:00Z"
+        },
+        "kode": "322308",
+        "navn": "Avdeling for tilrettelagt opplæring",
+        "systemId": {
+          "gyldighetsperiode": {
+            "slutt": "2099-12-01T00:00:00Z",
+            "start": "2013-12-01T00:00:00Z"
+          },
+          "identifikatorverdi": "411888"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${}/administrasjon/kodeverk/ansvar/systemid/411888"
+            }
+          ]
+        }
+      },
+      {
+        "gyldighetsperiode": {
+          "slutt": "2099-12-01T00:00:00Z",
+          "start": "2014-09-17T14:08:53Z"
+        },
+        "kode": "33045",
+        "navn": "Marnardal tannklinikk",
+        "systemId": {
+          "gyldighetsperiode": {
+            "slutt": "2099-12-01T00:00:00Z",
+            "start": "2014-09-17T14:08:53Z"
+          },
+          "identifikatorverdi": "437645"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${}/administrasjon/kodeverk/ansvar/systemid/437645"
+            }
+          ]
+        }
+      },
+      {
+        "gyldighetsperiode": {
+          "slutt": "2099-12-01T00:00:00Z",
+          "start": "2013-12-01T00:00:00Z"
+        },
+        "kode": "322105",
+        "navn": "Avdeling for realfag",
+        "systemId": {
+          "gyldighetsperiode": {
+            "slutt": "2099-12-01T00:00:00Z",
+            "start": "2013-12-01T00:00:00Z"
+          },
+          "identifikatorverdi": "411880"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${}/administrasjon/kodeverk/ansvar/systemid/411880"
+            }
+          ]
+        }
+      },
+      {
+        "gyldighetsperiode": {
+          "slutt": "2099-12-01T00:00:00Z",
+          "start": "2013-12-01T00:00:00Z"
+        },
+        "kode": "322401",
+        "navn": "Avdeling for fellestjenester",
+        "systemId": {
+          "gyldighetsperiode": {
+            "slutt": "2099-12-01T00:00:00Z",
+            "start": "2013-12-01T00:00:00Z"
+          },
+          "identifikatorverdi": "411917"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${}/administrasjon/kodeverk/ansvar/systemid/411917"
+            }
+          ]
+        }
+      },
+      {
+        "gyldighetsperiode": {
+          "slutt": "2099-12-01T00:00:00Z",
+          "start": "2013-12-01T00:00:00Z"
+        },
+        "kode": "9250",
+        "navn": "Til/fra investering/driftsregnskap",
+        "systemId": {
+          "gyldighetsperiode": {
+            "slutt": "2099-12-01T00:00:00Z",
+            "start": "2013-12-01T00:00:00Z"
+          },
+          "identifikatorverdi": "416662"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${}/administrasjon/kodeverk/ansvar/systemid/416662"
+            }
+          ]
+        }
+      },
+      {
+        "gyldighetsperiode": {
+          "slutt": "2099-12-01T00:00:00Z",
+          "start": "2013-12-01T00:00:00Z"
+        },
+        "kode": "3",
+        "navn": "Fylkesrådmann",
+        "systemId": {
+          "gyldighetsperiode": {
+            "slutt": "2099-12-01T00:00:00Z",
+            "start": "2013-12-01T00:00:00Z"
+          },
+          "identifikatorverdi": "416605"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${}/administrasjon/kodeverk/ansvar/systemid/416605"
+            }
+          ]
+        }
+      },
+      {
+        "gyldighetsperiode": {
+          "slutt": "2099-12-01T00:00:00Z",
+          "start": "2013-12-01T00:00:00Z"
+        },
+        "kode": "9212",
+        "navn": "Renter lån",
+        "systemId": {
+          "gyldighetsperiode": {
+            "slutt": "2099-12-01T00:00:00Z",
+            "start": "2013-12-01T00:00:00Z"
+          },
+          "identifikatorverdi": "416652"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${}/administrasjon/kodeverk/ansvar/systemid/416652"
+            }
+          ]
+        }
+      },
+      {
+        "gyldighetsperiode": {
+          "slutt": "2099-12-01T00:00:00Z",
+          "start": "2014-12-22T11:07:35Z"
+        },
+        "kode": "364503",
+        "navn": "Faggruppe innkjøp",
+        "systemId": {
+          "gyldighetsperiode": {
+            "slutt": "2099-12-01T00:00:00Z",
+            "start": "2014-12-22T11:07:35Z"
+          },
+          "identifikatorverdi": "870768"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${}/administrasjon/kodeverk/ansvar/systemid/870768"
+            }
+          ]
+        }
+      },
+      {
+        "gyldighetsperiode": {
+          "slutt": "2099-12-01T00:00:00Z",
+          "start": "2013-12-01T00:00:00Z"
+        },
+        "kode": "106",
+        "navn": "Fylkeseldrerådet",
+        "systemId": {
+          "gyldighetsperiode": {
+            "slutt": "2099-12-01T00:00:00Z",
+            "start": "2013-12-01T00:00:00Z"
+          },
+          "identifikatorverdi": "416618"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${}/administrasjon/kodeverk/ansvar/systemid/416618"
+            }
+          ]
+        }
+      },
+      {
+        "gyldighetsperiode": {
+          "slutt": "2099-12-01T00:00:00Z",
+          "start": "2016-10-10T12:00:09Z"
+        },
+        "kode": "33055",
+        "navn": "Byremo tannklinikk",
+        "systemId": {
+          "gyldighetsperiode": {
+            "slutt": "2099-12-01T00:00:00Z",
+            "start": "2016-10-10T12:00:09Z"
+          },
+          "identifikatorverdi": "437651"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${}/administrasjon/kodeverk/ansvar/systemid/437651"
+            }
+          ]
+        }
+      },
+      {
+        "gyldighetsperiode": {
+          "slutt": "2099-12-01T00:00:00Z",
+          "start": "2013-12-01T00:00:00Z"
+        },
+        "kode": "322803",
+        "navn": "Avdeling for helse- og oppvekstfag",
+        "systemId": {
+          "gyldighetsperiode": {
+            "slutt": "2099-12-01T00:00:00Z",
+            "start": "2013-12-01T00:00:00Z"
+          },
+          "identifikatorverdi": "391051"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${}/administrasjon/kodeverk/ansvar/systemid/391051"
+            }
+          ]
+        }
+      },
+      {
+        "gyldighetsperiode": {
+          "slutt": "2099-12-01T00:00:00Z",
+          "start": "2014-10-06T13:38:17Z"
+        },
+        "kode": "33035",
+        "navn": "Rona tannklinikk",
+        "systemId": {
+          "gyldighetsperiode": {
+            "slutt": "2099-12-01T00:00:00Z",
+            "start": "2014-10-06T13:38:17Z"
+          },
+          "identifikatorverdi": "437641"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${}/administrasjon/kodeverk/ansvar/systemid/437641"
+            }
+          ]
+        }
+      },
+      {
+        "gyldighetsperiode": {
+          "slutt": "2016-12-01T00:00:00Z",
+          "start": "2013-12-01T00:00:00Z"
+        },
+        "kode": "326011",
+        "navn": "Avdeling for FLE BA, EL og drift og miljø",
+        "systemId": {
+          "gyldighetsperiode": {
+            "slutt": "2016-12-01T00:00:00Z",
+            "start": "2013-12-01T00:00:00Z"
+          },
+          "identifikatorverdi": "391723"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${}/administrasjon/kodeverk/ansvar/systemid/391723"
+            }
+          ]
+        }
+      },
+      {
+        "gyldighetsperiode": {
+          "slutt": "2099-12-01T00:00:00Z",
+          "start": "2013-12-01T00:00:00Z"
+        },
+        "kode": "322706",
+        "navn": "Avdeling for studiespesialisering",
+        "systemId": {
+          "gyldighetsperiode": {
+            "slutt": "2099-12-01T00:00:00Z",
+            "start": "2013-12-01T00:00:00Z"
+          },
+          "identifikatorverdi": "391047"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${}/administrasjon/kodeverk/ansvar/systemid/391047"
+            }
+          ]
+        }
+      },
+      {
+        "gyldighetsperiode": {
+          "slutt": "2099-12-01T00:00:00Z",
+          "start": "2013-12-01T00:00:00Z"
+        },
+        "kode": "322701",
+        "navn": "Avdeling for drift og miljø",
+        "systemId": {
+          "gyldighetsperiode": {
+            "slutt": "2099-12-01T00:00:00Z",
+            "start": "2013-12-01T00:00:00Z"
+          },
+          "identifikatorverdi": "391044"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${}/administrasjon/kodeverk/ansvar/systemid/391044"
+            }
+          ]
+        }
+      },
+      {
+        "gyldighetsperiode": {
+          "slutt": "2099-12-01T00:00:00Z",
+          "start": "2016-12-01T00:00:00Z"
+        },
+        "kode": "325033",
+        "navn": "Avdeling for KVI HO, HO-arbeidsliv og fellesfag",
+        "systemId": {
+          "gyldighetsperiode": {
+            "slutt": "2099-12-01T00:00:00Z",
+            "start": "2016-12-01T00:00:00Z"
+          },
+          "identifikatorverdi": "903608"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${}/administrasjon/kodeverk/ansvar/systemid/903608"
+            }
+          ]
+        }
+      },
+      {
+        "gyldighetsperiode": {
+          "slutt": "2099-12-01T00:00:00Z",
+          "start": "2016-01-01T00:00:00Z"
+        },
+        "kode": "325013",
+        "navn": "Avdeling for FLE TP og ST realfag",
+        "systemId": {
+          "gyldighetsperiode": {
+            "slutt": "2099-12-01T00:00:00Z",
+            "start": "2016-01-01T00:00:00Z"
+          },
+          "identifikatorverdi": "903603"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${}/administrasjon/kodeverk/ansvar/systemid/903603"
+            }
+          ]
+        }
+      },
+      {
+        "gyldighetsperiode": {
+          "slutt": "2099-12-01T00:00:00Z",
+          "start": "2014-09-17T14:08:53Z"
+        },
+        "kode": "33024",
+        "navn": "Tannlegevakt",
+        "systemId": {
+          "gyldighetsperiode": {
+            "slutt": "2099-12-01T00:00:00Z",
+            "start": "2014-09-17T14:08:53Z"
+          },
+          "identifikatorverdi": "437635"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${}/administrasjon/kodeverk/ansvar/systemid/437635"
+            }
+          ]
+        }
+      },
+      {
+        "gyldighetsperiode": {
+          "slutt": "2099-12-01T00:00:00Z",
+          "start": "2013-12-01T00:00:00Z"
+        },
+        "kode": "103",
+        "navn": "Administrasjonsutvalg",
+        "systemId": {
+          "gyldighetsperiode": {
+            "slutt": "2099-12-01T00:00:00Z",
+            "start": "2013-12-01T00:00:00Z"
+          },
+          "identifikatorverdi": "416615"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${}/administrasjon/kodeverk/ansvar/systemid/416615"
+            }
+          ]
+        }
+      },
+      {
+        "gyldighetsperiode": {
+          "slutt": "2016-12-01T00:00:00Z",
+          "start": "2013-12-01T00:00:00Z"
+        },
+        "kode": "326003",
+        "navn": "Avdeling for EVG Fellestjenester",
+        "systemId": {
+          "gyldighetsperiode": {
+            "slutt": "2016-12-01T00:00:00Z",
+            "start": "2013-12-01T00:00:00Z"
+          },
+          "identifikatorverdi": "391715"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${}/administrasjon/kodeverk/ansvar/systemid/391715"
+            }
+          ]
+        }
+      },
+      {
+        "gyldighetsperiode": {
+          "slutt": "2099-12-01T00:00:00Z",
+          "start": "2013-12-01T00:00:00Z"
+        },
+        "kode": "9242",
+        "navn": "Bundne fond",
+        "systemId": {
+          "gyldighetsperiode": {
+            "slutt": "2099-12-01T00:00:00Z",
+            "start": "2013-12-01T00:00:00Z"
+          },
+          "identifikatorverdi": "416661"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${}/administrasjon/kodeverk/ansvar/systemid/416661"
+            }
+          ]
+        }
+      },
+      {
+        "gyldighetsperiode": {
+          "slutt": "2099-12-01T00:00:00Z",
+          "start": "2013-12-01T00:00:00Z"
+        },
+        "kode": "322101",
+        "navn": "Administrasjon",
+        "systemId": {
+          "gyldighetsperiode": {
+            "slutt": "2099-12-01T00:00:00Z",
+            "start": "2013-12-01T00:00:00Z"
+          },
+          "identifikatorverdi": "411876"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${}/administrasjon/kodeverk/ansvar/systemid/411876"
+            }
+          ]
+        }
+      },
+      {
+        "gyldighetsperiode": {
+          "slutt": "2099-12-01T00:00:00Z",
+          "start": "2013-12-01T00:00:00Z"
+        },
+        "kode": "322708",
+        "navn": "Avdeling for elevtjeneste",
+        "systemId": {
+          "gyldighetsperiode": {
+            "slutt": "2099-12-01T00:00:00Z",
+            "start": "2013-12-01T00:00:00Z"
+          },
+          "identifikatorverdi": "391048"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${}/administrasjon/kodeverk/ansvar/systemid/391048"
+            }
+          ]
+        }
+      },
+      {
+        "gyldighetsperiode": {
+          "slutt": "2099-12-01T00:00:00Z",
+          "start": "2014-12-23T11:33:40Z"
+        },
+        "kode": "3625",
+        "navn": "Økonomiseksjonen",
+        "systemId": {
+          "gyldighetsperiode": {
+            "slutt": "2099-12-01T00:00:00Z",
+            "start": "2014-12-23T11:33:40Z"
+          },
+          "identifikatorverdi": "437683"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${}/administrasjon/kodeverk/ansvar/systemid/437683"
+            }
+          ]
+        }
+      },
+      {
+        "gyldighetsperiode": {
+          "slutt": "2099-12-01T00:00:00Z",
+          "start": "2013-12-01T00:00:00Z"
+        },
+        "kode": "9214",
+        "navn": "Fordelte renter",
+        "systemId": {
+          "gyldighetsperiode": {
+            "slutt": "2099-12-01T00:00:00Z",
+            "start": "2013-12-01T00:00:00Z"
+          },
+          "identifikatorverdi": "416654"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${}/administrasjon/kodeverk/ansvar/systemid/416654"
+            }
+          ]
+        }
+      },
+      {
+        "gyldighetsperiode": {
+          "slutt": "2099-12-01T00:00:00Z",
+          "start": "2013-12-01T00:00:00Z"
+        },
+        "kode": "322707",
+        "navn": "Avdeling for bygg og anleggsteknikk",
+        "systemId": {
+          "gyldighetsperiode": {
+            "slutt": "2099-12-01T00:00:00Z",
+            "start": "2013-12-01T00:00:00Z"
+          },
+          "identifikatorverdi": "412835"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${}/administrasjon/kodeverk/ansvar/systemid/412835"
+            }
+          ]
+        }
+      },
+      {
+        "gyldighetsperiode": {
+          "slutt": "2099-12-01T00:00:00Z",
+          "start": "2013-12-01T00:00:00Z"
+        },
+        "kode": "322903",
+        "navn": "Avdeling for drift og miljø",
+        "systemId": {
+          "gyldighetsperiode": {
+            "slutt": "2099-12-01T00:00:00Z",
+            "start": "2013-12-01T00:00:00Z"
+          },
+          "identifikatorverdi": "391692"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${}/administrasjon/kodeverk/ansvar/systemid/391692"
+            }
+          ]
+        }
+      },
+      {
+        "gyldighetsperiode": {
+          "slutt": "2099-12-01T00:00:00Z",
+          "start": "2013-12-01T00:00:00Z"
+        },
+        "kode": "2",
+        "navn": "Kontrollutvalget",
+        "systemId": {
+          "gyldighetsperiode": {
+            "slutt": "2099-12-01T00:00:00Z",
+            "start": "2013-12-01T00:00:00Z"
+          },
+          "identifikatorverdi": "416604"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${}/administrasjon/kodeverk/ansvar/systemid/416604"
+            }
+          ]
+        }
+      },
+      {
+        "gyldighetsperiode": {
+          "slutt": "2099-12-01T00:00:00Z",
+          "start": "2015-01-22T10:15:13Z"
+        },
+        "kode": "33",
+        "navn": "Fylkestannhelsetjenesten",
+        "systemId": {
+          "gyldighetsperiode": {
+            "slutt": "2099-12-01T00:00:00Z",
+            "start": "2015-01-22T10:15:13Z"
+          },
+          "identifikatorverdi": "437633"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${}/administrasjon/kodeverk/ansvar/systemid/437633"
+            }
+          ]
+        }
+      },
+      {
+        "gyldighetsperiode": {
+          "slutt": "2099-12-01T00:00:00Z",
+          "start": "2013-12-01T00:00:00Z"
+        },
+        "kode": "322810",
+        "navn": "Avdeling for service, samferdsel og økonomifag",
+        "systemId": {
+          "gyldighetsperiode": {
+            "slutt": "2099-12-01T00:00:00Z",
+            "start": "2013-12-01T00:00:00Z"
+          },
+          "identifikatorverdi": "391687"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${}/administrasjon/kodeverk/ansvar/systemid/391687"
+            }
+          ]
+        }
+      },
+      {
+        "gyldighetsperiode": {
+          "slutt": "2099-12-01T00:00:00Z",
+          "start": "2013-12-01T00:00:00Z"
+        },
+        "kode": "322808",
+        "navn": "Avdeling for realfag",
+        "systemId": {
+          "gyldighetsperiode": {
+            "slutt": "2099-12-01T00:00:00Z",
+            "start": "2013-12-01T00:00:00Z"
+          },
+          "identifikatorverdi": "391685"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${}/administrasjon/kodeverk/ansvar/systemid/391685"
+            }
+          ]
+        }
+      },
+      {
+        "gyldighetsperiode": {
+          "slutt": "2099-12-01T00:00:00Z",
+          "start": "2013-12-01T00:00:00Z"
+        },
+        "kode": "9130",
+        "navn": "Rentekompensasjon skolebygg/veianlegg",
+        "systemId": {
+          "gyldighetsperiode": {
+            "slutt": "2099-12-01T00:00:00Z",
+            "start": "2013-12-01T00:00:00Z"
+          },
+          "identifikatorverdi": "416647"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${}/administrasjon/kodeverk/ansvar/systemid/416647"
+            }
+          ]
+        }
+      },
+      {
+        "gyldighetsperiode": {
+          "slutt": "2099-12-01T00:00:00Z",
+          "start": "2014-09-17T14:08:53Z"
+        },
+        "kode": "33033",
+        "navn": "Sundet videregående skole felles",
+        "systemId": {
+          "gyldighetsperiode": {
+            "slutt": "2099-12-01T00:00:00Z",
+            "start": "2014-09-17T14:08:53Z"
+          },
+          "identifikatorverdi": "437640"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${}/administrasjon/kodeverk/ansvar/systemid/437640"
+            }
+          ]
+        }
+      },
+      {
+        "gyldighetsperiode": {
+          "slutt": "2099-12-01T00:00:00Z",
+          "start": "2014-09-17T14:08:53Z"
+        },
+        "kode": "33032",
+        "navn": "Avdeling for fellesfag",
+        "systemId": {
+          "gyldighetsperiode": {
+            "slutt": "2099-12-01T00:00:00Z",
+            "start": "2014-09-17T14:08:53Z"
+          },
+          "identifikatorverdi": "437639"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${}/administrasjon/kodeverk/ansvar/systemid/437639"
+            }
+          ]
+        }
+      },
+      {
+        "gyldighetsperiode": {
+          "slutt": "2099-12-01T00:00:00Z",
+          "start": "2013-12-01T00:00:00Z"
+        },
+        "kode": "322806",
+        "navn": "Avdeling for miljøteam",
+        "systemId": {
+          "gyldighetsperiode": {
+            "slutt": "2099-12-01T00:00:00Z",
+            "start": "2013-12-01T00:00:00Z"
+          },
+          "identifikatorverdi": "391054"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${}/administrasjon/kodeverk/ansvar/systemid/391054"
+            }
+          ]
+        }
+      },
+      {
+        "gyldighetsperiode": {
+          "slutt": "2099-12-01T00:00:00Z",
+          "start": "2013-12-01T00:00:00Z"
+        },
+        "kode": "322307",
+        "navn": "Avdeling for teknikk og industriell produksjon",
+        "systemId": {
+          "gyldighetsperiode": {
+            "slutt": "2099-12-01T00:00:00Z",
+            "start": "2013-12-01T00:00:00Z"
+          },
+          "identifikatorverdi": "411887"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${}/administrasjon/kodeverk/ansvar/systemid/411887"
+            }
+          ]
+        }
+      },
+      {
+        "gyldighetsperiode": {
+          "slutt": "2016-12-01T00:00:00Z",
+          "start": "1994-01-01T00:00:00Z"
+        },
+        "kode": "326021",
+        "navn": "Avdeling for FAR Drift og miljø,  ST samf.fag",
+        "systemId": {
+          "gyldighetsperiode": {
+            "slutt": "2016-12-01T00:00:00Z",
+            "start": "1994-01-01T00:00:00Z"
+          },
+          "identifikatorverdi": "437756"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${}/administrasjon/kodeverk/ansvar/systemid/437756"
+            }
+          ]
+        }
+      },
+      {
+        "gyldighetsperiode": {
+          "slutt": "2099-12-01T00:00:00Z",
+          "start": "2013-12-01T00:00:00Z"
+        },
+        "kode": "3233",
+        "navn": "Byremo videregående skole",
+        "systemId": {
+          "gyldighetsperiode": {
+            "slutt": "2099-12-01T00:00:00Z",
+            "start": "2013-12-01T00:00:00Z"
+          },
+          "identifikatorverdi": "416634"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${}/administrasjon/kodeverk/ansvar/systemid/416634"
+            }
+          ]
+        }
+      },
+      {
+        "gyldighetsperiode": {
+          "slutt": "2016-12-01T00:00:00Z",
+          "start": "2013-12-01T00:00:00Z"
+        },
+        "kode": "326015",
+        "navn": "UTGÅTT - Avdeling for ST (realfag) og SSA [FLE]",
+        "systemId": {
+          "gyldighetsperiode": {
+            "slutt": "2016-12-01T00:00:00Z",
+            "start": "2013-12-01T00:00:00Z"
+          },
+          "identifikatorverdi": "391727"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${}/administrasjon/kodeverk/ansvar/systemid/391727"
+            }
+          ]
+        }
+      },
+      {
+        "gyldighetsperiode": {
+          "slutt": "2016-12-01T00:00:00Z",
+          "start": "1994-01-01T00:00:00Z"
+        },
+        "kode": "326042",
+        "navn": "Avdeling for LYN BA, TP, filologfag og kroppsøving",
+        "systemId": {
+          "gyldighetsperiode": {
+            "slutt": "2016-12-01T00:00:00Z",
+            "start": "1994-01-01T00:00:00Z"
+          },
+          "identifikatorverdi": "437763"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${}/administrasjon/kodeverk/ansvar/systemid/437763"
+            }
+          ]
+        }
+      },
+      {
+        "gyldighetsperiode": {
+          "slutt": "2099-12-01T00:00:00Z",
+          "start": "2013-12-01T00:00:00Z"
+        },
+        "kode": "323006",
+        "navn": "Avdeling for Rådgivningstjeneste",
+        "systemId": {
+          "gyldighetsperiode": {
+            "slutt": "2099-12-01T00:00:00Z",
+            "start": "2013-12-01T00:00:00Z"
+          },
+          "identifikatorverdi": "391705"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${}/administrasjon/kodeverk/ansvar/systemid/391705"
+            }
+          ]
+        }
+      },
+      {
+        "gyldighetsperiode": {
+          "slutt": "2099-12-01T00:00:00Z",
+          "start": "2016-01-01T00:00:00Z"
+        },
+        "kode": "324041",
+        "navn": "Avdeling for LYN  Drift og miljø, HO, realfag, spesialund. og voksenoppl.",
+        "systemId": {
+          "gyldighetsperiode": {
+            "slutt": "2099-12-01T00:00:00Z",
+            "start": "2016-01-01T00:00:00Z"
+          },
+          "identifikatorverdi": "903594"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${}/administrasjon/kodeverk/ansvar/systemid/903594"
+            }
+          ]
+        }
+      },
+      {
+        "gyldighetsperiode": {
+          "slutt": "2099-12-01T00:00:00Z",
+          "start": "2016-01-01T00:00:00Z"
+        },
+        "kode": "3240",
+        "navn": "Eilert Sundt videregående skole",
+        "systemId": {
+          "gyldighetsperiode": {
+            "slutt": "2099-12-01T00:00:00Z",
+            "start": "2016-01-01T00:00:00Z"
+          },
+          "identifikatorverdi": "903589"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${}/administrasjon/kodeverk/ansvar/systemid/903589"
+            }
+          ]
+        }
+      },
+      {
+        "gyldighetsperiode": {
+          "slutt": "2016-12-01T00:00:00Z",
+          "start": "1994-01-01T00:00:00Z"
+        },
+        "kode": "326034",
+        "navn": "Avdeling for KVI Spesialund., hverdagsliv og bibliotek",
+        "systemId": {
+          "gyldighetsperiode": {
+            "slutt": "2016-12-01T00:00:00Z",
+            "start": "1994-01-01T00:00:00Z"
+          },
+          "identifikatorverdi": "892334"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${}/administrasjon/kodeverk/ansvar/systemid/892334"
+            }
+          ]
+        }
+      },
+      {
+        "gyldighetsperiode": {
+          "slutt": "2099-12-01T00:00:00Z",
+          "start": "2014-09-17T14:08:53Z"
+        },
+        "kode": "33043",
+        "navn": "Mandal tannklinikk",
+        "systemId": {
+          "gyldighetsperiode": {
+            "slutt": "2099-12-01T00:00:00Z",
+            "start": "2014-09-17T14:08:53Z"
+          },
+          "identifikatorverdi": "437644"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${}/administrasjon/kodeverk/ansvar/systemid/437644"
+            }
+          ]
+        }
+      },
+      {
+        "gyldighetsperiode": {
+          "slutt": "2099-12-01T00:00:00Z",
+          "start": "2013-12-01T00:00:00Z"
+        },
+        "kode": "322407",
+        "navn": "Avdeling for HO - Helse- og oppvektsfag",
+        "systemId": {
+          "gyldighetsperiode": {
+            "slutt": "2099-12-01T00:00:00Z",
+            "start": "2013-12-01T00:00:00Z"
+          },
+          "identifikatorverdi": "413900"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${}/administrasjon/kodeverk/ansvar/systemid/413900"
+            }
+          ]
+        }
+      },
+      {
+        "gyldighetsperiode": {
+          "slutt": "2099-12-01T00:00:00Z",
+          "start": "2013-12-01T00:00:00Z"
+        },
+        "kode": "321501",
+        "navn": "SMI skolen, andre avdelinger",
+        "systemId": {
+          "gyldighetsperiode": {
+            "slutt": "2099-12-01T00:00:00Z",
+            "start": "2013-12-01T00:00:00Z"
+          },
+          "identifikatorverdi": "411870"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${}/administrasjon/kodeverk/ansvar/systemid/411870"
+            }
+          ]
+        }
+      },
+      {
+        "gyldighetsperiode": {
+          "slutt": "2099-12-01T00:00:00Z",
+          "start": "2013-12-01T00:00:00Z"
+        },
+        "kode": "9241",
+        "navn": "Ubundne fond",
+        "systemId": {
+          "gyldighetsperiode": {
+            "slutt": "2099-12-01T00:00:00Z",
+            "start": "2013-12-01T00:00:00Z"
+          },
+          "identifikatorverdi": "416660"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${}/administrasjon/kodeverk/ansvar/systemid/416660"
+            }
+          ]
+        }
+      },
+      {
+        "gyldighetsperiode": {
+          "slutt": "2099-12-01T00:00:00Z",
+          "start": "2016-01-01T00:00:00Z"
+        },
+        "kode": "324023",
+        "navn": "Avdeling for FAR ST realfag og kroppsøving",
+        "systemId": {
+          "gyldighetsperiode": {
+            "slutt": "2099-12-01T00:00:00Z",
+            "start": "2016-01-01T00:00:00Z"
+          },
+          "identifikatorverdi": "903593"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${}/administrasjon/kodeverk/ansvar/systemid/903593"
+            }
+          ]
+        }
+      },
+      {
+        "gyldighetsperiode": {
+          "slutt": "2099-12-01T00:00:00Z",
+          "start": "2013-12-01T00:00:00Z"
+        },
+        "kode": "322405",
+        "navn": "Avdeling for TP - Teknikk og industriell produksjon",
+        "systemId": {
+          "gyldighetsperiode": {
+            "slutt": "2099-12-01T00:00:00Z",
+            "start": "2013-12-01T00:00:00Z"
+          },
+          "identifikatorverdi": "429783"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${}/administrasjon/kodeverk/ansvar/systemid/429783"
+            }
+          ]
+        }
+      },
+      {
+        "gyldighetsperiode": {
+          "slutt": "2099-12-01T00:00:00Z",
+          "start": "2013-12-01T00:00:00Z"
+        },
+        "kode": "323303",
+        "navn": "Avdeling for HO-ST-TL",
+        "systemId": {
+          "gyldighetsperiode": {
+            "slutt": "2099-12-01T00:00:00Z",
+            "start": "2013-12-01T00:00:00Z"
+          },
+          "identifikatorverdi": "391710"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${}/administrasjon/kodeverk/ansvar/systemid/391710"
+            }
+          ]
+        }
+      },
+      {
+        "gyldighetsperiode": {
+          "slutt": "2016-12-01T00:00:00Z",
+          "start": "1994-01-01T00:00:00Z"
+        },
+        "kode": "326031",
+        "navn": "Avdeling for KVI RM, SS,  RM/SS-arbeidsliv og drift og miljø",
+        "systemId": {
+          "gyldighetsperiode": {
+            "slutt": "2016-12-01T00:00:00Z",
+            "start": "1994-01-01T00:00:00Z"
+          },
+          "identifikatorverdi": "437759"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${}/administrasjon/kodeverk/ansvar/systemid/437759"
+            }
+          ]
+        }
+      },
+      {
+        "gyldighetsperiode": {
+          "slutt": "2016-12-01T00:00:00Z",
+          "start": "2013-12-01T00:00:00Z"
+        },
+        "kode": "326004",
+        "navn": "Avdeling for EVG Kontor, merkantile tjenester, felles",
+        "systemId": {
+          "gyldighetsperiode": {
+            "slutt": "2016-12-01T00:00:00Z",
+            "start": "2013-12-01T00:00:00Z"
+          },
+          "identifikatorverdi": "391716"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${}/administrasjon/kodeverk/ansvar/systemid/391716"
+            }
+          ]
+        }
+      },
+      {
+        "gyldighetsperiode": {
+          "slutt": "2099-12-01T00:00:00Z",
+          "start": "2013-12-01T00:00:00Z"
+        },
+        "kode": "322904",
+        "navn": "Avdeling for fellesfag",
+        "systemId": {
+          "gyldighetsperiode": {
+            "slutt": "2099-12-01T00:00:00Z",
+            "start": "2013-12-01T00:00:00Z"
+          },
+          "identifikatorverdi": "391693"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${}/administrasjon/kodeverk/ansvar/systemid/391693"
+            }
+          ]
+        }
+      },
+      {
+        "gyldighetsperiode": {
+          "slutt": "2099-12-01T00:00:00Z",
+          "start": "2014-12-18T20:27:09Z"
+        },
+        "kode": "322414",
+        "navn": "Avdeling for Fengselsundervisning",
+        "systemId": {
+          "gyldighetsperiode": {
+            "slutt": "2099-12-01T00:00:00Z",
+            "start": "2014-12-18T20:27:09Z"
+          },
+          "identifikatorverdi": "436784"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${}/administrasjon/kodeverk/ansvar/systemid/436784"
+            }
+          ]
+        }
+      },
+      {
+        "gyldighetsperiode": {
+          "slutt": "2099-12-01T00:00:00Z",
+          "start": "2013-12-01T00:00:00Z"
+        },
+        "kode": "3223",
+        "navn": "Vennesla videregående skole",
+        "systemId": {
+          "gyldighetsperiode": {
+            "slutt": "2099-12-01T00:00:00Z",
+            "start": "2013-12-01T00:00:00Z"
+          },
+          "identifikatorverdi": "416628"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${}/administrasjon/kodeverk/ansvar/systemid/416628"
+            }
+          ]
+        }
+      },
+      {
+        "gyldighetsperiode": {
+          "slutt": "2099-12-01T00:00:00Z",
+          "start": "2013-12-01T00:00:00Z"
+        },
+        "kode": "3221",
+        "navn": "Vågsbygd videregående skole",
+        "systemId": {
+          "gyldighetsperiode": {
+            "slutt": "2099-12-01T00:00:00Z",
+            "start": "2013-12-01T00:00:00Z"
+          },
+          "identifikatorverdi": "416627"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${}/administrasjon/kodeverk/ansvar/systemid/416627"
+            }
+          ]
+        }
+      },
+      {
+        "gyldighetsperiode": {
+          "slutt": "2099-12-01T00:00:00Z",
+          "start": "2013-12-01T00:00:00Z"
+        },
+        "kode": "3435",
+        "navn": "Fylkeskonservatoren",
+        "systemId": {
+          "gyldighetsperiode": {
+            "slutt": "2099-12-01T00:00:00Z",
+            "start": "2013-12-01T00:00:00Z"
+          },
+          "identifikatorverdi": "416640"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${}/administrasjon/kodeverk/ansvar/systemid/416640"
+            }
+          ]
+        }
+      },
+      {
+        "gyldighetsperiode": {
+          "slutt": "2099-12-01T00:00:00Z",
+          "start": "2013-12-01T00:00:00Z"
+        },
+        "kode": "322103",
+        "navn": "Avdeling for språk, samfunn og økonomi",
+        "systemId": {
+          "gyldighetsperiode": {
+            "slutt": "2099-12-01T00:00:00Z",
+            "start": "2013-12-01T00:00:00Z"
+          },
+          "identifikatorverdi": "411878"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${}/administrasjon/kodeverk/ansvar/systemid/411878"
+            }
+          ]
+        }
+      },
+      {
+        "gyldighetsperiode": {
+          "slutt": "2099-12-01T00:00:00Z",
+          "start": "2016-01-01T00:00:00Z"
+        },
+        "kode": "3250",
+        "navn": "Flekkefjord videregående skole",
+        "systemId": {
+          "gyldighetsperiode": {
+            "slutt": "2099-12-01T00:00:00Z",
+            "start": "2016-01-01T00:00:00Z"
+          },
+          "identifikatorverdi": "903599"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${}/administrasjon/kodeverk/ansvar/systemid/903599"
+            }
+          ]
+        }
+      },
+      {
+        "gyldighetsperiode": {
+          "slutt": "2099-12-01T00:00:00Z",
+          "start": "2016-01-01T00:00:00Z"
+        },
+        "kode": "325015",
+        "navn": "Avdeling for FLE MK, kroppsøving og FVG IKT",
+        "systemId": {
+          "gyldighetsperiode": {
+            "slutt": "2099-12-01T00:00:00Z",
+            "start": "2016-01-01T00:00:00Z"
+          },
+          "identifikatorverdi": "903605"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${}/administrasjon/kodeverk/ansvar/systemid/903605"
+            }
+          ]
+        }
+      },
+      {
+        "gyldighetsperiode": {
+          "slutt": "2099-12-01T00:00:00Z",
+          "start": "2013-12-01T00:00:00Z"
+        },
+        "kode": "9150",
+        "navn": "Beregningskonto avskrivninger",
+        "systemId": {
+          "gyldighetsperiode": {
+            "slutt": "2099-12-01T00:00:00Z",
+            "start": "2013-12-01T00:00:00Z"
+          },
+          "identifikatorverdi": "416649"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${}/administrasjon/kodeverk/ansvar/systemid/416649"
+            }
+          ]
+        }
+      },
+      {
+        "gyldighetsperiode": {
+          "slutt": "2099-12-01T00:00:00Z",
+          "start": "2013-12-01T00:00:00Z"
+        },
+        "kode": "322403",
+        "navn": "Avdeling for elevråd",
+        "systemId": {
+          "gyldighetsperiode": {
+            "slutt": "2099-12-01T00:00:00Z",
+            "start": "2013-12-01T00:00:00Z"
+          },
+          "identifikatorverdi": "391040"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${}/administrasjon/kodeverk/ansvar/systemid/391040"
+            }
+          ]
+        }
+      },
+      {
+        "gyldighetsperiode": {
+          "slutt": "2099-12-01T00:00:00Z",
+          "start": "2013-12-01T00:00:00Z"
+        },
+        "kode": "9110",
+        "navn": "Fylkesskatt",
+        "systemId": {
+          "gyldighetsperiode": {
+            "slutt": "2099-12-01T00:00:00Z",
+            "start": "2013-12-01T00:00:00Z"
+          },
+          "identifikatorverdi": "416643"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${}/administrasjon/kodeverk/ansvar/systemid/416643"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "_links": {
+    "self": [
+      {
+        "href": "${}/administrasjon/kodeverk/ansvar"
+      }
+    ]
+  },
+  "total_items": 228,
+  "_class": "no.fint.model.resource.administrasjon.kodeverk.AnsvarResource"
+}

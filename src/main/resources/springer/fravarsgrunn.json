@@ -1,0 +1,59 @@
+{
+  "_embedded": {
+    "_entries": [
+      {
+        "gyldighetsperiode": {
+          "slutt": "2099-12-01T00:00:00Z",
+          "start": "2016-12-01T00:00:00Z"
+        },
+        "kode": "111",
+        "navn": "Arbeidsrelatert",
+        "systemId": {
+          "gyldighetsperiode": {
+            "slutt": "2099-12-01T00:00:00Z",
+            "start": "2016-12-01T00:00:00Z"
+          },
+          "identifikatorverdi": "915039"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${}/administrasjon/kodeverk/fravarsgrunn/systemid/915039"
+            }
+          ]
+        }
+      },
+      {
+        "gyldighetsperiode": {
+          "slutt": "2099-12-01T00:00:00Z",
+          "start": "2013-01-01T00:00:00Z"
+        },
+        "kode": "222",
+        "navn": "Ikke arbeidsrelatert",
+        "systemId": {
+          "gyldighetsperiode": {
+            "slutt": "2099-12-01T00:00:00Z",
+            "start": "2013-01-01T00:00:00Z"
+          },
+          "identifikatorverdi": "408396"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${}/administrasjon/kodeverk/fravarsgrunn/systemid/408396"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "_links": {
+    "self": [
+      {
+        "href": "${}/administrasjon/kodeverk/fravarsgrunn"
+      }
+    ]
+  },
+  "total_items": 2,
+  "_class": "no.fint.model.resource.administrasjon.kodeverk.FravarsgrunnResource"
+}
