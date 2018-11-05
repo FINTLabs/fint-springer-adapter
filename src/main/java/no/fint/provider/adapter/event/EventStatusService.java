@@ -42,7 +42,7 @@ public class EventStatusService {
      * @return The inbound event.
      */
     public Event verifyEvent(String component, Event event) {
-        if (supportedActions.getActions().contains(event.getAction()) || DefaultActions.getDefaultActions().contains(event.getAction())) {
+        if (supportedActions.supports(event.getAction()) || DefaultActions.getDefaultActions().contains(event.getAction())) {
             event.setStatus(Status.ADAPTER_ACCEPTED);
         } else {
             log.info("Rejecting {}", event.getAction());

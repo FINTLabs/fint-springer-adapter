@@ -86,7 +86,11 @@ public class EventHandlerService {
                     responseEvent.setResponseStatus(ResponseStatus.ERROR);
                     responseEvent.setMessage(ExceptionUtils.getStackTrace(e));
                 } finally {
-                    log.info("{}: Response for {}: {}, {} items", component, responseEvent.getAction(), responseEvent.getResponseStatus(), responseEvent.getData().size());
+                    if (responseEvent.getData() != null) {
+                        log.info("{}: Response for {}: {}, {} items", component, responseEvent.getAction(), responseEvent.getResponseStatus(), responseEvent.getData().size());
+                    } else {
+                        log.info("{}: Response for {}: {}", component, responseEvent.getAction(), responseEvent.getResponseStatus());
+                    }
                     eventResponseService.postResponse(component, event);
                 }
 

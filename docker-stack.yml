@@ -3,8 +3,43 @@ services:
   personnel:
     environment:
       TZ: Europe/Oslo
+      fint.adapter.organizations: fintlabs.no
+      fint.adapter.endpoints.providers.personal: https://beta.felleskomponent.no/administrasjon/personal/provider
+      fint.adapter.endpoints.providers.organisasjon: https://beta.felleskomponent.no/administrasjon/organisasjon/provider
+      fint.adapter.endpoints.providers.kodeverk: https://beta.felleskomponent.no/administrasjon/kodeverk/provider
+      fint.oauth.enabled: "true"
+      fint.oauth.username: fake@adapter.fintlabs.no
+      fint.oauth.password: tb2va8kn6Hrl7DGXOivV4ef9wPEhjg4L
+      fint.oauth.client-id: ff1c79b5-2a75-4416-b95c-9d1a4b4a2d6b
+      fint.oauth.client-secret: ln6nlTtgPq4wVHOG1nNv4d2uNjdb_DHX6hJyhpReaGxok5E9WnFS26uv2vDKYm-WQXkYtVnCB8or4o0u-5EykA
+      fint.oauth.access-token-uri: https://idp.felleskomponent.no/nidp/oauth/nam/token
+      fint.oauth.scope: fint-client
+      spring.data.mongodb.uri: mongodb://fint-mongo:usSVsxpR4inKsBAOkeUTRVdq2YMFzRRO6RtOAaXfmE1CEiFF2FQYN4V9bfhOB7f4pZj4uSYbKEu53dxl6nGYjA==@fint-mongo.documents.azure.com:10255/springer?ssl=true&replicaSet=globaldb
     image: dtr.fintlabs.no/beta/fake-personnel-adapter
+    deploy:
+      placement:
+        constraints:
+        - node.role == worker
+        - node.labels.com.docker.ucp.collection == shared
+      replicas: 1
+      restart_policy:
+        condition: on-failure
+        delay: 5s
+        max_attempts: 3
+        window: 120s
   student:
     environment:
       TZ: Europe/Oslo
+      fint.oauth.scope: fint-client
     image: dtr.fintlabs.no/beta/fake-student-adapter
+    deploy:
+      placement:
+        constraints:
+        - node.role == worker
+        - node.labels.com.docker.ucp.collection == shared
+      replicas: 1
+      restart_policy:
+        condition: on-failure
+        delay: 5s
+        max_attempts: 3
+        window: 120s

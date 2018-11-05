@@ -57,14 +57,9 @@ public class PersonalRepository extends SpringerRepository {
     @Override
     public Set<String> actions() {
         return Stream
-                .of(
-                        PersonalActions.GET_ALL_PERSONALRESSURS,
-                        PersonalActions.GET_ALL_ARBEIDSFORHOLD,
-                        PersonalActions.GET_ALL_FASTLONN,
-                        PersonalActions.GET_ALL_FASTTILLEGG,
-                        PersonalActions.GET_ALL_VARIABELLONN,
-                        PersonalActions.GET_ALL_FRAVAR)
-                .map(Enum::name)
-                .collect(Collectors.toSet());
+            .of(PersonalActions.values())
+            .map(Enum::name)
+            .filter(s -> s.startsWith("GET_ALL_"))
+            .collect(Collectors.toSet());
     }
 }

@@ -10,7 +10,7 @@ import java.util.Objects;
 
 @Service
 @Slf4j
-public class RejectFastlonnWithoutBeskjeftigelse implements Behaviour<FastlonnResource> {
+public class RejectFastlonnWithoutPercentage implements Behaviour<FastlonnResource> {
     @Override
     public void accept(Event event, FastlonnResource fastlonn) {
         if (Objects.isNull(fastlonn.getProsent())||fastlonn.getProsent() < 0L) {

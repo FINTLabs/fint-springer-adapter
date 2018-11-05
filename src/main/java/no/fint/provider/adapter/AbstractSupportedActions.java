@@ -21,4 +21,7 @@ public abstract class AbstractSupportedActions {
         Stream.of(e.getEnumConstants()).map(Enum::name).forEach(actions::add);
     }
 
+    public boolean supports(String action) {
+        return actions.contains(action);
+    }
 }
