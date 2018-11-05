@@ -15,7 +15,7 @@ services:
       fint.oauth.access-token-uri: https://idp.felleskomponent.no/nidp/oauth/nam/token
       fint.oauth.scope: fint-client
       spring.data.mongodb.uri: mongodb://fint-mongo:usSVsxpR4inKsBAOkeUTRVdq2YMFzRRO6RtOAaXfmE1CEiFF2FQYN4V9bfhOB7f4pZj4uSYbKEu53dxl6nGYjA==@fint-mongo.documents.azure.com:10255/springer?ssl=true&replicaSet=globaldb
-    image: dtr.fintlabs.no/beta/fake-personnel-adapter
+    image: dtr.fintlabs.no/beta/fint-springer-adapter
     deploy:
       placement:
         constraints:

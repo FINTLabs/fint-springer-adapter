@@ -14,18 +14,18 @@ pipeline {
                 branch 'master'
             }
             steps {
-                sh "docker tag ${GIT_COMMIT} dtr.fintlabs.no/beta/fake-personnel-adapter:latest"
+                sh "docker tag ${GIT_COMMIT} dtr.fintlabs.no/beta/fint-springer-adapter:latest"
                 withDockerRegistry([credentialsId: 'dtr-fintlabs-no', url: 'https://dtr.fintlabs.no']) {
-                    sh "docker push 'dtr.fintlabs.no/beta/fake-personnel-adapter:latest'"
+                    sh "docker push 'dtr.fintlabs.no/beta/fint-springer-adapter:latest'"
                 }
             }
         }
         stage('Publish PR') {
             when { changeRequest() }
             steps {
-                sh "docker tag ${GIT_COMMIT} dtr.fintlabs.no/beta/fake-personnel-adapter:${BRANCH_NAME}"
+                sh "docker tag ${GIT_COMMIT} dtr.fintlabs.no/beta/fint-springer-adapter:${BRANCH_NAME}"
                 withDockerRegistry([credentialsId: 'dtr-fintlabs-no', url: 'https://dtr.fintlabs.no']) {
-                    sh "docker push 'dtr.fintlabs.no/beta/fake-personnel-adapter:${BRANCH_NAME}'"
+                    sh "docker push 'dtr.fintlabs.no/beta/fint-springer-adapter:${BRANCH_NAME}'"
                 }
             }
         }
