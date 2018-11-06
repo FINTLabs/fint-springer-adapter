@@ -1,0 +1,114 @@
+{
+  "_embedded": {
+    "_entries": [
+      {
+        "brukernavn": {
+          "gyldighetsperiode": {
+            "slutt": "2099-12-31T00:00:00Z",
+            "start": "2010-06-04T00:00:00Z"
+          },
+          "identifikatorverdi": "Yougung"
+        },
+        "elevnummer": {
+          "identifikatorverdi": "500001"
+        },
+        "feidenavn": {
+          "identifikatorverdi": "leonahansen@sundetvgs.haugfk.no"
+        },
+        "systemId": {
+          "identifikatorverdi": "a0611475-f278-4e5f-ba1b-bdfe440b6f71"
+        },
+        "_links": {
+          "person": [
+            {
+              "href": "${}/utdanning/elev/person/fodselsnummer/14029923273"
+            }
+          ],
+          "elevforhold": [
+            {
+              "href": "${}/utdanning/elev/elevforhold/systemid/E_500001_1"
+            }
+          ],
+          "self": [
+            {
+              "href": "${}/utdanning/elev/elev/brukernavn/Yougung"
+            }
+          ]
+        }
+      },
+      {
+        "brukernavn": {
+          "gyldighetsperiode": {
+            "slutt": "2099-12-31T00:00:00Z",
+            "start": "2010-06-04T00:00:00Z"
+          },
+          "identifikatorverdi": "Pulithey1933"
+        },
+        "elevnummer": {
+          "identifikatorverdi": "500002"
+        },
+        "systemId": {
+          "identifikatorverdi": "d0df6fa9-e058-40d9-aa8c-46fc6c8c7ac9"
+        },
+        "_links": {
+          "person": [
+            {
+              "href": "${}/utdanning/elev/person/fodselsnummer/18010197461"
+            }
+          ],
+          "elevforhold": [
+            {
+              "href": "${}/utdanning/elev/elevforhold/systemid/E_500002_1"
+            }
+          ],
+          "self": [
+            {
+              "href": "${}/utdanning/elev/elev/brukernavn/Pulithey1933"
+            }
+          ]
+        }
+      },
+      {
+        "brukernavn": {
+          "gyldighetsperiode": {
+            "slutt": "2099-12-31T00:00:00Z",
+            "start": "2010-06-04T00:00:00Z"
+          },
+          "identifikatorverdi": "Daref1968"
+        },
+        "elevnummer": {
+          "identifikatorverdi": "500003"
+        },
+        "systemId": {
+          "identifikatorverdi": "0482e5cc-d95c-4d6d-b0b9-6bd103b8f57b"
+        },
+        "_links": {
+          "person": [
+            {
+              "href": "${}/utdanning/elev/person/fodselsnummer/11010159115"
+            }
+          ],
+          "elevforhold": [
+            {
+              "href": "${}/utdanning/elev/elevforhold/systemid/E_500003_1"
+            }
+          ],
+          "self": [
+            {
+              "href": "${}/utdanning/elev/elev/brukernavn/Daref1968"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "_links": {
+    "self": [
+      {
+        "href": "${}/utdanning/elev/elev/"
+      }
+    ]
+  },
+  "total_items": 3,
+  "_class": "no.fint.model.resource.utdanning.elev.ElevResource"
+}

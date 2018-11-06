@@ -1,0 +1,48 @@
+{
+  "_embedded": {
+    "_entries": [
+      {
+        "beskrivelse": "Kontaktlærergruppe 1, 1. trinn Studiespesialisering 2018-2019",
+        "navn": "1STA-1",
+        "periode": [
+          {
+            "slutt": "2099-01-01T00:00:00Z",
+            "start": "2017-06-04T19:53:36Z"
+          }
+        ],
+        "systemId": {
+          "identifikatorverdi": "KG_1STA-1"
+        },
+        "_links": {
+          "medlemskap": [
+            {
+              "href": "${}/utdanning/elev/medlemskap/systemid/M_0005"
+            },
+            {
+              "href": "${}/utdanning/elev/medlemskap/systemid/M_0006"
+            }
+          ],
+          "basisgruppe": [
+            {
+              "href": "${}/utdanning/elev/basisgruppe/systemid/BG_1STA-2018"
+            }
+          ],
+          "self": [
+            {
+              "href": "${}/utdanning/elev/kontaktlarergruppe/systemid/KG_1STA-1"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "_links": {
+    "self": [
+      {
+        "href": "${}/utdanning/elev/kontaktlarergruppe/"
+      }
+    ]
+  },
+  "total_items": 1,
+  "_class": "no.fint.model.resource.utdanning.elev.KontaktlarergruppeResource"
+}

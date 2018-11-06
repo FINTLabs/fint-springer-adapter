@@ -1,0 +1,59 @@
+{
+  "_embedded": {
+    "_entries": [
+      {
+        "beskrivelse": "1. trinn Studiespesialisering 2018-2019",
+        "navn": "1STA",
+        "periode": [
+          {
+            "slutt": "2099-01-01T00:00:00Z",
+            "start": "2017-06-04T19:53:36Z"
+          }
+        ],
+        "systemId": {
+          "identifikatorverdi": "BG_1STA-2018"
+        },
+        "_links": {
+          "trinn": [
+            {
+              "href": "${}/utdanning/utdanningsprogram/arstrinn/systemid/vg1"
+            }
+          ],
+          "medlemskap": [
+            {
+              "href": "${}/utdanning/elev/medlemskap/systemid/M_0001"
+            },
+            {
+              "href": "${}/utdanning/elev/medlemskap/systemid/M_0002"
+            },
+            {
+              "href": "${}/utdanning/elev/medlemskap/systemid/M_0003"
+            },
+            {
+              "href": "${}/utdanning/elev/medlemskap/systemid/M_0004"
+            }
+          ],
+          "kontaktlarergruppe": [
+            {
+              "href": "${}/utdanning/elev/kontaktlarergruppe/systemid/KG_1STA-1"
+            }
+          ],
+          "self": [
+            {
+              "href": "${}/utdanning/elev/basisgruppe/systemid/BG_1STA-2018"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "_links": {
+    "self": [
+      {
+        "href": "${}/utdanning/elev/basisgruppe/"
+      }
+    ]
+  },
+  "total_items": 1,
+  "_class": "no.fint.model.resource.utdanning.elev.BasisgruppeResource"
+}
