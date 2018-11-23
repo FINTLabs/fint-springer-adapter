@@ -1,0 +1,33 @@
+{
+  "_embedded": {
+    "_entries": [
+      {
+        "navn": "202",
+        "systemId": {
+          "identifikatorverdi": "SUX202"
+        },
+        "_links": {
+          "time": [
+            {
+              "href": "${}/utdanning/timeplan/time/systemid/T_NOR1_2018"
+            }
+          ],
+          "self": [
+            {
+              "href": "${}/utdanning/timeplan/rom/systemid/SUX202"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "_links": {
+    "self": [
+      {
+        "href": "${}/utdanning/timeplan/rom"
+      }
+    ]
+  },
+  "total_items": 1,
+  "_class": "no.fint.model.resource.utdanning.timeplan.RomResource"
+}

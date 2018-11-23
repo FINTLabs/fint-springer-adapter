@@ -1,0 +1,48 @@
+{
+  "_embedded": {
+    "_entries": [
+      {
+        "beskrivelse": "Norsk hovedmål",
+        "navn": "Norsk",
+        "systemId": {
+          "identifikatorverdi": "T_NOR1_2018"
+        },
+        "tidsrom": {
+          "slutt": "2018-04-03T09:00:00Z",
+          "start": "2018-04-03T10:00:00Z"
+        },
+        "_links": {
+          "undervisningsforhold": [
+            {
+              "href": "${}/utdanning/elev/undervisningsforhold/systemid/L_100003_1"
+            }
+          ],
+          "rom": [
+            {
+              "href": "${}/utdanning/timeplan/rom/systemid/SUX202"
+            }
+          ],
+          "undervisningsgruppe": [
+            {
+              "href": "${}/utdanning/timeplan/undervisningsgruppe/systemid/UG_2018_1STA_NOR1Z41"
+            }
+          ],
+          "self": [
+            {
+              "href": "${}/utdanning/timeplan/time/systemid/T_NOR1_2018"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "_links": {
+    "self": [
+      {
+        "href": "${}/utdanning/timeplan/time"
+      }
+    ]
+  },
+  "total_items": 1,
+  "_class": "no.fint.model.resource.utdanning.timeplan.TimeResource"
+}

@@ -1,0 +1,70 @@
+{
+  "_embedded": {
+    "_entries": [
+      {
+        "beskrivelse": "Norsk Vg1 studieforberedende utdanningsprogram",
+        "navn": "NOR1Z41",
+        "periode": [
+          {
+            "start": "2006-08-01T00:00:00Z"
+          }
+        ],
+        "systemId": {
+          "identifikatorverdi": "FA_NOR1Z41_2018"
+        },
+        "_links": {
+          "vigoreferanse": [
+            {
+              "href": "${}/utdanning/vigo/kodeverk/opplaringsfag/kode/NOR1Z41"
+            }
+          ],
+          "grepreferanse": [
+            {
+              "href": "https://psi.udir.no/kl06/NOR1Z41"
+            }
+          ],
+          "programomrade": [
+            {
+              "href": "${}/utdanning/utdanningsprogram/programomrade/systemid/PO_STUSP1_2018"
+            }
+          ],
+          "skole": [
+            {
+              "href": "${}/utdanning/utdanningsprogram/skole/systemid/XX1234"
+            }
+          ],
+          "undervisningsgruppe": [
+            {
+              "href": "${}/utdanning/timeplan/undervisningsgruppe/systemid/UG_2018_1STA_NOR1Z41"
+            }
+          ],
+          "medlemskap": [
+            {
+              "href": "${}/utdanning/elev/medlemskap/systemid/M_0016"
+            },
+            {
+              "href": "${}/utdanning/elev/medlemskap/systemid/M_0017"
+            },
+            {
+              "href": "${}/utdanning/elev/medlemskap/systemid/M_0018"
+            }
+          ],
+          "self": [
+            {
+              "href": "${}/utdanning/timeplan/fag/systemid/FA_NOR1Z41_2018"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "_links": {
+    "self": [
+      {
+        "href": "${}/utdanning/timeplan/fag"
+      }
+    ]
+  },
+  "total_items": 1,
+  "_class": "no.fint.model.resource.utdanning.timeplan.FagResource"
+}

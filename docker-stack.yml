@@ -11,11 +11,12 @@ services:
       fint.adapter.endpoints.providers.organisasjon: https://beta.felleskomponent.no/administrasjon/organisasjon/provider
       fint.adapter.endpoints.providers.kodeverk: https://beta.felleskomponent.no/administrasjon/kodeverk/provider
       fint.adapter.endpoints.providers.elev: https://beta.felleskomponent.no/utdanning/elev/provider
+      fint.adapter.endpoints.providers.timeplan: https://beta.felleskomponent.no/utdanning/timeplan/provider
       fint.oauth.enabled: "true"
       fint.oauth.access-token-uri: https://idp.felleskomponent.no/nidp/oauth/nam/token
       fint.oauth.scope: fint-client
       spring.data.mongodb.database: springer
-    image: dtr.fintlabs.no/beta/fint-springer-adapter:latest
+    image: fintlabs.azurecr.io/fint-springer-adapter
     secrets:
     - source: fint-mongo
       target: spring.data.mongodb.uri

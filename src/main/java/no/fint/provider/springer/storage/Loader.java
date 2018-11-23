@@ -27,11 +27,11 @@ public class Loader {
 
     @PostConstruct
     public void load() throws IOException, ClassNotFoundException {
-        if (mongoTemplate.count(null, Springer.class) == 0) {
-            log.info("Empty database, initializing...");
-            for (Resource r : new PathMatchingResourcePatternResolver(getClass().getClassLoader()).getResources("classpath*:/springer/*.json")) {
-                JsonNode jsonNode = objectMapper.readTree(r.getInputStream());
-                Class<?> type = Class.forName(jsonNode.get("_class").asText());
+        log.info("Checking database content ...");
+        for (Resource r : new PathMatchingResourcePatternResolver(getClass().getClassLoader()).getResources("classpath*:/springer/*.json")) {
+            JsonNode jsonNode = objectMapper.readTree(r.getInputStream());
+            Class<?> type = Class.forName(jsonNode.get("_class").asText());
+            if (mongoTemplate.count(wrapper.query(type), Springer.class) == 0) {
                 long count = StreamSupport
                         .stream(jsonNode.get("_embedded").get("_entries").spliterator(), false)
                         .map(wrapper.wrapper(type))
@@ -39,7 +39,7 @@ public class Loader {
                         .count();
                 log.info("Added {} elements of {}", count, type);
             }
-            log.info("Completed database initialization.");
         }
+        log.info("Completed database initialization.");
     }
 }

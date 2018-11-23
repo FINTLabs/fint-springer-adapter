@@ -1,0 +1,69 @@
+{
+  "_embedded": {
+    "_entries": [
+      {
+        "beskrivelse": "1STA 2018 NOR1Z41",
+        "navn": "1STA NOR1",
+        "periode": [
+          {
+            "slutt": "2018-06-30T00:00:00Z",
+            "start": "2017-08-01T00:00:00Z"
+          }
+        ],
+        "systemId": {
+          "identifikatorverdi": "UG_2018_1STA_NOR1Z41"
+        },
+        "_links": {
+          "vigoreferanse": [
+            {
+              "href": "${}/utdanning/vigo/kodeverk/opplaringsfag/kode/NOR1Z41"
+            }
+          ],
+          "grepreferanse": [
+            {
+              "href": "https://psi.udir.no/kl06/NOR1Z41"
+            }
+          ],
+          "fag": [
+            {
+              "href": "${}/utdanning/timeplan/fag/systemid/FA_NOR1Z41_2018"
+            }
+          ],
+          "time": [
+            {
+              "href": "${}/utdanning/timeplan/time/systemid/T_NOR1_2018"
+            }
+          ],
+          "medlemskap": [
+            {
+              "href": "${}/utdanning/elev/medlemskap/systemid/M_0007"
+            },
+            {
+              "href": "${}/utdanning/elev/medlemskap/systemid/M_0008"
+            },
+            {
+              "href": "${}/utdanning/elev/medlemskap/systemid/M_0009"
+            },
+            {
+              "href": "${}/utdanning/elev/medlemskap/systemid/M_0023"
+            }
+          ],
+          "self": [
+            {
+              "href": "${}/utdanning/timeplan/undervisningsgruppe/systemid/UG_2018_1STA_NOR1Z41"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "_links": {
+    "self": [
+      {
+        "href": "${}/utdanning/timeplan/undervisningsgruppe"
+      }
+    ]
+  },
+  "total_items": 1,
+  "_class": "no.fint.model.resource.utdanning.timeplan.UndervisningsgruppeResource"
+}
