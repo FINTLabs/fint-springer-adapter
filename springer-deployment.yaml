@@ -21,7 +21,7 @@ spec:
     spec:
       containers:
       - name: springer-adapter
-        image: fintlabs.azurecr.io/fint-springer-adapter
+        image: fintlabs.azurecr.io/fint-springer-adapter:RC-2
         env:
         - name: TZ
           value: Europe/Oslo

@@ -59,7 +59,7 @@ public class SseInitializer {
     public void checkSseConnection() {
         for (FintSse sseClient : sseClients) {
             if (!sseClient.verifyConnection()) {
-                log.info("Reconnecting SSE client");
+                log.info("Reconnecting SSE client {}", sseClient.getSseUrl());
             }
         }
     }
