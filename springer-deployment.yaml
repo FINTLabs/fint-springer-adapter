@@ -22,7 +22,7 @@ spec:
       restartPolicy: Always
       containers:
         - name: springer-beta
-          image: fintlabs.azurecr.io/fint-springer-adapter:build.4
+          image: fintlabs.azurecr.io/fint-springer-adapter:build.5
           env:
             - name: TZ
               value: Europe/Oslo
@@ -72,7 +72,7 @@ spec:
             - name: spring.data.mongodb.database
               value: springer
         - name: springer-pwf
-          image: fintlabs.azurecr.io/fint-springer-adapter:build.4
+          image: fintlabs.azurecr.io/fint-springer-adapter:build.5
           env:
             - name: TZ
               value: Europe/Oslo

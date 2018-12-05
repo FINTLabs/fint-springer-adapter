@@ -6,6 +6,7 @@ import no.fint.event.model.ResponseStatus;
 import no.fint.event.model.Status;
 import no.fint.model.felles.FellesActions;
 import no.fint.model.resource.FintLinks;
+import no.fint.model.resource.felles.KontaktpersonResource;
 import no.fint.model.resource.felles.PersonResource;
 import no.fint.provider.springer.storage.SpringerRepository;
 import org.springframework.stereotype.Repository;
@@ -24,6 +25,9 @@ public class PersonRepository extends SpringerRepository {
             case GET_ALL_PERSON:
                 query(PersonResource.class, response);
                 break;
+            case GET_ALL_KONTAKTPERSON:
+                query(KontaktpersonResource.class, response);
+                break;
             case UPDATE_PERSON:
             default:
                 response.setStatus(Status.ADAPTER_REJECTED);
@@ -35,10 +39,11 @@ public class PersonRepository extends SpringerRepository {
 
     @Override
     public Set<String> actions() {
-        return Stream.of(
-                FellesActions.GET_ALL_PERSON,
-                FellesActions.UPDATE_PERSON
-        ).map(Enum::name).collect(Collectors.toSet());
+        return Stream
+                .of(FellesActions.values())
+                .map(Enum::name)
+                .filter(s -> s.startsWith("GET_ALL_"))
+                .collect(Collectors.toSet());
     }
 
 }
