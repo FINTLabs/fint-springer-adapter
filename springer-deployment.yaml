@@ -72,7 +72,7 @@ spec:
             - name: spring.data.mongodb.database
               value: springer
         - name: springer-pwf
-          image: fintlabs.azurecr.io/fint-springer-adapter:build.5
+          image: fintlabs.azurecr.io/fint-springer-adapter:build.6
           env:
             - name: TZ
               value: Europe/Oslo
@@ -86,6 +86,8 @@ spec:
               value: https://play-with-fint.felleskomponent.no/administrasjon/personal/provider
             - name: fint.adapter.endpoints.providers.timeplan
               value: https://play-with-fint.felleskomponent.no/utdanning/timeplan/provider
+            - name: fint.adapter.endpoints.providers.utdanningsprogram
+              value: https://play-with-fint.felleskomponent.no/utdanning/utdanningsprogram/provider
             - name: fint.adapter.organizations
               value: pwf.no
             - name: fint.oauth.enabled
@@ -97,3 +99,5 @@ spec:
                   key: mongodb
             - name: spring.data.mongodb.database
               value: springer
+            - name: server.port
+              value: "8092"
