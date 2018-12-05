@@ -14,9 +14,9 @@ pipeline {
                 branch 'master'
             }
             steps {
-                sh "docker tag ${GIT_COMMIT} fintlabs.azurecr.io/fint-springer-adapter:RC-${BUILD_NUMBER}"
+                sh "docker tag ${GIT_COMMIT} fintlabs.azurecr.io/fint-springer-adapter:build.${BUILD_NUMBER}"
                 withDockerRegistry([credentialsId: 'fintlabs.azurecr.io', url: 'https://fintlabs.azurecr.io']) {
-                    sh "docker push fintlabs.azurecr.io/fint-springer-adapter:RC-${BUILD_NUMBER}"
+                    sh "docker push fintlabs.azurecr.io/fint-springer-adapter:build.${BUILD_NUMBER}"
                 }
             }
         }
@@ -37,9 +37,9 @@ pipeline {
         stage('Publish PR') {
             when { changeRequest() }
             steps {
-                sh "docker tag ${GIT_COMMIT} fintlabs.azurecr.io/fint-springer-adapter:${BRANCH_NAME}-${BUILD_NUMBER}"
+                sh "docker tag ${GIT_COMMIT} fintlabs.azurecr.io/fint-springer-adapter:${BRANCH_NAME}.${BUILD_NUMBER}"
                 withDockerRegistry([credentialsId: 'fintlabs.azurecr.io', url: 'https://fintlabs.azurecr.io']) {
-                    sh "docker push fintlabs.azurecr.io/fint-springer-adapter:${BRANCH_NAME}-${BUILD_NUMBER}"
+                    sh "docker push fintlabs.azurecr.io/fint-springer-adapter:${BRANCH_NAME}.${BUILD_NUMBER}"
                 }
             }
         }
