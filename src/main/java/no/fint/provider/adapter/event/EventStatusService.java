@@ -49,7 +49,7 @@ public class EventStatusService {
             event.setStatus(Status.ADAPTER_REJECTED);
         }
 
-        log.info("{}: Posting status for {} ...", component, event.getAction());
+        log.info("{}: Posting status for {} {} ...", component, event.getAction(), event.getCorrId());
         postStatus(component, event);
         return event;
     }

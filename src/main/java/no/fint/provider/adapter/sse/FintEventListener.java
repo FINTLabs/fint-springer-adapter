@@ -23,7 +23,7 @@ public class FintEventListener extends AbstractEventListener {
 
     @Override
     public void onEvent(Event event) {
-        log.info("{}: Processing event {} for {}", component, event.getAction(), event.getOrgId());
+        log.info("{}: Processing event {} for {} - {}", component, event.getAction(), event.getOrgId(), event.getCorrId());
         eventHandler.handleEvent(component, event);
     }
 }

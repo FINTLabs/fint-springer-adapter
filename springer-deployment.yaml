@@ -72,7 +72,7 @@ spec:
             - name: spring.data.mongodb.database
               value: springer
         - name: springer-pwf
-          image: fintlabs.azurecr.io/fint-springer-adapter:build.7
+          image: fintlabs.azurecr.io/fint-springer-adapter:build.8
           env:
             - name: TZ
               value: Europe/Oslo
