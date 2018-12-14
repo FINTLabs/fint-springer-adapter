@@ -16,31 +16,38 @@
         "_links": {
           "trinn": [
             {
-              "href": "${}/utdanning/utdanningsprogram/arstrinn/systemid/vg1"
+              "href": "${utdanning.utdanningsprogram.arstrinn}/systemid/vg1"
             }
           ],
-          "medlemskap": [
+          "skole": [
             {
-              "href": "${}/utdanning/elev/medlemskap/systemid/M_0001"
+              "href": "${utdanning.utdanningsprogram.skole}/skolenummer/123456"
+            }
+          ],
+          "elevforhold": [
+            {
+              "href": "${utdanning.elev.elevforhold}/systemid/E_500001_1"
             },
             {
-              "href": "${}/utdanning/elev/medlemskap/systemid/M_0002"
+              "href": "${utdanning.elev.elevforhold}/systemid/E_500002_1"
             },
             {
-              "href": "${}/utdanning/elev/medlemskap/systemid/M_0003"
-            },
+              "href": "${utdanning.elev.elevforhold}/systemid/E_500003_1"
+            }
+          ],
+          "undervisningsforhold":[
             {
-              "href": "${}/utdanning/elev/medlemskap/systemid/M_0004"
+              "href": "${utdanning.elev.undervisningsforhold}/systemid/L_100003_1"
             }
           ],
           "kontaktlarergruppe": [
             {
-              "href": "${}/utdanning/elev/kontaktlarergruppe/systemid/KG_1STA-1"
+              "href": "${utdanning.elev.kontaktlarergruppe}/systemid/KG_1STA-1"
             }
           ],
           "self": [
             {
-              "href": "${}/utdanning/elev/basisgruppe/systemid/BG_1STA-2018"
+              "href": "${utdanning.elev.basisgruppe}/systemid/BG_1STA-2018"
             }
           ]
         }
@@ -50,7 +57,7 @@
   "_links": {
     "self": [
       {
-        "href": "${}/utdanning/elev/basisgruppe/"
+        "href": "${utdanning.elev.basisgruppe}/"
       }
     ]
   },

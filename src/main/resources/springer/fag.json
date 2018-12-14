@@ -15,7 +15,7 @@
         "_links": {
           "vigoreferanse": [
             {
-              "href": "${}/utdanning/vigo/kodeverk/opplaringsfag/kode/NOR1Z41"
+              "href": "${utdanning.vigo.kodeverk}/opplaringsfag/kode/NOR1Z41"
             }
           ],
           "grepreferanse": [
@@ -25,33 +25,22 @@
           ],
           "programomrade": [
             {
-              "href": "${}/utdanning/utdanningsprogram/programomrade/systemid/PO_STUSP1_2018"
+              "href": "${utdanning.utdanningsprogram.programomrade}/systemid/PO_STUSP1_2018"
             }
           ],
           "skole": [
             {
-              "href": "${}/utdanning/utdanningsprogram/skole/systemid/XX1234"
+              "href": "${utdanning.utdanningsprogram.skole}/systemid/XX1234"
             }
           ],
           "undervisningsgruppe": [
             {
-              "href": "${}/utdanning/timeplan/undervisningsgruppe/systemid/UG_2018_1STA_NOR1Z41"
-            }
-          ],
-          "medlemskap": [
-            {
-              "href": "${}/utdanning/elev/medlemskap/systemid/M_0016"
-            },
-            {
-              "href": "${}/utdanning/elev/medlemskap/systemid/M_0017"
-            },
-            {
-              "href": "${}/utdanning/elev/medlemskap/systemid/M_0018"
+              "href": "${utdanning.timeplan.undervisningsgruppe}/systemid/UG_2018_1STA_NOR1Z41"
             }
           ],
           "self": [
             {
-              "href": "${}/utdanning/timeplan/fag/systemid/FA_NOR1Z41_2018"
+              "href": "${utdanning.timeplan.fag}/systemid/FA_NOR1Z41_2018"
             }
           ]
         }
@@ -61,7 +50,7 @@
   "_links": {
     "self": [
       {
-        "href": "${}/utdanning/timeplan/fag"
+        "href": "${utdanning.timeplan.fag}"
       }
     ]
   },

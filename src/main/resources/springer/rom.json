@@ -9,12 +9,12 @@
         "_links": {
           "time": [
             {
-              "href": "${}/utdanning/timeplan/time/systemid/T_NOR1_2018"
+              "href": "${utdanning.timeplan.time}/systemid/T_NOR1_2018"
             }
           ],
           "self": [
             {
-              "href": "${}/utdanning/timeplan/rom/systemid/SUX202"
+              "href": "${utdanning.timeplan.rom}/systemid/SUX202"
             }
           ]
         }
@@ -24,7 +24,7 @@
   "_links": {
     "self": [
       {
-        "href": "${}/utdanning/timeplan/rom"
+        "href": "${utdanning.timeplan.rom}"
       }
     ]
   },

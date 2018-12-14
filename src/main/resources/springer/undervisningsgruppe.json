@@ -14,9 +14,14 @@
           "identifikatorverdi": "UG_2018_1STA_NOR1Z41"
         },
         "_links": {
+          "skole": [
+            {
+              "href": "${utdanning.utdanningsprogram.skole}/skolenummer/123456"
+            }
+          ],
           "vigoreferanse": [
             {
-              "href": "${}/utdanning/vigo/kodeverk/opplaringsfag/kode/NOR1Z41"
+              "href": "${utdanning.vigo.kodeverk}/opplaringsfag/kode/NOR1Z41"
             }
           ],
           "grepreferanse": [
@@ -26,31 +31,33 @@
           ],
           "fag": [
             {
-              "href": "${}/utdanning/timeplan/fag/systemid/FA_NOR1Z41_2018"
+              "href": "${utdanning.timeplan.fag}/systemid/FA_NOR1Z41_2018"
             }
           ],
           "time": [
             {
-              "href": "${}/utdanning/timeplan/time/systemid/T_NOR1_2018"
+              "href": "${utdanning.timeplan.time}/systemid/T_NOR1_2018"
             }
           ],
-          "medlemskap": [
+          "elevforhold": [
             {
-              "href": "${}/utdanning/elev/medlemskap/systemid/M_0007"
+              "href": "${utdanning.elev.elevforhold}/systemid/E_500001_1"
             },
             {
-              "href": "${}/utdanning/elev/medlemskap/systemid/M_0008"
+              "href": "${utdanning.elev.elevforhold}/systemid/E_500002_1"
             },
             {
-              "href": "${}/utdanning/elev/medlemskap/systemid/M_0009"
-            },
+              "href": "${utdanning.elev.elevforhold}/systemid/E_500003_1"
+            }
+          ],
+          "undervisningsforhold": [
             {
-              "href": "${}/utdanning/elev/medlemskap/systemid/M_0023"
+              "href": "${utdanning.elev.undervisningsforhold}/systemid/L_100003_1"
             }
           ],
           "self": [
             {
-              "href": "${}/utdanning/timeplan/undervisningsgruppe/systemid/UG_2018_1STA_NOR1Z41"
+              "href": "${utdanning.timeplan.undervisningsgruppe}/systemid/UG_2018_1STA_NOR1Z41"
             }
           ]
         }
@@ -60,7 +67,7 @@
   "_links": {
     "self": [
       {
-        "href": "${}/utdanning/timeplan/undervisningsgruppe"
+        "href": "${utdanning.timeplan.undervisningsgruppe}"
       }
     ]
   },

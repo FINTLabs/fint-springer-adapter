@@ -9,40 +9,32 @@
         "_links": {
           "elev": [
             {
-              "href": "${}/utdanning/elev/elev/elevnummer/500001"
+              "href": "${utdanning.elev.elev}/elevnummer/500001"
             }
           ],
           "skole": [
             {
-              "href": "${}/utdanning/utdanningsprogram/skole/skolenummer/123456"
+              "href": "${utdanning.utdanningsprogram.skole}/skolenummer/123456"
             }
           ],
           "kategori": [
             {
-              "href": "${}/utdanning/kodeverk/elevkategori/systemid/heltid"
-            }
-          ],
-          "medlemskap": [
-            {
-              "href": "${}/utdanning/elev/medlemskap/systemid/M_0001"
-            },
-            {
-              "href": "${}/utdanning/elev/medlemskap/systemid/M_0007"
+              "href": "${utdanning.kodeverk.elevkategori}/systemid/heltid"
             }
           ],
           "basisgruppe": [
             {
-              "href": "${}/utdanning/elev/basisgruppe/systemid/BG_1STA-2018"
+              "href": "${utdanning.elev.basisgruppe}/systemid/BG_1STA-2018"
             }
           ],
           "undervisningsgruppe": [
             {
-              "href": "${}/utdanning/timeplan/undervisningsgruppe/systemid/UG_2018_1STA_NOR1Z41"
+              "href": "${utdanning.timeplan.undervisningsgruppe}/systemid/UG_2018_1STA_NOR1Z41"
             }
           ],
           "self": [
             {
-              "href": "${}/utdanning/elev/elevforhold/systemid/E_500001_1"
+              "href": "${utdanning.elev.elevforhold}/systemid/E_500001_1"
             }
           ]
         }
@@ -55,40 +47,32 @@
         "_links": {
           "elev": [
             {
-              "href": "${}/utdanning/elev/elev/elevnummer/500002"
+              "href": "${utdanning.elev.elev}/elevnummer/500002"
             }
           ],
           "skole": [
             {
-              "href": "${}/utdanning/utdanningsprogram/skole/skolenummer/123456"
+              "href": "${utdanning.utdanningsprogram.skole}/skolenummer/123456"
             }
           ],
           "kategori": [
             {
-              "href": "${}/utdanning/kodeverk/elevkategori/systemid/heltid"
-            }
-          ],
-          "medlemskap": [
-            {
-              "href": "${}/utdanning/elev/medlemskap/systemid/M_0002"
-            },
-            {
-              "href": "${}/utdanning/elev/medlemskap/systemid/M_0008"
+              "href": "${utdanning.kodeverk.elevkategori}/systemid/heltid"
             }
           ],
           "basisgruppe": [
             {
-              "href": "${}/utdanning/elev/basisgruppe/systemid/BG_1STA-2018"
+              "href": "${utdanning.elev.basisgruppe}/systemid/BG_1STA-2018"
             }
           ],
           "undervisningsgruppe": [
             {
-              "href": "${}/utdanning/timeplan/undervisningsgruppe/systemid/UG_2018_1STA_NOR1Z41"
+              "href": "${utdanning.timeplan.undervisningsgruppe}/systemid/UG_2018_1STA_NOR1Z41"
             }
           ],
           "self": [
             {
-              "href": "${}/utdanning/elev/elevforhold/systemid/E_500002_1"
+              "href": "${utdanning.elev.elevforhold}/systemid/E_500002_1"
             }
           ]
         }
@@ -101,56 +85,42 @@
         "_links": {
           "elev": [
             {
-              "href": "${}/utdanning/elev/elev/elevnummer/500003"
+              "href": "${utdanning.elev.elev}/elevnummer/500003"
             }
           ],
           "skole": [
             {
-              "href": "${}/utdanning/utdanningsprogram/skole/skolenummer/123456"
+              "href": "${utdanning.utdanningsprogram.skole}/skolenummer/123456"
             }
           ],
           "kategori": [
             {
-              "href": "${}/utdanning/kodeverk/elevkategori/systemid/heltid"
-            }
-          ],
-          "medlemskap": [
-            {
-              "href": "${}/utdanning/elev/medlemskap/systemid/M_0004"
-            },
-            {
-              "href": "${}/utdanning/elev/medlemskap/systemid/M_0006"
-            },
-            {
-              "href": "${}/utdanning/elev/medlemskap/systemid/M_0009"
-            },
-            {
-              "href": "${}/utdanning/elev/medlemskap/systemid/M_0022"
+              "href": "${utdanning.kodeverk.elevkategori}/systemid/heltid"
             }
           ],
           "basisgruppe": [
             {
-              "href": "${}/utdanning/elev/basisgruppe/systemid/BG_1STA-2018"
+              "href": "${utdanning.elev.basisgruppe}/systemid/BG_1STA-2018"
             }
           ],
           "kontaktlarergruppe": [
             {
-              "href": "${}/utdanning/elev/kontaktlarergruppe/systemid/KG_1STA-1"
+              "href": "${utdanning.elev.kontaktlarergruppe}/systemid/KG_1STA-1"
             }
           ],
           "undervisningsgruppe": [
             {
-              "href": "${}/utdanning/timeplan/undervisningsgruppe/systemid/UG_2018_1STA_NOR1Z41"
+              "href": "${utdanning.timeplan.undervisningsgruppe}/systemid/UG_2018_1STA_NOR1Z41"
             }
           ],
           "eksamensgruppe": [
             {
-              "href": "${}/utdanning/vurdering/eksamensgruppe/systemid/EG_NOR1Z41_2018"
+              "href": "${utdanning.vurdering.eksamensgruppe}/systemid/EG_NOR1Z41_2018"
             }
           ],
           "self": [
             {
-              "href": "${}/utdanning/elev/elevforhold/systemid/E_500003_1"
+              "href": "${utdanning.elev.elevforhold}/systemid/E_500003_1"
             }
           ]
         }
@@ -160,7 +130,7 @@
   "_links": {
     "self": [
       {
-        "href": "${}/utdanning/elev/elevforhold/"
+        "href": "${utdanning.elev.elevforhold}/"
       }
     ]
   },

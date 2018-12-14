@@ -14,22 +14,22 @@
         "_links": {
           "undervisningsforhold": [
             {
-              "href": "${}/utdanning/elev/undervisningsforhold/systemid/L_100003_1"
+              "href": "${utdanning.elev.undervisningsforhold}/systemid/L_100003_1"
             }
           ],
           "rom": [
             {
-              "href": "${}/utdanning/timeplan/rom/systemid/SUX202"
+              "href": "${utdanning.timeplan.rom}/systemid/SUX202"
             }
           ],
           "undervisningsgruppe": [
             {
-              "href": "${}/utdanning/timeplan/undervisningsgruppe/systemid/UG_2018_1STA_NOR1Z41"
+              "href": "${utdanning.timeplan.undervisningsgruppe}/systemid/UG_2018_1STA_NOR1Z41"
             }
           ],
           "self": [
             {
-              "href": "${}/utdanning/timeplan/time/systemid/T_NOR1_2018"
+              "href": "${utdanning.timeplan.time}/systemid/T_NOR1_2018"
             }
           ]
         }
@@ -39,7 +39,7 @@
   "_links": {
     "self": [
       {
-        "href": "${}/utdanning/timeplan/time"
+        "href": "${utdanning.timeplan.time}"
       }
     ]
   },

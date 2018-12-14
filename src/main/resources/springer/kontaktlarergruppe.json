@@ -14,22 +14,29 @@
           "identifikatorverdi": "KG_1STA-1"
         },
         "_links": {
-          "medlemskap": [
+          "skole": [
             {
-              "href": "${}/utdanning/elev/medlemskap/systemid/M_0005"
-            },
+              "href": "${utdanning.utdanningsprogram.skole}/skolenummer/123456"
+            }
+          ],
+          "elevforhold": [
             {
-              "href": "${}/utdanning/elev/medlemskap/systemid/M_0006"
+              "href": "${utdanning.elev.elevforhold}/systemid/E_500003_1"
+            }
+          ],
+          "undervisningsforhold": [
+            {
+              "href": "${utdanning.elev.undervisningsforhold}/systemid/L_100003_1"
             }
           ],
           "basisgruppe": [
             {
-              "href": "${}/utdanning/elev/basisgruppe/systemid/BG_1STA-2018"
+              "href": "${utdanning.elev.basisgruppe}/systemid/BG_1STA-2018"
             }
           ],
           "self": [
             {
-              "href": "${}/utdanning/elev/kontaktlarergruppe/systemid/KG_1STA-1"
+              "href": "${utdanning.elev.kontaktlarergruppe}/systemid/KG_1STA-1"
             }
           ]
         }
@@ -39,7 +46,7 @@
   "_links": {
     "self": [
       {
-        "href": "${}/utdanning/elev/kontaktlarergruppe/"
+        "href": "${utdanning.elev.kontaktlarergruppe}/"
       }
     ]
   },
