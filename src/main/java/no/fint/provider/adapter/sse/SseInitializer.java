@@ -66,7 +66,9 @@ public class SseInitializer {
 
     @PreDestroy
     public void cleanup() {
-        for (FintSse sseClient : sseClients) {
+        List<FintSse> oldClients = sseClients;
+        sseClients = new ArrayList<>();
+        for (FintSse sseClient : oldClients) {
             sseClient.close();
         }
     }
