@@ -26,7 +26,15 @@ spec:
       restartPolicy: Always
       containers:
         - name: springer-beta
-          image: fintlabs.azurecr.io/fint-springer-adapter:build.8
+          image: fintlabs.azurecr.io/fint-springer-adapter:build.11
+          ports:
+            - containerPort: 8091
+          readinessProbe:
+            initialDelaySeconds: 60
+            timeoutSeconds: 5
+            httpGet:
+              port: 8091
+              path: /health
           env:
             - name: TZ
               value: Europe/Oslo
@@ -77,8 +85,10 @@ spec:
                   key: mongodb
             - name: spring.data.mongodb.database
               value: springer
+            - name: security.basic.enabled
+              value: "false"
         - name: springer-pwf
-          image: fintlabs.azurecr.io/fint-springer-adapter:build.9
+          image: fintlabs.azurecr.io/fint-springer-adapter:build.11
           ports:
             - containerPort: 8092
           readinessProbe:
@@ -115,3 +125,5 @@ spec:
               value: springer
             - name: server.port
               value: "8092"
+            - name: security.basic.enabled
+              value: "false"
