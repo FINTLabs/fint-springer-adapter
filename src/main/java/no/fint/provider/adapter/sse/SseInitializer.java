@@ -2,6 +2,7 @@ package no.fint.provider.adapter.sse;
 
 import com.google.common.collect.ImmutableMap;
 import lombok.Getter;
+import lombok.Synchronized;
 import lombok.extern.slf4j.Slf4j;
 import no.fint.event.model.HeaderConstants;
 import no.fint.provider.adapter.FintAdapterEndpoints;
@@ -43,28 +44,41 @@ public class SseInitializer {
     private TokenService tokenService;
 
     @PostConstruct
+    @Synchronized
     public void init() {
         FintSseConfig config = FintSseConfig.withOrgIds(props.getOrganizations());
-        Arrays.asList(props.getOrganizations()).forEach(orgId -> {
-            endpoints.getProviders().forEach((component,provider) -> {
-                FintSse fintSse = new FintSse(provider + endpoints.getSse(), tokenService, config);
-                FintEventListener fintEventListener = new FintEventListener(component, eventHandlerService);
-                fintSse.connect(fintEventListener, ImmutableMap.of(HeaderConstants.ORG_ID, orgId));
-                sseClients.add(fintSse);
-            });
-        });
+        Arrays.asList(props.getOrganizations())
+                .forEach(orgId -> endpoints.getProviders()
+                        .forEach((component, provider) -> {
+                            FintSse fintSse = new FintSse(provider + endpoints.getSse(), tokenService, config);
+                            FintEventListener fintEventListener = new FintEventListener(component, eventHandlerService);
+                            fintSse.connect(fintEventListener, ImmutableMap.of(HeaderConstants.ORG_ID, orgId));
+                            sseClients.add(fintSse);
+                        }));
     }
 
     @Scheduled(initialDelay = 20000L, fixedDelay = 5000L)
     public void checkSseConnection() {
-        for (FintSse sseClient : sseClients) {
-            if (!sseClient.verifyConnection()) {
-                log.info("Reconnecting SSE client {}", sseClient.getSseUrl());
+        try {
+            long oldest = sseClients.stream().mapToLong(FintSse::getAge).max().orElse(0);
+            if (oldest > 0 && oldest > props.getExpiration()) {
+                log.warn("Stale connection detected (oldest {} ms ago), restarting!!", oldest);
+                cleanup();
+                init();
+            } else {
+                for (FintSse sseClient : sseClients) {
+                    if (!sseClient.verifyConnection()) {
+                        log.info("Reconnecting SSE client {}", sseClient.getSseUrl());
+                    }
+                }
             }
+        } catch (Exception e) {
+            log.error("Unexpected error during SSE connection check!", e);
         }
     }
 
     @PreDestroy
+    @Synchronized
     public void cleanup() {
         List<FintSse> oldClients = sseClients;
         sseClients = new ArrayList<>();
