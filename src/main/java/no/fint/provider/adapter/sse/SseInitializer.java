@@ -20,6 +20,8 @@ import javax.annotation.PreDestroy;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
+import java.util.Map;
+import java.util.stream.Collectors;
 
 /**
  * Handles the client connections to the provider SSE endpoint
@@ -60,9 +62,15 @@ public class SseInitializer {
     @Scheduled(initialDelay = 20000L, fixedDelay = 5000L)
     public void checkSseConnection() {
         try {
-            long oldest = sseClients.stream().mapToLong(FintSse::getAge).max().orElse(0);
-            if (oldest > 0 && oldest > props.getExpiration()) {
-                log.warn("Stale connection detected (oldest {} ms ago), restarting!!", oldest);
+            Map<String, Long> expired = sseClients
+                    .stream()
+                    .collect(Collectors.toMap(FintSse::getSseUrl, FintSse::getAge, Math::max))
+                    .entrySet()
+                    .stream()
+                    .filter(e -> e.getValue() > props.getExpiration())
+                    .collect(Collectors.toMap(Map.Entry::getKey, Map.Entry::getValue));
+            if (!expired.isEmpty()) {
+                log.warn("Stale connections detected: {}", expired);
                 cleanup();
                 init();
             } else {
