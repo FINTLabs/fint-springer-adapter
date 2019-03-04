@@ -17,7 +17,7 @@ public class Wrapper {
     private ObjectMapper objectMapper;
 
     public Function<Object,Springer> wrapper(Class<?> type) {
-        return Unchecked.function((Object content) -> new Springer(type.getCanonicalName(), JSON.parse(objectMapper.writeValueAsString(content))));
+        return Unchecked.function((Object content) -> new Springer(null, type.getCanonicalName(), JSON.parse(objectMapper.writeValueAsString(content))));
     }
 
     public <T> Function<Springer,T> unwrapper(Class<T> type) {

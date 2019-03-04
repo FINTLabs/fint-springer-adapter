@@ -1,12 +1,15 @@
-# FINT Fake Personnel Adapter (FFPA)
+# FINT Springer Adapter
+
+FINT Springer Adapter serves data from a Mongo database.
 
 ## Adapter configuration
+
 | Key | Description | Example |
 |-----|-------------|---------|
-| fint.adapter.organizations | List of orgIds the adapter handles. | rogfk.no, vaf.no, ofk.no |
-| fint.adapter.sse-endpoint | Url to the sse endpoint. | https://play-with-fint-adapter.felleskomponent.no/provider/sse/%s |
-| fint.adapter.status-endpoint | Url to the status endpoint. | https://play-with-fint-adapter.felleskomponent.no//provider/status |
-| fint.adapter.response-endpoint | Url to the response endpoint. | https://play-with-fint-adapter.felleskomponent.no/provider/response |
+| `fint.adapter.organizations` | List of orgIds the adapter handles. | rogfk.no, vaf.no, ofk.no |
+| `fint.adapter.endpoints.provider.XXX` | Url to the sse endpoint for provider XXX | https://play-with-fint.felleskomponent.no/administrasjon/personal/provider/sse/%s |
+| `spring.data.mongodb.uri` | URI of Mongo server containing adapter database ||
+| `spring.data.mongodb.database` | Name of database | | 
 
 
 - **[SSE Configuration](https://github.com/FINTlibs/fint-sse#sse-configuration)**
