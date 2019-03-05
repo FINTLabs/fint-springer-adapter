@@ -1,0 +1,29 @@
+{
+  "_embedded": {
+    "_entries": [
+      {
+        "kode": "NO",
+        "navn": "Norge",
+        "systemId": {
+          "identifikatorverdi": "NO"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${}/felles/kodeverk/landkode/systemid/NO"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "_links": {
+    "self": [
+      {
+        "href": "${}/felles/kodeverk/landkode/"
+      }
+    ]
+  },
+  "total_items": 1,
+  "_class": "no.fint.model.resource.felles.kodeverk.iso.LandkodeResource"
+}

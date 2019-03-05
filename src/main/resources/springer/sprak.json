@@ -1,0 +1,57 @@
+{
+  "_embedded": {
+    "_entries": [
+      {
+        "kode": "no",
+        "navn": "Norsk",
+        "systemId": {
+          "identifikatorverdi": "no"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${}/felles/kodeverk/sprak/systemid/no"
+            }
+          ]
+        }
+      },
+      {
+        "kode": "nn",
+        "navn": "Nynorsk",
+        "systemId": {
+          "identifikatorverdi": "nn"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${}/felles/kodeverk/sprak/systemid/nn"
+            }
+          ]
+        }
+      },
+      {
+        "kode": "nb",
+        "navn": "Bokmål",
+        "systemId": {
+          "identifikatorverdi": "nb"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${}/felles/kodeverk/sprak/systemid/nb"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "_links": {
+    "self": [
+      {
+        "href": "${}/felles/kodeverk/sprak/"
+      }
+    ]
+  },
+  "total_items": 3,
+  "_class": "no.fint.model.resource.felles.kodeverk.iso.SprakResource"
+}

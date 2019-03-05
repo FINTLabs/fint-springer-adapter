@@ -1,0 +1,29 @@
+{
+  "_embedded": {
+    "_entries": [
+      {
+        "kode": "4201",
+        "navn": "Haugasond",
+        "systemId": {
+          "identifikatorverdi": "4201"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${}/felles/kodeverk/kommune/systemid/4201"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "_links": {
+    "self": [
+      {
+        "href": "${}/felles/kodeverk/kommune/"
+      }
+    ]
+  },
+  "total_items": 1,
+  "_class": "no.fint.model.resource.felles.kodeverk.KommuneResource"
+}

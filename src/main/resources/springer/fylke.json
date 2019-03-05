@@ -1,0 +1,29 @@
+{
+  "_embedded": {
+    "_entries": [
+      {
+        "kode": "42",
+        "navn": "Haugaland",
+        "systemId": {
+          "identifikatorverdi": "42"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${}/felles/kodeverk/fylke/systemid/42"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "_links": {
+    "self": [
+      {
+        "href": "${}/felles/kodeverk/fylke/"
+      }
+    ]
+  },
+  "total_items": 1,
+  "_class": "no.fint.model.resource.felles.kodeverk.FylkeResource"
+}

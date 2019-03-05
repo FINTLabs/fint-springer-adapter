@@ -16,7 +16,7 @@ import java.util.stream.Stream;
 
 @Slf4j
 @Repository
-public class KodeverkRepository extends SpringerRepository {
+public class AdministrasjonKodeverkRepository extends SpringerRepository {
 
     @Override
     public void accept(Event<FintLinks> response) {

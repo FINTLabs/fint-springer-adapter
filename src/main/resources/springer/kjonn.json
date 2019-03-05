@@ -1,0 +1,127 @@
+{
+  "_embedded": {
+    "_entries": [
+      {
+        "kode": "5",
+        "navn": "transkjønnet mann",
+        "systemId": {
+          "identifikatorverdi": "5"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${}/felles/kodeverk/kjonn/systemid/5"
+            }
+          ]
+        }
+      },
+      {
+        "kode": "9",
+        "navn": "gjelder ikke",
+        "systemId": {
+          "identifikatorverdi": "9"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${}/felles/kodeverk/kjonn/systemid/9"
+            }
+          ]
+        }
+      },
+      {
+        "kode": "0",
+        "navn": "uvisst",
+        "systemId": {
+          "identifikatorverdi": "0"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${}/felles/kodeverk/kjonn/systemid/0"
+            }
+          ]
+        }
+      },
+      {
+        "kode": "4",
+        "navn": "transkjønnet kvinne",
+        "systemId": {
+          "identifikatorverdi": "4"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${}/felles/kodeverk/kjonn/systemid/4"
+            }
+          ]
+        }
+      },
+      {
+        "kode": "1",
+        "navn": "mann",
+        "systemId": {
+          "identifikatorverdi": "1"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${}/felles/kodeverk/kjonn/systemid/1"
+            }
+          ]
+        }
+      },
+      {
+        "kode": "2",
+        "navn": "kvinne",
+        "systemId": {
+          "identifikatorverdi": "2"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${}/felles/kodeverk/kjonn/systemid/2"
+            }
+          ]
+        }
+      },
+      {
+        "kode": "8",
+        "navn": "ikke oppgitt",
+        "systemId": {
+          "identifikatorverdi": "8"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${}/felles/kodeverk/kjonn/systemid/8"
+            }
+          ]
+        }
+      },
+      {
+        "kode": "7",
+        "navn": "hermafroditt",
+        "systemId": {
+          "identifikatorverdi": "7"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${}/felles/kodeverk/kjonn/systemid/7"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "_links": {
+    "self": [
+      {
+        "href": "${}/felles/kodeverk/kjonn/"
+      }
+    ]
+  },
+  "total_items": 8,
+  "_class": "no.fint.model.resource.felles.kodeverk.iso.KjonnResource"
+}
