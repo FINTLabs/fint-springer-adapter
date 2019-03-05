@@ -30,7 +30,7 @@ spec:
             - "api.felleskomponent.no"
       containers:
         - name: springer-api
-          image: fintlabs.azurecr.io/fint-springer-adapter:build.2
+          image: fintlabs.azurecr.io/fint-springer-adapter:1.0.0-rc-1
           ports:
             - containerPort: 8090
           readinessProbe:
@@ -94,7 +94,7 @@ spec:
             - name: security.basic.enabled
               value: "false"
         - name: springer-beta
-          image: fintlabs.azurecr.io/fint-springer-adapter:build.2
+          image: fintlabs.azurecr.io/fint-springer-adapter:1.0.0-rc-1
           ports:
             - containerPort: 8091
           readinessProbe:
@@ -153,10 +153,12 @@ spec:
                   key: mongodb
             - name: spring.data.mongodb.database
               value: springer
+            - name: server.port
+              value: "8091"
             - name: security.basic.enabled
               value: "false"
         - name: springer-pwf
-          image: fintlabs.azurecr.io/fint-springer-adapter:build.2
+          image: fintlabs.azurecr.io/fint-springer-adapter:1.0.0-rc-1
           ports:
             - containerPort: 8092
           readinessProbe:
