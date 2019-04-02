@@ -33,6 +33,13 @@ spec:
           image: fintlabs.azurecr.io/fint-springer-adapter:build.4
           ports:
             - containerPort: 8090
+          resources:
+            limits:
+              cpu: "2"
+              memory: "2Gi"
+            requests:
+              cpu: "250m"
+              memory: "1Gi"
           readinessProbe:
             initialDelaySeconds: 60
             timeoutSeconds: 5
@@ -97,6 +104,13 @@ spec:
           image: fintlabs.azurecr.io/fint-springer-adapter:build.4
           ports:
             - containerPort: 8091
+          resources:
+            limits:
+              cpu: "2"
+              memory: "2Gi"
+            requests:
+              cpu: "250m"
+              memory: "1Gi"
           readinessProbe:
             initialDelaySeconds: 60
             timeoutSeconds: 5
@@ -158,9 +172,16 @@ spec:
             - name: security.basic.enabled
               value: "false"
         - name: springer-pwf
-          image: fintlabs.azurecr.io/fint-springer-adapter:build.5
+          image: fintlabs.azurecr.io/fint-springer-adapter:build.6
           ports:
             - containerPort: 8092
+          resources:
+            limits:
+              cpu: "2"
+              memory: "2Gi"
+            requests:
+              cpu: "250m"
+              memory: "1Gi"
           readinessProbe:
             initialDelaySeconds: 60
             timeoutSeconds: 5
