@@ -1,0 +1,90 @@
+{
+  "_embedded": {
+    "_entries": [
+      {
+        "feidenavn": {
+          "identifikatorverdi": "anna.mørk@osloskole.no"
+        },
+        "systemId": {
+          "identifikatorverdi": "SR_ANNA"
+        },
+        "_links": {
+          "personalressurs": [
+            {
+              "href": "${administrasjon.personal.personalressurs}/ansattnummer/1111ANNA"
+            }
+          ],
+          "undervisningsforhold": [
+            {
+              "href": "${utdanning.elev.undervisningsforhold}/systemid/UF_ANNA"
+            }
+          ],
+          "self": [
+            {
+              "href": "${utdanning.elev.skoleressurs}/feidenavn/anna.mørk@osloskole.no"
+            }
+          ]
+        }
+      },
+      {
+        "feidenavn": {
+          "identifikatorverdi": "nora.lys@osloskole.no"
+        },
+        "systemId": {
+          "identifikatorverdi": "SR_NORA"
+        },
+        "_links": {
+          "personalressurs": [
+            {
+              "href": "${administrasjon.personal.personalressurs}/ansattnummer/9999NORA"
+            }
+          ],
+          "undervisningsforhold": [
+            {
+              "href": "${utdanning.elev.undervisningsforhold}/systemid/UF_NORA"
+            }
+          ],
+          "self": [
+            {
+              "href": "${utdanning.elev.skoleressurs}/feidenavn/nora.lys@osloskole.no"
+            }
+          ]
+        }
+      },
+      {
+        "feidenavn": {
+          "identifikatorverdi": "gudrun.haraldseid@sundetvgs.haugfk.no"
+        },
+        "systemId": {
+          "identifikatorverdi": "ABCD213"
+        },
+        "_links": {
+          "personalressurs": [
+            {
+              "href": "${administrasjon.personal.personalressurs}/ansattnummer/100003"
+            }
+          ],
+          "undervisningsforhold": [
+            {
+              "href": "${utdanning.elev.undervisningsforhold}/systemId/L_100003_1"
+            }
+          ],
+          "self": [
+            {
+              "href": "${utdanning.elev.skoleressurs}/feidenavn/gudrun.haraldseid@sundetvgs.haugfk.no"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "_links": {
+    "self": [
+      {
+        "href": "${utdanning.elev.skoleressurs}/"
+      }
+    ]
+  },
+  "total_items": 3,
+  "_class": "no.fint.model.resource.utdanning.elev.SkoleressursResource"
+}
