@@ -27,4 +27,8 @@ public class Wrapper {
     public <T> Query query(Class<T> type) {
         return new Query().addCriteria(Criteria.where("type").is(type.getCanonicalName()));
     }
+
+    public <T> void update(Springer springer, T content) {
+        springer.setValue(JSON.parse(Unchecked.function(objectMapper::writeValueAsString).apply(content)));
+    }
 }
