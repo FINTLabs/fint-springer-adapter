@@ -72,29 +72,30 @@ public class EventHandlerService {
             postHealthCheckResponse(component, event);
         } else {
             if (eventStatusService.verifyEvent(component, event).getStatus() == Status.ADAPTER_ACCEPTED) {
-                String action = event.getAction();
-                Event<FintLinks> responseEvent = new Event<>(event);
-
-                try {
-                    actionsHandlerMap.getOrDefault(action, e -> {
-                        log.warn("No handler found for {}", action);
-                        e.setStatus(Status.ADAPTER_REJECTED);
-                        e.setResponseStatus(ResponseStatus.REJECTED);
-                        e.setMessage("Unsupported action");
-                    }).accept(responseEvent);
-                } catch (Exception e) {
-                    responseEvent.setResponseStatus(ResponseStatus.ERROR);
-                    responseEvent.setMessage(ExceptionUtils.getStackTrace(e));
-                } finally {
-                    if (responseEvent.getData() != null) {
-                        log.info("{}: Response for {}: {}, {} items", component, responseEvent.getAction(), responseEvent.getResponseStatus(), responseEvent.getData().size());
-                    } else {
-                        log.info("{}: Response for {}: {}", component, responseEvent.getAction(), responseEvent.getResponseStatus());
-                    }
-                    eventResponseService.postResponse(component, event);
-                }
-
+                handleResponse(component, event.getAction(), new Event<>(event));
             }
+        }
+    }
+
+    private void handleResponse(String component, String action, Event<FintLinks> response) {
+        try {
+            actionsHandlerMap.getOrDefault(action, e -> {
+                log.warn("No handler found for {}", action);
+                e.setStatus(Status.ADAPTER_REJECTED);
+                e.setResponseStatus(ResponseStatus.REJECTED);
+                e.setMessage("Unsupported action");
+            }).accept(response);
+        } catch (Exception e) {
+            response.setResponseStatus(ResponseStatus.ERROR);
+            response.setMessage(ExceptionUtils.getStackTrace(e));
+        } finally {
+            if (response.getData() != null) {
+                log.info("{}: Response for {}: {}, {} items", component, response.getAction(), response.getResponseStatus(), response.getData().size());
+                log.trace("Event data: {}", response.getData());
+            } else {
+                log.info("{}: Response for {}: {}", component, response.getAction(), response.getResponseStatus());
+            }
+            eventResponseService.postResponse(component, response);
         }
     }
 
