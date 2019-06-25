@@ -3,32 +3,27 @@ package no.fint.provider.springer.model;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import lombok.extern.slf4j.Slf4j;
 import no.fint.event.model.Event;
+import no.fint.event.model.Operation;
 import no.fint.event.model.ResponseStatus;
 import no.fint.event.model.Status;
 import no.fint.model.administrasjon.personal.PersonalActions;
 import no.fint.model.resource.FintLinks;
 import no.fint.model.resource.administrasjon.personal.FravarResource;
 import no.fint.provider.springer.behaviour.Behaviour;
-import no.fint.provider.springer.service.Handler;
 import no.fint.provider.springer.service.IdentifikatorFactory;
+import no.fint.provider.springer.storage.SpringerRepository;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.core.io.Resource;
-import org.springframework.core.io.support.PathMatchingResourcePatternResolver;
 import org.springframework.stereotype.Repository;
 
-import javax.annotation.PostConstruct;
-import java.io.IOException;
-import java.util.ArrayList;
-import java.util.Collection;
+import java.util.Collections;
 import java.util.List;
 import java.util.Set;
-import java.util.concurrent.ConcurrentLinkedQueue;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
 @Slf4j
 @Repository
-public class FravarRepository implements Handler {
+public class FravarRepository extends SpringerRepository {
 
     @Autowired
     ObjectMapper objectMapper;
@@ -39,15 +34,6 @@ public class FravarRepository implements Handler {
     @Autowired
     List<Behaviour<FravarResource>> behaviours;
 
-    private Collection<FravarResource> repository = new ConcurrentLinkedQueue<>();
-
-    @PostConstruct
-    public void init() throws IOException {
-        for (Resource r : new PathMatchingResourcePatternResolver(getClass().getClassLoader()).getResources("classpath*:/fravar*.json")) {
-            repository.add(objectMapper.readValue(r.getInputStream(), FravarResource.class));
-        }
-    }
-
     @Override
     public Set<String> actions() {
         return Stream.of(PersonalActions.UPDATE_FRAVAR).map(Enum::name).collect(Collectors.toSet());
@@ -57,34 +43,19 @@ public class FravarRepository implements Handler {
     public void accept(Event<FintLinks> response) {
         log.debug("Handling {} ...", response);
         log.trace("Event data: {}", response.getData());
-        try {
-            switch (PersonalActions.valueOf(response.getAction())) {
-                case UPDATE_FRAVAR:
-                    List<FravarResource> data = objectMapper.convertValue(response.getData(), objectMapper.getTypeFactory().constructCollectionType(List.class, FravarResource.class));
-                    log.trace("Converted data: {}", data);
-                    data.stream().filter(i-> i.getSystemId()==null||i.getSystemId().getIdentifikatorverdi()==null).forEach(i->i.setSystemId(identifikatorFactory.create()));
-                    response.setResponseStatus(ResponseStatus.ACCEPTED);
-                    response.setData(null);
-                    behaviours.forEach(b -> data.forEach(b.acceptPartially(response)));
-                    if (response.getResponseStatus() == ResponseStatus.ACCEPTED) {
-                        response.setData(new ArrayList<>(data));
-                        data.forEach(r -> repository.removeIf(i -> i.getSystemId().getIdentifikatorverdi().equals(r.getSystemId().getIdentifikatorverdi())));
-                        repository.addAll(data);
-                    }
-                    break;
-                case GET_ALL_FRAVAR:
-                    response.setResponseStatus(ResponseStatus.ACCEPTED);
-                    response.setData(new ArrayList<>(repository));
-                    break;
-                default:
-                    response.setStatus(Status.ADAPTER_REJECTED);
-                    response.setResponseStatus(ResponseStatus.REJECTED);
-                    response.setMessage("Invalid action");
-            }
-        } catch (Exception e) {
-            log.error("Error!", e);
-            response.setResponseStatus(ResponseStatus.ERROR);
-            response.setMessage(e.getMessage());
+        if (response.getOperation() != Operation.CREATE || response.getData() == null || response.getData().size() != 1) {
+            error(response, Status.ADAPTER_REJECTED, ResponseStatus.REJECTED, "INVALID_UPDATE", "Invalid update");
+            return;
+        }
+        FravarResource data = objectMapper.convertValue(response.getData().get(0), FravarResource.class);
+        log.trace("Converted data: {}", data);
+        data.setSystemId(identifikatorFactory.create());
+        response.setResponseStatus(ResponseStatus.ACCEPTED);
+        response.setData(null);
+        behaviours.forEach(b -> b.acceptPartially(response));
+        if (response.getResponseStatus() == ResponseStatus.ACCEPTED) {
+            create(FravarResource.class, data);
+            response.setData(Collections.singletonList(data));
         }
     }
 

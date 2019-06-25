@@ -1,6 +1,7 @@
 package no.fint.provider.springer.model;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
+import com.google.common.collect.Streams;
 import lombok.extern.slf4j.Slf4j;
 import no.fint.event.model.Event;
 import no.fint.event.model.Operation;
@@ -15,11 +16,10 @@ import no.fint.provider.springer.storage.SpringerRepository;
 import org.apache.commons.lang3.StringUtils;
 import org.apache.commons.lang3.exception.ExceptionUtils;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.data.mongodb.core.query.Criteria;
-import org.springframework.data.mongodb.core.query.Query;
 import org.springframework.stereotype.Repository;
 
 import java.util.Collections;
+import java.util.EnumMap;
 import java.util.Set;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
@@ -33,66 +33,35 @@ public class PersonalRepository extends SpringerRepository {
     @Autowired
     private ObjectMapper objectMapper;
 
+    private EnumMap<PersonalActions, Class<? extends FintLinks>> actions = createMap();
+
     @Override
     public void accept(Event<FintLinks> response) {
-        switch (PersonalActions.valueOf(response.getAction())) {
-            case GET_ALL_PERSONALRESSURS:
-                query(PersonalressursResource.class, response);
-                break;
-            case GET_ALL_ARBEIDSFORHOLD:
-                query(ArbeidsforholdResource.class, response);
-                break;
-            case GET_ALL_FRAVAR:
-                query(FravarResource.class, response);
-                break;
-            case GET_ALL_FASTLONN:
-                query(FastlonnResource.class, response);
-                break;
-            case GET_ALL_FASTTILLEGG:
-                query(FasttilleggResource.class, response);
-                break;
-            case GET_ALL_VARIABELLONN:
-                query(VariabellonnResource.class, response);
-                break;
-            case UPDATE_PERSONALRESSURS:
-                handleUpdatePersonalressurs(response);
-                break;
-            case UPDATE_ARBEIDSFORHOLD:
-                response.setStatus(Status.ADAPTER_REJECTED);
-                response.setResponseStatus(ResponseStatus.REJECTED);
-                response.setStatusCode("UNSUPPORTED_ACTION");
-                response.setMessage("Unsupported action");
-                break;
-            default:
-                response.setStatus(Status.ADAPTER_REJECTED);
-                response.setResponseStatus(ResponseStatus.REJECTED);
-                response.setStatusCode("INVALID_ACTION");
-                response.setMessage("Invalid action");
+        PersonalActions action = PersonalActions.valueOf(response.getAction());
+        if (actions.containsKey(action)) {
+            query(actions.get(action), response);
+        } else if (action == PersonalActions.UPDATE_PERSONALRESSURS) {
+            handleUpdatePersonalressurs(response);
+        } else {
+            response.setStatus(Status.ADAPTER_REJECTED);
+            response.setResponseStatus(ResponseStatus.REJECTED);
+            response.setStatusCode("INVALID_ACTION");
+            response.setMessage("Invalid action");
         }
     }
 
     private void handleUpdatePersonalressurs(Event<FintLinks> response) {
         try {
             if (response.getOperation() != Operation.UPDATE || response.getData() == null || response.getData().size() != 1) {
-                response.setStatus(Status.ADAPTER_REJECTED);
-                response.setResponseStatus(ResponseStatus.REJECTED);
-                response.setStatusCode("INVALID_UPDATE");
-                response.setMessage("Invalid update");
+                error(response, Status.ADAPTER_REJECTED, ResponseStatus.REJECTED, "INVALID_UPDATE", "Invalid update");
                 return;
             }
             if (StringUtils.isEmpty(response.getQuery()) || !StringUtils.contains(response.getQuery(), '/')) {
-                response.setStatus(Status.ADAPTER_REJECTED);
-                response.setResponseStatus(ResponseStatus.REJECTED);
-                response.setStatusCode("INVALID_QUERY");
-                response.setMessage("Invalid query: " + response.getQuery());
+                error(response, Status.ADAPTER_REJECTED, ResponseStatus.REJECTED, "INVALID_QUERY", "Invalid query: " + response.getQuery());
                 return;
             }
             PersonalressursResource resource = objectMapper.convertValue(response.getData().get(0), PersonalressursResource.class);
-            String[] queryString = StringUtils.split(response.getQuery(), '/');
-            Query query = wrapper.query(PersonalressursResource.class)
-                    .addCriteria(Criteria.where(String.format("value.%s.identifikatorverdi", queryString[0])).is(queryString[1]));
-            log.info("Query: {}", query);
-            Springer result = mongoTemplate.findOne(query, Springer.class);
+            Springer result = findOne(PersonalressursResource.class, response.getQuery());
             PersonalressursResource personalressurs = wrapper.unwrapper(PersonalressursResource.class).apply(result);
             if (resource.getBrukernavn() != null && !resource.getBrukernavn().equals(personalressurs.getBrukernavn())) {
                 log.info("Updating brukernavn from {} to {}", personalressurs.getBrukernavn(), resource.getBrukernavn());
@@ -127,16 +96,27 @@ public class PersonalRepository extends SpringerRepository {
             response.setResponseStatus(ResponseStatus.ACCEPTED);
             response.setData(Collections.singletonList(personalressurs));
         } catch (Exception e) {
-            response.setResponseStatus(ResponseStatus.ERROR);
-            response.setMessage(ExceptionUtils.getStackTrace(e));
+            error(response, Status.ADAPTER_REJECTED, ResponseStatus.ERROR, e.getClass().getSimpleName(), ExceptionUtils.getStackTrace(e));
         }
     }
 
     @Override
     public Set<String> actions() {
-        return Stream
-            .of(PersonalActions.values())
-            .map(Enum::name)
-            .collect(Collectors.toSet());
+        return Streams
+                .concat(actions.keySet().stream(), Stream.of(PersonalActions.UPDATE_PERSONALRESSURS))
+                .map(Enum::name)
+                .collect(Collectors.toSet());
     }
+
+    private EnumMap<PersonalActions, Class<? extends FintLinks>> createMap() {
+        EnumMap<PersonalActions, Class<? extends FintLinks>> actions = new EnumMap<>(PersonalActions.class);
+        actions.put(PersonalActions.GET_ALL_PERSONALRESSURS, PersonalressursResource.class);
+        actions.put(PersonalActions.GET_ALL_ARBEIDSFORHOLD, ArbeidsforholdResource.class);
+        actions.put(PersonalActions.GET_FRAVAR, FravarResource.class);
+        actions.put(PersonalActions.GET_FASTLONN, FastlonnResource.class);
+        actions.put(PersonalActions.GET_FASTTILLEGG, FasttilleggResource.class);
+        actions.put(PersonalActions.GET_VARIABELLONN, VariabellonnResource.class);
+        return actions;
+    }
+
 }
