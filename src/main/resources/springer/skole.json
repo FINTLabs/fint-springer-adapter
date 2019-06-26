@@ -1,0 +1,195 @@
+{
+  "_embedded": {
+    "_entries": [
+      {
+        "kontaktinformasjon": {
+          "epostadresse": "post@haugfk.no",
+          "mobiltelefonnummer": "47474747",
+          "nettsted": "http://www.haugfk.no",
+          "sip": "kundesenter@haugfk.no",
+          "telefonnummer": "52525252"
+        },
+        "postadresse": {
+          "adresselinje": [
+            "PB 69"
+          ],
+          "postnummer": "5501",
+          "poststed": "Haugesund"
+        },
+        "forretningsadresse": {
+          "adresselinje": [
+            "Marilyn Monroe 1"
+          ],
+          "postnummer": "5520",
+          "poststed": "Haugesund"
+        },
+        "organisasjonsnavn": "Sundet Videregående Skole",
+        "organisasjonsnummer": {
+          "identifikatorverdi": "970123458"
+        },
+        "domenenavn": "sundetvgs.haugfk.no",
+        "juridiskNavn": "Sundet Videregående Skole",
+        "navn": "Sundet VGS",
+        "skolenummer": {
+          "identifikatorverdi": "123456"
+        },
+        "systemId": {
+          "identifikatorverdi": "XX1234"
+        },
+        "_links": {
+          "organisasjon": [
+            {
+              "href": "${administrasjon.organisasjon.organisasjonselement}/organisasjonsnummer/970123458"
+            }
+          ],
+          "fag": [
+            {
+              "href": "${utdanning.timeplan.fag}/systemid/FA_NOR1Z41_2018"
+            }
+          ],
+          "skoleeiertype": [
+            {
+              "href": "${utdanning.kodeverk.skoleeiertype}/systemid/1"
+            }
+          ],
+          "utdanningsprogram": [
+            {
+              "href": "${utdanning.utdanningsprogram.utdanningsprogram}/systemid/ST"
+            },
+            {
+              "href": "${utdanning.utdanningsprogram.utdanningsprogram}/systemid/KD"
+            }
+          ],
+          "elevforhold": [
+            {
+              "href": "${utdanning.elev.elevforhold}/systemid/E_500001_1"
+            },
+            {
+              "href": "${utdanning.elev.elevforhold}/systemid/E_500002_1"
+            },
+            {
+              "href": "${utdanning.elev.elevforhold}/systemid/E_500003_1"
+            },
+            {
+              "href": "${utdanning.elev.elevforhold}/systemid/E_ZZZZZZ_2"
+            }
+          ],
+          "undervisningsforhold": [
+            {
+              "href": "${utdanning.elev.undervisningsforhold}/systemid/L_100003_1"
+            }
+          ],
+          "self": [
+            {
+              "href": "${utdanning.utdanningsprogram.skole}/skolenummer/123456"
+            }
+          ]
+        }
+      },
+      {
+        "kontaktinformasjon": {
+          "epostadresse": "post@fagerslott.osloskole.no",
+          "mobiltelefonnummer": "4747474",
+          "nettsted": "http://www.fagerslott.osloskole.no",
+          "sip": "adm@fagerslott.osloskole.no",
+          "telefonnummer": "2525252"
+        },
+        "postadresse": {
+          "adresselinje": [
+            "Oscars gate 1"
+          ],
+          "postnummer": "0352",
+          "poststed": "Oslo"
+        },
+        "forretningsadresse": {
+          "adresselinje": [
+            "Oscars gate 1"
+          ],
+          "postnummer": "0352",
+          "poststed": "Oslo"
+        },
+        "organisasjonsnavn": "Fagerslott barneskole",
+        "organisasjonsnummer": {
+          "identifikatorverdi": "970123459"
+        },
+        "domenenavn": "fagerslott.osloskole.no",
+        "juridiskNavn": "Fagerslott barneskole",
+        "navn": "Fagerslott skole",
+        "skolenummer": {
+          "identifikatorverdi": "654321"
+        },
+        "systemId": {
+          "identifikatorverdi": "XX6543"
+        },
+        "_links": {
+          "organisasjon": [
+            {
+              "href": "${administrasjon.organisasjon.organisasjonselement}/organisasjonsnummer/970123459"
+            }
+          ],
+          "fag": [
+            {
+              "href": "${utdanning.timeplan.fag}/systemid/NOR0207"
+            },
+            {
+              "href": "${utdanning.timeplan.fag}/systemid/ENGK007"
+            }
+          ],
+          "skoleeierType": [
+            {
+              "href": "${utdanning.kodeverk.skoleeiertype}/systemid/1"
+            }
+          ],
+          "elevforhold": [
+            {
+              "href": "${utdanning.elev.elevforhold}/systemid/E_ZZZZZZ_1"
+            },
+            {
+              "href": "${utdanning.elev.elevforhold}/systemid/E_2341_1"
+            }
+          ],
+          "undervisningsforhold": [
+            {
+              "href": "${utdanning.elev.undervisningsforhold}/systemid/UF_NORA"
+            },
+            {
+              "href": "${utdanning.elev.undervisningsforhold}/systemid/UF_ANNA"
+            }
+          ],
+          "basisgruppe": [
+            {
+              "href": "${utdanning.elev.basisgruppe}/systemid/BG_7GS-2018"
+            }
+          ],
+          "kontaktlarergruppe": [
+            {
+              "href": "${utdanning.elev.kontaktlarergruppe}/systemid/KG_7GS-1"
+            }
+          ],
+          "skoleressurs": [
+            {
+              "href": "${utdanning.elev.skoleressurs}/systemid/SR_NORA"
+            },
+            {
+              "href": "${utdanning.elev.skoleressurs}/systemid/SR_ANNA"
+            }
+          ],
+          "self": [
+            {
+              "href": "${utdanning.utdanningsprogram.skole}/skolenummer/654321"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "_links": {
+    "self": [
+      {
+        "href": "${utdanning.utdanningsprogram.skole}/"
+      }
+    ]
+  },
+  "total_items": 2,
+  "_class": "no.fint.model.resource.utdanning.utdanningsprogram.SkoleResource"
+}
