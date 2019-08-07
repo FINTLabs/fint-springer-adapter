@@ -1,6 +1,5 @@
 package no.fint.provider.adapter.event;
 
-import com.google.common.collect.Lists;
 import lombok.extern.slf4j.Slf4j;
 import no.fint.event.model.DefaultActions;
 import no.fint.event.model.Event;
@@ -63,7 +62,7 @@ public class EventStatusService {
     public void postStatus(String component, Event event) {
         try {
             HttpHeaders headers = new HttpHeaders();
-            headers.put(HeaderConstants.ORG_ID, Lists.newArrayList(event.getOrgId()));
+            headers.add(HeaderConstants.ORG_ID, event.getOrgId());
             String url = endpoints.getProviders().get(component) + endpoints.getStatus();
             ResponseEntity<Void> response = restTemplate.exchange(url, HttpMethod.POST, new HttpEntity<>(event, headers), Void.class);
             log.info("{}: Provider POST status response: {}", component, response.getStatusCode());

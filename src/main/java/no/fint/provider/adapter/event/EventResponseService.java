@@ -1,6 +1,5 @@
 package no.fint.provider.adapter.event;
 
-import com.google.common.collect.Lists;
 import lombok.extern.slf4j.Slf4j;
 import no.fint.event.model.Event;
 import no.fint.event.model.HeaderConstants;
@@ -34,7 +33,7 @@ public class EventResponseService {
      */
     public void postResponse(String component, Event event) {
         HttpHeaders headers = new HttpHeaders();
-        headers.put(HeaderConstants.ORG_ID, Lists.newArrayList(event.getOrgId()));
+        headers.add(HeaderConstants.ORG_ID, event.getOrgId());
         String url = endpoints.getProviders().get(component) + endpoints.getResponse();
         log.info("{}: Posting response for {} ...", component, event.getAction());
         ResponseEntity<Void> response = restTemplate.exchange(url, HttpMethod.POST, new HttpEntity<>(event, headers), Void.class);
