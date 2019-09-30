@@ -4,10 +4,14 @@ security:
 
 fint:
   adapter:
-    organizations: fintlabs.no
+    organizations: mock.no
     endpoints:
       providers:
         personal: http://localhost:8081/provider
 
   oauth:
     enabled: false
+
+logging:
+  level:
+    no.fint.provider: TRACE
