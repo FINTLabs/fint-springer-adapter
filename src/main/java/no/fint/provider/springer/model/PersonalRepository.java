@@ -135,8 +135,9 @@ public class PersonalRepository extends SpringerRepository {
     @Override
     public Set<String> actions() {
         return Stream
-            .of(PersonalActions.values())
-            .map(Enum::name)
-            .collect(Collectors.toSet());
+                .of(PersonalActions.values())
+                .map(Enum::name)
+                .filter(n -> n.startsWith("GET_ALL_"))
+                .collect(Collectors.toSet());
     }
 }
