@@ -41,32 +41,6 @@ public class EventHandlerService {
 
     private Map<String, Handler> actionsHandlerMap;
 
-    /**
-     * <p>
-     * HandleEvent is responsible of handling the <code>event</code>. This is what should be done:
-     * </p>
-     * <ol>
-     * <li>Verify that the adapter can handle the <code>event</code>. This is done in the {@link EventStatusService#verifyEvent(Event)} method</li>
-     * <li>Call the code to handle the action</li>
-     * <li>Posting back the handled <code>event</code>. This done in the {@link EventResponseService#postResponse(Event)} method</li>
-     * </ol>
-     * <p>
-     * This is where you implement your code for handling the <code>event</code>. It is typically done by making a onEvent method:
-     * </p>
-     * <pre>
-     *     {@code
-     *     public void onGetAllDogs(Event<FintResource> dogAllEvent) {
-     *
-     *         // Call a service to get all dogs from the application and add the result to the event data
-     *         // dogAllEvent.addData(dogResource);
-     *
-     *     }
-     *     }
-     * </pre>
-     *
-     * @param component
-     * @param event The <code>event</code> received from the provider
-     */
     public void handleEvent(String component, Event event) {
         if (event.isHealthCheck()) {
             postHealthCheckResponse(component, event);
