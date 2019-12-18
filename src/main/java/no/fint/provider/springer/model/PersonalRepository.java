@@ -137,7 +137,7 @@ public class PersonalRepository extends SpringerRepository {
         return Stream
                 .of(PersonalActions.values())
                 .map(Enum::name)
-                .filter(n -> n.startsWith("GET_ALL_"))
+                .filter(n -> n.startsWith("GET_ALL_") && !n.contains("FRAVAR"))
                 .collect(Collectors.toSet());
     }
 }

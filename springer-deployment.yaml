@@ -168,7 +168,7 @@ spec:
             - name: security.basic.enabled
               value: "false"
         - name: springer-pwf
-          image: fintlabs.azurecr.io/fint-springer-adapter:1.1.1
+          image: fintlabs.azurecr.io/fint-springer-adapter:build.14
           ports:
             - containerPort: 8092
           resources:
@@ -191,7 +191,7 @@ spec:
               value: https://play-with-fint.felleskomponent.no/felles/kodeverk/provider
             - name: fint.adapter.endpoints.providers.elev
               value: https://play-with-fint.felleskomponent.no/utdanning/elev/provider
-            - name: fint.adapter.endpoints.providers.kodeverk
+            - name: fint.adapter.endpoints.providers.kodeverk-administrasjon
               value: https://play-with-fint.felleskomponent.no/administrasjon/kodeverk/provider
             - name: fint.adapter.endpoints.providers.organisasjon
               value: https://play-with-fint.felleskomponent.no/administrasjon/organisasjon/provider
@@ -199,8 +199,12 @@ spec:
               value: https://play-with-fint.felleskomponent.no/administrasjon/personal/provider
             - name: fint.adapter.endpoints.providers.timeplan
               value: https://play-with-fint.felleskomponent.no/utdanning/timeplan/provider
+            - name: fint.adapter.endpoints.providers.vurdering
+              value: https://play-with-fint.felleskomponent.no/utdanning/vurdering/provider
             - name: fint.adapter.endpoints.providers.utdanningsprogram
               value: https://play-with-fint.felleskomponent.no/utdanning/utdanningsprogram/provider
+            - name: fint.adapter.endpoints.providers.kodeverk-utdanning
+              value: https://play-with-fint.felleskomponent.no/utdanning/kodeverk/provider
             - name: fint.adapter.organizations
               value: pwf.no
             - name: fint.oauth.enabled
