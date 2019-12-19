@@ -54,7 +54,7 @@ dependencies {
 
     compile("no.fint:fint-administrasjon-resource-model-java:${apiVersion}")
     compile("no.fint:fint-utdanning-resource-model-java:${apiVersion}")
-    compile("no.fint:fint-vigokv-model:${apiVersion}")
+    compile('no.fint:fint-vigokv-model:3.2.0')
 
     compile('org.springframework.hateoas:spring-hateoas')
     runtime('org.springframework.plugin:spring-plugin-core')

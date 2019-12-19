@@ -3,14 +3,15 @@ package no.fint.provider.springer.model;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import lombok.extern.slf4j.Slf4j;
 import no.fint.event.model.Event;
+import no.fint.event.model.Operation;
 import no.fint.event.model.ResponseStatus;
 import no.fint.event.model.Status;
 import no.fint.model.administrasjon.personal.PersonalActions;
 import no.fint.model.resource.FintLinks;
 import no.fint.model.resource.administrasjon.personal.VariabellonnResource;
 import no.fint.provider.springer.behaviour.Behaviour;
-import no.fint.provider.springer.service.Handler;
 import no.fint.provider.springer.service.IdentifikatorFactory;
+import no.fint.provider.springer.storage.LonnRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.core.io.Resource;
 import org.springframework.core.io.support.PathMatchingResourcePatternResolver;
@@ -28,7 +29,7 @@ import java.util.stream.Stream;
 
 @Slf4j
 @Repository
-public class VariabellonnRepository implements Handler {
+public class VariabellonnRepository extends LonnRepository {
 
     @Autowired
     ObjectMapper objectMapper;
@@ -62,6 +63,13 @@ public class VariabellonnRepository implements Handler {
                 case UPDATE_VARIABELLONN:
                     List<VariabellonnResource> data = objectMapper.convertValue(response.getData(), objectMapper.getTypeFactory().constructCollectionType(List.class, VariabellonnResource.class));
                     log.trace("Converted data: {}", data);
+                    final List<VariabellonnResource> conflicts = findConflicts(data, VariabellonnResource.class);
+                    if (!conflicts.isEmpty() && response.getOperation() == Operation.CREATE) {
+                        response.setStatus(Status.ADAPTER_REJECTED);
+                        response.setResponseStatus(ResponseStatus.CONFLICT);
+                        response.setData(new ArrayList<>(conflicts));
+                        return;
+                    }
                     data.stream().filter(i-> i.getSystemId()==null||i.getSystemId().getIdentifikatorverdi()==null).forEach(i->i.setSystemId(identifikatorFactory.create()));
                     response.setResponseStatus(ResponseStatus.ACCEPTED);
                     response.setData(null);

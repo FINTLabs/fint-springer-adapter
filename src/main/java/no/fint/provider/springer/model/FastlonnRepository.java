@@ -3,17 +3,16 @@ package no.fint.provider.springer.model;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import lombok.extern.slf4j.Slf4j;
 import no.fint.event.model.Event;
+import no.fint.event.model.Operation;
 import no.fint.event.model.ResponseStatus;
 import no.fint.event.model.Status;
 import no.fint.model.administrasjon.personal.PersonalActions;
 import no.fint.model.resource.FintLinks;
 import no.fint.model.resource.administrasjon.personal.FastlonnResource;
 import no.fint.provider.springer.behaviour.Behaviour;
-import no.fint.provider.springer.service.Handler;
 import no.fint.provider.springer.service.IdentifikatorFactory;
-import no.fint.provider.springer.storage.Wrapper;
+import no.fint.provider.springer.storage.LonnRepository;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.data.mongodb.core.MongoTemplate;
 import org.springframework.stereotype.Repository;
 
 import java.util.ArrayList;
@@ -24,7 +23,7 @@ import java.util.stream.Stream;
 
 @Slf4j
 @Repository
-public class FastlonnRepository implements Handler {
+public class FastlonnRepository extends LonnRepository {
 
     @Autowired
     private ObjectMapper objectMapper;
@@ -34,12 +33,6 @@ public class FastlonnRepository implements Handler {
 
     @Autowired
     private List<Behaviour<FastlonnResource>> behaviours;
-
-    @Autowired
-    private MongoTemplate mongoTemplate;
-
-    @Autowired
-    private Wrapper wrapper;
 
     @Override
     public Set<String> actions() {
@@ -55,7 +48,14 @@ public class FastlonnRepository implements Handler {
                 case UPDATE_FASTLONN:
                     List<FastlonnResource> data = objectMapper.convertValue(response.getData(), objectMapper.getTypeFactory().constructCollectionType(List.class, FastlonnResource.class));
                     log.trace("Converted data: {}", data);
-                    data.stream().filter(i-> i.getSystemId()==null||i.getSystemId().getIdentifikatorverdi()==null).forEach(i->i.setSystemId(identifikatorFactory.create()));
+                    final List<FastlonnResource> conflicts = findConflicts(data, FastlonnResource.class);
+                    if (!conflicts.isEmpty() && response.getOperation() == Operation.CREATE) {
+                        response.setStatus(Status.ADAPTER_REJECTED);
+                        response.setResponseStatus(ResponseStatus.CONFLICT);
+                        response.setData(new ArrayList<>(conflicts));
+                        return;
+                    }
+                    data.stream().filter(i -> i.getSystemId() == null || i.getSystemId().getIdentifikatorverdi() == null).forEach(i -> i.setSystemId(identifikatorFactory.create()));
                     response.setResponseStatus(ResponseStatus.ACCEPTED);
                     response.setData(null);
                     behaviours.forEach(b -> data.forEach(b.acceptPartially(response)));
