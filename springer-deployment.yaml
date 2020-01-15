@@ -167,6 +167,69 @@ spec:
               value: "8091"
             - name: security.basic.enabled
               value: "false"
+        - name: springer-alpha
+          image: fintlabs.azurecr.io/fint-springer-adapter:1.1.1
+          ports:
+            - containerPort: 8093
+          resources:
+            limits:
+              cpu: "2"
+              memory: "2Gi"
+            requests:
+              cpu: "250m"
+              memory: "1Gi"
+          readinessProbe:
+            initialDelaySeconds: 60
+            timeoutSeconds: 5
+            httpGet:
+              port: 8093
+              path: /health
+          env:
+            - name: TZ
+              value: Europe/Oslo
+            - name: fint.adapter.endpoints.providers.kodeverk
+              value: https://alpha.felleskomponent.no/administrasjon/kodeverk/provider
+            - name: fint.adapter.endpoints.providers.personal
+              value: https://alpha.felleskomponent.no/administrasjon/personal/provider
+            - name: fint.adapter.organizations
+              value: fintlabs.no
+            - name: fint.oauth.access-token-uri
+              value: https://idp.felleskomponent.no/nidp/oauth/nam/token
+            - name: fint.oauth.client-id
+              valueFrom:
+                secretKeyRef:
+                  name: fake-adapter
+                  key: client-id
+            - name: fint.oauth.client-secret
+              valueFrom:
+                secretKeyRef:
+                  name: fake-adapter
+                  key: client-secret
+            - name: fint.oauth.enabled
+              value: "true"
+            - name: fint.oauth.password
+              valueFrom:
+                secretKeyRef:
+                  name: fake-adapter
+                  key: password
+            - name: fint.oauth.scope
+              value: fint-client
+            - name: fint.oauth.username
+              valueFrom:
+                secretKeyRef:
+                  name: fake-adapter
+                  key: username
+            - name: spring.data.mongodb.uri
+              valueFrom:
+                secretKeyRef:
+                  name: fint-mongo
+                  key: mongodb
+            - name: spring.data.mongodb.database
+              value: springer
+            - name: server.port
+              value: "8093"
+            - name: security.basic.enabled
+              value: "false"
         - name: springer-pwf
           image: fintlabs.azurecr.io/fint-springer-adapter:build.16
           ports:
