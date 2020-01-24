@@ -12,7 +12,7 @@ buildscript {
 }
 
 plugins {
-    id 'com.github.ben-manes.versions' version '0.21.0'
+    id 'com.github.ben-manes.versions' version '0.27.0'
 }
 
 apply plugin: 'java'
@@ -38,13 +38,13 @@ repositories {
 }
 
 dependencies {
-    compile('com.google.guava:guava:28.0-jre')
+    compile('com.google.guava:guava:28.2-jre')
     compile('org.apache.commons:commons-lang3:3.9')
-    compile('org.apache.jena:jena-arq:3.12.0')
-    compile('org.glassfish.jersey.core:jersey-client:2.29')
-    compile('org.glassfish.jersey.core:jersey-common:2.29')
+    compile('org.apache.jena:jena-arq:3.13.1')
+    compile('org.glassfish.jersey.core:jersey-client:2.29.1')
+    compile('org.glassfish.jersey.core:jersey-common:2.29.1')
     compile('org.jooq:jool-java-8:0.9.14')
-    compile('org.projectlombok:lombok:1.18.8')
+    compile('org.projectlombok:lombok:1.18.10')
 
     compile 'no.fint:fint-model-resource:0.3.3'
     compile('no.fint:fint-event-model:3.0.0')
