@@ -6,3 +6,4 @@ schema
 out
 *.iml
 javadocs/
+/src/test/groovy/no/fint/provider/springer/data/
