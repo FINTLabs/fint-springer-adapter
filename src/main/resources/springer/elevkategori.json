@@ -1,0 +1,19 @@
+{
+  "_embedded" : {
+    "_entries" : [ {
+      "kode" : "heltid",
+      "navn" : "Heltid",
+      "systemId" : {
+        "identifikatorverdi" : "heltid"
+      }
+    }, {
+      "kode" : "overtid",
+      "navn" : "Overtid",
+      "systemId" : {
+        "identifikatorverdi" : "overtid"
+      }
+    } ]
+  },
+  "total_items" : 2,
+  "_class": "no.fint.model.resource.utdanning.kodeverk.ElevkategoriResource"
+}
