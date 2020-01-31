@@ -1,0 +1,31 @@
+{
+  "_embedded" : {
+    "_entries" : [ {
+      "kode" : "1",
+      "navn" : "Fylke",
+      "systemId" : {
+        "identifikatorverdi" : "1"
+      }
+    }, {
+      "kode" : "2",
+      "navn" : "Stat",
+      "systemId" : {
+        "identifikatorverdi" : "2"
+      }
+    }, {
+      "kode" : "3",
+      "navn" : "Kommune",
+      "systemId" : {
+        "identifikatorverdi" : "3"
+      }
+    }, {
+      "kode" : "4",
+      "navn" : "Privat",
+      "systemId" : {
+        "identifikatorverdi" : "4"
+      }
+    } ]
+  },
+  "total_items" : 4,
+  "_class": "no.fint.model.resource.utdanning.kodeverk.SkoleeiertypeResource"
+}
