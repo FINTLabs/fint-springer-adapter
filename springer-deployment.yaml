@@ -97,7 +97,7 @@ spec:
             - name: security.basic.enabled
               value: "false"
         - name: springer-beta
-          image: fintlabs.azurecr.io/fint-springer-adapter:1.1.1
+          image: fintlabs.azurecr.io/fint-springer-adapter:PR-4.2
           ports:
             - containerPort: 8091
           resources:

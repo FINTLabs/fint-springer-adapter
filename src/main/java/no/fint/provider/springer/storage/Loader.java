@@ -29,6 +29,7 @@ public class Loader {
     public void load() throws IOException, ClassNotFoundException {
         log.info("Checking database content ...");
         for (Resource r : new PathMatchingResourcePatternResolver(getClass().getClassLoader()).getResources("classpath*:/springer/*.json")) {
+            log.info("Checking {} ...", r);
             JsonNode jsonNode = objectMapper.readTree(r.getInputStream());
             Class<?> type = Class.forName(jsonNode.get("_class").asText());
             if (mongoTemplate.count(wrapper.query(type), Springer.class) == 0) {
