@@ -1,0 +1,31 @@
+{
+  "_embedded": {
+    "_entries": [
+      {
+        "kode": "25",
+        "navn": "25%",
+        "promille": 250,
+        "systemId": {
+          "identifikatorverdi": "25"
+        }
+      },
+      {
+        "kode": "205",
+        "navn": "OMSETNING UNNTATT MVA",
+        "promille": 0,
+        "systemId": {
+          "identifikatorverdi": "205"
+        }
+      }
+    ]
+  },
+  "_links": {
+    "self": [
+      {
+        "href": "${administrasjon.okonomi.mvakode}/"
+      }
+    ]
+  },
+  "total_items": 2,
+  "_class": "no.fint.model.resource.administrasjon.okonomi.MvakodeResource"
+}

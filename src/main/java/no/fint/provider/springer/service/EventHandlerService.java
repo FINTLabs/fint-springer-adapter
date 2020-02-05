@@ -18,6 +18,7 @@ import javax.annotation.PostConstruct;
 import java.util.Collection;
 import java.util.HashMap;
 import java.util.Map;
+import java.util.Set;
 import java.util.concurrent.ThreadLocalRandom;
 
 /**
@@ -40,6 +41,10 @@ public class EventHandlerService {
     private Collection<Handler> handlers;
 
     private Map<String, Handler> actionsHandlerMap;
+
+    public Set<String> getActions() {
+        return actionsHandlerMap.keySet();
+    }
 
     public void handleEvent(String component, Event event) {
         if (event.isHealthCheck()) {
