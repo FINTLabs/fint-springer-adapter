@@ -1,0 +1,695 @@
+{
+  "_embedded": {
+    "_entries": [
+      {
+        "kode": "1234566",
+        "navn": "Doble fustasjeopphengsforkoblinger",
+        "systemId": {
+          "identifikatorverdi": "1234566"
+        },
+        "enhet": "stykk",
+        "kontering": {
+          "_links": {
+            "art": [
+              {
+                "href": "${administrasjon.kodeverk.art}/systemid/1"
+              }
+            ],
+            "ansvar": [
+              {
+                "href": "${administrasjon.kodeverk.ansvar}/systemid/2"
+              }
+            ],
+            "funksjon": [
+              {
+                "href": "${administrasjon.kodeverk.funksjon}/systemid/3"
+              }
+            ]
+          }
+        },
+        "pris": 12999,
+        "_links": {
+          "mvakode": [
+            {
+              "href": "${administrasjon.okonomi.mvakode}/systemid/25"
+            }
+          ],
+          "oppdragsgiver": [
+            {
+              "href": "${administrasjon.okonomi.oppdragsgiver}/systemid/1"
+            }
+          ]
+        }
+      },
+      {
+        "kode": "007",
+        "navn": "Kjip PC",
+        "systemId": {
+          "identifikatorverdi": "007"
+        },
+        "enhet": "stykk",
+        "kontering": {
+          "_links": {
+            "art": [
+              {
+                "href": "${administrasjon.kodeverk.art}/systemid/1"
+              }
+            ],
+            "ansvar": [
+              {
+                "href": "${administrasjon.kodeverk.ansvar}/systemid/2"
+              }
+            ],
+            "funksjon": [
+              {
+                "href": "${administrasjon.kodeverk.funksjon}/systemid/3"
+              }
+            ]
+          }
+        },
+        "pris": 120000,
+        "_links": {
+          "mvakode": [
+            {
+              "href": "${administrasjon.okonomi.mvakode}/systemid/25"
+            }
+          ],
+          "oppdragsgiver": [
+            {
+              "href": "${administrasjon.okonomi.oppdragsgiver}/systemid/1"
+            }
+          ]
+        }
+      },
+      {
+        "kode": "1181",
+        "navn": "Apple MacBook A1181 13.3\" Laptop (Early 2009) - 2.00GHz, 4GB RAM, 750GB HDD",
+        "systemId": {
+          "identifikatorverdi": "1181"
+        },
+        "enhet": "stykk",
+        "kontering": {
+          "_links": {
+            "art": [
+              {
+                "href": "${administrasjon.kodeverk.art}/systemid/1"
+              }
+            ],
+            "ansvar": [
+              {
+                "href": "${administrasjon.kodeverk.ansvar}/systemid/2"
+              }
+            ],
+            "funksjon": [
+              {
+                "href": "${administrasjon.kodeverk.funksjon}/systemid/3"
+              }
+            ]
+          }
+        },
+        "pris": 53200,
+        "_links": {
+          "mvakode": [
+            {
+              "href": "${administrasjon.okonomi.mvakode}/systemid/25"
+            }
+          ],
+          "oppdragsgiver": [
+            {
+              "href": "${administrasjon.okonomi.oppdragsgiver}/systemid/1"
+            }
+          ]
+        }
+      },
+      {
+        "kode": "925023",
+        "navn": "Apple MacBook Pro 13\" Retina Space Gray Dual-core i5 2.3GHz, 8GB RAM, 256GB PCIe SSD, Intel Iris Graphics",
+        "systemId": {
+          "identifikatorverdi": "925023"
+        },
+        "enhet": "stykk",
+        "kontering": {
+          "_links": {
+            "art": [
+              {
+                "href": "${administrasjon.kodeverk.art}/systemid/1"
+              }
+            ],
+            "ansvar": [
+              {
+                "href": "${administrasjon.kodeverk.ansvar}/systemid/2"
+              }
+            ],
+            "funksjon": [
+              {
+                "href": "${administrasjon.kodeverk.funksjon}/systemid/3"
+              }
+            ]
+          }
+        },
+        "pris": 1239200,
+        "_links": {
+          "mvakode": [
+            {
+              "href": "${administrasjon.okonomi.mvakode}/systemid/25"
+            }
+          ],
+          "oppdragsgiver": [
+            {
+              "href": "${administrasjon.okonomi.oppdragsgiver}/systemid/1"
+            }
+          ]
+        }
+      },
+      {
+        "kode": "925006",
+        "navn": "Apple MacBook Air 13.3\" Dual Core i5 1.8GHz, 8GB RAM, 256GB Flash Storage",
+        "systemId": {
+          "identifikatorverdi": "925006"
+        },
+        "enhet": "stykk",
+        "kontering": {
+          "_links": {
+            "art": [
+              {
+                "href": "${administrasjon.kodeverk.art}/systemid/1"
+              }
+            ],
+            "ansvar": [
+              {
+                "href": "${administrasjon.kodeverk.ansvar}/systemid/2"
+              }
+            ],
+            "funksjon": [
+              {
+                "href": "${administrasjon.kodeverk.funksjon}/systemid/3"
+              }
+            ]
+          }
+        },
+        "pris": 999120,
+        "_links": {
+          "mvakode": [
+            {
+              "href": "${administrasjon.okonomi.mvakode}/systemid/25"
+            }
+          ],
+          "oppdragsgiver": [
+            {
+              "href": "${administrasjon.okonomi.oppdragsgiver}/systemid/1"
+            }
+          ]
+        }
+      },
+      {
+        "kode": "925002",
+        "navn": "Apple MacBook 12\" Retina Silver Dual-Core i5 1.3GHz, 8GB, 512GB Flash Storage",
+        "systemId": {
+          "identifikatorverdi": "925002"
+        },
+        "enhet": "stykk",
+        "kontering": {
+          "_links": {
+            "art": [
+              {
+                "href": "${administrasjon.kodeverk.art}/systemid/1"
+              }
+            ],
+            "ansvar": [
+              {
+                "href": "${administrasjon.kodeverk.ansvar}/systemid/2"
+              }
+            ],
+            "funksjon": [
+              {
+                "href": "${administrasjon.kodeverk.funksjon}/systemid/3"
+              }
+            ]
+          }
+        },
+        "pris": 1279200,
+        "_links": {
+          "mvakode": [
+            {
+              "href": "${administrasjon.okonomi.mvakode}/systemid/25"
+            }
+          ],
+          "oppdragsgiver": [
+            {
+              "href": "${administrasjon.okonomi.oppdragsgiver}/systemid/1"
+            }
+          ]
+        }
+      },
+      {
+        "kode": "1068534",
+        "navn": "Lenovo ThinkPad X1 Carbon gen. 6 14.0\", Core i7-8550U, 8GB RAM, 256GB SSD",
+        "systemId": {
+          "identifikatorverdi": "1068534"
+        },
+        "enhet": "stykk",
+        "kontering": {
+          "_links": {
+            "art": [
+              {
+                "href": "${administrasjon.kodeverk.art}/systemid/1"
+              }
+            ],
+            "ansvar": [
+              {
+                "href": "${administrasjon.kodeverk.ansvar}/systemid/2"
+              }
+            ],
+            "funksjon": [
+              {
+                "href": "${administrasjon.kodeverk.funksjon}/systemid/3"
+              }
+            ]
+          }
+        },
+        "pris": 1599200,
+        "_links": {
+          "mvakode": [
+            {
+              "href": "${administrasjon.okonomi.mvakode}/systemid/25"
+            }
+          ],
+          "oppdragsgiver": [
+            {
+              "href": "${administrasjon.okonomi.oppdragsgiver}/systemid/1"
+            }
+          ]
+        }
+      },
+      {
+        "kode": "10001",
+        "navn": "Kontorutstyr Pakke Grafisk Bachelor",
+        "systemId": {
+          "identifikatorverdi": "10001"
+        },
+        "enhet": "stykk",
+        "kontering": {
+          "_links": {
+            "art": [
+              {
+                "href": "${administrasjon.kodeverk.art}/systemid/1"
+              }
+            ],
+            "ansvar": [
+              {
+                "href": "${administrasjon.kodeverk.ansvar}/systemid/2"
+              }
+            ],
+            "funksjon": [
+              {
+                "href": "${administrasjon.kodeverk.funksjon}/systemid/3"
+              }
+            ]
+          }
+        },
+        "pris": 64900,
+        "_links": {
+          "mvakode": [
+            {
+              "href": "${administrasjon.okonomi.mvakode}/systemid/25"
+            }
+          ],
+          "oppdragsgiver": [
+            {
+              "href": "${administrasjon.okonomi.oppdragsgiver}/systemid/1"
+            }
+          ]
+        }
+      },
+      {
+        "kode": "10002",
+        "navn": "Kontorutstyr Pakke Interiør",
+        "systemId": {
+          "identifikatorverdi": "10002"
+        },
+        "enhet": "stykk",
+        "kontering": {
+          "_links": {
+            "art": [
+              {
+                "href": "${administrasjon.kodeverk.art}/systemid/1"
+              }
+            ],
+            "ansvar": [
+              {
+                "href": "${administrasjon.kodeverk.ansvar}/systemid/2"
+              }
+            ],
+            "funksjon": [
+              {
+                "href": "${administrasjon.kodeverk.funksjon}/systemid/3"
+              }
+            ]
+          }
+        },
+        "pris": 89000,
+        "_links": {
+          "mvakode": [
+            {
+              "href": "${administrasjon.okonomi.mvakode}/systemid/25"
+            }
+          ],
+          "oppdragsgiver": [
+            {
+              "href": "${administrasjon.okonomi.oppdragsgiver}/systemid/1"
+            }
+          ]
+        }
+      },
+      {
+        "kode": "10003",
+        "navn": "Kontorutstyr Pakke Illustrasjon",
+        "systemId": {
+          "identifikatorverdi": "10003"
+        },
+        "enhet": "stykk",
+        "kontering": {
+          "_links": {
+            "art": [
+              {
+                "href": "${administrasjon.kodeverk.art}/systemid/1"
+              }
+            ],
+            "ansvar": [
+              {
+                "href": "${administrasjon.kodeverk.ansvar}/systemid/2"
+              }
+            ],
+            "funksjon": [
+              {
+                "href": "${administrasjon.kodeverk.funksjon}/systemid/3"
+              }
+            ]
+          }
+        },
+        "pris": 89000,
+        "_links": {
+          "mvakode": [
+            {
+              "href": "${administrasjon.okonomi.mvakode}/systemid/25"
+            }
+          ],
+          "oppdragsgiver": [
+            {
+              "href": "${administrasjon.okonomi.oppdragsgiver}/systemid/1"
+            }
+          ]
+        }
+      },
+      {
+        "kode": "10004",
+        "navn": "Kontorutstyr Pakke ESMOD",
+        "systemId": {
+          "identifikatorverdi": "10004"
+        },
+        "enhet": "stykk",
+        "kontering": {
+          "_links": {
+            "art": [
+              {
+                "href": "${administrasjon.kodeverk.art}/systemid/1"
+              }
+            ],
+            "ansvar": [
+              {
+                "href": "${administrasjon.kodeverk.ansvar}/systemid/2"
+              }
+            ],
+            "funksjon": [
+              {
+                "href": "${administrasjon.kodeverk.funksjon}/systemid/3"
+              }
+            ]
+          }
+        },
+        "pris": 59900,
+        "_links": {
+          "mvakode": [
+            {
+              "href": "${administrasjon.okonomi.mvakode}/systemid/25"
+            }
+          ],
+          "oppdragsgiver": [
+            {
+              "href": "${administrasjon.okonomi.oppdragsgiver}/systemid/1"
+            }
+          ]
+        }
+      },
+      {
+        "kode": "1",
+        "navn": "TEST FINT VARE 1",
+        "systemId": {
+          "identifikatorverdi": "20001"
+        },
+        "enhet": "stykk",
+        "kontering": {
+          "_links": {
+            "art": [
+              {
+                "href": "${administrasjon.kodeverk.art}/systemid/16249"
+              }
+            ],
+            "ansvar": [
+              {
+                "href": "${administrasjon.kodeverk.ansvar}/systemid/13300"
+              }
+            ],
+            "funksjon": [
+              {
+                "href": "${administrasjon.kodeverk.funksjon}/systemid/4200"
+              }
+            ]
+          }
+        },
+        "pris": 100,
+        "_links": {
+          "mvakode": [
+            {
+              "href": "${administrasjon.okonomi.mvakode}/systemid/205"
+            }
+          ],
+          "oppdragsgiver": [
+            {
+              "href": "${administrasjon.okonomi.oppdragsgiver}/systemid/299"
+            }
+          ]
+        }
+      },
+      {
+        "kode": "2",
+        "navn": "TEST FINT VARE 2",
+        "systemId": {
+          "identifikatorverdi": "20002"
+        },
+        "enhet": "stykk",
+        "kontering": {
+          "_links": {
+            "art": [
+              {
+                "href": "${administrasjon.kodeverk.art}/systemid/16006"
+              }
+            ],
+            "ansvar": [
+              {
+                "href": "${administrasjon.kodeverk.ansvar}/systemid/13300"
+              }
+            ],
+            "funksjon": [
+              {
+                "href": "${administrasjon.kodeverk.funksjon}/systemid/4200"
+              }
+            ]
+          }
+        },
+        "pris": 100,
+        "_links": {
+          "mvakode": [
+            {
+              "href": "${administrasjon.okonomi.mvakode}/systemid/205"
+            }
+          ],
+          "oppdragsgiver": [
+            {
+              "href": "${administrasjon.okonomi.oppdragsgiver}/systemid/299"
+            }
+          ]
+        }
+      },
+      {
+        "kode": "3",
+        "navn": "TEST FINT VARE 3",
+        "systemId": {
+          "identifikatorverdi": "20003"
+        },
+        "enhet": "stykk",
+        "kontering": {
+          "_links": {
+            "art": [
+              {
+                "href": "${administrasjon.kodeverk.art}/systemid/16004"
+              }
+            ],
+            "ansvar": [
+              {
+                "href": "${administrasjon.kodeverk.ansvar}/systemid/13300"
+              }
+            ],
+            "funksjon": [
+              {
+                "href": "${administrasjon.kodeverk.funksjon}/systemid/4200"
+              }
+            ]
+          }
+        },
+        "pris": 100,
+        "_links": {
+          "mvakode": [
+            {
+              "href": "${administrasjon.okonomi.mvakode}/systemid/205"
+            }
+          ],
+          "oppdragsgiver": [
+            {
+              "href": "${administrasjon.okonomi.oppdragsgiver}/systemid/299"
+            }
+          ]
+        }
+      },
+      {
+        "kode": "100",
+        "navn": "TEST VISMA VARE 1",
+        "systemId": {
+          "identifikatorverdi": "100"
+        },
+        "enhet": "stykk",
+        "kontering": {
+          "_links": {
+            "art": [
+              {
+                "href": "${administrasjon.kodeverk.art}/systemid/16249"
+              }
+            ],
+            "ansvar": [
+              {
+                "href": "${administrasjon.kodeverk.ansvar}/systemid/13300"
+              }
+            ],
+            "funksjon": [
+              {
+                "href": "${administrasjon.kodeverk.funksjon}/systemid/4200"
+              }
+            ]
+          }
+        },
+        "pris": 100,
+        "_links": {
+          "mvakode": [
+            {
+              "href": "${administrasjon.okonomi.mvakode}/systemid/205"
+            }
+          ],
+          "oppdragsgiver": [
+            {
+              "href": "${administrasjon.okonomi.oppdragsgiver}/systemid/10"
+            }
+          ]
+        }
+      },
+      {
+        "kode": "101",
+        "navn": "TEST VISMA VARE 2",
+        "systemId": {
+          "identifikatorverdi": "101"
+        },
+        "enhet": "stykk",
+        "kontering": {
+          "_links": {
+            "art": [
+              {
+                "href": "${administrasjon.kodeverk.art}/systemid/16249"
+              }
+            ],
+            "ansvar": [
+              {
+                "href": "${administrasjon.kodeverk.ansvar}/systemid/13300"
+              }
+            ],
+            "funksjon": [
+              {
+                "href": "${administrasjon.kodeverk.funksjon}/systemid/4200"
+              }
+            ]
+          }
+        },
+        "pris": 100,
+        "_links": {
+          "mvakode": [
+            {
+              "href": "${administrasjon.okonomi.mvakode}/systemid/205"
+            }
+          ],
+          "oppdragsgiver": [
+            {
+              "href": "${administrasjon.okonomi.oppdragsgiver}/systemid/10"
+            }
+          ]
+        }
+      },
+      {
+        "kode": "102",
+        "navn": "TEST VISMA VARE 3",
+        "systemId": {
+          "identifikatorverdi": "102"
+        },
+        "enhet": "stykk",
+        "kontering": {
+          "_links": {
+            "art": [
+              {
+                "href": "${administrasjon.kodeverk.art}/systemid/16249"
+              }
+            ],
+            "ansvar": [
+              {
+                "href": "${administrasjon.kodeverk.ansvar}/systemid/13300"
+              }
+            ],
+            "funksjon": [
+              {
+                "href": "${administrasjon.kodeverk.funksjon}/systemid/4200"
+              }
+            ]
+          }
+        },
+        "pris": 123456,
+        "_links": {
+          "mvakode": [
+            {
+              "href": "${administrasjon.okonomi.mvakode}/systemid/205"
+            }
+          ],
+          "oppdragsgiver": [
+            {
+              "href": "${administrasjon.okonomi.oppdragsgiver}/systemid/10"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "_links": {
+    "self": [
+      {
+        "href": "${administrasjon.okonomi.varelinje}/"
+      }
+    ]
+  },
+  "total_items": 17,
+  "_class": "no.fint.model.resource.administrasjon.okonomi.VarelinjeResource"
+}

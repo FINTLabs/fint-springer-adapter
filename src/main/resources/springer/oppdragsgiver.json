@@ -1,0 +1,96 @@
+{
+  "_embedded": {
+    "_entries": [
+      {
+        "navn": "S. Vindel & B. Drag AS",
+        "systemId": {
+          "identifikatorverdi": "1"
+        },
+        "_links": {
+          "varelinje": [
+            {
+              "href": "${administrasjon.okonomi.varelinje}/systemid/1234566"
+            },
+            {
+              "href": "${administrasjon.okonomi.varelinje}/systemid/007"
+            },
+            {
+              "href": "${administrasjon.okonomi.varelinje}/systemid/1181"
+            },
+            {
+              "href": "${administrasjon.okonomi.varelinje}/systemid/925023"
+            },
+            {
+              "href": "${administrasjon.okonomi.varelinje}/systemid/925006"
+            },
+            {
+              "href": "${administrasjon.okonomi.varelinje}/systemid/925002"
+            },
+            {
+              "href": "${administrasjon.okonomi.varelinje}/systemid/1068534"
+            },
+            {
+              "href": "${administrasjon.okonomi.varelinje}/systemid/10001"
+            },
+            {
+              "href": "${administrasjon.okonomi.varelinje}/systemid/10002"
+            },
+            {
+              "href": "${administrasjon.okonomi.varelinje}/systemid/10003"
+            },
+            {
+              "href": "${administrasjon.okonomi.varelinje}/systemid/10004"
+            }
+          ]
+        }
+      },
+      {
+        "navn": "Visma Enterprise TEST",
+        "systemId": {
+          "identifikatorverdi": "10"
+        },
+        "_links": {
+          "varelinje": [
+            {
+              "href": "${administrasjon.okonomi.varelinje}/systemid/100"
+            },
+            {
+              "href": "${administrasjon.okonomi.varelinje}/systemid/101"
+            },
+            {
+              "href": "${administrasjon.okonomi.varelinje}/systemid/102"
+            }
+          ]
+        }
+      },
+      {
+        "navn": "Møre og Romsdal Fylkeskommune - TEST - FINT PROSJEKTET",
+        "systemId": {
+          "identifikatorverdi": "299"
+        },
+        "_links": {
+          "varelinje": [
+            {
+              "href": "${administrasjon.okonomi.varelinje}/systemid/20001"
+            },
+            {
+              "href": "${administrasjon.okonomi.varelinje}/systemid/20002"
+            },
+            {
+              "href": "${administrasjon.okonomi.varelinje}/systemid/20003"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "_links": {
+    "self": [
+      {
+        "href": "${administrasjon.okonomi.oppdragsgiver}/"
+      }
+    ]
+  },
+  "total_items": 3,
+  "_class": "no.fint.model.resource.administrasjon.okonomi.OppdragsgiverResource"
+}

@@ -3,6 +3,7 @@ package no.fint.provider.adapter.event
 import no.fint.provider.adapter.FintAdapterEndpoints
 import no.fint.provider.adapter.FintAdapterProps
 import no.fint.provider.adapter.sse.SseInitializer
+import no.fint.provider.springer.service.EventHandlerService
 import no.fint.sse.FintSse
 import spock.lang.Specification
 
@@ -11,8 +12,12 @@ class SseInitializerSpec extends Specification {
     private FintAdapterProps props
     private FintAdapterEndpoints endpoints
     private FintSse fintSse
+    private EventHandlerService eventHandlerService
 
     void setup() {
+        eventHandlerService = Mock(EventHandlerService) {
+            getActions() >> ['GET_JALLA']
+        }
         props = Mock(FintAdapterProps) {
             getOrganizations() >> ['rogfk.no', 'hfk.no', 'vaf.no']
         }
@@ -25,7 +30,7 @@ class SseInitializerSpec extends Specification {
 
     def "Register and close SSE client for organizations"() {
         given:
-        sseInitializer = new SseInitializer(props: props, endpoints: endpoints)
+        sseInitializer = new SseInitializer(props: props, endpoints: endpoints, eventHandlerService: eventHandlerService)
 
         when:
         sseInitializer.init()
