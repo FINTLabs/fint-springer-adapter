@@ -37,8 +37,10 @@ public class VurderingRepository extends SpringerRepository {
 
     @Override
     public void accept(Event<FintLinks> response) {
-        if (!StringUtils.contains(response.getSource(), "utdanning"))
+        if (!StringUtils.contains(response.getSource(), "utdanning")) {
+            log.info("Skipping {} from {}", response.getAction(), response.getSource());
             return;
+        }
 
         VurderingActions action = valueOf(response.getAction());
         if (actions.containsKey(action)) {

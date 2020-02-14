@@ -45,6 +45,8 @@ public class PersonalRepository extends SpringerRepository {
             case GET_ALL_FRAVAR:
                 if (StringUtils.contains(response.getSource(), "personal"))
                     query(FravarResource.class, response);
+                else
+                    log.info("Not handling {} from {}", response.getAction(), response.getSource());
                 break;
             case GET_ALL_FASTLONN:
                 query(FastlonnResource.class, response);
