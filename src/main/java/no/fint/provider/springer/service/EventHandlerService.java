@@ -49,7 +49,7 @@ public class EventHandlerService {
         if (event.isHealthCheck()) {
             postHealthCheckResponse(component, event);
         } else {
-            if (eventStatusService.verifyEvent(component, event).getStatus() == Status.ADAPTER_ACCEPTED) {
+            if (eventStatusService.verifyEvent(component, event)) {
                 handleResponse(component, event.getAction(), new Event<>(event));
             }
         }
