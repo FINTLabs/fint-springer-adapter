@@ -2,7 +2,6 @@ package no.fint.provider.adapter.event
 
 import no.fint.event.model.DefaultActions
 import no.fint.event.model.Event
-import no.fint.event.model.Status
 import no.fint.provider.adapter.FintAdapterEndpoints
 import no.fint.provider.springer.SupportedActions
 import org.springframework.http.HttpEntity
@@ -33,9 +32,9 @@ class EventStatusServiceSpec extends Specification {
         def verifiedEvent = eventStatusService.verifyEvent(component, event)
 
         then:
-        1 * endpoints.getProviders() >> ['test':'http://localhost']
+        1 * endpoints.getProviders() >> ['test': 'http://localhost']
         1 * endpoints.getStatus() >> '/status'
         1 * restTemplate.exchange('http://localhost/status', _ as HttpMethod, _ as HttpEntity, _ as Class) >> ResponseEntity.ok().build()
-        verifiedEvent.status == Status.ADAPTER_ACCEPTED
+        verifiedEvent
     }
 }
