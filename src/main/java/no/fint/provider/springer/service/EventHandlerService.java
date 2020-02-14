@@ -1,5 +1,6 @@
 package no.fint.provider.springer.service;
 
+import com.google.common.collect.ImmutableMultimap;
 import lombok.extern.slf4j.Slf4j;
 import no.fint.event.model.Event;
 import no.fint.event.model.ResponseStatus;
@@ -16,8 +17,6 @@ import org.springframework.stereotype.Service;
 
 import javax.annotation.PostConstruct;
 import java.util.Collection;
-import java.util.HashMap;
-import java.util.Map;
 import java.util.Set;
 import java.util.concurrent.ThreadLocalRandom;
 
@@ -40,7 +39,7 @@ public class EventHandlerService {
     @Autowired
     private Collection<Handler> handlers;
 
-    private Map<String, Handler> actionsHandlerMap;
+    private ImmutableMultimap<String, Handler> actionsHandlerMap;
 
     public Set<String> getActions() {
         return actionsHandlerMap.keySet();
@@ -58,12 +57,7 @@ public class EventHandlerService {
 
     private void handleResponse(String component, String action, Event<FintLinks> response) {
         try {
-            actionsHandlerMap.getOrDefault(action, e -> {
-                log.warn("No handler found for {}", action);
-                e.setStatus(Status.ADAPTER_REJECTED);
-                e.setResponseStatus(ResponseStatus.REJECTED);
-                e.setMessage("Unsupported action");
-            }).accept(response);
+            actionsHandlerMap.get(action).forEach(h -> h.accept(response));
         } catch (Exception e) {
             response.setResponseStatus(ResponseStatus.ERROR);
             response.setMessage(ExceptionUtils.getStackTrace(e));
@@ -114,11 +108,12 @@ public class EventHandlerService {
      */
     @PostConstruct
     void init() {
-        actionsHandlerMap = new HashMap<>();
+        ImmutableMultimap.Builder<String, Handler> builder = ImmutableMultimap.builder();
         handlers.forEach(h -> h.actions().forEach(a -> {
-            actionsHandlerMap.put(a, h);
+            builder.put(a, h);
             supportedActions.add(a);
         }));
+        actionsHandlerMap = builder.build();
         log.info("Registered {} handlers, supporting actions: {}", handlers.size(), supportedActions.getActions());
     }
 }

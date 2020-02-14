@@ -43,7 +43,8 @@ public class PersonalRepository extends SpringerRepository {
                 query(ArbeidsforholdResource.class, response);
                 break;
             case GET_ALL_FRAVAR:
-                query(FravarResource.class, response);
+                if (StringUtils.contains(response.getSource(), "personal"))
+                    query(FravarResource.class, response);
                 break;
             case GET_ALL_FASTLONN:
                 query(FastlonnResource.class, response);

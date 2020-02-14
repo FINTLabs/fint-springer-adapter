@@ -11,6 +11,7 @@ import no.fint.model.resource.utdanning.vurdering.KarakterverdiResource;
 import no.fint.model.resource.utdanning.vurdering.VurderingResource;
 import no.fint.model.utdanning.vurdering.VurderingActions;
 import no.fint.provider.springer.storage.SpringerRepository;
+import org.apache.commons.lang3.StringUtils;
 import org.springframework.stereotype.Repository;
 
 import javax.annotation.PostConstruct;
@@ -36,6 +37,9 @@ public class VurderingRepository extends SpringerRepository {
 
     @Override
     public void accept(Event<FintLinks> response) {
+        if (!StringUtils.contains(response.getSource(), "utdanning"))
+            return;
+
         VurderingActions action = valueOf(response.getAction());
         if (actions.containsKey(action)) {
             query(actions.get(action), response);
