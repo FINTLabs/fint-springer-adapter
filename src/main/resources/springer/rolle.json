@@ -1,0 +1,27 @@
+{
+  "_class": "no.fint.model.resource.administrasjon.fullmakt.RolleResource",
+  "_embedded" : {
+    "_entries" : [ {
+      "beskrivelse" : "Attestasjon",
+      "navn" : {
+        "identifikatorverdi" : "attest"
+      },
+      "_links" : {
+        "fullmakt" : [ {
+          "href" : "${administrasjon.fullmakt.fullmakt}/systemid/ABC123"
+        } ]
+      }
+    }, {
+      "beskrivelse" : "Anvisning",
+      "navn" : {
+        "identifikatorverdi" : "anvis"
+      },
+      "_links" : {
+        "fullmakt" : [ {
+          "href" : "${administrasjon.fullmakt.fullmakt}/systemid/XYZ456"
+        } ]
+      }
+    } ]
+  },
+  "total_items" : 2
+}

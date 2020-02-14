@@ -1,0 +1,45 @@
+{
+  "_class": "no.fint.model.resource.administrasjon.fullmakt.FullmaktResource",
+  "_embedded" : {
+    "_entries" : [ {
+      "gyldighetsperiode" : {
+        "slutt" : "2021-02-13T09:43:11Z",
+        "start" : "2020-02-14T09:43:11Z"
+      },
+      "systemId" : {
+        "identifikatorverdi" : "ABC123"
+      },
+      "_links" : {
+        "fullmektig" : [ {
+          "href" : "${administrasjon.personal.personalressurs}/ansattnummer/100000"
+        } ],
+        "rolle" : [ {
+          "href" : "${administrasjon.fullmakt.rolle}/navn/attest"
+        } ],
+        "myndighet" : [ {
+          "href" : "${administrasjon.kodeverk.ansvar}/systemid/391693"
+        } ]
+      }
+    }, {
+      "gyldighetsperiode" : {
+        "slutt" : "2021-02-13T09:43:12Z",
+        "start" : "2020-02-14T09:43:12Z"
+      },
+      "systemId" : {
+        "identifikatorverdi" : "XYZ456"
+      },
+      "_links" : {
+        "fullmektig" : [ {
+          "href" : "${administrasjon.personal.personalressurs}/ansattnummer/100000"
+        } ],
+        "rolle" : [ {
+          "href" : "${administrasjon.fullmakt.rolle}/navn/anvis"
+        } ],
+        "myndighet" : [ {
+          "href" : "${administrasjon.kodeverk.ansvar}/systemid/391693"
+        } ]
+      }
+    } ]
+  },
+  "total_items" : 2
+}
