@@ -29,30 +29,30 @@
         "_links": {
           "person": [
             {
-              "href": "${}/administrasjon/personal/person/fodselsnummer/22057812345"
+              "href": "${administrasjon.personal.person}/fodselsnummer/22057812345"
             }
           ],
           "personalressurskategori": [
             {
-              "href": "${}/administrasjon/kodeverk/personalressurskategori/systemid/382752"
+              "href": "${administrasjon.kodeverk.personalressurskategori}/systemid/382752"
             }
           ],
           "arbeidsforhold": [
             {
-              "href": "${}/administrasjon/personal/arbeidsforhold/systemid/100000_1"
+              "href": "${administrasjon.personal.arbeidsforhold}/systemid/100000_1"
             }
           ],
           "fullmakt": [
             {
-              "href": "${}/administrasjon/fullmakt/fullmakt/systemid/ABC123"
+              "href": "${administrasjon.fullmakt.fullmakt}/systemid/ABC123"
             },
             {
-              "href": "${}/administrasjon/fullmakt/fullmakt/systemid/XYZ456"
+              "href": "${administrasjon.fullmakt.fullmakt}/systemid/XYZ456"
             }
           ],
           "self": [
             {
-              "href": "${}/administrasjon/personal/personalressurs/ansattnummer/100000"
+              "href": "${administrasjon.personal.personalressurs}/ansattnummer/100000"
             }
           ]
         }
@@ -85,22 +85,22 @@
         "_links": {
           "person": [
             {
-              "href": "${}/administrasjon/personal/person/fodselsnummer/01116423456"
+              "href": "${administrasjon.personal.person}/fodselsnummer/01116423456"
             }
           ],
           "personalressurskategori": [
             {
-              "href": "${}/administrasjon/kodeverk/personalressurskategori/systemid/382752"
+              "href": "${administrasjon.kodeverk.personalressurskategori}/systemid/382752"
             }
           ],
           "arbeidsforhold": [
             {
-              "href": "${}/administrasjon/personal/arbeidsforhold/systemid/100001_1"
+              "href": "${administrasjon.personal.arbeidsforhold}/systemid/100001_1"
             }
           ],
           "self": [
             {
-              "href": "${}/administrasjon/personal/personalressurs/ansattnummer/100001"
+              "href": "${administrasjon.personal.personalressurs}/ansattnummer/100001"
             }
           ]
         }
@@ -132,22 +132,22 @@
         "_links": {
           "person": [
             {
-              "href": "${}/administrasjon/personal/person/fodselsnummer/12077134567"
+              "href": "${administrasjon.personal.person}/fodselsnummer/12077134567"
             }
           ],
           "personalressurskategori": [
             {
-              "href": "${}/administrasjon/kodeverk/personalressurskategori/systemid/450782"
+              "href": "${administrasjon.kodeverk.personalressurskategori}/systemid/450782"
             }
           ],
           "arbeidsforhold": [
             {
-              "href": "${}/administrasjon/personal/arbeidsforhold/systemid/100002_1"
+              "href": "${administrasjon.personal.arbeidsforhold}/systemid/100002_1"
             }
           ],
           "self": [
             {
-              "href": "${}/administrasjon/personal/personalressurs/ansattnummer/100002"
+              "href": "${administrasjon.personal.personalressurs}/ansattnummer/100002"
             }
           ]
         }
@@ -179,27 +179,27 @@
         "_links": {
           "person": [
             {
-              "href": "${}/administrasjon/personal/person/fodselsnummer/16055445678"
+              "href": "${administrasjon.personal.person}/fodselsnummer/16055445678"
             }
           ],
           "personalressurskategori": [
             {
-              "href": "${}/administrasjon/kodeverk/personalressurskategori/systemid/382752"
+              "href": "${administrasjon.kodeverk.personalressurskategori}/systemid/382752"
             }
           ],
           "arbeidsforhold": [
             {
-              "href": "${}/administrasjon/personal/arbeidsforhold/systemid/100003_1"
+              "href": "${administrasjon.personal.arbeidsforhold}/systemid/100003_1"
             }
           ],
           "skoleressurs": [
             {
-              "href": "${}/systemid/ABCD213"
+              "href": "${systemid.ABCD213"
             }
           ],
           "self": [
             {
-              "href": "${}/administrasjon/personal/personalressurs/ansattnummer/100003"
+              "href": "${}.administrasjon}/personal/personalressurs/ansattnummer/100003"
             }
           ]
         }
@@ -231,25 +231,25 @@
         "_links": {
           "person": [
             {
-              "href": "${}/administrasjon/personal/person/fodselsnummer/12018156789"
+              "href": "${administrasjon.personal.person}/fodselsnummer/12018156789"
             }
           ],
           "personalressurskategori": [
             {
-              "href": "${}/administrasjon/kodeverk/personalressurskategori/systemid/382752"
+              "href": "${administrasjon.kodeverk.personalressurskategori}/systemid/382752"
             }
           ],
           "arbeidsforhold": [
             {
-              "href": "${}/administrasjon/personal/arbeidsforhold/systemid/100004_1"
+              "href": "${administrasjon.personal.arbeidsforhold}/systemid/100004_1"
             },
             {
-              "href": "${}/administrasjon/personal/arbeidsforhold/systemid/100004_2"
+              "href": "${administrasjon.personal.arbeidsforhold}/systemid/100004_2"
             }
           ],
           "self": [
             {
-              "href": "${}/administrasjon/personal/personalressurs/ansattnummer/100004"
+              "href": "${administrasjon.personal.personalressurs}/ansattnummer/100004"
             }
           ]
         }
@@ -259,7 +259,7 @@
   "_links": {
     "self": [
       {
-        "href": "${}/administrasjon/personal/personalressurs/"
+        "href": "${administrasjon.personal.personalressurs}/"
       }
     ]
   },

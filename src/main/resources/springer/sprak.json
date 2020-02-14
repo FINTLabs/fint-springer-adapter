@@ -10,7 +10,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/felles/kodeverk/sprak/systemid/no"
+              "href": "${felles.kodeverk.sprak}/systemid/no"
             }
           ]
         }
@@ -24,7 +24,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/felles/kodeverk/sprak/systemid/nn"
+              "href": "${felles.kodeverk.sprak}/systemid/nn"
             }
           ]
         }
@@ -38,7 +38,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/felles/kodeverk/sprak/systemid/nb"
+              "href": "${felles.kodeverk.sprak}/systemid/nb"
             }
           ]
         }
@@ -48,7 +48,7 @@
   "_links": {
     "self": [
       {
-        "href": "${}/felles/kodeverk/sprak/"
+        "href": "${felles.kodeverk.sprak}/"
       }
     ]
   },

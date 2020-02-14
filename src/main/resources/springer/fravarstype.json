@@ -18,7 +18,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/fravarstype/systemid/915039"
+              "href": "${administrasjon.kodeverk.fravarstype}/systemid/915039"
             }
           ]
         }
@@ -40,7 +40,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/fravarstype/systemid/408396"
+              "href": "${administrasjon.kodeverk.fravarstype}/systemid/408396"
             }
           ]
         }
@@ -50,7 +50,7 @@
   "_links": {
     "self": [
       {
-        "href": "${}/administrasjon/kodeverk/fravarstype"
+        "href": "${administrasjon.kodeverk.fravarstype}"
       }
     ]
   },

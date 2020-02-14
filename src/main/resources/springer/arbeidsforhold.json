@@ -19,42 +19,42 @@
         "_links": {
           "personalressurs": [
             {
-              "href": "${}/administrasjon/personal/personalressurs/ansattnummer/100000"
+              "href": "${administrasjon.personal.personalressurs}/ansattnummer/100000"
             }
           ],
           "arbeidssted": [
             {
-              "href": "${}/administrasjon/organisasjon/organisasjonselement/organisasjonsid/550000"
+              "href": "${administrasjon.organisasjon.organisasjonselement}/organisasjonsid/550000"
             }
           ],
           "ansvar": [
             {
-              "href": "${}/administrasjon/kodeverk/ansvar/systemid/416607"
+              "href": "${administrasjon.kodeverk.ansvar}/systemid/416607"
             }
           ],
           "funksjon": [
             {
-              "href": "${}/administrasjon/kodeverk/funksjon/systemid/400573"
+              "href": "${administrasjon.kodeverk.funksjon}/systemid/400573"
             }
           ],
           "arbeidsforholdstype": [
             {
-              "href": "${}/administrasjon/kodeverk/arbeidsforholdstype/systemid/401241"
+              "href": "${administrasjon.kodeverk.arbeidsforholdstype}/systemid/401241"
             }
           ],
           "stillingskode": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/411814"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/411814"
             }
           ],
           "timerperuke": [
             {
-              "href": "${}/administrasjon/kodeverk/uketimetall/systemid/394634"
+              "href": "${administrasjon.kodeverk.uketimetall}/systemid/394634"
             }
           ],
           "self": [
             {
-              "href": "${}/administrasjon/personal/arbeidsforhold/systemid/100000_1"
+              "href": "${administrasjon.personal.arbeidsforhold}/systemid/100000_1"
             }
           ]
         }
@@ -77,42 +77,42 @@
         "_links": {
           "personalressurs": [
             {
-              "href": "${}/administrasjon/personal/personalressurs/ansattnummer/100001"
+              "href": "${administrasjon.personal.personalressurs}/ansattnummer/100001"
             }
           ],
           "arbeidssted": [
             {
-              "href": "${}/administrasjon/organisasjon/organisasjonselement/organisasjonsid/550001"
+              "href": "${administrasjon.organisasjon.organisasjonselement}/organisasjonsid/550001"
             }
           ],
           "ansvar": [
             {
-              "href": "${}/administrasjon/kodeverk/ansvar/systemid/416607"
+              "href": "${administrasjon.kodeverk.ansvar}/systemid/416607"
             }
           ],
           "funksjon": [
             {
-              "href": "${}/administrasjon/kodeverk/funksjon/systemid/400573"
+              "href": "${administrasjon.kodeverk.funksjon}/systemid/400573"
             }
           ],
           "arbeidsforholdstype": [
             {
-              "href": "${}/administrasjon/kodeverk/arbeidsforholdstype/systemid/401241"
+              "href": "${administrasjon.kodeverk.arbeidsforholdstype}/systemid/401241"
             }
           ],
           "stillingskode": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/898830"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/898830"
             }
           ],
           "timerperuke": [
             {
-              "href": "${}/administrasjon/kodeverk/uketimetall/systemid/394634"
+              "href": "${administrasjon.kodeverk.uketimetall}/systemid/394634"
             }
           ],
           "self": [
             {
-              "href": "${}/administrasjon/personal/arbeidsforhold/systemid/100001_1"
+              "href": "${administrasjon.personal.arbeidsforhold}/systemid/100001_1"
             }
           ]
         }
@@ -135,47 +135,47 @@
         "_links": {
           "personalressurs": [
             {
-              "href": "${}/administrasjon/personal/personalressurs/ansattnummer/100002"
+              "href": "${administrasjon.personal.personalressurs}/ansattnummer/100002"
             }
           ],
           "arbeidssted": [
             {
-              "href": "${}/administrasjon/organisasjon/organisasjonselement/organisasjonsid/560000"
+              "href": "${administrasjon.organisasjon.organisasjonselement}/organisasjonsid/560000"
             }
           ],
           "ansvar": [
             {
-              "href": "${}/administrasjon/kodeverk/ansvar/systemid/437640"
+              "href": "${administrasjon.kodeverk.ansvar}/systemid/437640"
             }
           ],
           "funksjon": [
             {
-              "href": "${}/administrasjon/kodeverk/funksjon/systemid/400602"
+              "href": "${administrasjon.kodeverk.funksjon}/systemid/400602"
             }
           ],
           "arbeidsforholdstype": [
             {
-              "href": "${}/administrasjon/kodeverk/arbeidsforholdstype/systemid/401245"
+              "href": "${administrasjon.kodeverk.arbeidsforholdstype}/systemid/401245"
             }
           ],
           "stillingskode": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/400552"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/400552"
             }
           ],
           "timerperuke": [
             {
-              "href": "${}/administrasjon/kodeverk/uketimetall/systemid/394634"
+              "href": "${administrasjon.kodeverk.uketimetall}/systemid/394634"
             }
           ],
           "fravar": [
             {
-              "href": "${}/administrasjon/personal/fravar/systemid/F75J843W7J029"
+              "href": "${administrasjon.personal.fravar}/systemid/F75J843W7J029"
             }
           ],
           "self": [
             {
-              "href": "${}/administrasjon/personal/arbeidsforhold/systemid/100002_1"
+              "href": "${administrasjon.personal.arbeidsforhold}/systemid/100002_1"
             }
           ]
         }
@@ -198,50 +198,50 @@
         "_links": {
           "personalressurs": [
             {
-              "href": "${}/administrasjon/personal/personalressurs/ansattnummer/100003"
+              "href": "${administrasjon.personal.personalressurs}/ansattnummer/100003"
             }
           ],
           "arbeidssted": [
             {
-              "href": "${}/administrasjon/organisasjon/organisasjonselement/organisasjonsid/562000"
+              "href": "${administrasjon.organisasjon.organisasjonselement}/organisasjonsid/562000"
             }
           ],
           "ansvar": [
             {
-              "href": "${}/administrasjon/kodeverk/ansvar/systemid/437639"
+              "href": "${administrasjon.kodeverk.ansvar}/systemid/437639"
             }
           ],
           "funksjon": [
             {
-              "href": "${}/administrasjon/kodeverk/funksjon/systemid/400602"
+              "href": "${administrasjon.kodeverk.funksjon}/systemid/400602"
             }
           ],
           "arbeidsforholdstype": [
             {
-              "href": "${}/administrasjon/kodeverk/arbeidsforholdstype/systemid/401241"
+              "href": "${administrasjon.kodeverk.arbeidsforholdstype}/systemid/401241"
             }
           ],
           "stillingskode": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/380713"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/380713"
             }
           ],
           "timerperuke": [
             {
-              "href": "${}/administrasjon/kodeverk/uketimetall/systemid/394634"
+              "href": "${administrasjon.kodeverk.uketimetall}/systemid/394634"
             }
           ],
           "lonn": [
             {
-              "href": "${}/administrasjon/personal/fastlonn/systemid/FL_DFRTIYUGO"
+              "href": "${administrasjon.personal.fastlonn}/systemid/FL_DFRTIYUGO"
             },
             {
-              "href": "${}/administrasjon/personal/variabellonn/systemid/VL_JIOPTPUSO"
+              "href": "${administrasjon.personal.variabellonn}/systemid/VL_JIOPTPUSO"
             }
           ],
           "self": [
             {
-              "href": "${}/administrasjon/personal/arbeidsforhold/systemid/100003_1"
+              "href": "${administrasjon.personal.arbeidsforhold}/systemid/100003_1"
             }
           ]
         }
@@ -264,42 +264,42 @@
         "_links": {
           "personalressurs": [
             {
-              "href": "${}/administrasjon/personal/personalressurs/ansattnummer/100004"
+              "href": "${administrasjon.personal.personalressurs}/ansattnummer/100004"
             }
           ],
           "arbeidssted": [
             {
-              "href": "${}/administrasjon/organisasjon/organisasjonselement/organisasjonsid/560000"
+              "href": "${administrasjon.organisasjon.organisasjonselement}/organisasjonsid/560000"
             }
           ],
           "ansvar": [
             {
-              "href": "${}/administrasjon/kodeverk/ansvar/systemid/437640"
+              "href": "${administrasjon.kodeverk.ansvar}/systemid/437640"
             }
           ],
           "funksjon": [
             {
-              "href": "${}/administrasjon/kodeverk/funksjon/systemid/400602"
+              "href": "${administrasjon.kodeverk.funksjon}/systemid/400602"
             }
           ],
           "arbeidsforholdstype": [
             {
-              "href": "${}/administrasjon/kodeverk/arbeidsforholdstype/systemid/401241"
+              "href": "${administrasjon.kodeverk.arbeidsforholdstype}/systemid/401241"
             }
           ],
           "stillingskode": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/453496"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/453496"
             }
           ],
           "timerperuke": [
             {
-              "href": "${}/administrasjon/kodeverk/uketimetall/systemid/394634"
+              "href": "${administrasjon.kodeverk.uketimetall}/systemid/394634"
             }
           ],
           "self": [
             {
-              "href": "${}/administrasjon/personal/arbeidsforhold/systemid/100004_1"
+              "href": "${administrasjon.personal.arbeidsforhold}/systemid/100004_1"
             }
           ]
         }
@@ -322,42 +322,42 @@
         "_links": {
           "personalressurs": [
             {
-              "href": "${}/administrasjon/personal/personalressurs/ansattnummer/100004"
+              "href": "${administrasjon.personal.personalressurs}/ansattnummer/100004"
             }
           ],
           "arbeidssted": [
             {
-              "href": "${}/administrasjon/organisasjon/organisasjonselement/organisasjonsid/568000"
+              "href": "${administrasjon.organisasjon.organisasjonselement}/organisasjonsid/568000"
             }
           ],
           "ansvar": [
             {
-              "href": "${}/administrasjon/kodeverk/ansvar/systemid/437640"
+              "href": "${administrasjon.kodeverk.ansvar}/systemid/437640"
             }
           ],
           "funksjon": [
             {
-              "href": "${}/administrasjon/kodeverk/funksjon/systemid/400602"
+              "href": "${administrasjon.kodeverk.funksjon}/systemid/400602"
             }
           ],
           "arbeidsforholdstype": [
             {
-              "href": "${}/administrasjon/kodeverk/arbeidsforholdstype/systemid/401241"
+              "href": "${administrasjon.kodeverk.arbeidsforholdstype}/systemid/401241"
             }
           ],
           "stillingskode": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/453496"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/453496"
             }
           ],
           "timerperuke": [
             {
-              "href": "${}/administrasjon/kodeverk/uketimetall/systemid/394634"
+              "href": "${administrasjon.kodeverk.uketimetall}/systemid/394634"
             }
           ],
           "self": [
             {
-              "href": "${}/administrasjon/personal/arbeidsforhold/systemid/100004_2"
+              "href": "${administrasjon.personal.arbeidsforhold}/systemid/100004_2"
             }
           ]
         }
@@ -367,7 +367,7 @@
   "_links": {
     "self": [
       {
-        "href": "${}/administrasjon/personal/arbeidsforhold/"
+        "href": "${administrasjon.personal.arbeidsforhold}/"
       }
     ]
   },

@@ -18,7 +18,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/funksjon/systemid/411854"
+              "href": "${administrasjon.kodeverk.funksjon}/systemid/411854"
             }
           ]
         }
@@ -40,7 +40,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/funksjon/systemid/400578"
+              "href": "${administrasjon.kodeverk.funksjon}/systemid/400578"
             }
           ]
         }
@@ -62,7 +62,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/funksjon/systemid/400597"
+              "href": "${administrasjon.kodeverk.funksjon}/systemid/400597"
             }
           ]
         }
@@ -84,7 +84,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/funksjon/systemid/400576"
+              "href": "${administrasjon.kodeverk.funksjon}/systemid/400576"
             }
           ]
         }
@@ -106,7 +106,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/funksjon/systemid/400574"
+              "href": "${administrasjon.kodeverk.funksjon}/systemid/400574"
             }
           ]
         }
@@ -128,7 +128,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/funksjon/systemid/400604"
+              "href": "${administrasjon.kodeverk.funksjon}/systemid/400604"
             }
           ]
         }
@@ -150,7 +150,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/funksjon/systemid/400582"
+              "href": "${administrasjon.kodeverk.funksjon}/systemid/400582"
             }
           ]
         }
@@ -172,7 +172,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/funksjon/systemid/395409"
+              "href": "${administrasjon.kodeverk.funksjon}/systemid/395409"
             }
           ]
         }
@@ -194,7 +194,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/funksjon/systemid/400583"
+              "href": "${administrasjon.kodeverk.funksjon}/systemid/400583"
             }
           ]
         }
@@ -216,7 +216,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/funksjon/systemid/400591"
+              "href": "${administrasjon.kodeverk.funksjon}/systemid/400591"
             }
           ]
         }
@@ -238,7 +238,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/funksjon/systemid/400602"
+              "href": "${administrasjon.kodeverk.funksjon}/systemid/400602"
             }
           ]
         }
@@ -260,7 +260,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/funksjon/systemid/411855"
+              "href": "${administrasjon.kodeverk.funksjon}/systemid/411855"
             }
           ]
         }
@@ -282,7 +282,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/funksjon/systemid/400603"
+              "href": "${administrasjon.kodeverk.funksjon}/systemid/400603"
             }
           ]
         }
@@ -304,7 +304,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/funksjon/systemid/400588"
+              "href": "${administrasjon.kodeverk.funksjon}/systemid/400588"
             }
           ]
         }
@@ -326,7 +326,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/funksjon/systemid/400584"
+              "href": "${administrasjon.kodeverk.funksjon}/systemid/400584"
             }
           ]
         }
@@ -348,7 +348,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/funksjon/systemid/411851"
+              "href": "${administrasjon.kodeverk.funksjon}/systemid/411851"
             }
           ]
         }
@@ -370,7 +370,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/funksjon/systemid/400577"
+              "href": "${administrasjon.kodeverk.funksjon}/systemid/400577"
             }
           ]
         }
@@ -392,7 +392,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/funksjon/systemid/389782"
+              "href": "${administrasjon.kodeverk.funksjon}/systemid/389782"
             }
           ]
         }
@@ -414,7 +414,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/funksjon/systemid/400593"
+              "href": "${administrasjon.kodeverk.funksjon}/systemid/400593"
             }
           ]
         }
@@ -436,7 +436,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/funksjon/systemid/400610"
+              "href": "${administrasjon.kodeverk.funksjon}/systemid/400610"
             }
           ]
         }
@@ -458,7 +458,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/funksjon/systemid/400749"
+              "href": "${administrasjon.kodeverk.funksjon}/systemid/400749"
             }
           ]
         }
@@ -480,7 +480,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/funksjon/systemid/400585"
+              "href": "${administrasjon.kodeverk.funksjon}/systemid/400585"
             }
           ]
         }
@@ -502,7 +502,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/funksjon/systemid/400609"
+              "href": "${administrasjon.kodeverk.funksjon}/systemid/400609"
             }
           ]
         }
@@ -525,7 +525,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/funksjon/systemid/400570"
+              "href": "${administrasjon.kodeverk.funksjon}/systemid/400570"
             }
           ]
         }
@@ -547,7 +547,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/funksjon/systemid/400752"
+              "href": "${administrasjon.kodeverk.funksjon}/systemid/400752"
             }
           ]
         }
@@ -569,7 +569,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/funksjon/systemid/400612"
+              "href": "${administrasjon.kodeverk.funksjon}/systemid/400612"
             }
           ]
         }
@@ -591,7 +591,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/funksjon/systemid/400754"
+              "href": "${administrasjon.kodeverk.funksjon}/systemid/400754"
             }
           ]
         }
@@ -613,7 +613,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/funksjon/systemid/400587"
+              "href": "${administrasjon.kodeverk.funksjon}/systemid/400587"
             }
           ]
         }
@@ -635,7 +635,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/funksjon/systemid/400572"
+              "href": "${administrasjon.kodeverk.funksjon}/systemid/400572"
             }
           ]
         }
@@ -657,7 +657,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/funksjon/systemid/400596"
+              "href": "${administrasjon.kodeverk.funksjon}/systemid/400596"
             }
           ]
         }
@@ -679,7 +679,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/funksjon/systemid/400589"
+              "href": "${administrasjon.kodeverk.funksjon}/systemid/400589"
             }
           ]
         }
@@ -701,7 +701,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/funksjon/systemid/389786"
+              "href": "${administrasjon.kodeverk.funksjon}/systemid/389786"
             }
           ]
         }
@@ -723,7 +723,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/funksjon/systemid/411853"
+              "href": "${administrasjon.kodeverk.funksjon}/systemid/411853"
             }
           ]
         }
@@ -745,7 +745,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/funksjon/systemid/400611"
+              "href": "${administrasjon.kodeverk.funksjon}/systemid/400611"
             }
           ]
         }
@@ -767,7 +767,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/funksjon/systemid/400606"
+              "href": "${administrasjon.kodeverk.funksjon}/systemid/400606"
             }
           ]
         }
@@ -789,7 +789,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/funksjon/systemid/400605"
+              "href": "${administrasjon.kodeverk.funksjon}/systemid/400605"
             }
           ]
         }
@@ -811,7 +811,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/funksjon/systemid/400571"
+              "href": "${administrasjon.kodeverk.funksjon}/systemid/400571"
             }
           ]
         }
@@ -833,7 +833,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/funksjon/systemid/400755"
+              "href": "${administrasjon.kodeverk.funksjon}/systemid/400755"
             }
           ]
         }
@@ -855,7 +855,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/funksjon/systemid/890658"
+              "href": "${administrasjon.kodeverk.funksjon}/systemid/890658"
             }
           ]
         }
@@ -877,7 +877,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/funksjon/systemid/400613"
+              "href": "${administrasjon.kodeverk.funksjon}/systemid/400613"
             }
           ]
         }
@@ -899,7 +899,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/funksjon/systemid/400592"
+              "href": "${administrasjon.kodeverk.funksjon}/systemid/400592"
             }
           ]
         }
@@ -921,7 +921,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/funksjon/systemid/400594"
+              "href": "${administrasjon.kodeverk.funksjon}/systemid/400594"
             }
           ]
         }
@@ -943,7 +943,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/funksjon/systemid/400608"
+              "href": "${administrasjon.kodeverk.funksjon}/systemid/400608"
             }
           ]
         }
@@ -965,7 +965,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/funksjon/systemid/389783"
+              "href": "${administrasjon.kodeverk.funksjon}/systemid/389783"
             }
           ]
         }
@@ -987,7 +987,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/funksjon/systemid/400573"
+              "href": "${administrasjon.kodeverk.funksjon}/systemid/400573"
             }
           ]
         }
@@ -1009,7 +1009,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/funksjon/systemid/452939"
+              "href": "${administrasjon.kodeverk.funksjon}/systemid/452939"
             }
           ]
         }
@@ -1031,7 +1031,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/funksjon/systemid/400600"
+              "href": "${administrasjon.kodeverk.funksjon}/systemid/400600"
             }
           ]
         }
@@ -1053,7 +1053,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/funksjon/systemid/389785"
+              "href": "${administrasjon.kodeverk.funksjon}/systemid/389785"
             }
           ]
         }
@@ -1075,7 +1075,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/funksjon/systemid/400586"
+              "href": "${administrasjon.kodeverk.funksjon}/systemid/400586"
             }
           ]
         }
@@ -1097,7 +1097,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/funksjon/systemid/400590"
+              "href": "${administrasjon.kodeverk.funksjon}/systemid/400590"
             }
           ]
         }
@@ -1119,7 +1119,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/funksjon/systemid/411850"
+              "href": "${administrasjon.kodeverk.funksjon}/systemid/411850"
             }
           ]
         }
@@ -1141,7 +1141,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/funksjon/systemid/400747"
+              "href": "${administrasjon.kodeverk.funksjon}/systemid/400747"
             }
           ]
         }
@@ -1163,7 +1163,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/funksjon/systemid/400575"
+              "href": "${administrasjon.kodeverk.funksjon}/systemid/400575"
             }
           ]
         }
@@ -1185,7 +1185,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/funksjon/systemid/400579"
+              "href": "${administrasjon.kodeverk.funksjon}/systemid/400579"
             }
           ]
         }
@@ -1207,7 +1207,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/funksjon/systemid/400751"
+              "href": "${administrasjon.kodeverk.funksjon}/systemid/400751"
             }
           ]
         }
@@ -1229,7 +1229,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/funksjon/systemid/400581"
+              "href": "${administrasjon.kodeverk.funksjon}/systemid/400581"
             }
           ]
         }
@@ -1251,7 +1251,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/funksjon/systemid/400607"
+              "href": "${administrasjon.kodeverk.funksjon}/systemid/400607"
             }
           ]
         }
@@ -1273,7 +1273,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/funksjon/systemid/400595"
+              "href": "${administrasjon.kodeverk.funksjon}/systemid/400595"
             }
           ]
         }
@@ -1295,7 +1295,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/funksjon/systemid/452940"
+              "href": "${administrasjon.kodeverk.funksjon}/systemid/452940"
             }
           ]
         }
@@ -1317,7 +1317,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/funksjon/systemid/389784"
+              "href": "${administrasjon.kodeverk.funksjon}/systemid/389784"
             }
           ]
         }
@@ -1339,7 +1339,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/funksjon/systemid/400748"
+              "href": "${administrasjon.kodeverk.funksjon}/systemid/400748"
             }
           ]
         }
@@ -1361,7 +1361,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/funksjon/systemid/400753"
+              "href": "${administrasjon.kodeverk.funksjon}/systemid/400753"
             }
           ]
         }
@@ -1383,7 +1383,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/funksjon/systemid/400599"
+              "href": "${administrasjon.kodeverk.funksjon}/systemid/400599"
             }
           ]
         }
@@ -1405,7 +1405,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/funksjon/systemid/400580"
+              "href": "${administrasjon.kodeverk.funksjon}/systemid/400580"
             }
           ]
         }
@@ -1427,7 +1427,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/funksjon/systemid/400598"
+              "href": "${administrasjon.kodeverk.funksjon}/systemid/400598"
             }
           ]
         }
@@ -1449,7 +1449,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/funksjon/systemid/389787"
+              "href": "${administrasjon.kodeverk.funksjon}/systemid/389787"
             }
           ]
         }
@@ -1471,7 +1471,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/funksjon/systemid/400750"
+              "href": "${administrasjon.kodeverk.funksjon}/systemid/400750"
             }
           ]
         }
@@ -1493,7 +1493,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/funksjon/systemid/400601"
+              "href": "${administrasjon.kodeverk.funksjon}/systemid/400601"
             }
           ]
         }
@@ -1503,7 +1503,7 @@
   "_links": {
     "self": [
       {
-        "href": "${}/administrasjon/kodeverk/funksjon"
+        "href": "${administrasjon.kodeverk.funksjon}"
       }
     ]
   },

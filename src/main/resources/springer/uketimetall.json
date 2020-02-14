@@ -18,7 +18,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/uketimetall/systemid/394629"
+              "href": "${administrasjon.kodeverk.uketimetall}/systemid/394629"
             }
           ]
         }
@@ -40,7 +40,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/uketimetall/systemid/429766"
+              "href": "${administrasjon.kodeverk.uketimetall}/systemid/429766"
             }
           ]
         }
@@ -62,7 +62,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/uketimetall/systemid/394631"
+              "href": "${administrasjon.kodeverk.uketimetall}/systemid/394631"
             }
           ]
         }
@@ -84,7 +84,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/uketimetall/systemid/429768"
+              "href": "${administrasjon.kodeverk.uketimetall}/systemid/429768"
             }
           ]
         }
@@ -106,7 +106,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/uketimetall/systemid/394635"
+              "href": "${administrasjon.kodeverk.uketimetall}/systemid/394635"
             }
           ]
         }
@@ -128,7 +128,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/uketimetall/systemid/432920"
+              "href": "${administrasjon.kodeverk.uketimetall}/systemid/432920"
             }
           ]
         }
@@ -150,7 +150,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/uketimetall/systemid/432922"
+              "href": "${administrasjon.kodeverk.uketimetall}/systemid/432922"
             }
           ]
         }
@@ -172,7 +172,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/uketimetall/systemid/394632"
+              "href": "${administrasjon.kodeverk.uketimetall}/systemid/394632"
             }
           ]
         }
@@ -194,7 +194,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/uketimetall/systemid/394630"
+              "href": "${administrasjon.kodeverk.uketimetall}/systemid/394630"
             }
           ]
         }
@@ -216,7 +216,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/uketimetall/systemid/394634"
+              "href": "${administrasjon.kodeverk.uketimetall}/systemid/394634"
             }
           ]
         }
@@ -238,7 +238,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/uketimetall/systemid/394636"
+              "href": "${administrasjon.kodeverk.uketimetall}/systemid/394636"
             }
           ]
         }
@@ -260,7 +260,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/uketimetall/systemid/394628"
+              "href": "${administrasjon.kodeverk.uketimetall}/systemid/394628"
             }
           ]
         }
@@ -282,7 +282,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/uketimetall/systemid/394633"
+              "href": "${administrasjon.kodeverk.uketimetall}/systemid/394633"
             }
           ]
         }
@@ -304,7 +304,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/uketimetall/systemid/429767"
+              "href": "${administrasjon.kodeverk.uketimetall}/systemid/429767"
             }
           ]
         }
@@ -314,7 +314,7 @@
   "_links": {
     "self": [
       {
-        "href": "${}/administrasjon/kodeverk/uketimetall"
+        "href": "${administrasjon.kodeverk.uketimetall}"
       }
     ]
   },
