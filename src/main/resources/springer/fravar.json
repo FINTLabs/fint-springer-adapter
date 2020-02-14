@@ -9,22 +9,22 @@
         },
         "prosent": 10000,
         "systemId": {
-          "identifikatorverdi": "3736db63-eae6-4e58-ad63-57e649d6322f"
+          "identifikatorverdi": "F75J843W7J029"
         },
         "_links": {
           "arbeidsforhold": [
             {
-              "href": "${administrasjon.personal.arbeidsforhold}/ansattnummer/12345"
+              "href": "${administrasjon.personal.arbeidsforhold}/systemid/100002_1"
             }
           ],
           "fravarsgrunn": [
             {
-              "href": "${administrasjon.kodeverk.fravarsgrunn}/systemid/111"
+              "href": "${administrasjon.kodeverk.fravarsgrunn}/systemid/915039"
             }
           ],
           "fravarstype": [
             {
-              "href": "${administrasjon.kodeverk.fravarstype}/systemid/222"
+              "href": "${administrasjon.kodeverk.fravarstype}/systemid/408396"
             }
           ]
         }
