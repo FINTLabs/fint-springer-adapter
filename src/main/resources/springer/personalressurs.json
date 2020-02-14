@@ -29,7 +29,7 @@
         "_links": {
           "person": [
             {
-              "href": "${administrasjon.personal.person}/fodselsnummer/22057812345"
+              "href": "${felles.person}/fodselsnummer/22057812345"
             }
           ],
           "personalressurskategori": [
@@ -85,7 +85,7 @@
         "_links": {
           "person": [
             {
-              "href": "${administrasjon.personal.person}/fodselsnummer/01116423456"
+              "href": "${felles.person}/fodselsnummer/01116423456"
             }
           ],
           "personalressurskategori": [
@@ -132,7 +132,7 @@
         "_links": {
           "person": [
             {
-              "href": "${administrasjon.personal.person}/fodselsnummer/12077134567"
+              "href": "${felles.person}/fodselsnummer/12077134567"
             }
           ],
           "personalressurskategori": [
@@ -179,7 +179,7 @@
         "_links": {
           "person": [
             {
-              "href": "${administrasjon.personal.person}/fodselsnummer/16055445678"
+              "href": "${felles.person}/fodselsnummer/16055445678"
             }
           ],
           "personalressurskategori": [
@@ -231,7 +231,7 @@
         "_links": {
           "person": [
             {
-              "href": "${administrasjon.personal.person}/fodselsnummer/12018156789"
+              "href": "${felles.person}/fodselsnummer/12018156789"
             }
           ],
           "personalressurskategori": [
