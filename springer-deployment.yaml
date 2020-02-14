@@ -97,7 +97,7 @@ spec:
             - name: security.basic.enabled
               value: "false"
         - name: springer-beta
-          image: fintlabs.azurecr.io/fint-springer-adapter:PR-4.2
+          image: fintlabs.azurecr.io/fint-springer-adapter:PR-4.3
           ports:
             - containerPort: 8091
           resources:
@@ -233,7 +233,7 @@ spec:
             - name: security.basic.enabled
               value: "false"
         - name: springer-pwf
-          image: fintlabs.azurecr.io/fint-springer-adapter:build.21
+          image: fintlabs.azurecr.io/fint-springer-adapter:build.29
           ports:
             - containerPort: 8092
           resources:
@@ -258,6 +258,8 @@ spec:
               value: https://play-with-fint.felleskomponent.no/utdanning/elev/provider
             - name: fint.adapter.endpoints.providers.kodeverk-administrasjon
               value: https://play-with-fint.felleskomponent.no/administrasjon/kodeverk/provider
+            - name: fint.adapter.endpoints.providers.fullmakt
+              value: https://play-with-fint.felleskomponent.no/administrasjon/fullmakt/provider
             - name: fint.adapter.endpoints.providers.organisasjon
               value: https://play-with-fint.felleskomponent.no/administrasjon/organisasjon/provider
             - name: fint.adapter.endpoints.providers.personal
