@@ -1,6 +1,7 @@
 package no.fint.provider.springer.service;
 
 import com.google.common.collect.ImmutableMultimap;
+import lombok.Getter;
 import lombok.extern.slf4j.Slf4j;
 import no.fint.event.model.Event;
 import no.fint.event.model.ResponseStatus;
@@ -39,6 +40,7 @@ public class EventHandlerService {
     @Autowired
     private Collection<Handler> handlers;
 
+    @Getter
     private ImmutableMultimap<String, Handler> actionsHandlerMap;
 
     public Set<String> getActions() {
