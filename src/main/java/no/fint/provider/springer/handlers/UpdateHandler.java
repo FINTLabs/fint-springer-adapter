@@ -96,7 +96,7 @@ public abstract class UpdateHandler<T extends FintLinks> implements Handler {
             reject(event, "INVALID_QUERY");
             return;
         }
-        List<T> updates = event.getData().stream().map(it -> mapper.convertValue(it, type)).collect(Collectors.toList());
+        List<T> updates = mapper.convertValue(event.getData(), mapper.getTypeFactory().constructCollectionType(List.class, type));
         event.setData(new ArrayList<>());
         stream(createCriteria(event.getQuery()))
                 .peek(it -> updates.forEach(copy(it)))
