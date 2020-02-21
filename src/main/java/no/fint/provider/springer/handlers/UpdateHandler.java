@@ -103,6 +103,9 @@ public abstract class UpdateHandler<T extends FintLinks> implements Handler {
                 .forEach(event::addObject);
         if (event.getData().isEmpty()) {
             reject(event, "NOT_FOUND");
+            return;
         }
+        event.setResponseStatus(ResponseStatus.ACCEPTED);
+        event.setStatus(Status.ADAPTER_ACCEPTED);
     }
 }
