@@ -3,6 +3,7 @@ package no.fint.provider.springer.handlers;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import lombok.extern.slf4j.Slf4j;
 import no.fint.event.model.Event;
+import no.fint.event.model.Operation;
 import no.fint.event.model.ResponseStatus;
 import no.fint.event.model.Status;
 import no.fint.model.felles.kompleksedatatyper.Identifikator;
@@ -87,6 +88,10 @@ public abstract class UpdateHandler<T extends FintLinks> implements Handler {
 
     @Override
     public void accept(Event<FintLinks> event) {
+        if (event.getOperation() != Operation.UPDATE) {
+            reject(event, "INVALID_OPERATION");
+            return;
+        }
         if (!validQuery(event.getQuery())) {
             reject(event, "INVALID_QUERY");
             return;
@@ -96,5 +101,8 @@ public abstract class UpdateHandler<T extends FintLinks> implements Handler {
         stream(createCriteria(event.getQuery()))
                 .peek(it -> updates.forEach(copy(it)))
                 .forEach(event::addObject);
+        if (event.getData().isEmpty()) {
+            reject(event, "NOT_FOUND");
+        }
     }
 }
