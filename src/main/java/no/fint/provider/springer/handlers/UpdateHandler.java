@@ -25,7 +25,6 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 import java.util.function.Consumer;
-import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
 @Slf4j
@@ -49,7 +48,7 @@ public abstract class UpdateHandler<T extends FintLinks> implements Handler {
         return Arrays.stream(PropertyUtils.getPropertyDescriptors(type))
                 .filter(it -> it.getPropertyType().equals(Identifikator.class))
                 .map(PropertyDescriptor::getName)
-                .anyMatch(it -> StringUtils.startsWith(query, it + "/"));
+                .anyMatch(it -> StringUtils.startsWithIgnoreCase(query, it + "/"));
     }
 
     protected void reject(Event<FintLinks> event, String statusCode) {
@@ -66,7 +65,13 @@ public abstract class UpdateHandler<T extends FintLinks> implements Handler {
 
     protected CriteriaDefinition createCriteria(String query) {
         String[] split = StringUtils.split(query, '/');
-        return Criteria.where(String.format("value.%s.identifikatorverdi", split[0])).is(split[1]);
+        String field = Arrays.stream(PropertyUtils.getPropertyDescriptors(type))
+                .filter(it -> it.getPropertyType().equals(Identifikator.class))
+                .map(PropertyDescriptor::getName)
+                .filter(it -> StringUtils.equalsIgnoreCase(it, split[0]))
+                .findFirst()
+                .orElseThrow(IllegalArgumentException::new);
+        return Criteria.where(String.format("value.%s.identifikatorverdi", field)).is(split[1]);
     }
 
     protected <T> Consumer<T> copy(T target) {
