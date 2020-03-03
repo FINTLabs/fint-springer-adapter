@@ -21,7 +21,7 @@
           ],
           "self": [
             {
-              "href": "${utdanning.elev.skoleressurs}/systemid/SR_ANNA"
+              "href": "${utdanning.elev.skoleressurs}/feidenavn/anna.mørk@osloskole.no"
             }
           ]
         }
@@ -46,7 +46,7 @@
           ],
           "self": [
             {
-              "href": "${utdanning.elev.skoleressurs}/systemid/SR_NORA"
+              "href": "${utdanning.elev.skoleressurs}/feidenavn/nora.lys@osloskole.no"
             }
           ]
         }
@@ -71,7 +71,7 @@
           ],
           "self": [
             {
-              "href": "${utdanning.elev.skoleressurs}/systemid/ABCD213"
+              "href": "${utdanning.elev.skoleressurs}/feidenavn/gudrun.haraldseid@sundetvgs.haugfk.no"
             }
           ]
         }
