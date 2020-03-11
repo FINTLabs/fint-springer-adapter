@@ -10,7 +10,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/felles/kodeverk/landkode/systemid/NO"
+              "href": "${felles.kodeverk.landkode}/systemid/NO"
             }
           ]
         }
@@ -20,7 +20,7 @@
   "_links": {
     "self": [
       {
-        "href": "${}/felles/kodeverk/landkode/"
+        "href": "${felles.kodeverk.landkode}/"
       }
     ]
   },

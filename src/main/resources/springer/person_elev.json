@@ -31,12 +31,12 @@
         "_links": {
           "elev": [
             {
-              "href": "${}/utdanning/elev/elev/elevnummer/500002"
+              "href": "${utdanning.elev.elev}/elevnummer/500002"
             }
           ],
           "self": [
             {
-              "href": "${}/utdanning/elev/person/fodselsnummer/18010197461"
+              "href": "${utdanning.elev.person}/fodselsnummer/18010197461"
             }
           ]
         }
@@ -71,12 +71,12 @@
         "_links": {
           "elev": [
             {
-              "href": "${}/utdanning/elev/elev/elevnummer/500001"
+              "href": "${utdanning.elev.elev}/elevnummer/500001"
             }
           ],
           "self": [
             {
-              "href": "${}/utdanning/elev/person/fodselsnummer/14029923273"
+              "href": "${utdanning.elev.person}/fodselsnummer/14029923273"
             }
           ]
         }
@@ -111,12 +111,12 @@
         "_links": {
           "elev": [
             {
-              "href": "${}/utdanning/elev/elev/elevnummer/500003"
+              "href": "${utdanning.elev.elev}/elevnummer/500003"
             }
           ],
           "self": [
             {
-              "href": "${}/utdanning/elev/person/fodselsnummer/11010159115"
+              "href": "${utdanning.elev.person}/fodselsnummer/11010159115"
             }
           ]
         }
@@ -126,7 +126,7 @@
   "_links": {
     "self": [
       {
-        "href": "${}/utdanning/elev/person/"
+        "href": "${utdanning.elev.person}/"
       }
     ]
   },

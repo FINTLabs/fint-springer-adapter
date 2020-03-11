@@ -32,32 +32,32 @@
         "_links": {
           "personalressurs": [
             {
-              "href": "${}/administrasjon/personal/personalressurs/ansattnummer/100000"
+              "href": "${administrasjon.personal.personalressurs}/ansattnummer/100000"
             }
           ],
           "morsmal": [
             {
-              "href": "${}/felles/kodeverk/sprak/systemid/no"
+              "href": "${felles.kodeverk.sprak}/systemid/no"
             }
           ],
           "malform": [
             {
-              "href": "${}/felles/kodeverk/sprak/systemid/nb"
+              "href": "${felles.kodeverk.sprak}/systemid/nb"
             }
           ],
           "kjonn": [
             {
-              "href": "${}/felles/kodeverk/kjonn/systemid/1"
+              "href": "${felles.kodeverk.kjonn}/systemid/1"
             }
           ],
           "statsborgerskap": [
             {
-              "href": "${}/felles/kodeverk/land/systemid/NO"
+              "href": "${felles.kodeverk.land}/systemid/NO"
             }
           ],
           "self": [
             {
-              "href": "${}/administrasjon/personal/person/fodselsnummer/22057812345"
+              "href": "${administrasjon.personal.person}/fodselsnummer/22057812345"
             }
           ]
         }
@@ -92,32 +92,32 @@
         "_links": {
           "personalressurs": [
             {
-              "href": "${}/administrasjon/personal/personalressurs/ansattnummer/100001"
+              "href": "${administrasjon.personal.personalressurs}/ansattnummer/100001"
             }
           ],
           "morsmal": [
             {
-              "href": "${}/felles/kodeverk/sprak/systemid/no"
+              "href": "${felles.kodeverk.sprak}/systemid/no"
             }
           ],
           "malform": [
             {
-              "href": "${}/felles/kodeverk/sprak/systemid/nb"
+              "href": "${felles.kodeverk.sprak}/systemid/nb"
             }
           ],
           "kjonn": [
             {
-              "href": "${}/felles/kodeverk/kjonn/systemid/2"
+              "href": "${felles.kodeverk.kjonn}/systemid/2"
             }
           ],
           "statsborgerskap": [
             {
-              "href": "${}/felles/kodeverk/land/systemid/NO"
+              "href": "${felles.kodeverk.land}/systemid/NO"
             }
           ],
           "self": [
             {
-              "href": "${}/administrasjon/personal/person/fodselsnummer/01116423456"
+              "href": "${administrasjon.personal.person}/fodselsnummer/01116423456"
             }
           ]
         }
@@ -153,32 +153,32 @@
         "_links": {
           "personalressurs": [
             {
-              "href": "${}/administrasjon/personal/personalressurs/ansattnummer/100002"
+              "href": "${administrasjon.personal.personalressurs}/ansattnummer/100002"
             }
           ],
           "morsmal": [
             {
-              "href": "${}/felles/kodeverk/sprak/systemid/no"
+              "href": "${felles.kodeverk.sprak}/systemid/no"
             }
           ],
           "malform": [
             {
-              "href": "${}/felles/kodeverk/sprak/systemid/nb"
+              "href": "${felles.kodeverk.sprak}/systemid/nb"
             }
           ],
           "kjonn": [
             {
-              "href": "${}/felles/kodeverk/kjonn/systemid/1"
+              "href": "${felles.kodeverk.kjonn}/systemid/1"
             }
           ],
           "statsborgerskap": [
             {
-              "href": "${}/felles/kodeverk/land/systemid/NO"
+              "href": "${felles.kodeverk.land}/systemid/NO"
             }
           ],
           "self": [
             {
-              "href": "${}/administrasjon/personal/person/fodselsnummer/12077134567"
+              "href": "${administrasjon.personal.person}/fodselsnummer/12077134567"
             }
           ]
         }
@@ -214,32 +214,32 @@
         "_links": {
           "personalressurs": [
             {
-              "href": "${}/administrasjon/personal/personalressurs/ansattnummer/100003"
+              "href": "${administrasjon.personal.personalressurs}/ansattnummer/100003"
             }
           ],
           "morsmal": [
             {
-              "href": "${}/felles/kodeverk/sprak/systemid/no"
+              "href": "${felles.kodeverk.sprak}/systemid/no"
             }
           ],
           "malform": [
             {
-              "href": "${}/felles/kodeverk/sprak/systemid/nb"
+              "href": "${felles.kodeverk.sprak}/systemid/nb"
             }
           ],
           "kjonn": [
             {
-              "href": "${}/felles/kodeverk/kjonn/systemid/2"
+              "href": "${felles.kodeverk.kjonn}/systemid/2"
             }
           ],
           "statsborgerskap": [
             {
-              "href": "${}/felles/kodeverk/land/systemid/NO"
+              "href": "${felles.kodeverk.land}/systemid/NO"
             }
           ],
           "self": [
             {
-              "href": "${}/administrasjon/personal/person/fodselsnummer/16055445678"
+              "href": "${administrasjon.personal.person}/fodselsnummer/16055445678"
             }
           ]
         }
@@ -274,32 +274,32 @@
         "_links": {
           "personalressurs": [
             {
-              "href": "${}/administrasjon/personal/personalressurs/ansattnummer/100004"
+              "href": "${administrasjon.personal.personalressurs}/ansattnummer/100004"
             }
           ],
           "morsmal": [
             {
-              "href": "${}/felles/kodeverk/sprak/systemid/no"
+              "href": "${felles.kodeverk.sprak}/systemid/no"
             }
           ],
           "malform": [
             {
-              "href": "${}/felles/kodeverk/sprak/systemid/nn"
+              "href": "${felles.kodeverk.sprak}/systemid/nn"
             }
           ],
           "kjonn": [
             {
-              "href": "${}/felles/kodeverk/kjonn/systemid/2"
+              "href": "${felles.kodeverk.kjonn}/systemid/2"
             }
           ],
           "statsborgerskap": [
             {
-              "href": "${}/felles/kodeverk/land/systemid/NO"
+              "href": "${felles.kodeverk.land}/systemid/NO"
             }
           ],
           "self": [
             {
-              "href": "${}/administrasjon/personal/person/fodselsnummer/12018156789"
+              "href": "${administrasjon.personal.person}/fodselsnummer/12018156789"
             }
           ]
         }
@@ -309,7 +309,7 @@
   "_links": {
     "self": [
       {
-        "href": "${}/administrasjon/personal/person/"
+        "href": "${administrasjon.personal.person}/"
       }
     ]
   },

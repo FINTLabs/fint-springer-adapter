@@ -18,7 +18,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/personalressurskategori/systemid/425894"
+              "href": "${administrasjon.kodeverk.personalressurskategori}/systemid/425894"
             }
           ]
         }
@@ -40,7 +40,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/personalressurskategori/systemid/382752"
+              "href": "${administrasjon.kodeverk.personalressurskategori}/systemid/382752"
             }
           ]
         }
@@ -62,7 +62,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/personalressurskategori/systemid/382755"
+              "href": "${administrasjon.kodeverk.personalressurskategori}/systemid/382755"
             }
           ]
         }
@@ -84,7 +84,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/personalressurskategori/systemid/382753"
+              "href": "${administrasjon.kodeverk.personalressurskategori}/systemid/382753"
             }
           ]
         }
@@ -106,7 +106,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/personalressurskategori/systemid/436123"
+              "href": "${administrasjon.kodeverk.personalressurskategori}/systemid/436123"
             }
           ]
         }
@@ -128,7 +128,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/personalressurskategori/systemid/382754"
+              "href": "${administrasjon.kodeverk.personalressurskategori}/systemid/382754"
             }
           ]
         }
@@ -150,7 +150,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/personalressurskategori/systemid/382756"
+              "href": "${administrasjon.kodeverk.personalressurskategori}/systemid/382756"
             }
           ]
         }
@@ -172,7 +172,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/personalressurskategori/systemid/450782"
+              "href": "${administrasjon.kodeverk.personalressurskategori}/systemid/450782"
             }
           ]
         }
@@ -194,7 +194,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/personalressurskategori/systemid/436122"
+              "href": "${administrasjon.kodeverk.personalressurskategori}/systemid/436122"
             }
           ]
         }
@@ -204,7 +204,7 @@
   "_links": {
     "self": [
       {
-        "href": "${}/administrasjon/kodeverk/personalressurskategori"
+        "href": "${administrasjon.kodeverk.personalressurskategori}"
       }
     ]
   },

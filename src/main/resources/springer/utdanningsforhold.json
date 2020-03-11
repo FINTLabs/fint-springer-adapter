@@ -9,37 +9,37 @@
         "_links": {
           "arbeidsforhold": [
             {
-              "href": "${}/administrasjon/personal/arbeidsforhold/systemid/100003_1"
+              "href": "${administrasjon.personal.arbeidsforhold}/systemid/100003_1"
             }
           ],
           "skole": [
             {
-              "href": "${}/utdanning/utdanningsprogram/skole/skolenummer/123456"
+              "href": "${utdanning.utdanningsprogram.skole}/skolenummer/123456"
             }
           ],
           "skoleressurs": [
             {
-              "href": "${}/utdanning/elev/skoleressurs/systemid/ABCD213"
+              "href": "${utdanning.elev.skoleressurs}/systemid/ABCD213"
             }
           ],
           "basisgruppe": [
             {
-              "href": "${}/utdanning/elev/basisgruppe/systemid/BG_1STA-2018"
+              "href": "${utdanning.elev.basisgruppe}/systemid/BG_1STA-2018"
             }
           ],
           "kontaktlarergruppe": [
             {
-              "href": "${}/utdanning/elev/kontaktlarergruppe/systemid/KG_1STA-1"
+              "href": "${utdanning.elev.kontaktlarergruppe}/systemid/KG_1STA-1"
             }
           ],
           "undervisningsgruppe": [
             {
-              "href": "${}/utdanning/timeplan/undervisningsgruppe/systemid/UG_2018_1STA_NOR1Z41"
+              "href": "${utdanning.timeplan.undervisningsgruppe}/systemid/UG_2018_1STA_NOR1Z41"
             }
           ],
           "self": [
             {
-              "href": "${}/utdanning/elev/undervisningsforhold/systemid/L_100003_1"
+              "href": "${utdanning.elev.undervisningsforhold}/systemid/L_100003_1"
             }
           ]
         }
@@ -49,7 +49,7 @@
   "_links": {
     "self": [
       {
-        "href": "${}/utdanning/elev/undervisningsforhold/"
+        "href": "${utdanning.elev.undervisningsforhold}/"
       }
     ]
   },

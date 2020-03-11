@@ -10,7 +10,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/felles/kodeverk/kommune/systemid/4201"
+              "href": "${felles.kodeverk.kommune}/systemid/4201"
             }
           ]
         }
@@ -20,7 +20,7 @@
   "_links": {
     "self": [
       {
-        "href": "${}/felles/kodeverk/kommune/"
+        "href": "${felles.kodeverk.kommune}/"
       }
     ]
   },

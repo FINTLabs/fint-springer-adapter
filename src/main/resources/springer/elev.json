@@ -21,17 +21,17 @@
         "_links": {
           "person": [
             {
-              "href": "${}/utdanning/elev/person/fodselsnummer/14029923273"
+              "href": "${utdanning.elev.person}/fodselsnummer/14029923273"
             }
           ],
           "elevforhold": [
             {
-              "href": "${}/utdanning/elev/elevforhold/systemid/E_500001_1"
+              "href": "${utdanning.elev.elevforhold}/systemid/E_500001_1"
             }
           ],
           "self": [
             {
-              "href": "${}/utdanning/elev/elev/brukernavn/Yougung"
+              "href": "${utdanning.elev.elev}/brukernavn/Yougung"
             }
           ]
         }
@@ -53,17 +53,17 @@
         "_links": {
           "person": [
             {
-              "href": "${}/utdanning/elev/person/fodselsnummer/18010197461"
+              "href": "${utdanning.elev.person}/fodselsnummer/18010197461"
             }
           ],
           "elevforhold": [
             {
-              "href": "${}/utdanning/elev/elevforhold/systemid/E_500002_1"
+              "href": "${utdanning.elev.elevforhold}/systemid/E_500002_1"
             }
           ],
           "self": [
             {
-              "href": "${}/utdanning/elev/elev/brukernavn/Pulithey1933"
+              "href": "${utdanning.elev.elev}/brukernavn/Pulithey1933"
             }
           ]
         }
@@ -85,17 +85,17 @@
         "_links": {
           "person": [
             {
-              "href": "${}/utdanning/elev/person/fodselsnummer/11010159115"
+              "href": "${utdanning.elev.person}/fodselsnummer/11010159115"
             }
           ],
           "elevforhold": [
             {
-              "href": "${}/utdanning/elev/elevforhold/systemid/E_500003_1"
+              "href": "${utdanning.elev.elevforhold}/systemid/E_500003_1"
             }
           ],
           "self": [
             {
-              "href": "${}/utdanning/elev/elev/brukernavn/Daref1968"
+              "href": "${utdanning.elev.elev}/brukernavn/Daref1968"
             }
           ]
         }
@@ -105,7 +105,7 @@
   "_links": {
     "self": [
       {
-        "href": "${}/utdanning/elev/elev/"
+        "href": "${utdanning.elev.elev}/"
       }
     ]
   },

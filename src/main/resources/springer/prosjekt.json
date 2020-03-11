@@ -18,7 +18,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/prosjekt/systemid/437135"
+              "href": "${administrasjon.kodeverk.prosjekt}/systemid/437135"
             }
           ]
         }
@@ -40,7 +40,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/prosjekt/systemid/881018"
+              "href": "${administrasjon.kodeverk.prosjekt}/systemid/881018"
             }
           ]
         }
@@ -62,7 +62,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/prosjekt/systemid/891033"
+              "href": "${administrasjon.kodeverk.prosjekt}/systemid/891033"
             }
           ]
         }
@@ -72,7 +72,7 @@
   "_links": {
     "self": [
       {
-        "href": "${}/administrasjon/kodeverk/prosjekt"
+        "href": "${administrasjon.kodeverk.prosjekt}"
       }
     ]
   },

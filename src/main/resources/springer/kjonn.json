@@ -10,7 +10,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/felles/kodeverk/kjonn/systemid/5"
+              "href": "${felles.kodeverk.kjonn}/systemid/5"
             }
           ]
         }
@@ -24,7 +24,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/felles/kodeverk/kjonn/systemid/9"
+              "href": "${felles.kodeverk.kjonn}/systemid/9"
             }
           ]
         }
@@ -38,7 +38,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/felles/kodeverk/kjonn/systemid/0"
+              "href": "${felles.kodeverk.kjonn}/systemid/0"
             }
           ]
         }
@@ -52,7 +52,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/felles/kodeverk/kjonn/systemid/4"
+              "href": "${felles.kodeverk.kjonn}/systemid/4"
             }
           ]
         }
@@ -66,7 +66,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/felles/kodeverk/kjonn/systemid/1"
+              "href": "${felles.kodeverk.kjonn}/systemid/1"
             }
           ]
         }
@@ -80,7 +80,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/felles/kodeverk/kjonn/systemid/2"
+              "href": "${felles.kodeverk.kjonn}/systemid/2"
             }
           ]
         }
@@ -94,7 +94,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/felles/kodeverk/kjonn/systemid/8"
+              "href": "${felles.kodeverk.kjonn}/systemid/8"
             }
           ]
         }
@@ -108,7 +108,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/felles/kodeverk/kjonn/systemid/7"
+              "href": "${felles.kodeverk.kjonn}/systemid/7"
             }
           ]
         }
@@ -118,7 +118,7 @@
   "_links": {
     "self": [
       {
-        "href": "${}/felles/kodeverk/kjonn/"
+        "href": "${felles.kodeverk.kjonn}/"
       }
     ]
   },

@@ -18,7 +18,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/412904"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/412904"
             }
           ]
         }
@@ -40,7 +40,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/884822"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/884822"
             }
           ]
         }
@@ -62,7 +62,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/404300"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/404300"
             }
           ]
         }
@@ -84,7 +84,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/412871"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/412871"
             }
           ]
         }
@@ -106,7 +106,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/450716"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/450716"
             }
           ]
         }
@@ -128,7 +128,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/401059"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/401059"
             }
           ]
         }
@@ -150,7 +150,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/412888"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/412888"
             }
           ]
         }
@@ -172,7 +172,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/400536"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/400536"
             }
           ]
         }
@@ -194,7 +194,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/381368"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/381368"
             }
           ]
         }
@@ -216,7 +216,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/453455"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/453455"
             }
           ]
         }
@@ -238,7 +238,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/885069"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/885069"
             }
           ]
         }
@@ -260,7 +260,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/404306"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/404306"
             }
           ]
         }
@@ -282,7 +282,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/400552"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/400552"
             }
           ]
         }
@@ -304,7 +304,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/872725"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/872725"
             }
           ]
         }
@@ -326,7 +326,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/400548"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/400548"
             }
           ]
         }
@@ -348,7 +348,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/878679"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/878679"
             }
           ]
         }
@@ -370,7 +370,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/384491"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/384491"
             }
           ]
         }
@@ -392,7 +392,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/450708"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/450708"
             }
           ]
         }
@@ -414,7 +414,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/885977"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/885977"
             }
           ]
         }
@@ -436,7 +436,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/400524"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/400524"
             }
           ]
         }
@@ -458,7 +458,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/661851"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/661851"
             }
           ]
         }
@@ -480,7 +480,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/389565"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/389565"
             }
           ]
         }
@@ -502,7 +502,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/412890"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/412890"
             }
           ]
         }
@@ -524,7 +524,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/898842"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/898842"
             }
           ]
         }
@@ -546,7 +546,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/389350"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/389350"
             }
           ]
         }
@@ -568,7 +568,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/437737"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/437737"
             }
           ]
         }
@@ -590,7 +590,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/389559"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/389559"
             }
           ]
         }
@@ -612,7 +612,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/450689"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/450689"
             }
           ]
         }
@@ -634,7 +634,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/404683"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/404683"
             }
           ]
         }
@@ -656,7 +656,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/384756"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/384756"
             }
           ]
         }
@@ -678,7 +678,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/898833"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/898833"
             }
           ]
         }
@@ -700,7 +700,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/878646"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/878646"
             }
           ]
         }
@@ -722,7 +722,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/384739"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/384739"
             }
           ]
         }
@@ -744,7 +744,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/437891"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/437891"
             }
           ]
         }
@@ -766,7 +766,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/881326"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/881326"
             }
           ]
         }
@@ -788,7 +788,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/412876"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/412876"
             }
           ]
         }
@@ -810,7 +810,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/885958"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/885958"
             }
           ]
         }
@@ -832,7 +832,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/903886"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/903886"
             }
           ]
         }
@@ -854,7 +854,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/878494"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/878494"
             }
           ]
         }
@@ -876,7 +876,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/412889"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/412889"
             }
           ]
         }
@@ -898,7 +898,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/904423"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/904423"
             }
           ]
         }
@@ -920,7 +920,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/389781"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/389781"
             }
           ]
         }
@@ -942,7 +942,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/384754"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/384754"
             }
           ]
         }
@@ -964,7 +964,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/404684"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/404684"
             }
           ]
         }
@@ -986,7 +986,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/397448"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/397448"
             }
           ]
         }
@@ -1008,7 +1008,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/450691"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/450691"
             }
           ]
         }
@@ -1030,7 +1030,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/384482"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/384482"
             }
           ]
         }
@@ -1052,7 +1052,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/450705"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/450705"
             }
           ]
         }
@@ -1074,7 +1074,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/404301"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/404301"
             }
           ]
         }
@@ -1096,7 +1096,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/454303"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/454303"
             }
           ]
         }
@@ -1118,7 +1118,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/384492"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/384492"
             }
           ]
         }
@@ -1140,7 +1140,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/380710"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/380710"
             }
           ]
         }
@@ -1162,7 +1162,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/384534"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/384534"
             }
           ]
         }
@@ -1184,7 +1184,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/412879"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/412879"
             }
           ]
         }
@@ -1206,7 +1206,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/384485"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/384485"
             }
           ]
         }
@@ -1228,7 +1228,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/875742"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/875742"
             }
           ]
         }
@@ -1250,7 +1250,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/384769"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/384769"
             }
           ]
         }
@@ -1272,7 +1272,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/661852"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/661852"
             }
           ]
         }
@@ -1294,7 +1294,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/402355"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/402355"
             }
           ]
         }
@@ -1316,7 +1316,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/389557"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/389557"
             }
           ]
         }
@@ -1338,7 +1338,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/397451"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/397451"
             }
           ]
         }
@@ -1360,7 +1360,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/381339"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/381339"
             }
           ]
         }
@@ -1382,7 +1382,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/914708"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/914708"
             }
           ]
         }
@@ -1404,7 +1404,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/384521"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/384521"
             }
           ]
         }
@@ -1426,7 +1426,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/904108"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/904108"
             }
           ]
         }
@@ -1448,7 +1448,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/454317"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/454317"
             }
           ]
         }
@@ -1470,7 +1470,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/400530"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/400530"
             }
           ]
         }
@@ -1492,7 +1492,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/381352"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/381352"
             }
           ]
         }
@@ -1514,7 +1514,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/380767"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/380767"
             }
           ]
         }
@@ -1536,7 +1536,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/452929"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/452929"
             }
           ]
         }
@@ -1558,7 +1558,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/450704"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/450704"
             }
           ]
         }
@@ -1580,7 +1580,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/400512"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/400512"
             }
           ]
         }
@@ -1602,7 +1602,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/902172"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/902172"
             }
           ]
         }
@@ -1624,7 +1624,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/871946"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/871946"
             }
           ]
         }
@@ -1646,7 +1646,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/904105"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/904105"
             }
           ]
         }
@@ -1668,7 +1668,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/400533"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/400533"
             }
           ]
         }
@@ -1690,7 +1690,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/397442"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/397442"
             }
           ]
         }
@@ -1712,7 +1712,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/384760"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/384760"
             }
           ]
         }
@@ -1734,7 +1734,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/381341"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/381341"
             }
           ]
         }
@@ -1756,7 +1756,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/875699"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/875699"
             }
           ]
         }
@@ -1778,7 +1778,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/902893"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/902893"
             }
           ]
         }
@@ -1800,7 +1800,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/401063"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/401063"
             }
           ]
         }
@@ -1822,7 +1822,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/384767"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/384767"
             }
           ]
         }
@@ -1844,7 +1844,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/380766"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/380766"
             }
           ]
         }
@@ -1866,7 +1866,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/404296"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/404296"
             }
           ]
         }
@@ -1888,7 +1888,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/902276"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/902276"
             }
           ]
         }
@@ -1910,7 +1910,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/881167"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/881167"
             }
           ]
         }
@@ -1932,7 +1932,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/400518"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/400518"
             }
           ]
         }
@@ -1954,7 +1954,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/384527"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/384527"
             }
           ]
         }
@@ -1976,7 +1976,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/904113"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/904113"
             }
           ]
         }
@@ -1998,7 +1998,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/902306"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/902306"
             }
           ]
         }
@@ -2020,7 +2020,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/453454"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/453454"
             }
           ]
         }
@@ -2042,7 +2042,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/903675"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/903675"
             }
           ]
         }
@@ -2064,7 +2064,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/404677"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/404677"
             }
           ]
         }
@@ -2086,7 +2086,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/412864"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/412864"
             }
           ]
         }
@@ -2108,7 +2108,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/452931"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/452931"
             }
           ]
         }
@@ -2130,7 +2130,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/885274"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/885274"
             }
           ]
         }
@@ -2152,7 +2152,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/918148"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/918148"
             }
           ]
         }
@@ -2174,7 +2174,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/381362"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/381362"
             }
           ]
         }
@@ -2196,7 +2196,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/389365"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/389365"
             }
           ]
         }
@@ -2218,7 +2218,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/404682"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/404682"
             }
           ]
         }
@@ -2240,7 +2240,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/400505"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/400505"
             }
           ]
         }
@@ -2262,7 +2262,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/389356"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/389356"
             }
           ]
         }
@@ -2284,7 +2284,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/677863"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/677863"
             }
           ]
         }
@@ -2306,7 +2306,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/380718"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/380718"
             }
           ]
         }
@@ -2328,7 +2328,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/872720"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/872720"
             }
           ]
         }
@@ -2350,7 +2350,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/452934"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/452934"
             }
           ]
         }
@@ -2372,7 +2372,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/384541"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/384541"
             }
           ]
         }
@@ -2394,7 +2394,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/454604"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/454604"
             }
           ]
         }
@@ -2416,7 +2416,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/404308"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/404308"
             }
           ]
         }
@@ -2438,7 +2438,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/412873"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/412873"
             }
           ]
         }
@@ -2460,7 +2460,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/453497"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/453497"
             }
           ]
         }
@@ -2482,7 +2482,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/381354"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/381354"
             }
           ]
         }
@@ -2504,7 +2504,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/411814"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/411814"
             }
           ]
         }
@@ -2526,7 +2526,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/400545"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/400545"
             }
           ]
         }
@@ -2548,7 +2548,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/384515"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/384515"
             }
           ]
         }
@@ -2570,7 +2570,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/384524"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/384524"
             }
           ]
         }
@@ -2592,7 +2592,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/454315"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/454315"
             }
           ]
         }
@@ -2614,7 +2614,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/450714"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/450714"
             }
           ]
         }
@@ -2636,7 +2636,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/384536"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/384536"
             }
           ]
         }
@@ -2658,7 +2658,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/454603"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/454603"
             }
           ]
         }
@@ -2680,7 +2680,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/412891"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/412891"
             }
           ]
         }
@@ -2702,7 +2702,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/893262"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/893262"
             }
           ]
         }
@@ -2724,7 +2724,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/885208"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/885208"
             }
           ]
         }
@@ -2746,7 +2746,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/916204"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/916204"
             }
           ]
         }
@@ -2768,7 +2768,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/452932"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/452932"
             }
           ]
         }
@@ -2790,7 +2790,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/903066"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/903066"
             }
           ]
         }
@@ -2812,7 +2812,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/381365"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/381365"
             }
           ]
         }
@@ -2834,7 +2834,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/874922"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/874922"
             }
           ]
         }
@@ -2856,7 +2856,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/454316"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/454316"
             }
           ]
         }
@@ -2878,7 +2878,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/902277"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/902277"
             }
           ]
         }
@@ -2900,7 +2900,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/454314"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/454314"
             }
           ]
         }
@@ -2922,7 +2922,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/400519"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/400519"
             }
           ]
         }
@@ -2944,7 +2944,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/384736"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/384736"
             }
           ]
         }
@@ -2966,7 +2966,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/380712"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/380712"
             }
           ]
         }
@@ -2988,7 +2988,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/889530"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/889530"
             }
           ]
         }
@@ -3010,7 +3010,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/384516"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/384516"
             }
           ]
         }
@@ -3032,7 +3032,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/878685"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/878685"
             }
           ]
         }
@@ -3054,7 +3054,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/898947"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/898947"
             }
           ]
         }
@@ -3076,7 +3076,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/404314"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/404314"
             }
           ]
         }
@@ -3098,7 +3098,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/412863"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/412863"
             }
           ]
         }
@@ -3120,7 +3120,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/412898"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/412898"
             }
           ]
         }
@@ -3142,7 +3142,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/452936"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/452936"
             }
           ]
         }
@@ -3164,7 +3164,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/890633"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/890633"
             }
           ]
         }
@@ -3186,7 +3186,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/892149"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/892149"
             }
           ]
         }
@@ -3208,7 +3208,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/898822"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/898822"
             }
           ]
         }
@@ -3230,7 +3230,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/453495"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/453495"
             }
           ]
         }
@@ -3252,7 +3252,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/914724"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/914724"
             }
           ]
         }
@@ -3274,7 +3274,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/454592"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/454592"
             }
           ]
         }
@@ -3296,7 +3296,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/384522"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/384522"
             }
           ]
         }
@@ -3318,7 +3318,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/903677"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/903677"
             }
           ]
         }
@@ -3340,7 +3340,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/902311"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/902311"
             }
           ]
         }
@@ -3362,7 +3362,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/904103"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/904103"
             }
           ]
         }
@@ -3384,7 +3384,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/389553"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/389553"
             }
           ]
         }
@@ -3406,7 +3406,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/389372"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/389372"
             }
           ]
         }
@@ -3428,7 +3428,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/885279"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/885279"
             }
           ]
         }
@@ -3450,7 +3450,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/902873"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/902873"
             }
           ]
         }
@@ -3472,7 +3472,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/450697"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/450697"
             }
           ]
         }
@@ -3494,7 +3494,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/892110"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/892110"
             }
           ]
         }
@@ -3516,7 +3516,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/894913"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/894913"
             }
           ]
         }
@@ -3538,7 +3538,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/453494"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/453494"
             }
           ]
         }
@@ -3560,7 +3560,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/400535"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/400535"
             }
           ]
         }
@@ -3582,7 +3582,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/904130"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/904130"
             }
           ]
         }
@@ -3604,7 +3604,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/904403"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/904403"
             }
           ]
         }
@@ -3626,7 +3626,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/904402"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/904402"
             }
           ]
         }
@@ -3648,7 +3648,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/389558"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/389558"
             }
           ]
         }
@@ -3670,7 +3670,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/404681"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/404681"
             }
           ]
         }
@@ -3692,7 +3692,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/400522"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/400522"
             }
           ]
         }
@@ -3714,7 +3714,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/883390"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/883390"
             }
           ]
         }
@@ -3736,7 +3736,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/885207"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/885207"
             }
           ]
         }
@@ -3758,7 +3758,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/380720"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/380720"
             }
           ]
         }
@@ -3780,7 +3780,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/882724"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/882724"
             }
           ]
         }
@@ -3802,7 +3802,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/384543"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/384543"
             }
           ]
         }
@@ -3824,7 +3824,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/898845"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/898845"
             }
           ]
         }
@@ -3846,7 +3846,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/898844"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/898844"
             }
           ]
         }
@@ -3868,7 +3868,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/872718"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/872718"
             }
           ]
         }
@@ -3890,7 +3890,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/412887"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/412887"
             }
           ]
         }
@@ -3912,7 +3912,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/871552"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/871552"
             }
           ]
         }
@@ -3934,7 +3934,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/450699"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/450699"
             }
           ]
         }
@@ -3956,7 +3956,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/412897"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/412897"
             }
           ]
         }
@@ -3978,7 +3978,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/412860"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/412860"
             }
           ]
         }
@@ -4000,7 +4000,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/384526"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/384526"
             }
           ]
         }
@@ -4022,7 +4022,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/389562"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/389562"
             }
           ]
         }
@@ -4044,7 +4044,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/400538"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/400538"
             }
           ]
         }
@@ -4066,7 +4066,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/872723"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/872723"
             }
           ]
         }
@@ -4088,7 +4088,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/400510"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/400510"
             }
           ]
         }
@@ -4110,7 +4110,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/872724"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/872724"
             }
           ]
         }
@@ -4132,7 +4132,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/450687"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/450687"
             }
           ]
         }
@@ -4154,7 +4154,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/903674"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/903674"
             }
           ]
         }
@@ -4176,7 +4176,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/898840"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/898840"
             }
           ]
         }
@@ -4198,7 +4198,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/872717"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/872717"
             }
           ]
         }
@@ -4220,7 +4220,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/892340"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/892340"
             }
           ]
         }
@@ -4242,7 +4242,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/400540"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/400540"
             }
           ]
         }
@@ -4264,7 +4264,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/904133"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/904133"
             }
           ]
         }
@@ -4286,7 +4286,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/904404"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/904404"
             }
           ]
         }
@@ -4308,7 +4308,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/884573"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/884573"
             }
           ]
         }
@@ -4330,7 +4330,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/412862"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/412862"
             }
           ]
         }
@@ -4352,7 +4352,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/389355"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/389355"
             }
           ]
         }
@@ -4374,7 +4374,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/412894"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/412894"
             }
           ]
         }
@@ -4396,7 +4396,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/898602"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/898602"
             }
           ]
         }
@@ -4418,7 +4418,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/400544"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/400544"
             }
           ]
         }
@@ -4440,7 +4440,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/452935"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/452935"
             }
           ]
         }
@@ -4462,7 +4462,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/453499"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/453499"
             }
           ]
         }
@@ -4484,7 +4484,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/389564"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/389564"
             }
           ]
         }
@@ -4506,7 +4506,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/872426"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/872426"
             }
           ]
         }
@@ -4528,7 +4528,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/886110"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/886110"
             }
           ]
         }
@@ -4550,7 +4550,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/914438"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/914438"
             }
           ]
         }
@@ -4572,7 +4572,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/898831"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/898831"
             }
           ]
         }
@@ -4594,7 +4594,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/878687"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/878687"
             }
           ]
         }
@@ -4616,7 +4616,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/380715"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/380715"
             }
           ]
         }
@@ -4638,7 +4638,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/902286"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/902286"
             }
           ]
         }
@@ -4660,7 +4660,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/437735"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/437735"
             }
           ]
         }
@@ -4682,7 +4682,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/437729"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/437729"
             }
           ]
         }
@@ -4704,7 +4704,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/412869"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/412869"
             }
           ]
         }
@@ -4726,7 +4726,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/389367"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/389367"
             }
           ]
         }
@@ -4748,7 +4748,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/881108"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/881108"
             }
           ]
         }
@@ -4770,7 +4770,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/895972"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/895972"
             }
           ]
         }
@@ -4792,7 +4792,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/453456"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/453456"
             }
           ]
         }
@@ -4814,7 +4814,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/380717"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/380717"
             }
           ]
         }
@@ -4836,7 +4836,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/381367"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/381367"
             }
           ]
         }
@@ -4858,7 +4858,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/412886"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/412886"
             }
           ]
         }
@@ -4880,7 +4880,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/400539"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/400539"
             }
           ]
         }
@@ -4902,7 +4902,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/902278"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/902278"
             }
           ]
         }
@@ -4924,7 +4924,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/882199"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/882199"
             }
           ]
         }
@@ -4946,7 +4946,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/871876"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/871876"
             }
           ]
         }
@@ -4968,7 +4968,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/450715"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/450715"
             }
           ]
         }
@@ -4990,7 +4990,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/898826"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/898826"
             }
           ]
         }
@@ -5012,7 +5012,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/902280"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/902280"
             }
           ]
         }
@@ -5034,7 +5034,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/389777"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/389777"
             }
           ]
         }
@@ -5056,7 +5056,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/454593"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/454593"
             }
           ]
         }
@@ -5078,7 +5078,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/452938"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/452938"
             }
           ]
         }
@@ -5100,7 +5100,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/384731"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/384731"
             }
           ]
         }
@@ -5122,7 +5122,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/894848"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/894848"
             }
           ]
         }
@@ -5144,7 +5144,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/400531"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/400531"
             }
           ]
         }
@@ -5166,7 +5166,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/380714"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/380714"
             }
           ]
         }
@@ -5188,7 +5188,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/918270"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/918270"
             }
           ]
         }
@@ -5210,7 +5210,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/454596"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/454596"
             }
           ]
         }
@@ -5232,7 +5232,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/875279"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/875279"
             }
           ]
         }
@@ -5254,7 +5254,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/389364"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/389364"
             }
           ]
         }
@@ -5276,7 +5276,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/878378"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/878378"
             }
           ]
         }
@@ -5298,7 +5298,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/380765"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/380765"
             }
           ]
         }
@@ -5320,7 +5320,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/400551"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/400551"
             }
           ]
         }
@@ -5342,7 +5342,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/918159"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/918159"
             }
           ]
         }
@@ -5364,7 +5364,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/389568"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/389568"
             }
           ]
         }
@@ -5386,7 +5386,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/404315"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/404315"
             }
           ]
         }
@@ -5408,7 +5408,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/454594"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/454594"
             }
           ]
         }
@@ -5430,7 +5430,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/384752"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/384752"
             }
           ]
         }
@@ -5452,7 +5452,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/397447"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/397447"
             }
           ]
         }
@@ -5474,7 +5474,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/903676"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/903676"
             }
           ]
         }
@@ -5496,7 +5496,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/404676"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/404676"
             }
           ]
         }
@@ -5518,7 +5518,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/879991"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/879991"
             }
           ]
         }
@@ -5540,7 +5540,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/399049"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/399049"
             }
           ]
         }
@@ -5562,7 +5562,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/400550"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/400550"
             }
           ]
         }
@@ -5584,7 +5584,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/381348"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/381348"
             }
           ]
         }
@@ -5606,7 +5606,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/412858"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/412858"
             }
           ]
         }
@@ -5628,7 +5628,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/453493"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/453493"
             }
           ]
         }
@@ -5650,7 +5650,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/412896"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/412896"
             }
           ]
         }
@@ -5672,7 +5672,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/384487"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/384487"
             }
           ]
         }
@@ -5694,7 +5694,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/404316"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/404316"
             }
           ]
         }
@@ -5716,7 +5716,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/412895"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/412895"
             }
           ]
         }
@@ -5738,7 +5738,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/872729"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/872729"
             }
           ]
         }
@@ -5760,7 +5760,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/452930"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/452930"
             }
           ]
         }
@@ -5782,7 +5782,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/450700"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/450700"
             }
           ]
         }
@@ -5804,7 +5804,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/902386"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/902386"
             }
           ]
         }
@@ -5826,7 +5826,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/902295"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/902295"
             }
           ]
         }
@@ -5848,7 +5848,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/389353"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/389353"
             }
           ]
         }
@@ -5870,7 +5870,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/404675"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/404675"
             }
           ]
         }
@@ -5892,7 +5892,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/389560"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/389560"
             }
           ]
         }
@@ -5914,7 +5914,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/389368"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/389368"
             }
           ]
         }
@@ -5936,7 +5936,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/875347"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/875347"
             }
           ]
         }
@@ -5958,7 +5958,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/384531"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/384531"
             }
           ]
         }
@@ -5980,7 +5980,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/384743"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/384743"
             }
           ]
         }
@@ -6002,7 +6002,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/412861"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/412861"
             }
           ]
         }
@@ -6024,7 +6024,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/412893"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/412893"
             }
           ]
         }
@@ -6046,7 +6046,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/397444"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/397444"
             }
           ]
         }
@@ -6068,7 +6068,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/389780"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/389780"
             }
           ]
         }
@@ -6090,7 +6090,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/882323"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/882323"
             }
           ]
         }
@@ -6112,7 +6112,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/890251"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/890251"
             }
           ]
         }
@@ -6134,7 +6134,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/400515"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/400515"
             }
           ]
         }
@@ -6156,7 +6156,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/397446"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/397446"
             }
           ]
         }
@@ -6178,7 +6178,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/384755"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/384755"
             }
           ]
         }
@@ -6200,7 +6200,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/677797"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/677797"
             }
           ]
         }
@@ -6222,7 +6222,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/902308"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/902308"
             }
           ]
         }
@@ -6244,7 +6244,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/400543"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/400543"
             }
           ]
         }
@@ -6266,7 +6266,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/381358"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/381358"
             }
           ]
         }
@@ -6288,7 +6288,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/437733"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/437733"
             }
           ]
         }
@@ -6310,7 +6310,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/389779"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/389779"
             }
           ]
         }
@@ -6332,7 +6332,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/381342"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/381342"
             }
           ]
         }
@@ -6354,7 +6354,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/875411"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/875411"
             }
           ]
         }
@@ -6376,7 +6376,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/881169"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/881169"
             }
           ]
         }
@@ -6398,7 +6398,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/381353"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/381353"
             }
           ]
         }
@@ -6420,7 +6420,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/389552"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/389552"
             }
           ]
         }
@@ -6442,7 +6442,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/389554"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/389554"
             }
           ]
         }
@@ -6464,7 +6464,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/400549"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/400549"
             }
           ]
         }
@@ -6486,7 +6486,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/400766"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/400766"
             }
           ]
         }
@@ -6508,7 +6508,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/904136"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/904136"
             }
           ]
         }
@@ -6530,7 +6530,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/389567"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/389567"
             }
           ]
         }
@@ -6552,7 +6552,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/450696"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/450696"
             }
           ]
         }
@@ -6574,7 +6574,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/885068"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/885068"
             }
           ]
         }
@@ -6596,7 +6596,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/384520"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/384520"
             }
           ]
         }
@@ -6618,7 +6618,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/400513"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/400513"
             }
           ]
         }
@@ -6640,7 +6640,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/904422"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/904422"
             }
           ]
         }
@@ -6662,7 +6662,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/902917"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/902917"
             }
           ]
         }
@@ -6684,7 +6684,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/892339"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/892339"
             }
           ]
         }
@@ -6706,7 +6706,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/904112"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/904112"
             }
           ]
         }
@@ -6728,7 +6728,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/903673"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/903673"
             }
           ]
         }
@@ -6750,7 +6750,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/871847"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/871847"
             }
           ]
         }
@@ -6772,7 +6772,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/389556"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/389556"
             }
           ]
         }
@@ -6794,7 +6794,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/384764"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/384764"
             }
           ]
         }
@@ -6816,7 +6816,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/437889"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/437889"
             }
           ]
         }
@@ -6838,7 +6838,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/885855"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/885855"
             }
           ]
         }
@@ -6860,7 +6860,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/872722"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/872722"
             }
           ]
         }
@@ -6882,7 +6882,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/412878"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/412878"
             }
           ]
         }
@@ -6904,7 +6904,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/454599"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/454599"
             }
           ]
         }
@@ -6926,7 +6926,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/381360"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/381360"
             }
           ]
         }
@@ -6948,7 +6948,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/400497"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/400497"
             }
           ]
         }
@@ -6970,7 +6970,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/389563"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/389563"
             }
           ]
         }
@@ -6992,7 +6992,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/400501"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/400501"
             }
           ]
         }
@@ -7014,7 +7014,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/384762"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/384762"
             }
           ]
         }
@@ -7036,7 +7036,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/450695"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/450695"
             }
           ]
         }
@@ -7058,7 +7058,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/412901"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/412901"
             }
           ]
         }
@@ -7080,7 +7080,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/412881"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/412881"
             }
           ]
         }
@@ -7102,7 +7102,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/412865"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/412865"
             }
           ]
         }
@@ -7124,7 +7124,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/412905"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/412905"
             }
           ]
         }
@@ -7146,7 +7146,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/384733"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/384733"
             }
           ]
         }
@@ -7168,7 +7168,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/400525"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/400525"
             }
           ]
         }
@@ -7190,7 +7190,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/384517"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/384517"
             }
           ]
         }
@@ -7212,7 +7212,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/661855"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/661855"
             }
           ]
         }
@@ -7234,7 +7234,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/902195"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/902195"
             }
           ]
         }
@@ -7256,7 +7256,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/898832"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/898832"
             }
           ]
         }
@@ -7278,7 +7278,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/400498"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/400498"
             }
           ]
         }
@@ -7300,7 +7300,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/895814"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/895814"
             }
           ]
         }
@@ -7322,7 +7322,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/381349"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/381349"
             }
           ]
         }
@@ -7344,7 +7344,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/412892"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/412892"
             }
           ]
         }
@@ -7366,7 +7366,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/902196"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/902196"
             }
           ]
         }
@@ -7388,7 +7388,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/898843"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/898843"
             }
           ]
         }
@@ -7410,7 +7410,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/882355"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/882355"
             }
           ]
         }
@@ -7432,7 +7432,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/437736"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/437736"
             }
           ]
         }
@@ -7454,7 +7454,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/904144"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/904144"
             }
           ]
         }
@@ -7476,7 +7476,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/904401"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/904401"
             }
           ]
         }
@@ -7498,7 +7498,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/381366"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/381366"
             }
           ]
         }
@@ -7520,7 +7520,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/380716"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/380716"
             }
           ]
         }
@@ -7542,7 +7542,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/916010"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/916010"
             }
           ]
         }
@@ -7564,7 +7564,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/400503"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/400503"
             }
           ]
         }
@@ -7586,7 +7586,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/915077"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/915077"
             }
           ]
         }
@@ -7608,7 +7608,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/404312"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/404312"
             }
           ]
         }
@@ -7630,7 +7630,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/412857"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/412857"
             }
           ]
         }
@@ -7652,7 +7652,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/450712"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/450712"
             }
           ]
         }
@@ -7674,7 +7674,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/389772"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/389772"
             }
           ]
         }
@@ -7696,7 +7696,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/381347"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/381347"
             }
           ]
         }
@@ -7718,7 +7718,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/384542"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/384542"
             }
           ]
         }
@@ -7740,7 +7740,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/384533"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/384533"
             }
           ]
         }
@@ -7762,7 +7762,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/904304"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/904304"
             }
           ]
         }
@@ -7784,7 +7784,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/894077"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/894077"
             }
           ]
         }
@@ -7806,7 +7806,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/389773"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/389773"
             }
           ]
         }
@@ -7828,7 +7828,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/400506"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/400506"
             }
           ]
         }
@@ -7850,7 +7850,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/412867"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/412867"
             }
           ]
         }
@@ -7872,7 +7872,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/878481"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/878481"
             }
           ]
         }
@@ -7894,7 +7894,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/454600"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/454600"
             }
           ]
         }
@@ -7916,7 +7916,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/904111"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/904111"
             }
           ]
         }
@@ -7938,7 +7938,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/437730"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/437730"
             }
           ]
         }
@@ -7960,7 +7960,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/902283"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/902283"
             }
           ]
         }
@@ -7982,7 +7982,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/412859"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/412859"
             }
           ]
         }
@@ -8004,7 +8004,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/389354"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/389354"
             }
           ]
         }
@@ -8026,7 +8026,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/661854"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/661854"
             }
           ]
         }
@@ -8048,7 +8048,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/384742"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/384742"
             }
           ]
         }
@@ -8070,7 +8070,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/389357"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/389357"
             }
           ]
         }
@@ -8092,7 +8092,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/453498"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/453498"
             }
           ]
         }
@@ -8114,7 +8114,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/404297"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/404297"
             }
           ]
         }
@@ -8136,7 +8136,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/402337"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/402337"
             }
           ]
         }
@@ -8158,7 +8158,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/872721"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/872721"
             }
           ]
         }
@@ -8180,7 +8180,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/915335"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/915335"
             }
           ]
         }
@@ -8202,7 +8202,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/883525"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/883525"
             }
           ]
         }
@@ -8224,7 +8224,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/402356"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/402356"
             }
           ]
         }
@@ -8246,7 +8246,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/878731"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/878731"
             }
           ]
         }
@@ -8268,7 +8268,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/384486"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/384486"
             }
           ]
         }
@@ -8290,7 +8290,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/384753"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/384753"
             }
           ]
         }
@@ -8312,7 +8312,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/400504"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/400504"
             }
           ]
         }
@@ -8334,7 +8334,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/436578"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/436578"
             }
           ]
         }
@@ -8356,7 +8356,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/454601"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/454601"
             }
           ]
         }
@@ -8378,7 +8378,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/880642"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/880642"
             }
           ]
         }
@@ -8400,7 +8400,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/914689"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/914689"
             }
           ]
         }
@@ -8422,7 +8422,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/381357"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/381357"
             }
           ]
         }
@@ -8444,7 +8444,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/400527"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/400527"
             }
           ]
         }
@@ -8466,7 +8466,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/883533"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/883533"
             }
           ]
         }
@@ -8488,7 +8488,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/404309"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/404309"
             }
           ]
         }
@@ -8510,7 +8510,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/903210"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/903210"
             }
           ]
         }
@@ -8532,7 +8532,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/404304"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/404304"
             }
           ]
         }
@@ -8554,7 +8554,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/454312"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/454312"
             }
           ]
         }
@@ -8576,7 +8576,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/915386"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/915386"
             }
           ]
         }
@@ -8598,7 +8598,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/437892"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/437892"
             }
           ]
         }
@@ -8620,7 +8620,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/437738"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/437738"
             }
           ]
         }
@@ -8642,7 +8642,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/412872"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/412872"
             }
           ]
         }
@@ -8664,7 +8664,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/397450"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/397450"
             }
           ]
         }
@@ -8686,7 +8686,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/389775"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/389775"
             }
           ]
         }
@@ -8708,7 +8708,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/450692"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/450692"
             }
           ]
         }
@@ -8730,7 +8730,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/384530"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/384530"
             }
           ]
         }
@@ -8752,7 +8752,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/384758"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/384758"
             }
           ]
         }
@@ -8774,7 +8774,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/384535"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/384535"
             }
           ]
         }
@@ -8796,7 +8796,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/904114"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/904114"
             }
           ]
         }
@@ -8818,7 +8818,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/384746"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/384746"
             }
           ]
         }
@@ -8840,7 +8840,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/890358"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/890358"
             }
           ]
         }
@@ -8862,7 +8862,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/389569"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/389569"
             }
           ]
         }
@@ -8884,7 +8884,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/902301"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/902301"
             }
           ]
         }
@@ -8906,7 +8906,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/384490"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/384490"
             }
           ]
         }
@@ -8928,7 +8928,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/453540"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/453540"
             }
           ]
         }
@@ -8950,7 +8950,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/878681"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/878681"
             }
           ]
         }
@@ -8972,7 +8972,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/437731"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/437731"
             }
           ]
         }
@@ -8994,7 +8994,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/389561"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/389561"
             }
           ]
         }
@@ -9016,7 +9016,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/437734"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/437734"
             }
           ]
         }
@@ -9038,7 +9038,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/400500"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/400500"
             }
           ]
         }
@@ -9060,7 +9060,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/384538"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/384538"
             }
           ]
         }
@@ -9082,7 +9082,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/384765"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/384765"
             }
           ]
         }
@@ -9104,7 +9104,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/380769"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/380769"
             }
           ]
         }
@@ -9126,7 +9126,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/898850"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/898850"
             }
           ]
         }
@@ -9148,7 +9148,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/384744"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/384744"
             }
           ]
         }
@@ -9170,7 +9170,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/389366"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/389366"
             }
           ]
         }
@@ -9192,7 +9192,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/902288"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/902288"
             }
           ]
         }
@@ -9214,7 +9214,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/389370"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/389370"
             }
           ]
         }
@@ -9236,7 +9236,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/453541"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/453541"
             }
           ]
         }
@@ -9258,7 +9258,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/401060"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/401060"
             }
           ]
         }
@@ -9280,7 +9280,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/450698"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/450698"
             }
           ]
         }
@@ -9302,7 +9302,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/872736"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/872736"
             }
           ]
         }
@@ -9324,7 +9324,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/389570"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/389570"
             }
           ]
         }
@@ -9346,7 +9346,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/872719"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/872719"
             }
           ]
         }
@@ -9368,7 +9368,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/452928"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/452928"
             }
           ]
         }
@@ -9390,7 +9390,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/389566"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/389566"
             }
           ]
         }
@@ -9412,7 +9412,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/400502"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/400502"
             }
           ]
         }
@@ -9434,7 +9434,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/893005"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/893005"
             }
           ]
         }
@@ -9456,7 +9456,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/397449"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/397449"
             }
           ]
         }
@@ -9478,7 +9478,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/412868"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/412868"
             }
           ]
         }
@@ -9500,7 +9500,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/404311"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/404311"
             }
           ]
         }
@@ -9522,7 +9522,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/898810"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/898810"
             }
           ]
         }
@@ -9544,7 +9544,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/661858"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/661858"
             }
           ]
         }
@@ -9566,7 +9566,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/412882"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/412882"
             }
           ]
         }
@@ -9588,7 +9588,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/381364"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/381364"
             }
           ]
         }
@@ -9610,7 +9610,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/677796"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/677796"
             }
           ]
         }
@@ -9632,7 +9632,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/437890"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/437890"
             }
           ]
         }
@@ -9654,7 +9654,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/400499"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/400499"
             }
           ]
         }
@@ -9676,7 +9676,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/915329"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/915329"
             }
           ]
         }
@@ -9698,7 +9698,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/898846"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/898846"
             }
           ]
         }
@@ -9720,7 +9720,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/898841"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/898841"
             }
           ]
         }
@@ -9742,7 +9742,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/399048"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/399048"
             }
           ]
         }
@@ -9764,7 +9764,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/416602"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/416602"
             }
           ]
         }
@@ -9786,7 +9786,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/380764"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/380764"
             }
           ]
         }
@@ -9808,7 +9808,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/890451"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/890451"
             }
           ]
         }
@@ -9830,7 +9830,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/454597"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/454597"
             }
           ]
         }
@@ -9852,7 +9852,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/400528"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/400528"
             }
           ]
         }
@@ -9874,7 +9874,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/381344"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/381344"
             }
           ]
         }
@@ -9896,7 +9896,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/400507"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/400507"
             }
           ]
         }
@@ -9918,7 +9918,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/389371"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/389371"
             }
           ]
         }
@@ -9940,7 +9940,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/453496"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/453496"
             }
           ]
         }
@@ -9962,7 +9962,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/450703"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/450703"
             }
           ]
         }
@@ -9984,7 +9984,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/889194"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/889194"
             }
           ]
         }
@@ -10006,7 +10006,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/412875"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/412875"
             }
           ]
         }
@@ -10028,7 +10028,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/400542"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/400542"
             }
           ]
         }
@@ -10050,7 +10050,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/400517"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/400517"
             }
           ]
         }
@@ -10072,7 +10072,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/903672"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/903672"
             }
           ]
         }
@@ -10094,7 +10094,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/885862"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/885862"
             }
           ]
         }
@@ -10116,7 +10116,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/450713"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/450713"
             }
           ]
         }
@@ -10138,7 +10138,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/380709"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/380709"
             }
           ]
         }
@@ -10160,7 +10160,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/898847"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/898847"
             }
           ]
         }
@@ -10182,7 +10182,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/661856"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/661856"
             }
           ]
         }
@@ -10204,7 +10204,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/389358"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/389358"
             }
           ]
         }
@@ -10226,7 +10226,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/902285"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/902285"
             }
           ]
         }
@@ -10248,7 +10248,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/380772"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/380772"
             }
           ]
         }
@@ -10270,7 +10270,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/454313"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/454313"
             }
           ]
         }
@@ -10292,7 +10292,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/883885"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/883885"
             }
           ]
         }
@@ -10314,7 +10314,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/400534"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/400534"
             }
           ]
         }
@@ -10336,7 +10336,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/881603"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/881603"
             }
           ]
         }
@@ -10358,7 +10358,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/404303"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/404303"
             }
           ]
         }
@@ -10380,7 +10380,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/384747"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/384747"
             }
           ]
         }
@@ -10402,7 +10402,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/412885"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/412885"
             }
           ]
         }
@@ -10424,7 +10424,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/389776"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/389776"
             }
           ]
         }
@@ -10446,7 +10446,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/389551"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/389551"
             }
           ]
         }
@@ -10468,7 +10468,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/380713"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/380713"
             }
           ]
         }
@@ -10490,7 +10490,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/400523"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/400523"
             }
           ]
         }
@@ -10512,7 +10512,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/898834"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/898834"
             }
           ]
         }
@@ -10534,7 +10534,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/404313"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/404313"
             }
           ]
         }
@@ -10556,7 +10556,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/397443"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/397443"
             }
           ]
         }
@@ -10578,7 +10578,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/389363"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/389363"
             }
           ]
         }
@@ -10600,7 +10600,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/389778"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/389778"
             }
           ]
         }
@@ -10622,7 +10622,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/397445"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/397445"
             }
           ]
         }
@@ -10644,7 +10644,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/454598"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/454598"
             }
           ]
         }
@@ -10666,7 +10666,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/400521"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/400521"
             }
           ]
         }
@@ -10688,7 +10688,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/381363"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/381363"
             }
           ]
         }
@@ -10710,7 +10710,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/384488"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/384488"
             }
           ]
         }
@@ -10732,7 +10732,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/902297"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/902297"
             }
           ]
         }
@@ -10754,7 +10754,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/412884"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/412884"
             }
           ]
         }
@@ -10776,7 +10776,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/400529"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/400529"
             }
           ]
         }
@@ -10798,7 +10798,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/437888"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/437888"
             }
           ]
         }
@@ -10820,7 +10820,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/404305"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/404305"
             }
           ]
         }
@@ -10842,7 +10842,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/404680"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/404680"
             }
           ]
         }
@@ -10864,7 +10864,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/380723"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/380723"
             }
           ]
         }
@@ -10886,7 +10886,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/412856"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/412856"
             }
           ]
         }
@@ -10908,7 +10908,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/872427"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/872427"
             }
           ]
         }
@@ -10930,7 +10930,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/397452"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/397452"
             }
           ]
         }
@@ -10952,7 +10952,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/902284"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/902284"
             }
           ]
         }
@@ -10974,7 +10974,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/397453"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/397453"
             }
           ]
         }
@@ -10996,7 +10996,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/883308"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/883308"
             }
           ]
         }
@@ -11018,7 +11018,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/384740"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/384740"
             }
           ]
         }
@@ -11040,7 +11040,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/917999"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/917999"
             }
           ]
         }
@@ -11062,7 +11062,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/902310"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/902310"
             }
           ]
         }
@@ -11084,7 +11084,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/400520"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/400520"
             }
           ]
         }
@@ -11106,7 +11106,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/896741"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/896741"
             }
           ]
         }
@@ -11128,7 +11128,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/400537"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/400537"
             }
           ]
         }
@@ -11150,7 +11150,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/400767"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/400767"
             }
           ]
         }
@@ -11172,7 +11172,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/872733"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/872733"
             }
           ]
         }
@@ -11194,7 +11194,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/380770"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/380770"
             }
           ]
         }
@@ -11216,7 +11216,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/380711"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/380711"
             }
           ]
         }
@@ -11238,7 +11238,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/384735"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/384735"
             }
           ]
         }
@@ -11260,7 +11260,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/400546"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/400546"
             }
           ]
         }
@@ -11282,7 +11282,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/677798"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/677798"
             }
           ]
         }
@@ -11304,7 +11304,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/902303"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/902303"
             }
           ]
         }
@@ -11326,7 +11326,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/892978"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/892978"
             }
           ]
         }
@@ -11348,7 +11348,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/384763"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/384763"
             }
           ]
         }
@@ -11370,7 +11370,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/890959"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/890959"
             }
           ]
         }
@@ -11392,7 +11392,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/412899"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/412899"
             }
           ]
         }
@@ -11414,7 +11414,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/389352"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/389352"
             }
           ]
         }
@@ -11436,7 +11436,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/380768"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/380768"
             }
           ]
         }
@@ -11458,7 +11458,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/450688"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/450688"
             }
           ]
         }
@@ -11480,7 +11480,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/661853"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/661853"
             }
           ]
         }
@@ -11502,7 +11502,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/914707"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/914707"
             }
           ]
         }
@@ -11524,7 +11524,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/902312"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/902312"
             }
           ]
         }
@@ -11546,7 +11546,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/381340"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/381340"
             }
           ]
         }
@@ -11568,7 +11568,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/412880"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/412880"
             }
           ]
         }
@@ -11590,7 +11590,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/389349"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/389349"
             }
           ]
         }
@@ -11612,7 +11612,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/878544"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/878544"
             }
           ]
         }
@@ -11634,7 +11634,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/453457"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/453457"
             }
           ]
         }
@@ -11656,7 +11656,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/872799"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/872799"
             }
           ]
         }
@@ -11678,7 +11678,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/381369"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/381369"
             }
           ]
         }
@@ -11700,7 +11700,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/902296"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/902296"
             }
           ]
         }
@@ -11722,7 +11722,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/898839"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/898839"
             }
           ]
         }
@@ -11744,7 +11744,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/891866"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/891866"
             }
           ]
         }
@@ -11766,7 +11766,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/450706"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/450706"
             }
           ]
         }
@@ -11788,7 +11788,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/904137"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/904137"
             }
           ]
         }
@@ -11810,7 +11810,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/902287"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/902287"
             }
           ]
         }
@@ -11832,7 +11832,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/381345"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/381345"
             }
           ]
         }
@@ -11854,7 +11854,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/917997"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/917997"
             }
           ]
         }
@@ -11876,7 +11876,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/452927"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/452927"
             }
           ]
         }
@@ -11898,7 +11898,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/661857"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/661857"
             }
           ]
         }
@@ -11920,7 +11920,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/902305"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/902305"
             }
           ]
         }
@@ -11942,7 +11942,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/412903"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/412903"
             }
           ]
         }
@@ -11964,7 +11964,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/918271"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/918271"
             }
           ]
         }
@@ -11986,7 +11986,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/416600"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/416600"
             }
           ]
         }
@@ -12008,7 +12008,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/904102"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/904102"
             }
           ]
         }
@@ -12030,7 +12030,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/389362"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/389362"
             }
           ]
         }
@@ -12052,7 +12052,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/454595"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/454595"
             }
           ]
         }
@@ -12074,7 +12074,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/878683"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/878683"
             }
           ]
         }
@@ -12096,7 +12096,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/902279"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/902279"
             }
           ]
         }
@@ -12118,7 +12118,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/412902"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/412902"
             }
           ]
         }
@@ -12140,7 +12140,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/389351"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/389351"
             }
           ]
         }
@@ -12162,7 +12162,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/884332"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/884332"
             }
           ]
         }
@@ -12184,7 +12184,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/412877"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/412877"
             }
           ]
         }
@@ -12206,7 +12206,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/904104"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/904104"
             }
           ]
         }
@@ -12228,7 +12228,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/404299"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/404299"
             }
           ]
         }
@@ -12250,7 +12250,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/904115"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/904115"
             }
           ]
         }
@@ -12272,7 +12272,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/677795"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/677795"
             }
           ]
         }
@@ -12294,7 +12294,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/384768"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/384768"
             }
           ]
         }
@@ -12316,7 +12316,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/916309"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/916309"
             }
           ]
         }
@@ -12338,7 +12338,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/902294"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/902294"
             }
           ]
         }
@@ -12360,7 +12360,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/380719"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/380719"
             }
           ]
         }
@@ -12382,7 +12382,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/871909"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/871909"
             }
           ]
         }
@@ -12404,7 +12404,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/917998"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/917998"
             }
           ]
         }
@@ -12426,7 +12426,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/890653"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/890653"
             }
           ]
         }
@@ -12448,7 +12448,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/902281"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/902281"
             }
           ]
         }
@@ -12470,7 +12470,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/450701"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/450701"
             }
           ]
         }
@@ -12492,7 +12492,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/381351"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/381351"
             }
           ]
         }
@@ -12514,7 +12514,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/896221"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/896221"
             }
           ]
         }
@@ -12536,7 +12536,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/904106"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/904106"
             }
           ]
         }
@@ -12558,7 +12558,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/904107"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/904107"
             }
           ]
         }
@@ -12580,7 +12580,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/871846"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/871846"
             }
           ]
         }
@@ -12602,7 +12602,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/389774"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/389774"
             }
           ]
         }
@@ -12624,7 +12624,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/450686"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/450686"
             }
           ]
         }
@@ -12646,7 +12646,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/384738"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/384738"
             }
           ]
         }
@@ -12668,7 +12668,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/404298"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/404298"
             }
           ]
         }
@@ -12690,7 +12690,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/412870"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/412870"
             }
           ]
         }
@@ -12712,7 +12712,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/452933"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/452933"
             }
           ]
         }
@@ -12734,7 +12734,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/450702"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/450702"
             }
           ]
         }
@@ -12756,7 +12756,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/914439"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/914439"
             }
           ]
         }
@@ -12778,7 +12778,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/381343"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/381343"
             }
           ]
         }
@@ -12800,7 +12800,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/400511"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/400511"
             }
           ]
         }
@@ -12822,7 +12822,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/902282"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/902282"
             }
           ]
         }
@@ -12844,7 +12844,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/381346"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/381346"
             }
           ]
         }
@@ -12866,7 +12866,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/400541"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/400541"
             }
           ]
         }
@@ -12888,7 +12888,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/389555"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/389555"
             }
           ]
         }
@@ -12910,7 +12910,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/878379"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/878379"
             }
           ]
         }
@@ -12932,7 +12932,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/400516"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/400516"
             }
           ]
         }
@@ -12954,7 +12954,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/404679"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/404679"
             }
           ]
         }
@@ -12976,7 +12976,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/404302"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/404302"
             }
           ]
         }
@@ -12998,7 +12998,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/898849"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/898849"
             }
           ]
         }
@@ -13020,7 +13020,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/918873"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/918873"
             }
           ]
         }
@@ -13042,7 +13042,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/389359"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/389359"
             }
           ]
         }
@@ -13064,7 +13064,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/389360"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/389360"
             }
           ]
         }
@@ -13086,7 +13086,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/404310"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/404310"
             }
           ]
         }
@@ -13108,7 +13108,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/454602"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/454602"
             }
           ]
         }
@@ -13130,7 +13130,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/384766"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/384766"
             }
           ]
         }
@@ -13152,7 +13152,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/404674"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/404674"
             }
           ]
         }
@@ -13174,7 +13174,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/898848"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/898848"
             }
           ]
         }
@@ -13196,7 +13196,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/381350"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/381350"
             }
           ]
         }
@@ -13218,7 +13218,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/389369"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/389369"
             }
           ]
         }
@@ -13240,7 +13240,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/381361"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/381361"
             }
           ]
         }
@@ -13262,7 +13262,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/898830"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/898830"
             }
           ]
         }
@@ -13284,7 +13284,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/384539"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/384539"
             }
           ]
         }
@@ -13306,7 +13306,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/437732"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/437732"
             }
           ]
         }
@@ -13328,7 +13328,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/453215"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/453215"
             }
           ]
         }
@@ -13350,7 +13350,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/404678"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/404678"
             }
           ]
         }
@@ -13372,7 +13372,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/880641"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/880641"
             }
           ]
         }
@@ -13394,7 +13394,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/380708"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/380708"
             }
           ]
         }
@@ -13416,7 +13416,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/384750"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/384750"
             }
           ]
         }
@@ -13438,7 +13438,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/412900"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/412900"
             }
           ]
         }
@@ -13460,7 +13460,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/404307"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/404307"
             }
           ]
         }
@@ -13482,7 +13482,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/412866"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/412866"
             }
           ]
         }
@@ -13504,7 +13504,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/902475"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/902475"
             }
           ]
         }
@@ -13526,7 +13526,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/384518"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/384518"
             }
           ]
         }
@@ -13548,7 +13548,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/400532"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/400532"
             }
           ]
         }
@@ -13570,7 +13570,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/882298"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/882298"
             }
           ]
         }
@@ -13592,7 +13592,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/450707"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/450707"
             }
           ]
         }
@@ -13614,7 +13614,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/412874"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/412874"
             }
           ]
         }
@@ -13636,7 +13636,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/401062"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/401062"
             }
           ]
         }
@@ -13658,7 +13658,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/400514"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/400514"
             }
           ]
         }
@@ -13680,7 +13680,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/389361"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/389361"
             }
           ]
         }
@@ -13702,7 +13702,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/384525"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/384525"
             }
           ]
         }
@@ -13724,7 +13724,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/400547"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/400547"
             }
           ]
         }
@@ -13746,7 +13746,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/890683"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/890683"
             }
           ]
         }
@@ -13768,7 +13768,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/400509"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/400509"
             }
           ]
         }
@@ -13790,7 +13790,7 @@
         "_links": {
           "self": [
             {
-              "href": "${}/administrasjon/kodeverk/stillingskode/systemid/400526"
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/400526"
             }
           ]
         }
@@ -13800,7 +13800,7 @@
   "_links": {
     "self": [
       {
-        "href": "${}/administrasjon/kodeverk/stillingskode"
+        "href": "${administrasjon.kodeverk.stillingskode}"
       }
     ]
   },

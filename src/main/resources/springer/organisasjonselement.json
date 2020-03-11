@@ -40,22 +40,22 @@
         "_links": {
           "overordnet": [
             {
-              "href": "${}/administrasjon/organisasjon/organisasjonselement/organisasjonsid/560000"
+              "href": "${administrasjon.organisasjon.organisasjonselement}/organisasjonsid/560000"
             }
           ],
           "leder": [
             {
-              "href": "${}/administrasjon/personal/personalressurs/ansattnummer/100003"
+              "href": "${administrasjon.personal.personalressurs}/ansattnummer/100003"
             }
           ],
           "arbeidsforhold": [
             {
-              "href": "${}/administrasjon/personal/arbeidsforhold/systemid/100004_2"
+              "href": "${administrasjon.personal.arbeidsforhold}/systemid/100004_2"
             }
           ],
           "self": [
             {
-              "href": "${}/administrasjon/organisasjon/organisasjonselement/organisasjonsid/568000"
+              "href": "${administrasjon.organisasjon.organisasjonselement}/organisasjonsid/568000"
             }
           ]
         }
@@ -105,27 +105,27 @@
         "_links": {
           "overordnet": [
             {
-              "href": "${}/administrasjon/organisasjon/organisasjonselement/organisasjonsid/550000"
+              "href": "${administrasjon.organisasjon.organisasjonselement}/organisasjonsid/550000"
             }
           ],
           "underordnet": [
             {
-              "href": "${}/administrasjon/organisasjon/organisasjonselement/organisasjonsid/550001"
+              "href": "${administrasjon.organisasjon.organisasjonselement}/organisasjonsid/550001"
             }
           ],
           "leder": [
             {
-              "href": "${}/administrasjon/personal/personalressurs/ansattnummer/100000"
+              "href": "${administrasjon.personal.personalressurs}/ansattnummer/100000"
             }
           ],
           "arbeidsforhold": [
             {
-              "href": "${}/administrasjon/personal/arbeidsforhold/systemid/100000_1"
+              "href": "${administrasjon.personal.arbeidsforhold}/systemid/100000_1"
             }
           ],
           "self": [
             {
-              "href": "${}/administrasjon/organisasjon/organisasjonselement/organisasjonsid/550000"
+              "href": "${administrasjon.organisasjon.organisasjonselement}/organisasjonsid/550000"
             }
           ]
         }
@@ -169,17 +169,17 @@
         "_links": {
           "overordnet": [
             {
-              "href": "${}/administrasjon/organisasjon/organisasjonselement/organisasjonsid/560000"
+              "href": "${administrasjon.organisasjon.organisasjonselement}/organisasjonsid/560000"
             }
           ],
           "leder": [
             {
-              "href": "${}/administrasjon/personal/personalressurs/ansattnummer/100003"
+              "href": "${administrasjon.personal.personalressurs}/ansattnummer/100003"
             }
           ],
           "self": [
             {
-              "href": "${}/administrasjon/organisasjon/organisasjonselement/organisasjonsid/569000"
+              "href": "${administrasjon.organisasjon.organisasjonselement}/organisasjonsid/569000"
             }
           ]
         }
@@ -223,17 +223,17 @@
         "_links": {
           "overordnet": [
             {
-              "href": "${}/administrasjon/organisasjon/organisasjonselement/organisasjonsid/560000"
+              "href": "${administrasjon.organisasjon.organisasjonselement}/organisasjonsid/560000"
             }
           ],
           "leder": [
             {
-              "href": "${}/administrasjon/personal/personalressurs/ansattnummer/100002"
+              "href": "${administrasjon.personal.personalressurs}/ansattnummer/100002"
             }
           ],
           "self": [
             {
-              "href": "${}/administrasjon/organisasjon/organisasjonselement/organisasjonsid/561000"
+              "href": "${administrasjon.organisasjon.organisasjonselement}/organisasjonsid/561000"
             }
           ]
         }
@@ -283,33 +283,33 @@
         "_links": {
           "overordnet": [
             {
-              "href": "${}/administrasjon/organisasjon/organisasjonselement/organisasjonsid/550001"
+              "href": "${administrasjon.organisasjon.organisasjonselement}/organisasjonsid/550001"
             }
           ],
           "underordnet": [
             {
-              "href": "${}/administrasjon/organisasjon/organisasjonselement/organisasjonsid/561000"
+              "href": "${administrasjon.organisasjon.organisasjonselement}/organisasjonsid/561000"
             },
             {
-              "href": "${}/administrasjon/organisasjon/organisasjonselement/organisasjonsid/562000"
+              "href": "${administrasjon.organisasjon.organisasjonselement}/organisasjonsid/562000"
             }
           ],
           "leder": [
             {
-              "href": "${}/administrasjon/personal/personalressurs/ansattnummer/100002"
+              "href": "${administrasjon.personal.personalressurs}/ansattnummer/100002"
             }
           ],
           "arbeidsforhold": [
             {
-              "href": "${}/administrasjon/personal/arbeidsforhold/systemid/100002_1"
+              "href": "${administrasjon.personal.arbeidsforhold}/systemid/100002_1"
             },
             {
-              "href": "${}/administrasjon/personal/arbeidsforhold/systemid/100004_1"
+              "href": "${administrasjon.personal.arbeidsforhold}/systemid/100004_1"
             }
           ],
           "self": [
             {
-              "href": "${}/administrasjon/organisasjon/organisasjonselement/organisasjonsid/560000"
+              "href": "${administrasjon.organisasjon.organisasjonselement}/organisasjonsid/560000"
             }
           ]
         }
@@ -353,22 +353,22 @@
         "_links": {
           "overordnet": [
             {
-              "href": "${}/administrasjon/organisasjon/organisasjonselement/organisasjonsid/560000"
+              "href": "${administrasjon.organisasjon.organisasjonselement}/organisasjonsid/560000"
             }
           ],
           "leder": [
             {
-              "href": "${}/administrasjon/personal/personalressurs/ansattnummer/100002"
+              "href": "${administrasjon.personal.personalressurs}/ansattnummer/100002"
             }
           ],
           "arbeidsforhold": [
             {
-              "href": "${}/administrasjon/personal/arbeidsforhold/systemid/100003_1"
+              "href": "${administrasjon.personal.arbeidsforhold}/systemid/100003_1"
             }
           ],
           "self": [
             {
-              "href": "${}/administrasjon/organisasjon/organisasjonselement/organisasjonsid/562000"
+              "href": "${administrasjon.organisasjon.organisasjonselement}/organisasjonsid/562000"
             }
           ]
         }
@@ -418,27 +418,27 @@
         "_links": {
           "overordnet": [
             {
-              "href": "${}/administrasjon/organisasjon/organisasjonselement/organisasjonsid/550000"
+              "href": "${administrasjon.organisasjon.organisasjonselement}/organisasjonsid/550000"
             }
           ],
           "underordnet": [
             {
-              "href": "${}/administrasjon/organisasjon/organisasjonselement/organisasjonsid/560000"
+              "href": "${administrasjon.organisasjon.organisasjonselement}/organisasjonsid/560000"
             }
           ],
           "leder": [
             {
-              "href": "${}/administrasjon/personal/personalressurs/ansattnummer/100000"
+              "href": "${administrasjon.personal.personalressurs}/ansattnummer/100000"
             }
           ],
           "arbeidsforhold": [
             {
-              "href": "${}/administrasjon/personal/arbeidsforhold/systemid/100001_1"
+              "href": "${administrasjon.personal.arbeidsforhold}/systemid/100001_1"
             }
           ],
           "self": [
             {
-              "href": "${}/administrasjon/organisasjon/organisasjonselement/organisasjonsid/550001"
+              "href": "${administrasjon.organisasjon.organisasjonselement}/organisasjonsid/550001"
             }
           ]
         }
@@ -448,7 +448,7 @@
   "_links": {
     "self": [
       {
-        "href": "${}/administrasjon/organisasjon/organisasjonselement"
+        "href": "${administrasjon.organisasjon.organisasjonselement}"
       }
     ]
   },
