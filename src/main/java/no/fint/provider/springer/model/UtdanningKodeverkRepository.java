@@ -11,6 +11,7 @@ import no.fint.model.resource.utdanning.kodeverk.KarakterskalaResource;
 import no.fint.model.resource.utdanning.kodeverk.SkoleeiertypeResource;
 import no.fint.model.utdanning.kodeverk.KodeverkActions;
 import no.fint.provider.springer.storage.SpringerRepository;
+import org.apache.commons.lang3.StringUtils;
 import org.springframework.stereotype.Repository;
 
 import javax.annotation.PostConstruct;
@@ -36,6 +37,10 @@ public class UtdanningKodeverkRepository extends SpringerRepository {
 
     @Override
     public void accept(Event<FintLinks> response) {
+        if (!StringUtils.contains(response.getSource(), "utdanning")) {
+            log.info("Skipping {} from {}", response.getAction(), response.getSource());
+            return;
+        }
         KodeverkActions action = valueOf(response.getAction());
         if (actions.containsKey(action)) {
             query(actions.get(action), response);
