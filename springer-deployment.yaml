@@ -97,7 +97,7 @@ spec:
             - name: security.basic.enabled
               value: "false"
         - name: springer-beta
-          image: fintlabs.azurecr.io/fint-springer-adapter:PR-4.3
+          image: fintlabs.azurecr.io/fint-springer-adapter:build.33
           ports:
             - containerPort: 8091
           resources:
@@ -128,6 +128,8 @@ spec:
               value: https://beta.felleskomponent.no/utdanning/timeplan/provider
             - name: fint.adapter.endpoints.providers.utdanningsprogram
               value: https://beta.felleskomponent.no/utdanning/utdanningsprogram/provider
+            - name: fint.adapter.endpoints.providers.kodeverk-utdanning
+              value: https://beta.felleskomponent.no/utdanning/kodeverk/provider
             - name: fint.adapter.endpoints.providers.betaling
               value: https://beta1.felleskomponent.no/betaling/provider
             - name: fint.adapter.organizations
@@ -193,6 +195,8 @@ spec:
               value: https://alpha.felleskomponent.no/administrasjon/kodeverk/provider
             - name: fint.adapter.endpoints.providers.personal
               value: https://alpha.felleskomponent.no/administrasjon/personal/provider
+            - name: fint.adapter.endpoints.providers.elev
+              value: https://alpha.felleskomponent.no/utdanning/elev/provider
             - name: fint.adapter.organizations
               value: fintlabs.no
             - name: fint.oauth.access-token-uri
@@ -233,7 +237,7 @@ spec:
             - name: security.basic.enabled
               value: "false"
         - name: springer-pwf
-          image: fintlabs.azurecr.io/fint-springer-adapter:build.29
+          image: fintlabs.azurecr.io/fint-springer-adapter:build.33
           ports:
             - containerPort: 8092
           resources:
