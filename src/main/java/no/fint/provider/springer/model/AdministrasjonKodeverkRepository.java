@@ -8,57 +8,52 @@ import no.fint.model.administrasjon.kodeverk.KodeverkActions;
 import no.fint.model.resource.FintLinks;
 import no.fint.model.resource.administrasjon.kodeverk.*;
 import no.fint.provider.springer.storage.SpringerRepository;
+import org.apache.commons.lang3.StringUtils;
 import org.springframework.stereotype.Repository;
 
+import javax.annotation.PostConstruct;
+import java.util.EnumMap;
 import java.util.Set;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
+
+import static no.fint.model.administrasjon.kodeverk.KodeverkActions.*;
 
 @Slf4j
 @Repository
 public class AdministrasjonKodeverkRepository extends SpringerRepository {
 
+    private final EnumMap<KodeverkActions, Class<? extends FintLinks>> actions = new EnumMap<>(KodeverkActions.class);
+
+    @PostConstruct
+    public void init() {
+        actions.put(GET_ALL_ARBEIDSFORHOLDSTYPE, ArbeidsforholdstypeResource.class);
+        actions.put(GET_ALL_PERSONALRESSURSKATEGORI, PersonalressurskategoriResource.class);
+        actions.put(GET_ALL_STILLINGSKODE, StillingskodeResource.class);
+        actions.put(GET_ALL_ART, ArtResource.class);
+        actions.put(GET_ALL_ANSVAR, AnsvarResource.class);
+        actions.put(GET_ALL_FUNKSJON, FunksjonResource.class);
+        actions.put(GET_ALL_PROSJEKT, ProsjektResource.class);
+        actions.put(GET_ALL_LONNSART, LonnsartResource.class);
+        actions.put(GET_ALL_FRAVARSGRUNN, FravarsgrunnResource.class);
+        actions.put(GET_ALL_FRAVARSTYPE, FravarstypeResource.class);
+        actions.put(GET_ALL_UKETIMETALL, UketimetallResource.class);
+    }
+
     @Override
     public void accept(Event<FintLinks> response) {
-        switch (KodeverkActions.valueOf(response.getAction())) {
-            case GET_ALL_ARBEIDSFORHOLDSTYPE:
-                query(ArbeidsforholdstypeResource.class, response);
-                break;
-            case GET_ALL_PERSONALRESSURSKATEGORI:
-                query(PersonalressurskategoriResource.class, response);
-                break;
-            case GET_ALL_STILLINGSKODE:
-                query(StillingskodeResource.class, response);
-                break;
-            case GET_ALL_ART:
-                query(ArtResource.class, response);
-                break;
-            case GET_ALL_ANSVAR:
-                query(AnsvarResource.class, response);
-                break;
-            case GET_ALL_FUNKSJON:
-                query(FunksjonResource.class, response);
-                break;
-            case GET_ALL_PROSJEKT:
-                query(ProsjektResource.class, response);
-                break;
-            case GET_ALL_LONNSART:
-                query(LonnsartResource.class, response);
-                break;
-            case GET_ALL_FRAVARSGRUNN:
-                query(FravarsgrunnResource.class, response);
-                break;
-            case GET_ALL_FRAVARSTYPE:
-                query(FravarstypeResource.class, response);
-                break;
-            case GET_ALL_UKETIMETALL:
-                query(UketimetallResource.class, response);
-                break;
-            default:
-                response.setStatus(Status.ADAPTER_REJECTED);
-                response.setResponseStatus(ResponseStatus.REJECTED);
-                response.setStatusCode("INVALID_ACTION");
-                response.setMessage("Invalid action");
+        if (!StringUtils.contains(response.getSource(), "administrasjon")) {
+            log.info("Skipping {} from {}", response.getAction(), response.getSource());
+            return;
+        }
+        KodeverkActions action = valueOf(response.getAction());
+        if (actions.containsKey(action)) {
+            query(actions.get(action), response);
+        } else {
+            response.setStatus(Status.ADAPTER_REJECTED);
+            response.setResponseStatus(ResponseStatus.REJECTED);
+            response.setStatusCode("INVALID_ACTION");
+            response.setMessage("Invalid action: " + action);
         }
     }
 
