@@ -2,13 +2,23 @@ package no.fint.provider.springer.model;
 
 import lombok.extern.slf4j.Slf4j;
 import no.fint.event.model.Event;
+import no.fint.event.model.ResponseStatus;
+import no.fint.model.felles.kompleksedatatyper.Identifikator;
 import no.fint.model.resource.FintLinks;
+import no.fint.model.resource.Link;
 import no.fint.model.resource.utdanning.elev.*;
+import no.fint.model.utdanning.elev.Basisgruppemedlemskap;
 import no.fint.model.utdanning.elev.ElevActions;
+import no.fint.model.utdanning.elev.Kontaktlarergruppemedlemskap;
+import no.fint.model.utdanning.timeplan.Undervisningsgruppemedlemskap;
+import no.fint.model.utdanning.utdanningsprogram.Programomrademedlemskap;
+import no.fint.model.utdanning.vurdering.Eksamensgruppemedlemskap;
 import no.fint.provider.springer.storage.SpringerRepository;
+import org.apache.commons.lang3.StringUtils;
 import org.springframework.stereotype.Repository;
 
 import java.util.Set;
+import java.util.function.Function;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
@@ -22,16 +32,34 @@ public class ElevRepository extends SpringerRepository {
     public void accept(Event<FintLinks> response) {
         switch (ElevActions.valueOf(response.getAction())) {
             case GET_ALL_BASISGRUPPE:
-                query(BasisgruppeResource.class, response);
+                stream(BasisgruppeResource.class)
+                        .map(BasisgruppeResource.class::cast)
+                        .peek(g -> g.getElevforhold().stream().map(linkGruppe(g.getSystemId())).map(Link.apply(Basisgruppemedlemskap.class, "systemid")).forEach(g::addGruppemedlemskap))
+                        .forEach(response::addData);
+                response.setResponseStatus(ResponseStatus.ACCEPTED);
                 break;
             case GET_ALL_ELEV:
                 query(ElevResource.class, response);
                 break;
             case GET_ALL_ELEVFORHOLD:
-                query(ElevforholdResource.class, response);
+                stream(ElevforholdResource.class)
+                        .map(ElevforholdResource.class::cast)
+                        .peek(e -> {
+                            e.getBasisgruppe().stream().map(linkElev(e.getSystemId())).map(Link.apply(Basisgruppemedlemskap.class, "systemid")).forEach(e::addBasisgruppemedlemskap);
+                            e.getKontaktlarergruppe().stream().map(linkElev(e.getSystemId())).map(Link.apply(Kontaktlarergruppemedlemskap.class, "systemid")).forEach(e::addKontaktlarergruppemedlemskap);
+                            e.getUndervisningsgruppe().stream().map(linkElev(e.getSystemId())).map(Link.apply(Undervisningsgruppemedlemskap.class, "systemid")).forEach(e::addUndervisningsgruppemedlemskap);
+                            e.getProgramomrade().stream().map(linkElev(e.getSystemId())).map(Link.apply(Programomrademedlemskap.class, "systemid")).forEach(e::addProgramomrademedlemskap);
+                            e.getEksamensgruppe().stream().map(linkElev(e.getSystemId())).map(Link.apply(Eksamensgruppemedlemskap.class, "systemid")).forEach(e::addEksamensgruppemedlemskap);
+                        })
+                        .forEach(response::addData);
+                response.setResponseStatus(ResponseStatus.ACCEPTED);
                 break;
             case GET_ALL_KONTAKTLARERGRUPPE:
-                query(KontaktlarergruppeResource.class, response);
+                stream(KontaktlarergruppeResource.class)
+                        .map(KontaktlarergruppeResource.class::cast)
+                        .peek(g -> g.getElevforhold().stream().map(linkGruppe(g.getSystemId())).map(Link.apply(Kontaktlarergruppemedlemskap.class, "systemid")).forEach(g::addGruppemedlemskap))
+                        .forEach(response::addData);
+                response.setResponseStatus(ResponseStatus.ACCEPTED);
                 break;
             case GET_ALL_SKOLERESSURS:
                 query(SkoleressursResource.class, response);
@@ -40,6 +68,14 @@ public class ElevRepository extends SpringerRepository {
                 query(UndervisningsforholdResource.class, response);
                 break;
         }
+    }
+
+    private Function<Link,String> linkGruppe(Identifikator systemId) {
+        return link -> String.format("%s_%s", StringUtils.substringAfterLast(link.getHref(), "/"), systemId.getIdentifikatorverdi());
+    }
+
+    private Function<Link,String> linkElev(Identifikator systemId) {
+        return link -> String.format("%s_%s", systemId.getIdentifikatorverdi(), StringUtils.substringAfterLast(link.getHref(), "/"));
     }
 
     @Override
