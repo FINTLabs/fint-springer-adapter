@@ -3,7 +3,6 @@ package no.fint.provider.springer.model;
 import lombok.extern.slf4j.Slf4j;
 import no.fint.event.model.Event;
 import no.fint.event.model.ResponseStatus;
-import no.fint.model.felles.kompleksedatatyper.Identifikator;
 import no.fint.model.resource.FintLinks;
 import no.fint.model.resource.Link;
 import no.fint.model.resource.utdanning.elev.*;
@@ -14,15 +13,15 @@ import no.fint.model.utdanning.timeplan.Undervisningsgruppemedlemskap;
 import no.fint.model.utdanning.utdanningsprogram.Programomrademedlemskap;
 import no.fint.model.utdanning.vurdering.Eksamensgruppemedlemskap;
 import no.fint.provider.springer.storage.SpringerRepository;
-import org.apache.commons.lang3.StringUtils;
 import org.springframework.stereotype.Repository;
 
 import java.util.Set;
-import java.util.function.Function;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
 import static no.fint.model.utdanning.elev.ElevActions.*;
+import static no.fint.provider.springer.handlers.GruppemedlemskapHandler.linkElev;
+import static no.fint.provider.springer.handlers.GruppemedlemskapHandler.linkGruppe;
 
 @Slf4j
 @Repository
@@ -68,14 +67,6 @@ public class ElevRepository extends SpringerRepository {
                 query(UndervisningsforholdResource.class, response);
                 break;
         }
-    }
-
-    private Function<Link,String> linkGruppe(Identifikator systemId) {
-        return link -> String.format("%s_%s", StringUtils.substringAfterLast(link.getHref(), "/"), systemId.getIdentifikatorverdi());
-    }
-
-    private Function<Link,String> linkElev(Identifikator systemId) {
-        return link -> String.format("%s_%s", systemId.getIdentifikatorverdi(), StringUtils.substringAfterLast(link.getHref(), "/"));
     }
 
     @Override

@@ -26,6 +26,7 @@ import java.time.DayOfWeek;
 import java.time.LocalDate;
 import java.time.Month;
 import java.util.Set;
+import java.util.function.Function;
 import java.util.stream.Stream;
 
 @Service
@@ -40,6 +41,14 @@ public class GruppemedlemskapHandler extends SpringerRepository {
                 .put(TimeplanActions.GET_ALL_UNDERVISNINGSGRUPPEMEDLEMSKAP.name(), this::undervisningsgruppeGenerator)
                 .put(UtdanningsprogramActions.GET_ALL_PROGRAMOMRADEMEDLEMSKAP.name(), this::programomradeGenerator)
                 .build();
+    }
+
+    public static Function<Link,String> linkGruppe(Identifikator systemId) {
+        return link -> String.format("%s_%s", StringUtils.substringAfterLast(link.getHref(), "/"), systemId.getIdentifikatorverdi());
+    }
+
+    public static Function<Link,String> linkElev(Identifikator systemId) {
+        return link -> String.format("%s_%s", systemId.getIdentifikatorverdi(), StringUtils.substringAfterLast(link.getHref(), "/"));
     }
 
     private Stream<FintLinks> programomradeGenerator(ElevforholdResource elevforholdResource) {
