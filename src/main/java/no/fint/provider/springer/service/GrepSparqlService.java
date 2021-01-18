@@ -49,15 +49,14 @@ public class GrepSparqlService {
 
 	static final class Constants {
 		static final String ARSTRINN = "PREFIX grep:<http://psi.udir.no/ontologi/kl06/>\n" +
-                "SELECT DISTINCT ?id?kode?tittel?url\n" +
+                "SELECT DISTINCT ?id ?kode ?tittel ?url\n" +
                 "WHERE {\n" +
-                "  ?s a grep:aarstrinn.\n" +
-                "  ?s grep:id ?id .\n" +
-                "  ?s grep:kode ?kode .\n" +
-                "  ?s grep:tittel ?tittel filter (lang(?tittel) = '') .\n" +
-                "  ?s grep:url-data ?url .\n" +
+                "  ?x a grep:aarstrinn ;\n" +
+                "  grep:id ?id ;\n" +
+                "  grep:kode ?kode ;\n" +
+				"  grep:url-data ?url ;\n" +
+				"  grep:tittel ?tittel\n" +
+                "  FILTER (lang(?tittel) = \"default\")\n" +
                 "}";
-
-
 	}
 }
