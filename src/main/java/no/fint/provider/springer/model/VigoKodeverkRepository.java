@@ -1,6 +1,7 @@
 package no.fint.provider.springer.model;
 
 import com.google.common.collect.ImmutableMultimap;
+import lombok.Getter;
 import lombok.NonNull;
 import lombok.extern.slf4j.Slf4j;
 import no.fint.event.model.Event;
@@ -88,7 +89,7 @@ public class VigoKodeverkRepository implements Handler {
 
     @Scheduled(initialDelay = 10000L, fixedDelay = 3600000L)
     public void updateArstrinn() {
-        Map<@NonNull String, ArstrinnResource> map = sparqlService.getArstrinn().collect(Collectors.toMap(ArstrinnResource::getBeskrivelse, Function.identity()));
+        Map<@NonNull String, ArstrinnResource> map = sparqlService.getArstrinnFromRest().collect(Collectors.toMap(ArstrinnResource::getBeskrivelse, Function.identity()));
         restTemplate.exchange(
                 baseuri + "/programomrader/",
                 HttpMethod.GET,
