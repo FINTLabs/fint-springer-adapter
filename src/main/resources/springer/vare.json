@@ -36,7 +36,7 @@
           ],
           "oppdragsgiver": [
             {
-              "href": "${administrasjon.okonomi.oppdragsgiver}/systemid/1"
+              "href": "${okonomi.faktura.fakturautsteder}/systemid/1"
             }
           ]
         }
@@ -76,7 +76,7 @@
           ],
           "oppdragsgiver": [
             {
-              "href": "${administrasjon.okonomi.oppdragsgiver}/systemid/1"
+              "href": "${okonomi.faktura.fakturautsteder}/systemid/1"
             }
           ]
         }
@@ -116,7 +116,7 @@
           ],
           "oppdragsgiver": [
             {
-              "href": "${administrasjon.okonomi.oppdragsgiver}/systemid/1"
+              "href": "${okonomi.faktura.fakturautsteder}/systemid/1"
             }
           ]
         }
@@ -156,7 +156,7 @@
           ],
           "oppdragsgiver": [
             {
-              "href": "${administrasjon.okonomi.oppdragsgiver}/systemid/1"
+              "href": "${okonomi.faktura.fakturautsteder}/systemid/1"
             }
           ]
         }
@@ -196,7 +196,7 @@
           ],
           "oppdragsgiver": [
             {
-              "href": "${administrasjon.okonomi.oppdragsgiver}/systemid/1"
+              "href": "${okonomi.faktura.fakturautsteder}/systemid/1"
             }
           ]
         }
@@ -236,7 +236,7 @@
           ],
           "oppdragsgiver": [
             {
-              "href": "${administrasjon.okonomi.oppdragsgiver}/systemid/1"
+              "href": "${okonomi.faktura.fakturautsteder}/systemid/1"
             }
           ]
         }
@@ -276,7 +276,7 @@
           ],
           "oppdragsgiver": [
             {
-              "href": "${administrasjon.okonomi.oppdragsgiver}/systemid/1"
+              "href": "${okonomi.faktura.fakturautsteder}/systemid/1"
             }
           ]
         }
@@ -316,7 +316,7 @@
           ],
           "oppdragsgiver": [
             {
-              "href": "${administrasjon.okonomi.oppdragsgiver}/systemid/1"
+              "href": "${okonomi.faktura.fakturautsteder}/systemid/1"
             }
           ]
         }
@@ -356,7 +356,7 @@
           ],
           "oppdragsgiver": [
             {
-              "href": "${administrasjon.okonomi.oppdragsgiver}/systemid/1"
+              "href": "${okonomi.faktura.fakturautsteder}/systemid/1"
             }
           ]
         }
@@ -396,7 +396,7 @@
           ],
           "oppdragsgiver": [
             {
-              "href": "${administrasjon.okonomi.oppdragsgiver}/systemid/1"
+              "href": "${okonomi.faktura.fakturautsteder}/systemid/1"
             }
           ]
         }
@@ -436,7 +436,7 @@
           ],
           "oppdragsgiver": [
             {
-              "href": "${administrasjon.okonomi.oppdragsgiver}/systemid/1"
+              "href": "${okonomi.faktura.fakturautsteder}/systemid/1"
             }
           ]
         }
@@ -476,7 +476,7 @@
           ],
           "oppdragsgiver": [
             {
-              "href": "${administrasjon.okonomi.oppdragsgiver}/systemid/299"
+              "href": "${okonomi.faktura.fakturautsteder}/systemid/299"
             }
           ]
         }
@@ -516,7 +516,7 @@
           ],
           "oppdragsgiver": [
             {
-              "href": "${administrasjon.okonomi.oppdragsgiver}/systemid/299"
+              "href": "${okonomi.faktura.fakturautsteder}/systemid/299"
             }
           ]
         }
@@ -556,7 +556,7 @@
           ],
           "oppdragsgiver": [
             {
-              "href": "${administrasjon.okonomi.oppdragsgiver}/systemid/299"
+              "href": "${okonomi.faktura.fakturautsteder}/systemid/299"
             }
           ]
         }
@@ -596,7 +596,7 @@
           ],
           "oppdragsgiver": [
             {
-              "href": "${administrasjon.okonomi.oppdragsgiver}/systemid/10"
+              "href": "${okonomi.faktura.fakturautsteder}/systemid/10"
             }
           ]
         }
@@ -631,12 +631,12 @@
         "_links": {
           "mvakode": [
             {
-              "href": "${administrasjon.okonomi.mvakode}/systemid/205"
+              "href": "${okonomi.kodeverk.merverdiavgift}/systemid/205"
             }
           ],
           "oppdragsgiver": [
             {
-              "href": "${administrasjon.okonomi.oppdragsgiver}/systemid/10"
+              "href": "${okonomi.faktura.fakturautsteder}/systemid/10"
             }
           ]
         }
@@ -671,12 +671,12 @@
         "_links": {
           "mvakode": [
             {
-              "href": "${administrasjon.okonomi.mvakode}/systemid/205"
+              "href": "${okonomi.kodeverk.merverdiavgift}/systemid/205"
             }
           ],
           "oppdragsgiver": [
             {
-              "href": "${administrasjon.okonomi.oppdragsgiver}/systemid/10"
+              "href": "${okonomi.faktura.fakturautsteder}/systemid/10"
             }
           ]
         }
@@ -686,10 +686,10 @@
   "_links": {
     "self": [
       {
-        "href": "${administrasjon.okonomi.varelinje}/"
+        "href": "${okonomi.kodeverk.vare}/"
       }
     ]
   },
   "total_items": 17,
-  "_class": "no.fint.model.resource.administrasjon.okonomi.VarelinjeResource"
+  "_class": "no.fint.model.resource.okonomi.kodeverk.VareResource"
 }

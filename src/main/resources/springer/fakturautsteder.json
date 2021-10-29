@@ -1,0 +1,96 @@
+{
+  "_embedded": {
+    "_entries": [
+      {
+        "navn": "S. Vindel & B. Drag AS",
+        "systemId": {
+          "identifikatorverdi": "1"
+        },
+        "_links": {
+          "vare": [
+            {
+              "href": "${okonomi.kodeverk.vare}/systemid/1234566"
+            },
+            {
+              "href": "${okonomi.kodeverk.vare}/systemid/007"
+            },
+            {
+              "href": "${okonomi.kodeverk.vare}/systemid/1181"
+            },
+            {
+              "href": "${okonomi.kodeverk.vare}/systemid/925023"
+            },
+            {
+              "href": "${okonomi.kodeverk.vare}/systemid/925006"
+            },
+            {
+              "href": "${okonomi.kodeverk.vare}/systemid/925002"
+            },
+            {
+              "href": "${okonomi.kodeverk.vare}/systemid/1068534"
+            },
+            {
+              "href": "${okonomi.kodeverk.vare}/systemid/10001"
+            },
+            {
+              "href": "${okonomi.kodeverk.vare}/systemid/10002"
+            },
+            {
+              "href": "${okonomi.kodeverk.vare}/systemid/10003"
+            },
+            {
+              "href": "${okonomi.kodeverk.vare}/systemid/10004"
+            }
+          ]
+        }
+      },
+      {
+        "navn": "Visma Enterprise TEST",
+        "systemId": {
+          "identifikatorverdi": "10"
+        },
+        "_links": {
+          "vare": [
+            {
+              "href": "${okonomi.kodeverk.vare}/systemid/100"
+            },
+            {
+              "href": "${okonomi.kodeverk.vare}/systemid/101"
+            },
+            {
+              "href": "${okonomi.kodeverk.vare}/systemid/102"
+            }
+          ]
+        }
+      },
+      {
+        "navn": "Møre og Romsdal Fylkeskommune - TEST - FINT PROSJEKTET",
+        "systemId": {
+          "identifikatorverdi": "299"
+        },
+        "_links": {
+          "vare": [
+            {
+              "href": "${okonomi.kodeverk.vare}/systemid/20001"
+            },
+            {
+              "href": "${okonomi.kodeverk.vare}/systemid/20002"
+            },
+            {
+              "href": "${okonomi.kodeverk.vare}/systemid/20003"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "_links": {
+    "self": [
+      {
+        "href": "${okonomi.faktura.fakturautsteder}/"
+      }
+    ]
+  },
+  "total_items": 3,
+  "_class": "no.fint.model.resource.okonomi.faktura.FakturautstederResource"
+}
