@@ -58,6 +58,7 @@ public class SseInitializer {
                                     HeaderConstants.ORG_ID, orgId,
                                     HeaderConstants.CLIENT, "springer-adapter",
                                     "x-fint-actions", String.join(",", eventHandlerService.getActions())));
+                            log.debug("SseInitializer.init for OrgId:" + orgId + " Url:" + fintSse.getSseUrl() + " for " + String.join(",", eventHandlerService.getActions()));
                             sseClients.add(fintSse);
                         }));
     }
@@ -85,9 +86,17 @@ public class SseInitializer {
                 for (FintSse sseClient : sseClients) {
                     if (!sseClient.verifyConnection()) {
                         log.info("Reconnecting SSE client {}", sseClient.getSseUrl());
+                    } else {
+                        log.debug("SSE client is OK: " + sseClient.getSseUrl());
                     }
                 }
             }
+
+            sseClients.forEach(sseClient -> {
+                if (!sseClient.isConnected()) {
+                  log.warn(sseClient.getSseUrl() + " is not connected");
+                }
+            });
         } catch (Exception e) {
             log.error("Unexpected error during SSE connection check!", e);
         }
