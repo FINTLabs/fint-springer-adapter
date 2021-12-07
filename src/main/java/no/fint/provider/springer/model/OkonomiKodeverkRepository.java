@@ -21,14 +21,21 @@ public class OkonomiKodeverkRepository extends SpringerRepository {
 
     @Override
     public void accept(Event<FintLinks> response) {
+        log.debug("OkonomiKodeverk-handler request accept for " + response.getAction());
+
         switch (KodeverkActions.valueOf(response.getAction())) {
             case GET_ALL_MERVERDIAVGIFT:
+                log.debug("Start fetching merverdiavgift");
                 query(MerverdiavgiftResource.class, response);
+                log.debug("Added " + response.getData().stream().count() + " merverdiavgif");
                 break;
             case GET_ALL_VARE:
+                log.debug("Start fetching vare");
                 query(VareResource.class, response);
+                log.debug("Added " + response.getData().stream().count() + " varer");
                 break;
             default:
+                log.debug("OkonomiKodeverk-handler request default - REJECTED");
                 response.setStatus(Status.ADAPTER_REJECTED);
                 response.setResponseStatus(ResponseStatus.REJECTED);
                 response.setStatusCode("INVALID_ACTION");

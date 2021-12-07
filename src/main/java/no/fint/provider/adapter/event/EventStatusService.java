@@ -42,11 +42,13 @@ public class EventStatusService {
      */
     public boolean verifyEvent(String component, Event event) {
         if (supportedActions.supports(event.getAction()) || DefaultActions.getDefaultActions().contains(event.getAction())) {
+            log.debug("Adapter accepted");
             event.setStatus(Status.ADAPTER_ACCEPTED);
         } else if (props.isRejectUnknownEvents()) {
             log.info("Rejecting {}", event.getAction());
             event.setStatus(Status.ADAPTER_REJECTED);
         } else {
+            log.debug("verifyEvent returns false");
             return false;
         }
 
