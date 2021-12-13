@@ -85,7 +85,11 @@
               "href": "${okonomi.kodeverk.vare}/systemid/10004"
             }
           ],
-          "organisasjonselement": "${administrasjon.organisasjon.organisasjonselement}/organisasjonsnummer/970123459"
+          "organisasjonselement": [
+            {
+              "href": "${administrasjon.organisasjon.organisasjonselement}/organisasjonsnummer/970123459"
+            }
+          ]
         }
       },
       {
