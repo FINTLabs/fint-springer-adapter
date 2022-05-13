@@ -66,6 +66,7 @@ public class EventStatusService {
         try {
             HttpHeaders headers = new HttpHeaders();
             headers.add(HeaderConstants.ORG_ID, event.getOrgId());
+            headers.add(HeaderConstants.CLIENT, "springer-adapter");
             headers.add(HttpHeaders.CONTENT_TYPE, MediaType.APPLICATION_JSON_UTF8_VALUE);
             String url = endpoints.getProviders().get(component) + endpoints.getStatus();
             ResponseEntity<Void> response = restTemplate.exchange(url, HttpMethod.POST, new HttpEntity<>(event, headers), Void.class);
