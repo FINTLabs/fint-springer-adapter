@@ -54,7 +54,7 @@ dependencies {
     compile('no.fint:fint-sse:2.0.0')
 
     compile("no.fint:fint-administrasjon-resource-model-java:${apiVersion}")
-    compile("no.fint:fint-utdanning-resource-model-java:${apiVersion}")
+    compile("no.fint:fint-utdanning-resource-model-java:3.10.0-rc-1")
     compile("no.fint:fint-okonomi-model-java:${apiVersion}")
     compile("no.fint:fint-okonomi-resource-model-java:${apiVersion}")
     compile('no.fint:fint-vigokv-model:3.9.0')
