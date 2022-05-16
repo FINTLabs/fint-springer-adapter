@@ -1,7 +1,7 @@
 package no.fint.provider.springer.storage;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.mongodb.util.JSON;
+import com.mongodb.BasicDBObject;
 import org.jooq.lambda.Unchecked;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.mongodb.core.query.Criteria;
@@ -16,11 +16,14 @@ public class Wrapper {
     @Autowired
     private ObjectMapper objectMapper;
 
-    public Function<Object,Springer> wrapper(Class<?> type) {
-        return Unchecked.function((Object content) -> new Springer(null, type.getCanonicalName(), JSON.parse(objectMapper.writeValueAsString(content))));
+    public Function<Object, Springer> wrapper(Class<?> type) {
+        return Unchecked.function((Object content) -> {
+            BasicDBObject basicDBObject = BasicDBObject.parse((objectMapper.writeValueAsString(content)));
+            return new Springer(null, type.getCanonicalName(), basicDBObject);
+        });
     }
 
-    public <T> Function<Springer,T> unwrapper(Class<T> type) {
+    public <T> Function<Springer, T> unwrapper(Class<T> type) {
         return (Springer springer) -> objectMapper.convertValue(springer.getValue(), type);
     }
 
@@ -29,7 +32,7 @@ public class Wrapper {
     }
 
     public <T> Springer update(Springer springer, T content) {
-        springer.setValue(JSON.parse(Unchecked.function(objectMapper::writeValueAsString).apply(content)));
+        springer.setValue(BasicDBObject.parse(Unchecked.function(objectMapper::writeValueAsString).apply(content)));
         return springer;
     }
 }

@@ -33,8 +33,8 @@ import org.springframework.beans.factory.annotation.Value;
 import org.springframework.core.ParameterizedTypeReference;
 import org.springframework.data.mongodb.core.MongoTemplate;
 import org.springframework.data.util.StreamUtils;
-import org.springframework.hateoas.Resource;
-import org.springframework.hateoas.Resources;
+import org.springframework.hateoas.CollectionModel;
+import org.springframework.hateoas.EntityModel;
 import org.springframework.http.HttpMethod;
 import org.springframework.http.ResponseEntity;
 import org.springframework.scheduling.annotation.Scheduled;
@@ -94,7 +94,7 @@ public class VigoKodeverkRepository implements Handler {
                 baseuri + "/programomrader/",
                 HttpMethod.GET,
                 null,
-                new ParameterizedTypeReference<Resources<Programomrader>>() {
+                new ParameterizedTypeReference<CollectionModel<Programomrader>>() {
                 })
                 .getBody()
                 .getContent()
@@ -128,11 +128,11 @@ public class VigoKodeverkRepository implements Handler {
                         .forEach(id -> builder.put(id, s.getSystemId().getIdentifikatorverdi())));
         ImmutableMultimap<String, String> elever = builder.build();
 
-        ResponseEntity<Resources<Resource<Programomrader>>> result = restTemplate.exchange(
+        ResponseEntity<CollectionModel<EntityModel<Programomrader>>> result = restTemplate.exchange(
                 baseuri + "/programomrader/",
                 HttpMethod.GET,
                 null,
-                new ParameterizedTypeReference<Resources<Resource<Programomrader>>>() {
+                new ParameterizedTypeReference<CollectionModel<EntityModel<Programomrader>>>() {
                 });
 
         result.getBody()
@@ -145,19 +145,19 @@ public class VigoKodeverkRepository implements Handler {
                     r.setBeskrivelse(c.getBeskrivelse());
                     r.setSystemId(c.getKode());
                     r.setPeriode(Collections.emptyList());
-                    r.addVigoreferanse(Link.with(p.getLink("self").getHref()));
-                    r.addGrepreferanse(Link.with(p.getLink("grep").getHref()));
+                    r.addVigoreferanse(Link.with(p.getLink("self").get().getHref()));
+                    r.addGrepreferanse(Link.with(p.getLink("grep").get().getHref()));
 
                     p.getLinks()
-                            .parallelStream()
-                            .filter(l -> l.getRel().equalsIgnoreCase("utdanningsprogram"))
+                            .stream()
+                            .filter(l -> l.getRel().value().equalsIgnoreCase("utdanningsprogram"))
                             .map(org.springframework.hateoas.Link::getHref)
                             .map(l -> StringUtils.substringAfterLast(l, "/"))
                             .map(Link.apply(Utdanningsprogram.class, "systemid"))
                             .forEach(r::addUtdanningsprogram);
                     p.getLinks()
-                            .parallelStream()
-                            .filter(l -> l.getRel().equalsIgnoreCase("fagunderprogramomrade"))
+                            .stream()
+                            .filter(l -> l.getRel().value().equalsIgnoreCase("fagunderprogramomrade"))
                             .map(org.springframework.hateoas.Link::getHref)
                             .map(l -> StringUtils.substringAfterLast(l, "/"))
                             .map(Link.apply(Fag.class, "systemid"))
@@ -191,11 +191,11 @@ public class VigoKodeverkRepository implements Handler {
                         .forEach(id -> builder.put(id, s.getSkolenummer().getIdentifikatorverdi())));
         ImmutableMultimap<String, String> skoler = builder.build();
 
-        ResponseEntity<Resources<Resource<Utdanningsprogrammer>>> result = restTemplate.exchange(
+        ResponseEntity<CollectionModel<EntityModel<Utdanningsprogrammer>>> result = restTemplate.exchange(
                 baseuri + "/utdanningsprogrammer/",
                 HttpMethod.GET,
                 null,
-                new ParameterizedTypeReference<Resources<Resource<Utdanningsprogrammer>>>() {
+                new ParameterizedTypeReference<CollectionModel<EntityModel<Utdanningsprogrammer>>>() {
                 });
 
         result.getBody()
@@ -208,11 +208,11 @@ public class VigoKodeverkRepository implements Handler {
                     r.setBeskrivelse(c.getBeskrivelse());
                     r.setSystemId(c.getKode());
                     r.setPeriode(Collections.emptyList());
-                    r.addVigoreferanse(Link.with(u.getLink("self").getHref()));
-                    r.addGrepreferanse(Link.with(u.getLink("grep").getHref()));
+                    r.addVigoreferanse(Link.with(u.getLink("self").get().getHref()));
+                    r.addGrepreferanse(Link.with(u.getLink("grep").get().getHref()));
                     u.getLinks()
-                            .parallelStream()
-                            .filter(l -> l.getRel().equalsIgnoreCase("programomrade"))
+                            .stream()
+                            .filter(l -> l.getRel().value().equalsIgnoreCase("programomrade"))
                             .map(org.springframework.hateoas.Link::getHref)
                             .map(l -> StringUtils.substringAfterLast(l, "/"))
                             .map(Link.apply(Programomrade.class, "systemid"))

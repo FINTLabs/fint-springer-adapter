@@ -1,89 +1,92 @@
-buildscript {
-    ext {
-        springBootVersion = '1.5.21.RELEASE'
-    }
-    repositories {
-        jcenter()
-        mavenCentral()
-    }
-    dependencies {
-        classpath("org.springframework.boot:spring-boot-gradle-plugin:${springBootVersion}")
-    }
-}
-
 plugins {
+    id 'org.springframework.boot' version '2.6.3'
+    id 'io.spring.dependency-management' version '1.0.11.RELEASE'
     id 'java'
     id 'groovy'
-    id 'com.github.ben-manes.versions' version '0.27.0'
-    id 'org.springframework.boot' version '1.5.21.RELEASE'
 }
 
-javadoc {
-    source = sourceSets.main.allJava
-    classpath = configurations.runtime
-    options.windowTitle = 'Fake Personnel Adapter'
-    options.memberLevel = JavadocMemberLevel.PRIVATE
-    destinationDir = file('./javadocs/')
+//javadoc {
+//    source = sourceSets.main.allJava
+//    classpath = configurations.runtime
+//    options.windowTitle = 'Fake Personnel Adapter'
+//    options.memberLevel = JavadocMemberLevel.PRIVATE
+//    destinationDir = file('./javadocs/')
+//}
+
+group = 'no.fintlabs'
+
+configurations {
+    compileOnly {
+        extendsFrom annotationProcessor
+    }
+}
+
+jar {
+    enabled = false
 }
 
 repositories {
-    mavenLocal()
-    jcenter()
-    maven {
-        url 'https://repo.fintlabs.no/releases'
+    mavenCentral()
+    repositories {
+        maven {
+            url "https://repo.fintlabs.no/releases"
+        }
     }
+    mavenLocal()
 }
 
 dependencies {
-    compile('com.google.guava:guava:28.2-jre')
-    compile('org.apache.commons:commons-lang3:3.9')
-    compile('commons-beanutils:commons-beanutils:1.9.4')
-    compile('org.apache.jena:jena-arq:3.13.1')
-    compile('org.glassfish.jersey.core:jersey-client:2.29.1')
-    compile('org.glassfish.jersey.core:jersey-common:2.29.1')
-    compile('org.jooq:jool-java-8:0.9.14')
-    compile('org.projectlombok:lombok:1.18.10')
+    implementation 'com.google.guava:guava:28.2-jre'
+    implementation 'org.apache.commons:commons-lang3:3.9'
+    implementation 'commons-beanutils:commons-beanutils:1.9.4'
+    implementation 'org.apache.jena:jena-arq:3.17.0'
+    implementation 'org.glassfish.jersey.core:jersey-client:2.29.1'
+    implementation 'org.glassfish.jersey.core:jersey-common:2.29.1'
+    implementation 'org.jooq:jool-java-8:0.9.14'
+    //implementation 'org.projectlombok:lombok:1.18.10'
+    compileOnly 'org.projectlombok:lombok'
+    annotationProcessor 'org.projectlombok:lombok'
 
-    compile 'no.fint:fint-model-resource:0.4.1'
-    compile('no.fint:fint-event-model:3.0.1')
-    compile('no.fint:fint-relation-model:1.1.6')
-    compile('no.fint:fint-spring-secrets:0.2.2')
-    compile('no.fint:fint-sse:2.0.0')
+    implementation 'no.fint:fint-model-resource:0.4.1'
+    implementation 'no.fint:fint-event-model:3.0.1'
+    implementation 'no.fint:fint-relation-model:1.1.6'
+    implementation 'no.fint:fint-spring-secrets:0.2.2'
+    implementation 'no.fint:fint-sse:2.0.0'
 
-    compile("no.fint:fint-administrasjon-resource-model-java:${apiVersion}")
-    compile("no.fint:fint-utdanning-resource-model-java:3.10.0-rc-1")
-    compile("no.fint:fint-okonomi-model-java:${apiVersion}")
-    compile("no.fint:fint-okonomi-resource-model-java:${apiVersion}")
-    compile('no.fint:fint-vigokv-model:3.9.0')
+    implementation "no.fint:fint-administrasjon-resource-model-java:${apiVersion}"
+    implementation "no.fint:fint-utdanning-resource-model-java:3.10.0-rc-1"
+    implementation "no.fint:fint-okonomi-model-java:${apiVersion}"
+    implementation "no.fint:fint-okonomi-resource-model-java:${apiVersion}"
+    implementation 'no.fint:fint-vigokv-model:3.9.0'
 
-    compile('org.springframework.hateoas:spring-hateoas')
-    runtime('org.springframework.plugin:spring-plugin-core')
-    runtime('org.springframework.boot:spring-boot-actuator')
-    compile('org.springframework.boot:spring-boot-devtools')
-    compile('org.springframework.boot:spring-boot-starter-hateoas')
-    compile('org.springframework.boot:spring-boot-starter-web')
-    compile('org.springframework.boot:spring-boot-starter-data-mongodb')
+    implementation 'org.springframework.hateoas:spring-hateoas'
+    implementation 'org.springframework.plugin:spring-plugin-core'
+    implementation 'org.springframework.boot:spring-boot-actuator'
+    implementation 'org.springframework.boot:spring-boot-devtools'
+    implementation 'org.springframework.boot:spring-boot-starter-hateoas'
+    implementation 'org.springframework.boot:spring-boot-starter-web'
+    implementation 'org.springframework.boot:spring-boot-starter-data-mongodb'
 
-    testCompile('cglib:cglib-nodep:3.2.12')
-    testCompile('org.spockframework:spock-spring:1.1-groovy-2.4')
-    testCompile('org.spockframework:spock-core:1.1-groovy-2.4')
-    testCompile('org.springframework.boot:spring-boot-starter-test')
+    testImplementation 'cglib:cglib-nodep:3.2.12'
+    testImplementation 'org.spockframework:spock-spring:1.1-groovy-2.4'
+    testImplementation 'org.spockframework:spock-core:1.1-groovy-2.4'
+    testImplementation 'org.springframework.boot:spring-boot-starter-test'
 }
 
-task copyExternalDependencies(type: Copy) {
-    from configurations.runtime
-    into "$buildDir/deps/external"
-    exclude '**/fint-*.jar'
-}
-
-task copyFintDependencies(type: Copy) {
-    from configurations.runtime
-    into "$buildDir/deps/fint"
-    include '**/fint-*.jar'
-}
-
-build.dependsOn(copyExternalDependencies)
-build.dependsOn(copyFintDependencies)
+//task copyExternalDependencies(type: Copy) {
+//    from configurations.runtime
+//    into "$buildDir/deps/external"
+//    exclude '**/fint-*.jar'
+//}
+//
+//task copyFintDependencies(type: Copy) {
+//    from configurations.runtime
+//    into "$buildDir/deps/fint"
+//    include '**/fint-*.jar'
+//}
+//
+//build.dependsOn(copyExternalDependencies)
+//build.dependsOn(copyFintDependencies)
 
 jar {
     manifest {
@@ -92,7 +95,7 @@ jar {
                 "Main-Class": "no.fint.Application",
                 "Specification-Version": "${apiVersion}",
                 "Implementation-Version": "${version}",
-                "Class-Path": configurations.runtime.collect { it.getName() }.join(' ')
+//                "Class-Path": configurations.runtime.collect { it.getName() }.join(' ')
         )
     }
 }
@@ -108,11 +111,11 @@ afterEvaluate {
     }
 }
 
-task wrapper(type: Wrapper) {
-    gradleVersion = '4.0'
-}
+//task wrapper(type: Wrapper) {
+//    gradleVersion = '4.0'
+//}
 
-bootRepackage.enabled = false
+//bootRepackage.enabled = false
 
 bootRun {
     systemProperties System.properties
@@ -124,4 +127,4 @@ test {
     }
 }
 
-apply from: 'https://raw.githubusercontent.com/FINTlibs/fint-buildscripts/master/dependencyReport.gradle'
+//apply from: 'https://raw.githubusercontent.com/FINTlibs/fint-buildscripts/master/dependencyReport.gradle'
