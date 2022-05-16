@@ -5,14 +5,6 @@ plugins {
     id 'groovy'
 }
 
-//javadoc {
-//    source = sourceSets.main.allJava
-//    classpath = configurations.runtime
-//    options.windowTitle = 'Fake Personnel Adapter'
-//    options.memberLevel = JavadocMemberLevel.PRIVATE
-//    destinationDir = file('./javadocs/')
-//}
-
 group = 'no.fintlabs'
 
 configurations {
@@ -58,6 +50,8 @@ dependencies {
     implementation "no.fint:fint-okonomi-model-java:${apiVersion}"
     implementation "no.fint:fint-okonomi-resource-model-java:${apiVersion}"
     implementation 'no.fint:fint-vigokv-model:3.9.0'
+    implementation "no.fint:fint-arkiv-model-java:${apiVersion}"
+    implementation "no.fint:fint-arkiv-resource-model-java:${apiVersion}"
 
     implementation 'org.springframework.hateoas:spring-hateoas'
     implementation 'org.springframework.plugin:spring-plugin-core'
@@ -72,21 +66,6 @@ dependencies {
     testImplementation 'org.spockframework:spock-core:1.1-groovy-2.4'
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
 }
-
-//task copyExternalDependencies(type: Copy) {
-//    from configurations.runtime
-//    into "$buildDir/deps/external"
-//    exclude '**/fint-*.jar'
-//}
-//
-//task copyFintDependencies(type: Copy) {
-//    from configurations.runtime
-//    into "$buildDir/deps/fint"
-//    include '**/fint-*.jar'
-//}
-//
-//build.dependsOn(copyExternalDependencies)
-//build.dependsOn(copyFintDependencies)
 
 jar {
     manifest {
@@ -111,12 +90,6 @@ afterEvaluate {
     }
 }
 
-//task wrapper(type: Wrapper) {
-//    gradleVersion = '4.0'
-//}
-
-//bootRepackage.enabled = false
-
 bootRun {
     systemProperties System.properties
 }
@@ -126,5 +99,3 @@ test {
         events 'passed', 'skipped', 'failed'
     }
 }
-
-//apply from: 'https://raw.githubusercontent.com/FINTlibs/fint-buildscripts/master/dependencyReport.gradle'
