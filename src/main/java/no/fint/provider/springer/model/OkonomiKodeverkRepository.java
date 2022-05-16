@@ -4,11 +4,10 @@ import lombok.extern.slf4j.Slf4j;
 import no.fint.event.model.Event;
 import no.fint.event.model.ResponseStatus;
 import no.fint.event.model.Status;
-import no.fint.model.administrasjon.okonomi.OkonomiActions;
+import no.fint.model.okonomi.kodeverk.KodeverkActions;
 import no.fint.model.resource.FintLinks;
-import no.fint.model.resource.administrasjon.okonomi.MvakodeResource;
-import no.fint.model.resource.administrasjon.okonomi.OppdragsgiverResource;
-import no.fint.model.resource.administrasjon.okonomi.VarelinjeResource;
+import no.fint.model.resource.okonomi.kodeverk.MerverdiavgiftResource;
+import no.fint.model.resource.okonomi.kodeverk.VareResource;
 import no.fint.provider.springer.storage.SpringerRepository;
 import org.springframework.stereotype.Repository;
 
@@ -18,21 +17,25 @@ import java.util.stream.Stream;
 
 @Slf4j
 @Repository
-public class BetalingRepository extends SpringerRepository {
+public class OkonomiKodeverkRepository extends SpringerRepository {
 
     @Override
     public void accept(Event<FintLinks> response) {
-        switch (OkonomiActions.valueOf(response.getAction())) {
-            case GET_ALL_MVAKODE:
-                query(MvakodeResource.class, response);
+        log.debug("OkonomiKodeverk-handler request accept for " + response.getAction());
+
+        switch (KodeverkActions.valueOf(response.getAction())) {
+            case GET_ALL_MERVERDIAVGIFT:
+                log.debug("Start fetching merverdiavgift");
+                query(MerverdiavgiftResource.class, response);
+                log.debug("Added " + response.getData().stream().count() + " merverdiavgif");
                 break;
-            case GET_ALL_OPPDRAGSGIVER:
-                query(OppdragsgiverResource.class, response);
-                break;
-            case GET_ALL_VARELINJE:
-                query(VarelinjeResource.class, response);
+            case GET_ALL_VARE:
+                log.debug("Start fetching vare");
+                query(VareResource.class, response);
+                log.debug("Added " + response.getData().stream().count() + " varer");
                 break;
             default:
+                log.debug("OkonomiKodeverk-handler request default - REJECTED");
                 response.setStatus(Status.ADAPTER_REJECTED);
                 response.setResponseStatus(ResponseStatus.REJECTED);
                 response.setStatusCode("INVALID_ACTION");
@@ -43,7 +46,7 @@ public class BetalingRepository extends SpringerRepository {
     @Override
     public Set<String> actions() {
         return Stream
-                .of(OkonomiActions.values())
+                .of(KodeverkActions.values())
                 .map(Enum::name)
                 .filter(s -> s.startsWith("GET_ALL_"))
                 .collect(Collectors.toSet());

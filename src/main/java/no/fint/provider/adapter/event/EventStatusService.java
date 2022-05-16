@@ -42,11 +42,13 @@ public class EventStatusService {
      */
     public boolean verifyEvent(String component, Event event) {
         if (supportedActions.supports(event.getAction()) || DefaultActions.getDefaultActions().contains(event.getAction())) {
+            log.debug("Adapter accepted");
             event.setStatus(Status.ADAPTER_ACCEPTED);
         } else if (props.isRejectUnknownEvents()) {
             log.info("Rejecting {}", event.getAction());
             event.setStatus(Status.ADAPTER_REJECTED);
         } else {
+            log.debug("verifyEvent returns false");
             return false;
         }
 
@@ -64,6 +66,7 @@ public class EventStatusService {
         try {
             HttpHeaders headers = new HttpHeaders();
             headers.add(HeaderConstants.ORG_ID, event.getOrgId());
+            headers.add(HeaderConstants.CLIENT, "springer-adapter");
             headers.add(HttpHeaders.CONTENT_TYPE, MediaType.APPLICATION_JSON_UTF8_VALUE);
             String url = endpoints.getProviders().get(component) + endpoints.getStatus();
             ResponseEntity<Void> response = restTemplate.exchange(url, HttpMethod.POST, new HttpEntity<>(event, headers), Void.class);

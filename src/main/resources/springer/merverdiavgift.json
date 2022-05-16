@@ -4,7 +4,7 @@
       {
         "kode": "25",
         "navn": "25%",
-        "promille": 250,
+        "sats": 250,
         "systemId": {
           "identifikatorverdi": "25"
         }
@@ -12,7 +12,7 @@
       {
         "kode": "205",
         "navn": "OMSETNING UNNTATT MVA",
-        "promille": 0,
+        "sats": 0,
         "systemId": {
           "identifikatorverdi": "205"
         }
@@ -22,10 +22,10 @@
   "_links": {
     "self": [
       {
-        "href": "${administrasjon.okonomi.mvakode}/"
+        "href": "${okonomi.kodeverk.Merverdiavgift}/"
       }
     ]
   },
   "total_items": 2,
-  "_class": "no.fint.model.resource.administrasjon.okonomi.MvakodeResource"
+  "_class": "no.fint.model.resource.okonomi.kodeverk.MerverdiavgiftResource"
 }

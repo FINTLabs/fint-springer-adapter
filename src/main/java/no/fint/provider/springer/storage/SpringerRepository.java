@@ -28,6 +28,4 @@ public abstract class SpringerRepository implements Handler {
                 .createStreamFromIterator(mongoTemplate.stream(wrapper.query(type), Springer.class))
                 .map(wrapper.unwrapper(type));
     }
-
-
 }

@@ -59,8 +59,10 @@ public class EventHandlerService {
 
     private void handleResponse(String component, String action, Event<FintLinks> response) {
         try {
+            log.debug("EventHandlerService.handleReponse for " + action);
             actionsHandlerMap.get(action).forEach(h -> h.accept(response));
         } catch (Exception e) {
+            log.error("Exception in handleResponse" + e.getMessage(), e);
             response.setResponseStatus(ResponseStatus.ERROR);
             response.setMessage(ExceptionUtils.getStackTrace(e));
         } finally {

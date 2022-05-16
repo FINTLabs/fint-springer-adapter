@@ -33,7 +33,7 @@ repositories {
     mavenLocal()
     jcenter()
     maven {
-        url 'http://dl.bintray.com/fint/maven'
+        url 'https://repo.fintlabs.no/releases'
     }
 }
 
@@ -47,16 +47,17 @@ dependencies {
     compile('org.jooq:jool-java-8:0.9.14')
     compile('org.projectlombok:lombok:1.18.10')
 
-    compile 'no.fint:fint-model-resource:0.3.3'
-    compile('no.fint:fint-event-model:3.0.0')
-    compile('no.fint:fint-relation-model:1.1.5')
-    compile('no.fint:fint-spring-secrets:0.1.0')
-    compile('no.fint:fint-sse:2.0.0-rc-1')
+    compile 'no.fint:fint-model-resource:0.4.1'
+    compile('no.fint:fint-event-model:3.0.1')
+    compile('no.fint:fint-relation-model:1.1.6')
+    compile('no.fint:fint-spring-secrets:0.2.2')
+    compile('no.fint:fint-sse:2.0.0')
 
     compile("no.fint:fint-administrasjon-resource-model-java:${apiVersion}")
-    compile("no.fint:fint-utdanning-resource-model-java:${apiVersion}")
-    compile('no.fint:fint-okonomi-model-java:3.4.0-alpha-2')
-    compile('no.fint:fint-vigokv-model:3.2.0')
+    compile("no.fint:fint-utdanning-resource-model-java:3.10.0-rc-1")
+    compile("no.fint:fint-okonomi-model-java:${apiVersion}")
+    compile("no.fint:fint-okonomi-resource-model-java:${apiVersion}")
+    compile('no.fint:fint-vigokv-model:3.9.0')
 
     compile('org.springframework.hateoas:spring-hateoas')
     runtime('org.springframework.plugin:spring-plugin-core')
