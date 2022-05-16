@@ -12,12 +12,11 @@ buildscript {
 }
 
 plugins {
+    id 'java'
+    id 'groovy'
     id 'com.github.ben-manes.versions' version '0.27.0'
+    id 'org.springframework.boot' version '1.5.21.RELEASE'
 }
-
-apply plugin: 'java'
-apply plugin: 'groovy'
-apply plugin: 'org.springframework.boot'
 
 javadoc {
     source = sourceSets.main.allJava
@@ -26,7 +25,6 @@ javadoc {
     options.memberLevel = JavadocMemberLevel.PRIVATE
     destinationDir = file('./javadocs/')
 }
-
 
 repositories {
     mavenLocal()
