@@ -12,6 +12,8 @@ env:
   BETA_CLUSTER_RESOURCE_GROUP: rg-aks-beta
   API_CLUSTER_NAME: aks-api-fint-2022-02-08
   API_CLUSTER_RESOURCE_GROUP: rg-aks-api
+  PWF_CLUSTER_NAME: aks-pwf-fint-2021-10-20
+  PWF_CLUSTER_RESOURCE_GROUP: rg-aks-pwf
   NAMESPACE: default
   REGISTRY_NAME: fintlabsacr
 
@@ -81,6 +83,23 @@ jobs:
 #          images: |
 #            ${{ env.REGISTRY_NAME }}.azurecr.io/${{steps.get_repo.outputs.REPO}}:${{ github.sha }}
 #          namespace: ${{ env.NAMESPACE }}
+
+## PWF cluster ##
+      - name: Set the target PWF cluster.
+        uses: azure/aks-set-context@v1
+        with:
+         creds: '${{ secrets.AKS_PWF_FINT_GITHUB }}'
+         cluster-name: ${{ env.PWF_CLUSTER_NAME }}
+         resource-group: ${{ env.PWF_CLUSTER_RESOURCE_GROUP }}
+
+      - name: Deploy to Alpha
+        uses: azure/k8s-deploy@v3.0
+        with:
+         manifests: |
+           k8s-pwf.yaml
+         images: |
+           ${{ env.REGISTRY_NAME }}.azurecr.io/${{steps.get_repo.outputs.REPO}}:${{ github.sha }}
+         namespace: ${{ env.NAMESPACE }}
 
       - name: Update FINT slack channel
         uses: rtCamp/action-slack-notify@v2

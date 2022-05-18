@@ -1,0 +1,94 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  annotations:
+    operator.1password.io/item-path: "vaults/aks-pwf-vault/items/fake-adapter"
+    operator.1password.io/item-name: "fake-adapter"
+  labels:
+    io.kompose.service: springer-adapter
+  name: springer
+spec:
+  replicas: 1
+  revisionHistoryLimit: 0
+  strategy:
+    type: RollingUpdate
+    rollingUpdate:
+      maxUnavailable: 0
+      maxSurge: 1
+  selector:
+    matchLabels:
+      io.kompose.service: springer-adapter
+  template:
+    metadata:
+      labels:
+        io.kompose.service: springer-adapter
+    spec:
+      restartPolicy: Always
+      containers:
+        - name: springer-pwf
+          image: fintlabsacr.azurecr.io/fint-springer-adapter:none
+          ports:
+            - containerPort: 8092
+          resources:
+            limits:
+              cpu: "2"
+              memory: "2Gi"
+            requests:
+              cpu: "250m"
+              memory: "1Gi"
+          # readinessProbe:
+          #   initialDelaySeconds: 60
+          #   timeoutSeconds: 5
+          #   httpGet:
+          #     port: 8092
+          #     path: /health
+          env:
+            - name: TZ
+              value: Europe/Oslo
+            - name: fint.adapter.endpoints.providers.felles
+              value: https://play-with-fint.felleskomponent.no/felles/kodeverk/provider
+            - name: fint.adapter.endpoints.providers.elev
+              value: https://play-with-fint.felleskomponent.no/utdanning/elev/provider
+            - name: fint.adapter.endpoints.providers.kodeverk-administrasjon
+              value: https://play-with-fint.felleskomponent.no/administrasjon/kodeverk/provider
+            - name: fint.adapter.endpoints.providers.fullmakt
+              value: https://play-with-fint.felleskomponent.no/administrasjon/fullmakt/provider
+            - name: fint.adapter.endpoints.providers.organisasjon
+              value: https://play-with-fint.felleskomponent.no/administrasjon/organisasjon/provider
+            - name: fint.adapter.endpoints.providers.personal
+              value: https://play-with-fint.felleskomponent.no/administrasjon/personal/provider
+            - name: fint.adapter.endpoints.providers.timeplan
+              value: https://play-with-fint.felleskomponent.no/utdanning/timeplan/provider
+            - name: fint.adapter.endpoints.providers.vurdering
+              value: https://play-with-fint.felleskomponent.no/utdanning/vurdering/provider
+            - name: fint.adapter.endpoints.providers.utdanningsprogram
+              value: https://play-with-fint.felleskomponent.no/utdanning/utdanningsprogram/provider
+            - name: fint.adapter.endpoints.providers.kodeverk-utdanning
+              value: https://play-with-fint.felleskomponent.no/utdanning/kodeverk/provider
+            - name: fint.adapter.endpoints.providers.okonomi-kodeverk
+              value: https://play-with-fint.felleskomponent.no/okonomi/kodeverk/provider
+            - name: fint.adapter.endpoints.providers.okonomi-faktura
+              value: https://play-with-fint.felleskomponent.no/okonomi/faktura/provider
+            - name: fint.adapter.endpoints.providers.arkiv-noark
+              value: https://play-with-fint.felleskomponent.no/arkiv/noark/provider
+            - name: fint.adapter.organizations
+              value: pwf.no
+            - name: fint.oauth.enabled
+              value: "false"
+            - name: spring.data.mongodb.uri
+              valueFrom:
+                secretKeyRef:
+                  name: fint-mongo
+                  key: mongodb
+            - name: spring.data.mongodb.database
+              value: springer
+            - name: server.port
+              value: "8092"
+            - name: security.basic.enabled
+              value: "false"
+            - name: logging.level.no.fint.provider.springer
+              value: debug
+            - name: logging.level.no.fint.provider.adapter.sse
+              value: warn
+            - name: logging.level.no.fint.provider.adapter.event
+              value: trace
