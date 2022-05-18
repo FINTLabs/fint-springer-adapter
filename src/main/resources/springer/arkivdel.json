@@ -1,0 +1,158 @@
+{
+  "_embedded": {
+    "_entries": [
+      {
+        "systemId": {
+          "identifikatorverdi": "3"
+        },
+        "tittel": "Skoleskyss",
+        "_links": {
+          "self": [
+            {
+              "href": "${arkiv.noark.arkivdel}/systemid/3"
+            }
+          ]
+        }
+      },
+      {
+        "systemId": {
+          "identifikatorverdi": "200021"
+        },
+        "tittel": "Anskaffelser",
+        "_links": {
+          "self": [
+            {
+              "href": "${arkiv.noark.arkivdel}/systemid/200021"
+            }
+          ]
+        }
+      },
+      {
+        "systemId": {
+          "identifikatorverdi": "200019"
+        },
+        "tittel": "Løyver",
+        "_links": {
+          "self": [
+            {
+              "href": "${arkiv.noark.arkivdel}/systemid/200019"
+            }
+          ]
+        }
+      },
+      {
+        "systemId": {
+          "identifikatorverdi": "200016"
+        },
+        "tittel": "Varsling",
+        "_links": {
+          "self": [
+            {
+              "href": "${arkiv.noark.arkivdel}/systemid/200016"
+            }
+          ]
+        }
+      },
+      {
+        "systemId": {
+          "identifikatorverdi": "1"
+        },
+        "tittel": "Personal",
+        "_links": {
+          "self": [
+            {
+              "href": "${arkiv.noark.arkivdel}/systemid/1"
+            }
+          ]
+        }
+      },
+      {
+        "systemId": {
+          "identifikatorverdi": "200023"
+        },
+        "tittel": "Mobbeombud",
+        "_links": {
+          "self": [
+            {
+              "href": "${arkiv.noark.arkivdel}/systemid/200023"
+            }
+          ]
+        }
+      },
+      {
+        "systemId": {
+          "identifikatorverdi": "200014"
+        },
+        "tittel": "Transportordningen",
+        "_links": {
+          "self": [
+            {
+              "href": "${arkiv.noark.arkivdel}/systemid/200014"
+            }
+          ]
+        }
+      },
+      {
+        "systemId": {
+          "identifikatorverdi": "200015"
+        },
+        "tittel": "Pasientbehandling",
+        "_links": {
+          "self": [
+            {
+              "href": "${arkiv.noark.arkivdel}/systemid/200015"
+            }
+          ]
+        }
+      },
+      {
+        "systemId": {
+          "identifikatorverdi": "200024"
+        },
+        "tittel": "Elev- og lærlingombud",
+        "_links": {
+          "self": [
+            {
+              "href": "${arkiv.noark.arkivdel}/systemid/200024"
+            }
+          ]
+        }
+      },
+      {
+        "systemId": {
+          "identifikatorverdi": "4"
+        },
+        "tittel": "Elev",
+        "_links": {
+          "self": [
+            {
+              "href": "${arkiv.noark.arkivdel}/systemid/4"
+            }
+          ]
+        }
+      },
+      {
+        "systemId": {
+          "identifikatorverdi": "60001"
+        },
+        "tittel": "Sakarkiv",
+        "_links": {
+          "self": [
+            {
+              "href": "${arkiv.noark.arkivdel}/systemid/60001"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "_links": {
+    "self": [
+      {
+        "href": "${arkiv.noark.arkivdel}/"
+      }
+    ]
+  },
+  "total_items": 11,
+  "_class": "no.fint.model.resource.arkiv.noark.ArkivdelResource"
+}
