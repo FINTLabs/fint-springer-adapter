@@ -28,6 +28,7 @@ public class ArkivKodeverkRepository extends SpringerRepository {
         actions.put(KodeverkActions.GET_ALL_TILGANGSRESTRIKSJON, TilgangsrestriksjonResource.class);
         actions.put(KodeverkActions.GET_ALL_KLASSIFIKASJONSTYPE, KlassifikasjonstypeResource.class);
         actions.put(KodeverkActions.GET_ALL_DOKUMENTSTATUS, DokumentStatusResource.class);
+        actions.put(KodeverkActions.GET_ALL_DOKUMENTTYPE, DokumentTypeResource.class);
     }
 
     @Override

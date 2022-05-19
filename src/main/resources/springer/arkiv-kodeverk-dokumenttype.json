@@ -1,0 +1,99 @@
+{
+  "_embedded": {
+    "_entries": [
+      {
+        "kode": "Brev",
+        "navn": "Brev",
+        "systemId": {
+          "identifikatorverdi": "1"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${arkiv.kodeverk.dokumenttype}/systemid/1"
+            }
+          ]
+        }
+      },
+      {
+        "kode": "Notat",
+        "navn": "Notat",
+        "systemId": {
+          "identifikatorverdi": "2"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${arkiv.kodeverk.dokumenttype}/systemid/2"
+            }
+          ]
+        }
+      },
+      {
+        "kode": "O",
+        "navn": "Ordrebekreftelse",
+        "systemId": {
+          "identifikatorverdi": "O"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${arkiv.kodeverk.dokumenttype}/systemid/O"
+            }
+          ]
+        }
+      },
+      {
+        "kode": "B",
+        "navn": "Brev",
+        "systemId": {
+          "identifikatorverdi": "B"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${arkiv.kodeverk.dokumenttype}/systemid/B"
+            }
+          ]
+        }
+      },
+      {
+        "kode": "R",
+        "navn": "Rundskriv",
+        "systemId": {
+          "identifikatorverdi": "R"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${arkiv.kodeverk.dokumenttype}/systemid/R"
+            }
+          ]
+        }
+      },
+      {
+        "kode": "F",
+        "navn": "Faktura",
+        "systemId": {
+          "identifikatorverdi": "F"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${arkiv.kodeverk.dokumenttype}/systemid/F"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "_links": {
+    "self": [
+      {
+        "href": "${arkiv.kodeverk.dokumenttype}/"
+      }
+    ]
+  },
+  "total_items": 6,
+  "_class": "no.fint.model.resource.arkiv.kodeverk.DokumentTypeResource"
+}
