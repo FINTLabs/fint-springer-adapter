@@ -1,0 +1,113 @@
+{
+  "_embedded": {
+    "_entries": [
+      {
+        "kode": "B",
+        "navn": "Dokumentet er under redigering",
+        "systemId": {
+          "identifikatorverdi": "B"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${arkiv.kodeverk.dokumentstatus}/systemid/B"
+            }
+          ]
+        }
+      },
+      {
+        "kode": "F",
+        "navn": "Ferdig",
+        "systemId": {
+          "identifikatorverdi": "2"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${arkiv.kodeverk.dokumentstatus}/systemid/2"
+            }
+          ]
+        }
+      },
+      {
+        "kode": "V",
+        "navn": "Utgått",
+        "systemId": {
+          "identifikatorverdi": "4"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${arkiv.kodeverk.dokumentstatus}/systemid/4"
+            }
+          ]
+        }
+      },
+      {
+        "kode": "B",
+        "navn": "Behandles",
+        "systemId": {
+          "identifikatorverdi": "1"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${arkiv.kodeverk.dokumentstatus}/systemid/1"
+            }
+          ]
+        }
+      },
+      {
+        "kode": "A",
+        "navn": "Godkjent",
+        "systemId": {
+          "identifikatorverdi": "3"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${arkiv.kodeverk.dokumentstatus}/systemid/3"
+            }
+          ]
+        }
+      },
+      {
+        "kode": "F",
+        "navn": "Dokumentet er ferdigstilt",
+        "systemId": {
+          "identifikatorverdi": "F"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${arkiv.kodeverk.dokumentstatus}/systemid/F"
+            }
+          ]
+        }
+      },
+      {
+        "kode": "S",
+        "navn": "Klar for eSignering",
+        "systemId": {
+          "identifikatorverdi": "5"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${arkiv.kodeverk.dokumentstatus}/systemid/5"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "_links": {
+    "self": [
+      {
+        "href": "${arkiv.kodeverk.dokumentstatus}/"
+      }
+    ]
+  },
+  "total_items": 7,
+  "_class": "no.fint.model.resource.arkiv.kodeverk.DokumentStatusResource"
+}
