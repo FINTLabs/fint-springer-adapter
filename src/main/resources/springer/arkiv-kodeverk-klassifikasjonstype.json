@@ -1,0 +1,49 @@
+{
+  "_embedded": {
+    "_entries": [
+      {
+        "systemId": {
+          "identifikatorverdi": "1"
+        },
+        "kode": "grbr",
+        "navn": "Gårds- og bruksnummer",
+        "gyldighetsperiode": {
+          "start": "2019-12-19T09:41:52Z"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${arkiv.kodeverk.klassifikasjonstype}/systemid/1"
+            }
+          ]
+        }
+      },
+      {
+        "systemId": {
+          "identifikatorverdi": "2"
+        },
+        "kode": "kkode",
+        "navn": "K-koder",
+        "gyldighetsperiode": {
+          "start": "2019-12-19T09:41:52Z"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${arkiv.kodeverk.klassifikasjonstype}/systemid/2"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "_links": {
+    "self": [
+      {
+        "href": "${arkiv.kodeverk.klassifikasjonstype}/"
+      }
+    ]
+  },
+  "total_items": 2,
+  "_class": "no.fint.model.resource.arkiv.kodeverk.KlassifikasjonstypeResource"
+}
