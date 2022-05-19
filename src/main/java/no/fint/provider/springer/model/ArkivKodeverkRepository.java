@@ -8,6 +8,7 @@ import no.fint.model.arkiv.kodeverk.KodeverkActions;
 import no.fint.model.resource.FintLinks;
 import no.fint.model.resource.arkiv.kodeverk.*;
 import no.fint.provider.springer.storage.SpringerRepository;
+import org.apache.commons.lang3.StringUtils;
 import org.springframework.stereotype.Repository;
 
 import javax.annotation.PostConstruct;
@@ -36,6 +37,11 @@ public class ArkivKodeverkRepository extends SpringerRepository {
 
     @Override
     public void accept(Event<FintLinks> response) {
+        if (!StringUtils.equals(response.getSource(), "arkiv-kodeverk")) {
+            log.info("Skipping {} from {}", response.getAction(), response.getSource());
+            return;
+        }
+
         KodeverkActions action = KodeverkActions.valueOf(response.getAction());
         if (actions.containsKey(action)) {
             query(actions.get(action), response);
