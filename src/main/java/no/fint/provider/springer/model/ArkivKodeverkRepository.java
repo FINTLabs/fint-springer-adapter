@@ -7,6 +7,7 @@ import no.fint.event.model.Status;
 import no.fint.model.arkiv.kodeverk.KodeverkActions;
 import no.fint.model.resource.FintLinks;
 import no.fint.model.resource.arkiv.kodeverk.SaksstatusResource;
+import no.fint.model.resource.arkiv.kodeverk.SkjermingshjemmelResource;
 import no.fint.provider.springer.storage.SpringerRepository;
 import org.springframework.stereotype.Repository;
 
@@ -24,6 +25,7 @@ public class ArkivKodeverkRepository extends SpringerRepository {
     @PostConstruct
     public void init() {
         actions.put(KodeverkActions.GET_ALL_SAKSSTATUS, SaksstatusResource.class);
+        actions.put(KodeverkActions.GET_ALL_SKJERMINGSHJEMMEL, SkjermingshjemmelResource.class);
     }
 
     @Override

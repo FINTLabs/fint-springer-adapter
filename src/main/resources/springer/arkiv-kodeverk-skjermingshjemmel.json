@@ -1,0 +1,449 @@
+{
+  "_embedded": {
+    "_entries": [
+      {
+        "kode": "Offl. § 2",
+        "navn": "Offl. § 2 (virkeområdet til loven)",
+        "systemId": {
+          "identifikatorverdi": "34"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${arkiv.kodeverk.skjermingshjemmel}/systemid/34"
+            }
+          ]
+        }
+      },
+      {
+        "kode": "Offl. § 23 tredje ledd",
+        "navn": "Offl. § 23 tredje ledd (unntak for innsyn for tilbud og protokoll om offentlig innkjøp)",
+        "systemId": {
+          "identifikatorverdi": "55"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${arkiv.kodeverk.skjermingshjemmel}/systemid/55"
+            }
+          ]
+        }
+      },
+      {
+        "kode": "Offl. § 26 første ledd",
+        "navn": "Offl. § 26 første ledd (besvarelse av eksamen e.l. prøve samt utkast til konkurranse e.l.)",
+        "systemId": {
+          "identifikatorverdi": "79"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${arkiv.kodeverk.skjermingshjemmel}/systemid/79"
+            }
+          ]
+        }
+      },
+      {
+        "kode": "Offl. § 26 andre ledd",
+        "navn": "Offl. § 26 andre ledd (priser, hederstegn o.l. inntil tildeling er gjort)",
+        "systemId": {
+          "identifikatorverdi": "80"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${arkiv.kodeverk.skjermingshjemmel}/systemid/80"
+            }
+          ]
+        }
+      },
+      {
+        "kode": "Offl. § 24 første ledd",
+        "navn": "Offl. § 24 første ledd (motvirke offentlige kontroll- eller reguleringstiltak)",
+        "systemId": {
+          "identifikatorverdi": "57"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${arkiv.kodeverk.skjermingshjemmel}/systemid/57"
+            }
+          ]
+        }
+      },
+      {
+        "kode": "Offl. § 4",
+        "navn": "Offl. § 4 (definisjoner)",
+        "systemId": {
+          "identifikatorverdi": "36"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${arkiv.kodeverk.skjermingshjemmel}/systemid/36"
+            }
+          ]
+        }
+      },
+      {
+        "kode": "Offl. § 16",
+        "navn": "Offl. § 16 (innsyn i interne dokumenter i kommunen og fylkeskommunen)",
+        "systemId": {
+          "identifikatorverdi": "46"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${arkiv.kodeverk.skjermingshjemmel}/systemid/46"
+            }
+          ]
+        }
+      },
+      {
+        "kode": "Offl. § 23 første ledd",
+        "navn": "Offl. § 23 første ledd (forsvarlig gjennomføring av økonomi, lønns- og personalforvaltning)",
+        "systemId": {
+          "identifikatorverdi": "53"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${arkiv.kodeverk.skjermingshjemmel}/systemid/53"
+            }
+          ]
+        }
+      },
+      {
+        "kode": "Offl. § 18",
+        "navn": "Offl. § 18 (rettsaksdokumenter)",
+        "systemId": {
+          "identifikatorverdi": "48"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${arkiv.kodeverk.skjermingshjemmel}/systemid/48"
+            }
+          ]
+        }
+      },
+      {
+        "kode": "Offl. § 24 tredje ledd",
+        "navn": "Offl. § 24 tredje ledd (opplysninger for å unngå straffbare handlinger)",
+        "systemId": {
+          "identifikatorverdi": "59"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${arkiv.kodeverk.skjermingshjemmel}/systemid/59"
+            }
+          ]
+        }
+      },
+      {
+        "kode": "Offl. § 8",
+        "navn": "Offl. § 8 (hovedregel om rett til gratis innsyn)",
+        "systemId": {
+          "identifikatorverdi": "38"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${arkiv.kodeverk.skjermingshjemmel}/systemid/38"
+            }
+          ]
+        }
+      },
+      {
+        "kode": "Offl. § 26 femte ledd",
+        "navn": "Offl. § 26 femte ledd (unntak for fødselsnr og nummer med tilsvarende funksjon)",
+        "systemId": {
+          "identifikatorverdi": "82"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${arkiv.kodeverk.skjermingshjemmel}/systemid/82"
+            }
+          ]
+        }
+      },
+      {
+        "kode": "Offl. § 13 jf. fvl. § 13 (1) nr.1",
+        "navn": "Offl. § 13 jf. fvl. § 13 (1) nr.1 (opplysninger som er underlagt taushetsplikt)",
+        "systemId": {
+          "identifikatorverdi": "43"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${arkiv.kodeverk.skjermingshjemmel}/systemid/43"
+            }
+          ]
+        }
+      },
+      {
+        "kode": "Offl. § 3",
+        "navn": "Offl. § 3 (hovedregel)",
+        "systemId": {
+          "identifikatorverdi": "35"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${arkiv.kodeverk.skjermingshjemmel}/systemid/35"
+            }
+          ]
+        }
+      },
+      {
+        "kode": "Offl. § 5",
+        "navn": "Offl. § 5 (utsatt innsyn)",
+        "systemId": {
+          "identifikatorverdi": "37"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${arkiv.kodeverk.skjermingshjemmel}/systemid/37"
+            }
+          ]
+        }
+      },
+      {
+        "kode": "Offl. § 26 tredje ledd",
+        "navn": "Offl. § 26 tredje ledd (unntak for opplysninger i personregister)",
+        "systemId": {
+          "identifikatorverdi": "61"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${arkiv.kodeverk.skjermingshjemmel}/systemid/61"
+            }
+          ]
+        }
+      },
+      {
+        "kode": "Offl. § 21",
+        "navn": "Offl. § 21 (nasjonale forsvars- og sikkerhetsinteresser)",
+        "systemId": {
+          "identifikatorverdi": "51"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${arkiv.kodeverk.skjermingshjemmel}/systemid/51"
+            }
+          ]
+        }
+      },
+      {
+        "kode": "Offl. § 15",
+        "navn": "Offl. § 15 (interne dokumenter utenfra)",
+        "systemId": {
+          "identifikatorverdi": "45"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${arkiv.kodeverk.skjermingshjemmel}/systemid/45"
+            }
+          ]
+        }
+      },
+      {
+        "kode": "Offl. § 13 jf. fvl. § 13 (1) nr.2",
+        "navn": "Offl. § 13 jf. fvl. § 13 (1) nr.2 (opplysninger av konkurransemessig betydning)",
+        "systemId": {
+          "identifikatorverdi": "68"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${arkiv.kodeverk.skjermingshjemmel}/systemid/68"
+            }
+          ]
+        }
+      },
+      {
+        "kode": "Offl. § 17",
+        "navn": "Offl. § 17 (dokumenter som i visse tilfeller gjelder Det kongl. Hoff)",
+        "systemId": {
+          "identifikatorverdi": "47"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${arkiv.kodeverk.skjermingshjemmel}/systemid/47"
+            }
+          ]
+        }
+      },
+      {
+        "kode": "Offl. § 25",
+        "navn": "Offl. § 25 (dokument i sak om ansettelse eller forfremmelse i off. tjeneste)",
+        "systemId": {
+          "identifikatorverdi": "60"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${arkiv.kodeverk.skjermingshjemmel}/systemid/60"
+            }
+          ]
+        }
+      },
+      {
+        "kode": "Offl. § 12",
+        "navn": "Offl. § 12 (unntak for resten av dokumentet)",
+        "systemId": {
+          "identifikatorverdi": "42"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${arkiv.kodeverk.skjermingshjemmel}/systemid/42"
+            }
+          ]
+        }
+      },
+      {
+        "kode": "Offl. § 23 fjerde ledd",
+        "navn": "Offl. § 23 fjerde ledd (unntak for dokumenter med eierinteresser)",
+        "systemId": {
+          "identifikatorverdi": "56"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${arkiv.kodeverk.skjermingshjemmel}/systemid/56"
+            }
+          ]
+        }
+      },
+      {
+        "kode": "Offl. § 24 andre ledd",
+        "navn": "Offl. § 24 andre ledd (anmeldelse, rapport og annet dokument om lovovertredelse)",
+        "systemId": {
+          "identifikatorverdi": "58"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${arkiv.kodeverk.skjermingshjemmel}/systemid/58"
+            }
+          ]
+        }
+      },
+      {
+        "kode": "Offl. § 14",
+        "navn": "Offl. § 14 (organinterne dokumenter)",
+        "systemId": {
+          "identifikatorverdi": "44"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${arkiv.kodeverk.skjermingshjemmel}/systemid/44"
+            }
+          ]
+        }
+      },
+      {
+        "kode": "Offl. § 26 fjerde ledd",
+        "navn": "Offl. § 26 fjerde ledd (unntak for opplysninger om forskingsideer og forskingsprosjekt)",
+        "systemId": {
+          "identifikatorverdi": "83"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${arkiv.kodeverk.skjermingshjemmel}/systemid/83"
+            }
+          ]
+        }
+      },
+      {
+        "kode": "Offl. § 23 andre ledd",
+        "navn": "Offl. § 23 andre ledd (rammeavtaler med landbruks-, fiskeri- og reindriftsorganisasjoner)",
+        "systemId": {
+          "identifikatorverdi": "54"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${arkiv.kodeverk.skjermingshjemmel}/systemid/54"
+            }
+          ]
+        }
+      },
+      {
+        "kode": "Offl. § 27",
+        "navn": "Offl. § 27 (forskrifthjemmel)",
+        "systemId": {
+          "identifikatorverdi": "81"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${arkiv.kodeverk.skjermingshjemmel}/systemid/81"
+            }
+          ]
+        }
+      },
+      {
+        "kode": "Offl. § 11",
+        "navn": "Offl. § 11 (unntatt med hjemmel i forskrift)",
+        "systemId": {
+          "identifikatorverdi": "41"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${arkiv.kodeverk.skjermingshjemmel}/systemid/41"
+            }
+          ]
+        }
+      },
+      {
+        "kode": "Offl. § 9",
+        "navn": "Offl. § 9 (rett til innsyn i sammenstilling fra databaser)",
+        "systemId": {
+          "identifikatorverdi": "39"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${arkiv.kodeverk.skjermingshjemmel}/systemid/39"
+            }
+          ]
+        }
+      },
+      {
+        "kode": "Offl. § 10",
+        "navn": "Offl. § 10 (plikt til å føre journal og tilgjengeliggjøring av journal på internett)",
+        "systemId": {
+          "identifikatorverdi": "40"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${arkiv.kodeverk.skjermingshjemmel}/systemid/40"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "_links": {
+    "self": [
+      {
+        "href": "${arkiv.kodeverk.skjermingshjemmel}/"
+      }
+    ]
+  },
+  "total_items": 31,
+  "_class": "no.fint.model.resource.arkiv.kodeverk.SkjermingshjemmelResource"
+}
