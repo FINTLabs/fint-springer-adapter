@@ -1,0 +1,211 @@
+{
+  "_embedded": {
+    "_entries": [
+      {
+        "kode": "R",
+        "navn": "Opprettet av saksbehandler",
+        "systemId": {
+          "identifikatorverdi": "R"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${arkiv.kodeverk.saksstatus}/systemid/R"
+            }
+          ]
+        }
+      },
+      {
+        "kode": "B",
+        "navn": "Under behandling",
+        "systemId": {
+          "identifikatorverdi": "B"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${arkiv.kodeverk.saksstatus}/systemid/B"
+            }
+          ]
+        }
+      },
+      {
+        "kode": "S",
+        "navn": "Avsluttet av saksbehandler",
+        "systemId": {
+          "identifikatorverdi": "S"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${arkiv.kodeverk.saksstatus}/systemid/S"
+            }
+          ]
+        }
+      },
+      {
+        "kode": "F",
+        "navn": "Ferdig fra saksbehandler",
+        "systemId": {
+          "identifikatorverdi": "F"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${arkiv.kodeverk.saksstatus}/systemid/F"
+            }
+          ]
+        }
+      },
+      {
+        "kode": "OE",
+        "navn": "Overført til eArchive",
+        "systemId": {
+          "identifikatorverdi": "19"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${arkiv.kodeverk.saksstatus}/systemid/19"
+            }
+          ]
+        }
+      },
+      {
+        "kode": "A",
+        "navn": "Avsluttet",
+        "systemId": {
+          "identifikatorverdi": "6"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${arkiv.kodeverk.saksstatus}/systemid/6"
+            }
+          ]
+        }
+      },
+      {
+        "kode": "AS",
+        "navn": "Avsluttet av saksbehandler",
+        "systemId": {
+          "identifikatorverdi": "17"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${arkiv.kodeverk.saksstatus}/systemid/17"
+            }
+          ]
+        }
+      },
+      {
+        "kode": "U",
+        "navn": "Utgår",
+        "systemId": {
+          "identifikatorverdi": "8"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${arkiv.kodeverk.saksstatus}/systemid/8"
+            }
+          ]
+        }
+      },
+      {
+        "kode": "P",
+        "navn": "Unntatt prosesstyring",
+        "systemId": {
+          "identifikatorverdi": "P"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${arkiv.kodeverk.saksstatus}/systemid/P"
+            }
+          ]
+        }
+      },
+      {
+        "kode": "B",
+        "navn": "Under behandling",
+        "systemId": {
+          "identifikatorverdi": "5"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${arkiv.kodeverk.saksstatus}/systemid/5"
+            }
+          ]
+        }
+      },
+      {
+        "kode": "K",
+        "navn": "Kassert",
+        "systemId": {
+          "identifikatorverdi": "20"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${arkiv.kodeverk.saksstatus}/systemid/20"
+            }
+          ]
+        }
+      },
+      {
+        "kode": "U",
+        "navn": "Utgår",
+        "systemId": {
+          "identifikatorverdi": "U"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${arkiv.kodeverk.saksstatus}/systemid/U"
+            }
+          ]
+        }
+      },
+      {
+        "kode": "R",
+        "navn": "Reservert",
+        "systemId": {
+          "identifikatorverdi": "4"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${arkiv.kodeverk.saksstatus}/systemid/4"
+            }
+          ]
+        }
+      },
+      {
+        "kode": "A",
+        "navn": "Avsluttet",
+        "systemId": {
+          "identifikatorverdi": "A"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${arkiv.kodeverk.saksstatus}/systemid/A"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "_links": {
+    "self": [
+      {
+        "href": "${arkiv.kodeverk.saksstatus}/"
+      }
+    ]
+  },
+  "total_items": 14,
+  "_class": "no.fint.model.resource.arkiv.kodeverk.SaksstatusResource"
+}
