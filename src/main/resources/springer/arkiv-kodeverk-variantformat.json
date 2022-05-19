@@ -1,0 +1,127 @@
+{
+  "_embedded": {
+    "_entries": [
+      {
+        "kode": "O",
+        "navn": "Dokument hvor deler av innholdet er skjermet",
+        "systemId": {
+          "identifikatorverdi": "O"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${arkiv.kodeverk.variantformat}/systemid/O"
+            }
+          ]
+        }
+      },
+      {
+        "kode": "P",
+        "navn": "Produksjonsformat",
+        "systemId": {
+          "identifikatorverdi": "P"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${arkiv.kodeverk.variantformat}/systemid/P"
+            }
+          ]
+        }
+      },
+      {
+        "kode": "V",
+        "navn": "Visningsformat",
+        "systemId": {
+          "identifikatorverdi": "4"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${arkiv.kodeverk.variantformat}/systemid/4"
+            }
+          ]
+        }
+      },
+      {
+        "kode": "O",
+        "navn": "Offentlig format",
+        "systemId": {
+          "identifikatorverdi": "2"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${arkiv.kodeverk.variantformat}/systemid/2"
+            }
+          ]
+        }
+      },
+      {
+        "kode": "A",
+        "navn": "Arkivformat",
+        "systemId": {
+          "identifikatorverdi": "1"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${arkiv.kodeverk.variantformat}/systemid/1"
+            }
+          ]
+        }
+      },
+      {
+        "kode": "A",
+        "navn": "Arkivformat",
+        "systemId": {
+          "identifikatorverdi": "A"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${arkiv.kodeverk.variantformat}/systemid/A"
+            }
+          ]
+        }
+      },
+      {
+        "kode": "P",
+        "navn": "Produksjonsformat",
+        "systemId": {
+          "identifikatorverdi": "0"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${arkiv.kodeverk.variantformat}/systemid/0"
+            }
+          ]
+        }
+      },
+      {
+        "kode": "S",
+        "navn": "Signert dokument",
+        "systemId": {
+          "identifikatorverdi": "3"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${arkiv.kodeverk.variantformat}/systemid/3"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "_links": {
+    "self": [
+      {
+        "href": "${arkiv.kodeverk.variantformat}/"
+      }
+    ]
+  },
+  "total_items": 8,
+  "_class": "no.fint.model.resource.arkiv.kodeverk.VariantformatResource"
+}
