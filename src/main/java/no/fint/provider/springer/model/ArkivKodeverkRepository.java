@@ -31,6 +31,7 @@ public class ArkivKodeverkRepository extends SpringerRepository {
         actions.put(KodeverkActions.GET_ALL_DOKUMENTTYPE, DokumentTypeResource.class);
         actions.put(KodeverkActions.GET_ALL_JOURNALSTATUS, JournalStatusResource.class);
         actions.put(KodeverkActions.GET_ALL_VARIANTFORMAT, VariantformatResource.class);
+        actions.put(KodeverkActions.GET_ALL_ROLLE, RolleResource.class);
     }
 
     @Override
