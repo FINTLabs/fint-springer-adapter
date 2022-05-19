@@ -1,0 +1,43 @@
+{
+  "_embedded": {
+    "_entries": [
+      {
+        "kode": "U",
+        "navn": "Ugradert",
+        "systemId": {
+          "identifikatorverdi": "0"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${arkiv.kodeverk.tilgangsrestriksjon}/systemid/0"
+            }
+          ]
+        }
+      },
+      {
+        "kode": "UO",
+        "navn": "Unntatt offentlighet",
+        "systemId": {
+          "identifikatorverdi": "18"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${arkiv.kodeverk.tilgangsrestriksjon}/systemid/18"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "_links": {
+    "self": [
+      {
+        "href": "${arkiv.kodeverk.tilgangsrestriksjon}/"
+      }
+    ]
+  },
+  "total_items": 2,
+  "_class": "no.fint.model.resource.arkiv.kodeverk.TilgangsrestriksjonResource"
+}
