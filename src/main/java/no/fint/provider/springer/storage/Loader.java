@@ -29,8 +29,7 @@ public class Loader {
     @PostConstruct
     public void load() throws IOException, ClassNotFoundException {
         log.info("Checking database content ...");
-
-        for (Resource r : new PathMatchingResourcePatternResolver(getClass().getClassLoader()).getResources("classpath*:/springer/*.json")) {
+        for (Resource r : new PathMatchingResourcePatternResolver(getClass().getClassLoader()).getResources("classpath*:/springer/**/*.json")) {
             try {
                 log.info("Checking {} ...", r);
                 JsonNode jsonNode = objectMapper.readTree(r.getInputStream());
