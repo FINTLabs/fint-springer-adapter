@@ -11,11 +11,6 @@
               "href": "${administrasjon.personal.personalressurs}/brukernavn/kegudnersen"
             }
           ],
-          "tilgang": [
-            {
-              "href": "${arkiv.noark.tilgang}/systemid/7834"
-            }
-          ],
           "self": [
             {
               "href": "${arkiv.noark.arkivressurs}/systemid/12101"
@@ -31,11 +26,6 @@
           "personalressurs": [
             {
               "href": "${administrasjon.personal.personalressurs}/brukernavn/ctollaksen"
-            }
-          ],
-          "tilgang": [
-            {
-              "href": "${arkiv.noark.tilgang}/systemid/6641"
             }
           ],
           "self": [
