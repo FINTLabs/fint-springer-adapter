@@ -9,6 +9,7 @@ import no.fint.model.resource.FintLinks;
 import no.fint.model.resource.administrasjon.fullmakt.FullmaktResource;
 import no.fint.model.resource.administrasjon.fullmakt.RolleResource;
 import no.fint.provider.springer.storage.SpringerRepository;
+import org.apache.commons.lang3.StringUtils;
 import org.springframework.stereotype.Repository;
 
 import java.util.Set;
@@ -21,6 +22,11 @@ public class FullmaktRepository extends SpringerRepository {
 
     @Override
     public void accept(Event<FintLinks> response) {
+        if (!StringUtils.equals(response.getSource(), "administrasjon-fullmakt")) {
+            log.info("Skipping {} from {}", response.getAction(), response.getSource());
+            return;
+        }
+
         switch (FullmaktActions.valueOf(response.getAction())) {
             case GET_ALL_FULLMAKT:
                 query(FullmaktResource.class, response);

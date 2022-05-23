@@ -1,0 +1,32 @@
+{
+  "_embedded": {
+    "_entries": [
+      {
+        "systemId": {
+          "identifikatorverdi": "101"
+        },
+        "kode": "101",
+        "navn": "Arkivansvarlig",
+        "gyldighetsperiode": {
+          "start": "2019-12-19T09:41:52Z"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${arkiv.kodeverk.rolle}/systemid/101"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "_links": {
+    "self": [
+      {
+        "href": "${arkiv.kodeverk.rolle}/"
+      }
+    ]
+  },
+  "total_items": 1,
+  "_class": "no.fint.model.resource.arkiv.kodeverk.RolleResource"
+}

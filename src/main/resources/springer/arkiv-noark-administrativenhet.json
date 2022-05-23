@@ -1,0 +1,57 @@
+{
+  "_embedded": {
+    "_entries": [
+      {
+        "gyldighetsperiode": {
+          "start": "2019-08-22T14:45:05Z"
+        },
+        "navn": "Haugaland fylkeskommune",
+        "systemId": {
+          "identifikatorverdi": "200079"
+        },
+        "_links": {
+          "organisasjonselement": [
+            {
+              "href": "${administrasjon.organisasjon.organisasjonselement}/organisasjonsid/550000"
+            }
+          ],
+          "self": [
+            {
+              "href": "${arkiv.noark.administrativenhet}/systemid/200079"
+            }
+          ]
+        }
+      },
+      {
+        "gyldighetsperiode": {
+          "start": "2019-12-19T09:41:52Z"
+        },
+        "navn": "Sundet videregående skole",
+        "systemId": {
+          "identifikatorverdi": "204229"
+        },
+        "_links": {
+          "organisasjonselement": [
+            {
+              "href": "${administrasjon.organisasjon.organisasjonselement}/organisasjonsid/560000"
+            }
+          ],
+          "self": [
+            {
+              "href": "${arkiv.noark.administrativenhet}/systemid/204229"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "_links": {
+    "self": [
+      {
+        "href": "${arkiv.noark.administrativenhet}/"
+      }
+    ]
+  },
+  "total_items": 2,
+  "_class": "no.fint.model.resource.arkiv.noark.AdministrativEnhetResource"
+}

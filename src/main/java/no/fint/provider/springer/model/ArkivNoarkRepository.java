@@ -6,7 +6,10 @@ import no.fint.event.model.ResponseStatus;
 import no.fint.event.model.Status;
 import no.fint.model.arkiv.noark.NoarkActions;
 import no.fint.model.resource.FintLinks;
+import no.fint.model.resource.arkiv.noark.AdministrativEnhetResource;
 import no.fint.model.resource.arkiv.noark.ArkivdelResource;
+import no.fint.model.resource.arkiv.noark.ArkivressursResource;
+import no.fint.model.resource.arkiv.noark.KlassifikasjonssystemResource;
 import no.fint.provider.springer.storage.SpringerRepository;
 import org.springframework.stereotype.Repository;
 
@@ -26,6 +29,9 @@ public class ArkivNoarkRepository extends SpringerRepository {
     @PostConstruct
     public void init() {
         actions.put(NoarkActions.GET_ALL_ARKIVDEL, ArkivdelResource.class);
+        actions.put(NoarkActions.GET_ALL_KLASSIFIKASJONSSYSTEM, KlassifikasjonssystemResource.class);
+        actions.put(NoarkActions.GET_ALL_ADMINISTRATIVENHET, AdministrativEnhetResource.class);
+        actions.put(NoarkActions.GET_ALL_ARKIVRESSURS, ArkivressursResource.class);
     }
 
     @Override

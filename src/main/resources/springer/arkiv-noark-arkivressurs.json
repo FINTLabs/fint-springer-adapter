@@ -1,0 +1,49 @@
+{
+  "_embedded": {
+    "_entries": [
+      {
+        "systemId": {
+          "identifikatorverdi": "12101"
+        },
+        "_links": {
+          "personalressurs": [
+            {
+              "href": "${administrasjon.personal.personalressurs}/brukernavn/kegudnersen"
+            }
+          ],
+          "self": [
+            {
+              "href": "${arkiv.noark.arkivressurs}/systemid/12101"
+            }
+          ]
+        }
+      },
+      {
+        "systemId": {
+          "identifikatorverdi": "10413"
+        },
+        "_links": {
+          "personalressurs": [
+            {
+              "href": "${administrasjon.personal.personalressurs}/brukernavn/ctollaksen"
+            }
+          ],
+          "self": [
+            {
+              "href": "${arkiv.noark.arkivressurs}/systemid/10413"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "_links": {
+    "self": [
+      {
+        "href": "${arkiv.noark.arkivressurs}/"
+      }
+    ]
+  },
+  "total_items": 2,
+  "_class": "no.fint.model.resource.arkiv.noark.ArkivressursResource"
+}

@@ -1,0 +1,337 @@
+{
+  "_embedded": {
+    "_entries": [
+      {
+        "kode": "A",
+        "navn": "Arkivert",
+        "systemId": {
+          "identifikatorverdi": "7"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${arkiv.kodeverk.journalstatus}/systemid/7"
+            }
+          ]
+        }
+      },
+      {
+        "kode": "R",
+        "navn": "Reservert dokument",
+        "systemId": {
+          "identifikatorverdi": "R"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${arkiv.kodeverk.journalstatus}/systemid/R"
+            }
+          ]
+        }
+      },
+      {
+        "kode": "I",
+        "navn": "Ikke godkjent",
+        "systemId": {
+          "identifikatorverdi": "11"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${arkiv.kodeverk.journalstatus}/systemid/11"
+            }
+          ]
+        }
+      },
+      {
+        "kode": "G",
+        "navn": "Godkjent",
+        "systemId": {
+          "identifikatorverdi": "10"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${arkiv.kodeverk.journalstatus}/systemid/10"
+            }
+          ]
+        }
+      },
+      {
+        "kode": "J",
+        "navn": "Journalført",
+        "systemId": {
+          "identifikatorverdi": "6"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${arkiv.kodeverk.journalstatus}/systemid/6"
+            }
+          ]
+        }
+      },
+      {
+        "kode": "E",
+        "navn": "Ekspedert",
+        "systemId": {
+          "identifikatorverdi": "E"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${arkiv.kodeverk.journalstatus}/systemid/E"
+            }
+          ]
+        }
+      },
+      {
+        "kode": "M",
+        "navn": "Midlertidig journalført",
+        "systemId": {
+          "identifikatorverdi": "2"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${arkiv.kodeverk.journalstatus}/systemid/2"
+            }
+          ]
+        }
+      },
+      {
+        "kode": "RD",
+        "navn": "Ready for destruction",
+        "systemId": {
+          "identifikatorverdi": "17"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${arkiv.kodeverk.journalstatus}/systemid/17"
+            }
+          ]
+        }
+      },
+      {
+        "kode": "Signert",
+        "navn": "Signert",
+        "systemId": {
+          "identifikatorverdi": "14"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${arkiv.kodeverk.journalstatus}/systemid/14"
+            }
+          ]
+        }
+      },
+      {
+        "kode": "U",
+        "navn": "Utgår",
+        "systemId": {
+          "identifikatorverdi": "U"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${arkiv.kodeverk.journalstatus}/systemid/U"
+            }
+          ]
+        }
+      },
+      {
+        "kode": "T",
+        "navn": "Til godkjenning",
+        "systemId": {
+          "identifikatorverdi": "9"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${arkiv.kodeverk.journalstatus}/systemid/9"
+            }
+          ]
+        }
+      },
+      {
+        "kode": "K",
+        "navn": "Til kommentering",
+        "systemId": {
+          "identifikatorverdi": "12"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${arkiv.kodeverk.journalstatus}/systemid/12"
+            }
+          ]
+        }
+      },
+      {
+        "kode": "J",
+        "navn": "Journalført",
+        "systemId": {
+          "identifikatorverdi": "J"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${arkiv.kodeverk.journalstatus}/systemid/J"
+            }
+          ]
+        }
+      },
+      {
+        "kode": "F",
+        "navn": "Ferdig fra ansvarlig",
+        "systemId": {
+          "identifikatorverdi": "4"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${arkiv.kodeverk.journalstatus}/systemid/4"
+            }
+          ]
+        }
+      },
+      {
+        "kode": "U",
+        "navn": "Utgår",
+        "systemId": {
+          "identifikatorverdi": "8"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${arkiv.kodeverk.journalstatus}/systemid/8"
+            }
+          ]
+        }
+      },
+      {
+        "kode": "K",
+        "navn": "Kassert",
+        "systemId": {
+          "identifikatorverdi": "16"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${arkiv.kodeverk.journalstatus}/systemid/16"
+            }
+          ]
+        }
+      },
+      {
+        "kode": "A",
+        "navn": "Arkivert",
+        "systemId": {
+          "identifikatorverdi": "A"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${arkiv.kodeverk.journalstatus}/systemid/A"
+            }
+          ]
+        }
+      },
+      {
+        "kode": "US",
+        "navn": "Under signering",
+        "systemId": {
+          "identifikatorverdi": "18"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${arkiv.kodeverk.journalstatus}/systemid/18"
+            }
+          ]
+        }
+      },
+      {
+        "kode": "F",
+        "navn": "Ferdigstilt fra saksbehandler",
+        "systemId": {
+          "identifikatorverdi": "F"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${arkiv.kodeverk.journalstatus}/systemid/F"
+            }
+          ]
+        }
+      },
+      {
+        "kode": "S",
+        "navn": "Registrert av ansvarlig person/leder",
+        "systemId": {
+          "identifikatorverdi": "3"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${arkiv.kodeverk.journalstatus}/systemid/3"
+            }
+          ]
+        }
+      },
+      {
+        "kode": "G",
+        "navn": "Godkjent av leder",
+        "systemId": {
+          "identifikatorverdi": "G"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${arkiv.kodeverk.journalstatus}/systemid/G"
+            }
+          ]
+        }
+      },
+      {
+        "kode": "R",
+        "navn": "Reservert",
+        "systemId": {
+          "identifikatorverdi": "1"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${arkiv.kodeverk.journalstatus}/systemid/1"
+            }
+          ]
+        }
+      },
+      {
+        "kode": "E",
+        "navn": "Ekspedert",
+        "systemId": {
+          "identifikatorverdi": "5"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${arkiv.kodeverk.journalstatus}/systemid/5"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "_links": {
+    "self": [
+      {
+        "href": "${arkiv.kodeverk.journalstatus}/"
+      }
+    ]
+  },
+  "total_items": 23,
+  "_class": "no.fint.model.resource.arkiv.kodeverk.JournalStatusResource"
+}

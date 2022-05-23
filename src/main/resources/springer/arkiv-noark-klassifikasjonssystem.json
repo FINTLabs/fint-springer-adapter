@@ -1,0 +1,141 @@
+{
+	"_embedded": {
+		"_entries": [
+			{
+				"beskrivelse": "Emneorientert hierarkisk arkivnøkkel",
+				"systemId": {
+					"identifikatorverdi": "60001"
+				},
+				"tittel": "Emneorientert arkivnøkkel",
+				"_links": {
+					"self": [
+						{
+							"href": "${arkiv.noark.klassifikasjonssystem}/systemid/60001"
+						}
+					]
+				}
+			},
+			{
+				"beskrivelse": "Arkivnøkkel",
+				"systemId": {
+					"identifikatorverdi": "200001"
+				},
+				"tittel": "Arkivnøkkel",
+				"_links": {
+					"self": [
+						{
+							"href": "${arkiv.noark.klassifikasjonssystem}/systemid/200001"
+						}
+					]
+				}
+			},
+			{
+				"beskrivelse": "Organisasjonsnummer",
+				"systemId": {
+					"identifikatorverdi": "200007"
+				},
+				"tittel": "ORG",
+				"_links": {
+					"self": [
+						{
+							"href": "${arkiv.noark.klassifikasjonssystem}/systemid/200007"
+						}
+					]
+				}
+			},
+			{
+				"beskrivelse": "Fagklasse",
+				"systemId": {
+					"identifikatorverdi": "60007"
+				},
+				"tittel": "FAGKLASSE PRINSIPP",
+				"_links": {
+					"self": [
+						{
+							"href": "${arkiv.noark.klassifikasjonssystem}/systemid/60007"
+						}
+					]
+				}
+			},
+			{
+				"beskrivelse": "Felleskode",
+				"systemId": {
+					"identifikatorverdi": "60006"
+				},
+				"tittel": "FELLESKLASSE PRINSIPP",
+				"_links": {
+					"self": [
+						{
+							"href": "${arkiv.noark.klassifikasjonssystem}/systemid/60006"
+						}
+					]
+				}
+			},
+			{
+				"beskrivelse": "Fødselsnummer",
+				"systemId": {
+					"identifikatorverdi": "1"
+				},
+				"tittel": "FNR",
+				"_links": {
+					"self": [
+						{
+							"href": "${arkiv.noark.klassifikasjonssystem}/systemid/1"
+						}
+					]
+				}
+			},
+			{
+				"beskrivelse": "Tilleggskode",
+				"systemId": {
+					"identifikatorverdi": "60008"
+				},
+				"tittel": "TILLEGGSKODE PRINSIPP",
+				"_links": {
+					"self": [
+						{
+							"href": "${arkiv.noark.klassifikasjonssystem}/systemid/60008"
+						}
+					]
+				}
+			},
+			{
+				"beskrivelse": "Planidentifikasjon",
+				"systemId": {
+					"identifikatorverdi": "2"
+				},
+				"tittel": "PlanID",
+				"_links": {
+					"self": [
+						{
+							"href": "${arkiv.noark.klassifikasjonssystem}/systemid/2"
+						}
+					]
+				}
+			},
+			{
+				"beskrivelse": "Gnr/bnr",
+				"systemId": {
+					"identifikatorverdi": "99003"
+				},
+				"tittel": "Gnr/bnr",
+				"_links": {
+					"self": [
+						{
+							"href": "${arkiv.noark.klassifikasjonssystem}/systemid/99003"
+						}
+					]
+				}
+			}
+		]
+	},
+	"_links": {
+		"self": [
+			{
+				"href": "${arkiv.noark.klassifikasjonssystem}/"
+			}
+		]
+	},
+	"total_items": 9,
+    "_class": "no.fint.model.resource.arkiv.noark.KlassifikasjonssystemResource"
+}

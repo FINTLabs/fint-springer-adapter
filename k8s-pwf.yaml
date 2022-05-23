@@ -71,6 +71,8 @@ spec:
               value: https://play-with-fint.felleskomponent.no/okonomi/faktura/provider
             - name: fint.adapter.endpoints.providers.arkiv-noark
               value: https://play-with-fint.felleskomponent.no/arkiv/noark/provider
+            - name: fint.adapter.endpoints.providers.arkiv-kodeverk
+              value: https://play-with-fint.felleskomponent.no/arkiv/kodeverk/provider
             - name: fint.adapter.organizations
               value: pwf.no
             - name: fint.oauth.enabled
