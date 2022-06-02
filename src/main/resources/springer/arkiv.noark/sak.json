@@ -1,0 +1,76 @@
+{
+  "_class": "no.fint.model.resource.arkiv.noark.SakResource",
+  "_embedded": {
+    "_entries": [
+      {
+        "klasse": [
+          {
+            "tittel": "025",
+            "_links": {
+              "klassifikasjonssystem": [
+                {
+                  "href": "${arkiv.noark.klassifikasjonssystem}/systemid/60006"
+                }
+              ]
+            }
+          },
+          {
+            "tittel": "Q13",
+            "_links": {
+              "klassifikasjonssystem": [
+                {
+                  "href": "${arkiv.noark.klassifikasjonssystem}/systemid/60007"
+                }
+              ]
+            }
+          }
+        ],
+        "mappeId": {
+          "identifikatorverdi": "21/000011"
+        },
+        "noekkelord": [],
+        "offentligTittel": "Skilt- og oppmerkingsplan - rundkjøring, gang- og sykkelveg - Fv. 123 - i Haugasond kommune",
+        "opprettetDato": "2021-11-03T14:16:49Z",
+        "part": [],
+        "systemId": {
+          "identifikatorverdi": "268147"
+        },
+        "tittel": "Skilt- og oppmerkingsplan - rundkjøring, gang- og sykkelveg - Fv. 123 - i Haugasond kommune",
+        "journalpost": [],
+        "saksaar": "21",
+        "saksdato": "2021-11-03T14:16:49Z",
+        "sakssekvensnummer": "21122",
+        "_links": {
+          "saksstatus": [
+            {
+              "href": "${arkiv.kodeverk.saksstatus}/systemid/B"
+            }
+          ],
+          "arkivdel": [
+            {
+              "href": "${arkiv.noark.arkivdel}/systemid/60001"
+            }
+          ],
+          "administrativEnhet": [
+            {
+              "href": "${arkiv.noark.administrativenhet}/systemid/200079"
+            }
+          ],
+          "saksansvarlig": [
+            {
+              "href": "${administrasjon.personal.personalressurs}/ansattnummer/100002"
+            }
+          ],
+          "self": [
+            {
+              "href": "${arkiv.noark.sak}/mappeid/21/000011"
+            },
+            {
+              "href": "${arkiv.noark.sak}/systemid/268147"
+            }
+          ]
+        }
+      }
+    ]
+  }
+}
