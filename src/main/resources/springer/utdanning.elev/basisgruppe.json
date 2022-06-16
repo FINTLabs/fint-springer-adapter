@@ -45,6 +45,19 @@
               "href": "${utdanning.elev.kontaktlarergruppe}/systemid/KG_1STA-1"
             }
           ],
+          "skolear": [
+            {
+              "href": "${utdanning.kodeverk.skolear}/systemid/21-22"
+            }
+          ],
+          "termin": [
+            {
+              "href": "${utdanning.kodeverk.termin}/systemid/H1"
+            },
+            {
+              "href": "${utdanning.kodeverk.termin}/systemid/H2"
+            }
+          ],
           "self": [
             {
               "href": "${utdanning.elev.basisgruppe}/systemid/BG_1STA-2018"

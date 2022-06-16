@@ -1,0 +1,52 @@
+{
+  "_embedded": {
+    "_entries": [
+
+      {
+        "gyldighetsperiode": {
+          "slutt": "2022-01-14T00:00:00Z",
+          "start": "2021-08-01T00:00:00Z"
+        },
+        "kode": "H1",
+        "navn": "H1",
+        "systemId": {
+          "identifikatorverdi": "H1"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${utdanning.kodeverk.termin}/systemid/H1"
+            }
+          ]
+        }
+      },
+      {
+        "gyldighetsperiode": {
+          "slutt": "2022-07-31T00:00:00Z",
+          "start": "2022-01-17T00:00:00Z"
+        },
+        "kode": "H2",
+        "navn": "H2",
+        "systemId": {
+          "identifikatorverdi": "H2"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${utdanning.kodeverk.termin}/systemid/H2"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "_links": {
+    "self": [
+      {
+        "href": "${utdanning.kodeverk.termin}/"
+      }
+    ]
+  },
+  "total_items": 2,
+  "_class": "no.fint.model.resource.utdanning.kodeverk.TerminResource"
+}

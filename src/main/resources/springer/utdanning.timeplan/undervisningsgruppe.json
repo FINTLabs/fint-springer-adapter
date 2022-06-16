@@ -55,6 +55,19 @@
               "href": "${utdanning.elev.undervisningsforhold}/systemid/L_100003_1"
             }
           ],
+          "skolear": [
+            {
+              "href": "${utdanning.kodeverk.skolear}/systemid/21-22"
+            }
+          ],
+          "termin": [
+            {
+              "href": "${utdanning.kodeverk.termin}/systemid/H1"
+            },
+            {
+              "href": "${utdanning.kodeverk.termin}/systemid/H2"
+            }
+          ],
           "self": [
             {
               "href": "${utdanning.timeplan.undervisningsgruppe}/systemid/UG_2018_1STA_NOR1Z41"

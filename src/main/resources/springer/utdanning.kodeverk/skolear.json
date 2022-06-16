@@ -1,0 +1,33 @@
+{
+  "_embedded": {
+    "_entries": [
+      {
+        "gyldighetsperiode": {
+          "slutt": "2022-07-31T00:00:00Z",
+          "start": "2021-08-01T00:00:00Z"
+        },
+        "kode": "20212022",
+        "navn": "20212022",
+        "systemId": {
+          "identifikatorverdi": "21-22"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${utdanning.kodeverk.skolear}/systemid/21-22"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "_links": {
+    "self": [
+      {
+        "href": "${utdanning.kodeverk.skolear}/"
+      }
+    ]
+  },
+  "total_items": 1,
+  "_class": "no.fint.model.resource.utdanning.kodeverk.SkolearResource"
+}

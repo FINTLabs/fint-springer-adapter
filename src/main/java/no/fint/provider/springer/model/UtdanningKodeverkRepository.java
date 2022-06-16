@@ -5,10 +5,7 @@ import no.fint.event.model.Event;
 import no.fint.event.model.ResponseStatus;
 import no.fint.event.model.Status;
 import no.fint.model.resource.FintLinks;
-import no.fint.model.resource.utdanning.kodeverk.ElevkategoriResource;
-import no.fint.model.resource.utdanning.kodeverk.FravarstypeResource;
-import no.fint.model.resource.utdanning.kodeverk.KarakterskalaResource;
-import no.fint.model.resource.utdanning.kodeverk.SkoleeiertypeResource;
+import no.fint.model.resource.utdanning.kodeverk.*;
 import no.fint.model.utdanning.kodeverk.KodeverkActions;
 import no.fint.provider.springer.storage.SpringerRepository;
 import org.apache.commons.lang3.StringUtils;
@@ -33,6 +30,8 @@ public class UtdanningKodeverkRepository extends SpringerRepository {
         actions.put(GET_ALL_FRAVARSTYPE, FravarstypeResource.class);
         actions.put(GET_ALL_KARAKTERSKALA, KarakterskalaResource.class);
         actions.put(GET_ALL_SKOLEEIERTYPE, SkoleeiertypeResource.class);
+        actions.put(GET_ALL_SKOLEAR, SkolearResource.class);
+        actions.put(GET_ALL_TERMIN, TerminResource.class);
     }
 
     @Override
