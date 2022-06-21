@@ -79,6 +79,16 @@
               "href": "${utdanning.elev.undervisningsforhold}/systemid/L_100003_1"
             }
           ],
+          "basisgruppe": [
+            {
+              "href": "${utdanning.elev.basisgruppe}/systemid/BG_1STA-2018"
+            }
+          ],
+          "kontaktlarergruppe": [
+            {
+              "href": "${utdanning.elev.kontaktlarergruppe}/systemid/KG_1STA-1"
+            }
+          ],
           "self": [
             {
               "href": "${utdanning.utdanningsprogram.skole}/skolenummer/123456"
@@ -158,7 +168,7 @@
           ],
           "basisgruppe": [
             {
-              "href": "${utdanning.elev.basisgruppe}/systemid/BG_7GS-2018"
+              "href": "${utdanning.elev.basisgruppe}/systemid/BG_1STA-2018"
             }
           ],
           "kontaktlarergruppe": [
