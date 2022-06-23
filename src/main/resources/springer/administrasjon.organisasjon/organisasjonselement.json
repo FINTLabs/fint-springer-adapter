@@ -292,6 +292,12 @@
             },
             {
               "href": "${administrasjon.organisasjon.organisasjonselement}/organisasjonsid/562000"
+            },
+            {
+              "href": "${administrasjon.organisasjon.organisasjonselement}/organisasjonsid/568000"
+            },
+            {
+              "href": "${administrasjon.organisasjon.organisasjonselement}/organisasjonsid/569000"
             }
           ],
           "leder": [
