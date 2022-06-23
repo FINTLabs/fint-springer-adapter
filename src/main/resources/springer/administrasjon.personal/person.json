@@ -303,6 +303,127 @@
             }
           ]
         }
+      },
+      {
+        "kontaktinformasjon": {
+          "epostadresse": "anton.duck@andeby.vgs.no",
+          "mobiltelefonnummer": "33333333"
+        },
+        "postadresse": {
+          "adresselinje": [
+            "Bakgaten 123"
+          ],
+          "postnummer": "1000",
+          "poststed": "Andeby"
+        },
+        "bostedsadresse": {
+          "adresselinje": [
+            "Bakgaten 123"
+          ],
+          "postnummer": "1000",
+          "poststed": "Andeby"
+        },
+        "fodselsdato": "1981-01-12T00:00:00Z",
+        "fodselsnummer": {
+          "identifikatorverdi": "13018156789"
+        },
+        "navn": {
+          "etternavn": "Duck",
+          "mellomnavn": "Fetter",
+          "fornavn": "Anton"
+        },
+        "_links": {
+          "personalressurs": [
+            {
+              "href": "${administrasjon.personal.personalressurs}/ansattnummer/100005"
+            }
+          ],
+          "morsmal": [
+            {
+              "href": "${felles.kodeverk.sprak}/systemid/no"
+            }
+          ],
+          "malform": [
+            {
+              "href": "${felles.kodeverk.sprak}/systemid/nb"
+            }
+          ],
+          "kjonn": [
+            {
+              "href": "${felles.kodeverk.kjonn}/systemid/1"
+            }
+          ],
+          "statsborgerskap": [
+            {
+              "href": "${felles.kodeverk.land}/systemid/NO"
+            }
+          ],
+          "self": [
+            {
+              "href": "${administrasjon.personal.person}/fodselsnummer/13018156789"
+            }
+          ]
+        }
+      },
+      {
+        "kontaktinformasjon": {
+          "epostadresse": "doly.duck@andeby.vgs.no",
+          "mobiltelefonnummer": "87878787"
+        },
+        "postadresse": {
+          "adresselinje": [
+            "Apalveien 22"
+          ],
+          "postnummer": "1000",
+          "poststed": "Andeby"
+        },
+        "bostedsadresse": {
+          "adresselinje": [
+            "Apalveien 22"
+          ],
+          "postnummer": "1000",
+          "poststed": "Andeby"
+        },
+        "fodselsdato": "1981-01-12T00:00:00Z",
+        "fodselsnummer": {
+          "identifikatorverdi": "14018956789"
+        },
+        "navn": {
+          "etternavn": "Duck",
+          "fornavn": "Dolly"
+        },
+        "_links": {
+          "personalressurs": [
+            {
+              "href": "${administrasjon.personal.personalressurs}/ansattnummer/100006"
+            }
+          ],
+          "morsmal": [
+            {
+              "href": "${felles.kodeverk.sprak}/systemid/no"
+            }
+          ],
+          "malform": [
+            {
+              "href": "${felles.kodeverk.sprak}/systemid/nb"
+            }
+          ],
+          "kjonn": [
+            {
+              "href": "${felles.kodeverk.kjonn}/systemid/2"
+            }
+          ],
+          "statsborgerskap": [
+            {
+              "href": "${felles.kodeverk.land}/systemid/NO"
+            }
+          ],
+          "self": [
+            {
+              "href": "${administrasjon.personal.person}/fodselsnummer/14018956789"
+            }
+          ]
+        }
       }
     ]
   },

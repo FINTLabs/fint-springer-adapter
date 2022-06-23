@@ -448,6 +448,54 @@
             }
           ]
         }
+      },
+      {
+        "kontaktinformasjon": {
+          "epostadresse": "kontakt@andeby.vgs.no",
+          "nettsted": "https://andeby.vgs.no"
+        },
+        "forretningsadresse": {
+          "adresselinje": [
+            ""
+          ],
+          "postnummer": "",
+          "poststed": ""
+        },
+        "organisasjonsnavn": "Andeby vgs.",
+        "organisasjonsnummer": {
+          "identifikatorverdi": ""
+        },
+        "gyldighetsperiode": {
+          "start": "2020-11-29T11:21:48Z"
+        },
+        "kortnavn": "",
+        "navn": "Andeby vgs.",
+        "organisasjonsId": {
+          "identifikatorverdi": "570000"
+        },
+        "organisasjonsKode": {
+          "identifikatorverdi": "570000"
+        },
+        "_links": {
+          "overordnet": [
+            {
+              "href": "${administrasjon.organisasjon.organisasjonselement}/organisasjonsId/550000"
+            }
+          ],
+          "leder": [
+            {
+              "href": "${administrasjon.personal.personalressurs}/systemId/100005"
+            }
+          ],
+          "self": [
+            {
+              "href": "${administrasjon.organisasjon.organisasjonselement}/organisasjonsid/570000"
+            },
+            {
+              "href": "${administrasjon.organisasjon.organisasjonselement}/organisasjonskode/570000"
+            }
+          ]
+        }
       }
     ]
   },

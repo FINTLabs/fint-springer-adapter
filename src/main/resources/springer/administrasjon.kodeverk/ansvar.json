@@ -5017,6 +5017,28 @@
             }
           ]
         }
+      },
+      {
+        "gyldighetsperiode": {
+          "slutt": "2099-12-01T00:00:00Z",
+          "start": "2014-09-17T14:08:53Z"
+        },
+        "kode": "33044",
+        "navn": "Andeby videregående skole felles",
+        "systemId": {
+          "gyldighetsperiode": {
+            "slutt": "2099-12-01T00:00:00Z",
+            "start": "2021-09-17T14:08:53Z"
+          },
+          "identifikatorverdi": "33044"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${administrasjon.kodeverk.ansvar}/systemid/33044"
+            }
+          ]
+        }
       }
     ]
   },

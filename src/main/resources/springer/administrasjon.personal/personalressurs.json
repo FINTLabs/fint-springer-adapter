@@ -253,6 +253,109 @@
             }
           ]
         }
+      },
+      {
+        "ansattnummer": {
+          "identifikatorverdi": "100005"
+        },
+        "ansettelsesperiode": {
+          "slutt": "2099-12-31T00:00:00Z",
+          "start": "2021-06-04T00:00:00Z"
+        },
+        "brukernavn": {
+          "gyldighetsperiode": {
+            "slutt": "2099-12-31T00:00:00Z",
+            "start": "2021-06-04T00:00:00Z"
+          },
+          "identifikatorverdi": "anton"
+        },
+        "kontaktinformasjon": {
+          "epostadresse": "anton.duck@andeby.vgs.no",
+          "mobiltelefonnummer": "45454545",
+          "nettsted": "http://andeby.vgs.no",
+          "sip": "anton.duck@andeby.vgs.no"
+        },
+        "systemId": {
+          "identifikatorverdi": "100005"
+        },
+        "_links": {
+          "person": [
+            {
+              "href": "${felles.person}/fodselsnummer/13018156789"
+            }
+          ],
+          "personalressurskategori": [
+            {
+              "href": "${administrasjon.kodeverk.personalressurskategori}/systemid/382752"
+            }
+          ],
+          "arbeidsforhold": [
+            {
+              "href": "${administrasjon.personal.arbeidsforhold}/systemid/100005_1"
+            }
+          ],
+          "self": [
+            {
+              "href": "${administrasjon.personal.personalressurs}/systemid/100005"
+            },
+            {
+              "href": "${administrasjon.personal.personalressurs}/ansattnummer/100005"
+            }
+          ]
+        }
+      },
+      {
+        "ansattnummer": {
+          "identifikatorverdi": "100006"
+        },
+        "ansettelsesperiode": {
+          "slutt": "2099-12-31T00:00:00Z",
+          "start": "2021-06-04T00:00:00Z"
+        },
+        "brukernavn": {
+          "gyldighetsperiode": {
+            "slutt": "2099-12-31T00:00:00Z",
+            "start": "2021-06-04T00:00:00Z"
+          },
+          "identifikatorverdi": "dolly"
+        },
+        "kontaktinformasjon": {
+          "epostadresse": "dolly.duck@andeby.vgs.no",
+          "mobiltelefonnummer": "87878787",
+          "nettsted": "http://andeby.vgs.no",
+          "sip": "dolly.duck@andeby.vgs.no"
+        },
+        "systemId": {
+          "identifikatorverdi": "100006"
+        },
+        "_links": {
+          "person": [
+            {
+              "href": "${felles.person}/fodselsnummer/14018956789"
+            }
+          ],
+          "personalressurskategori": [
+            {
+              "href": "${administrasjon.kodeverk.personalressurskategori}/systemid/382752"
+            }
+          ],
+          "arbeidsforhold": [
+            {
+              "href": "${administrasjon.personal.arbeidsforhold}/systemid/100006_1"
+            },
+            {
+              "href": "${administrasjon.personal.arbeidsforhold}/systemid/100006_2"
+            }
+          ],
+          "self": [
+            {
+              "href": "${administrasjon.personal.personalressurs}/systemid/100006"
+            },
+            {
+              "href": "${administrasjon.personal.personalressurs}/ansattnummer/100006"
+            }
+          ]
+        }
       }
     ]
   },
