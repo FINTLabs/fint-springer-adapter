@@ -42,7 +42,7 @@ jobs:
 
   publish:
 #    if: github.ref == 'refs/heads/main'
-    needs: build
+#    needs: build
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
@@ -87,3 +87,4 @@ jobs:
           images: |
             ${{env.REGISTRY_NAME}}.azurecr.io/${{env.REPO_NAME}}:${{github.sha}}
           namespace: ${{env.NAMESPACE}}
+          pull-images: false
