@@ -38,8 +38,8 @@ jobs:
           ./gradlew clean build --no-build-cache
 
   publish:
-#    if: github.ref == 'refs/heads/main'
-#    needs: build
+    if: github.ref == 'refs/heads/main'
+    needs: build
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
