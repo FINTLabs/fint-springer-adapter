@@ -192,11 +192,6 @@
               "href": "${administrasjon.personal.arbeidsforhold}/systemid/100003_1"
             }
           ],
-          "skoleressurs": [
-            {
-              "href": "${systemid.ABCD213"
-            }
-          ],
           "self": [
             {
               "href": "${}.administrasjon}/personal/personalressurs/ansattnummer/100003"
