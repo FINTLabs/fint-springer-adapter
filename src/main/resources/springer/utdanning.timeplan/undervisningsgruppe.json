@@ -74,6 +74,118 @@
             }
           ]
         }
+      },
+      {
+        "beskrivelse": "1IDA/NOR1264",
+        "navn": "1IDA/NOR1264",
+        "periode": [
+          {
+            "slutt": "2022-07-31T00:00:00Z",
+            "start": "2021-08-01T00:00:00Z"
+          }
+        ],
+        "systemId": {
+          "identifikatorverdi": "10128458_1IDA"
+        },
+        "_links": {
+          "fag": [
+            {
+              "href": "${utdanning.timeplan.fag}/systemid/NOR1264"
+            }
+          ],
+          "skole": [
+            {
+              "href": "${utdanning.utdanningsprogram.skole}/systemid/1579"
+            }
+          ],
+          "elevforhold": [
+            {
+              "href": "${utdanning.elev.elevforhold}/systemid/500013-1"
+            },
+            {
+              "href": "${utdanning.elev.elevforhold}/systemid/500012-1"
+            }
+          ],
+          "undervisningsforhold": [
+            {
+              "href": "${utdanning.elev.undervisningsforhold}/systemId/7024200-93838-0-1-20211001000000"
+            }
+          ],
+          "skolear": [
+            {
+              "href": "${utdanning.kodeverk.skolear}/systemid/21-22"
+            }
+          ],
+          "termin": [
+            {
+              "href": "${utdanning.kodeverk.termin}/systemid/H1"
+            },
+            {
+              "href": "${utdanning.kodeverk.termin}/systemid/H2"
+            }
+          ],
+          "self": [
+            {
+              "href": "${utdanning.timeplan.undervisningsgruppe}/systemid/10128458_1IDA"
+            }
+          ]
+        }
+      },
+      {
+        "beskrivelse": "2IDA/NOR1264",
+        "navn": "2IDA/NOR1264",
+        "periode": [
+          {
+            "slutt": "2022-07-31T00:00:00Z",
+            "start": "2021-08-01T00:00:00Z"
+          }
+        ],
+        "systemId": {
+          "identifikatorverdi": "10128458_2IDA"
+        },
+        "_links": {
+          "fag": [
+            {
+              "href": "${utdanning.timeplan.fag}/systemid/NOR1264"
+            }
+          ],
+          "skole": [
+            {
+              "href": "${utdanning.utdanningsprogram.skole}/systemid/1579"
+            }
+          ],
+          "elevforhold": [
+            {
+              "href": "${utdanning.elev.elevforhold}/systemid/500011-1"
+            },
+            {
+              "href": "${utdanning.elev.elevforhold}/systemid/500012-1"
+            }
+          ],
+          "undervisningsforhold": [
+            {
+              "href": "${utdanning.elev.undervisningsforhold}/systemId/7024200-93838-0-1-20211001000000"
+            }
+          ],
+          "skolear": [
+            {
+              "href": "${utdanning.kodeverk.skolear}/systemid/21-22"
+            }
+          ],
+          "termin": [
+            {
+              "href": "${utdanning.kodeverk.termin}/systemid/H1"
+            },
+            {
+              "href": "${utdanning.kodeverk.termin}/systemid/H2"
+            }
+          ],
+          "self": [
+            {
+              "href": "${utdanning.timeplan.undervisningsgruppe}/systemid/10128458_2IDA"
+            }
+          ]
+        }
       }
     ]
   },

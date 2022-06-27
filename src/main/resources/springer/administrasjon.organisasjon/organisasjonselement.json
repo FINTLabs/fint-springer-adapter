@@ -430,6 +430,9 @@
           "underordnet": [
             {
               "href": "${administrasjon.organisasjon.organisasjonselement}/organisasjonsid/560000"
+            },
+            {
+              "href": "${administrasjon.organisasjon.organisasjonselement}/organisasjonsid/570000"
             }
           ],
           "leder": [
@@ -479,7 +482,7 @@
         "_links": {
           "overordnet": [
             {
-              "href": "${administrasjon.organisasjon.organisasjonselement}/organisasjonsId/550000"
+              "href": "${administrasjon.organisasjon.organisasjonselement}/organisasjonsId/550001"
             }
           ],
           "leder": [

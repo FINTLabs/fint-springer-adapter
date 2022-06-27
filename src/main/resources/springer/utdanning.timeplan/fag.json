@@ -44,6 +44,44 @@
             }
           ]
         }
+      },
+      {
+        "beskrivelse": "Norsk, studieforberedende utdanningsprogram, skriftlig",
+        "navn": "Norsk, skriftlig",
+        "periode": [],
+        "systemId": {
+          "identifikatorverdi": "NOR1264"
+        },
+        "_links": {
+          "programomrade": [
+            {
+              "href": "${utdanning.utdanningsprogram.programomrade}/systemid/PO_STUSP1_2018"
+            }
+          ],
+          "grepreferanse": [
+            {
+              "href": "https://psi.udir.no/kl06/NOR1264"
+            }
+          ],
+          "skole": [
+            {
+              "href": "${utdanning.utdanningsprogram.skole}/systemid/1579"
+            }
+          ],
+          "undervisningsgruppe": [
+            {
+              "href": "${utdanning.timeplan.undervisningsgruppe}/systemid/10128458_1IDA"
+            },
+            {
+              "href": "${utdanning.timeplan.undervisningsgruppe}/systemid/10128458_2IDA"
+            }
+          ],
+          "self": [
+            {
+              "href": "${utdanning.timeplan.fag}/systemid/NOR1264"
+            }
+          ]
+        }
       }
     ]
   },

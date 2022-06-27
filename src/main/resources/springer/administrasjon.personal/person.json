@@ -544,6 +544,126 @@
             }
           ]
         }
+      },
+      {
+        "kontaktinformasjon": {
+          "epostadresse": "ole@andebymail.no",
+          "mobiltelefonnummer": "99911111"
+        },
+        "postadresse": {
+          "adresselinje": [
+            "Apalveien 111"
+          ],
+          "postnummer": "1000",
+          "poststed": "Andeby"
+        },
+        "bostedsadresse": {
+          "adresselinje": [
+            "Apalveien 111"
+          ],
+          "postnummer": "1000",
+          "poststed": "Andeby"
+        },
+        "fodselsdato": "2011-01-11T00:00:00Z",
+        "fodselsnummer": {
+          "identifikatorverdi": "11011112345"
+        },
+        "navn": {
+          "etternavn": "Duck",
+          "fornavn": "Ole"
+        },
+        "_links": {
+          "elev": [
+            {
+              "href": "${utdanning.elev.elev}/systemid/500011"
+            }
+          ],
+          "self": [
+            {
+              "href": "${utdanning.elev.person}/fodselsnummer/11011112345"
+            }
+          ]
+        }
+      },
+      {
+        "kontaktinformasjon": {
+          "epostadresse": "dole@andebymail.no",
+          "mobiltelefonnummer": "99922222"
+        },
+        "postadresse": {
+          "adresselinje": [
+            "Apalveien 111"
+          ],
+          "postnummer": "1000",
+          "poststed": "Andeby"
+        },
+        "bostedsadresse": {
+          "adresselinje": [
+            "Apalveien 111"
+          ],
+          "postnummer": "1000",
+          "poststed": "Andeby"
+        },
+        "fodselsdato": "2011-01-12T00:00:00Z",
+        "fodselsnummer": {
+          "identifikatorverdi": "12011112345"
+        },
+        "navn": {
+          "etternavn": "Duck",
+          "fornavn": "Dole"
+        },
+        "_links": {
+          "elev": [
+            {
+              "href": "${utdanning.elev.elev}/systemid/500012"
+            }
+          ],
+          "self": [
+            {
+              "href": "${utdanning.elev.person}/fodselsnummer/12011112345"
+            }
+          ]
+        }
+      },
+      {
+        "kontaktinformasjon": {
+          "epostadresse": "doffen@andebymail.no",
+          "mobiltelefonnummer": "99933333"
+        },
+        "postadresse": {
+          "adresselinje": [
+            "Apalveien 111"
+          ],
+          "postnummer": "1000",
+          "poststed": "Andeby"
+        },
+        "bostedsadresse": {
+          "adresselinje": [
+            "Apalveien 111"
+          ],
+          "postnummer": "1000",
+          "poststed": "Andeby"
+        },
+        "fodselsdato": "2011-01-12T00:00:00Z",
+        "fodselsnummer": {
+          "identifikatorverdi": "13011112345"
+        },
+        "navn": {
+          "etternavn": "Duck",
+          "fornavn": "Doffen"
+        },
+        "_links": {
+          "elev": [
+            {
+              "href": "${utdanning.elev.elev}/systemid/500013"
+            }
+          ],
+          "self": [
+            {
+              "href": "${utdanning.elev.person}/fodselsnummer/13011112345"
+            }
+          ]
+        }
       }
     ]
   },
