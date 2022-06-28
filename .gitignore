@@ -11,3 +11,4 @@ javadocs/
 /.project
 /.settings/
 /bin/
+.DS_Store
