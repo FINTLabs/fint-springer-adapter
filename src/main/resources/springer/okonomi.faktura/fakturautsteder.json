@@ -86,7 +86,7 @@
       {
         "navn": "Andeby vgs",
         "systemId": {
-          "identifikatorverdi": "10"
+          "identifikatorverdi": "11"
         },
         "_links": {
           "vare": [
@@ -134,7 +134,7 @@
       {
         "navn": "Sundet vgs",
         "systemId": {
-          "identifikatorverdi": "10"
+          "identifikatorverdi": "12"
         },
         "_links": {
           "vare": [
