@@ -13794,6 +13794,28 @@
             }
           ]
         }
+      },
+      {
+        "gyldighetsperiode": {
+          "slutt": "2099-12-01T00:00:00Z",
+          "start": "2021-01-01T00:00:00Z"
+        },
+        "kode": "22407999",
+        "navn": "ADJUNKT",
+        "systemId": {
+          "gyldighetsperiode": {
+            "slutt": "2099-12-01T00:00:00Z",
+            "start": "2021-01-01T00:00:00Z"
+          },
+          "identifikatorverdi": "22407999"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/22407999"
+            }
+          ]
+        }
       }
     ]
   },

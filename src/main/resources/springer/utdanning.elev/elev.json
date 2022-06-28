@@ -21,7 +21,7 @@
         "_links": {
           "person": [
             {
-              "href": "${utdanning.elev.person}/fodselsnummer/14029923273"
+              "href": "${felles.person}/fodselsnummer/14029923273"
             }
           ],
           "elevforhold": [
@@ -53,7 +53,7 @@
         "_links": {
           "person": [
             {
-              "href": "${utdanning.elev.person}/fodselsnummer/18010197461"
+              "href": "${felles.person}/fodselsnummer/18010197461"
             }
           ],
           "elevforhold": [
@@ -85,7 +85,7 @@
         "_links": {
           "person": [
             {
-              "href": "${utdanning.elev.person}/fodselsnummer/11010159115"
+              "href": "${felles.person}/fodselsnummer/11010159115"
             }
           ],
           "elevforhold": [
@@ -96,6 +96,147 @@
           "self": [
             {
               "href": "${utdanning.elev.elev}/brukernavn/Daref1968"
+            }
+          ]
+        }
+      },
+      {
+        "brukernavn": {
+          "identifikatorverdi": "oleduck"
+        },
+        "elevnummer": {
+          "identifikatorverdi": "500011"
+        },
+        "feidenavn": {
+          "identifikatorverdi": "ole@andebymail.no"
+        },
+        "kontaktinformasjon": {
+          "epostadresse": "ole@andebymail.no",
+          "mobiltelefonnummer": "99911111",
+          "nettsted": "",
+          "sip": "",
+          "telefonnummer": ""
+        },
+        "systemId": {
+          "identifikatorverdi": "500011"
+        },
+        "_links": {
+          "person": [
+            {
+              "href": "${felles.person}/fodselsnummer/11011112345"
+            }
+          ],
+          "elevforhold": [
+            {
+              "href": "${utdanning.elev.elevforhold}/systemid/500011-1"
+            }
+          ],
+          "self": [
+            {
+              "href": "${utdanning.elev.elev}/brukernavn/oleduck"
+            },
+            {
+              "href": "${utdanning.elev.elev}/elevnummer/500011"
+            },
+            {
+              "href": "${utdanning.elev.elev}/feidenavn/ole@andebymail.no"
+            },
+            {
+              "href": "${utdanning.elev.elev}/systemid/500011"
+            }
+          ]
+        }
+      },
+      {
+        "brukernavn": {
+          "identifikatorverdi": "doleduck"
+        },
+        "elevnummer": {
+          "identifikatorverdi": "500012"
+        },
+        "feidenavn": {
+          "identifikatorverdi": "dole@andebymail.no"
+        },
+        "kontaktinformasjon": {
+          "epostadresse": "dole@andebymail.no",
+          "mobiltelefonnummer": "99922222",
+          "nettsted": "",
+          "sip": "",
+          "telefonnummer": ""
+        },
+        "systemId": {
+          "identifikatorverdi": "500012"
+        },
+        "_links": {
+          "person": [
+            {
+              "href": "${felles.person}/fodselsnummer/12011112345"
+            }
+          ],
+          "elevforhold": [
+            {
+              "href": "${utdanning.elev.elevforhold}/systemid/500012-1"
+            }
+          ],
+          "self": [
+            {
+              "href": "${utdanning.elev.elev}/brukernavn/doleduck"
+            },
+            {
+              "href": "${utdanning.elev.elev}/elevnummer/500012"
+            },
+            {
+              "href": "${utdanning.elev.elev}/feidenavn/dole@andebymail.no"
+            },
+            {
+              "href": "${utdanning.elev.elev}/systemid/500012"
+            }
+          ]
+        }
+      },
+      {
+        "brukernavn": {
+          "identifikatorverdi": "doffenduck"
+        },
+        "elevnummer": {
+          "identifikatorverdi": "500013"
+        },
+        "feidenavn": {
+          "identifikatorverdi": "doffen@andebymail.no"
+        },
+        "kontaktinformasjon": {
+          "epostadresse": "doffen@andebymail.no",
+          "mobiltelefonnummer": "99933333",
+          "nettsted": "",
+          "sip": "",
+          "telefonnummer": ""
+        },
+        "systemId": {
+          "identifikatorverdi": "500013"
+        },
+        "_links": {
+          "person": [
+            {
+              "href": "${felles.person}/fodselsnummer/13011112345"
+            }
+          ],
+          "elevforhold": [
+            {
+              "href": "${utdanning.elev.elevforhold}/systemid/500013-1"
+            }
+          ],
+          "self": [
+            {
+              "href": "${utdanning.elev.elev}/brukernavn/doffenduck"
+            },
+            {
+              "href": "${utdanning.elev.elev}/elevnummer/500013"
+            },
+            {
+              "href": "${utdanning.elev.elev}/feidenavn/doffen@andebymail.no"
+            },
+            {
+              "href": "${utdanning.elev.elev}/systemid/500013"
             }
           ]
         }

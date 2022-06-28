@@ -303,6 +303,367 @@
             }
           ]
         }
+      },
+      {
+        "kontaktinformasjon": {
+          "epostadresse": "anton.duck@andeby.vgs.no",
+          "mobiltelefonnummer": "33333333"
+        },
+        "postadresse": {
+          "adresselinje": [
+            "Bakgaten 123"
+          ],
+          "postnummer": "1000",
+          "poststed": "Andeby"
+        },
+        "bostedsadresse": {
+          "adresselinje": [
+            "Bakgaten 123"
+          ],
+          "postnummer": "1000",
+          "poststed": "Andeby"
+        },
+        "fodselsdato": "1981-01-12T00:00:00Z",
+        "fodselsnummer": {
+          "identifikatorverdi": "13018156789"
+        },
+        "navn": {
+          "etternavn": "Duck",
+          "mellomnavn": "Fetter",
+          "fornavn": "Anton"
+        },
+        "_links": {
+          "personalressurs": [
+            {
+              "href": "${administrasjon.personal.personalressurs}/ansattnummer/100005"
+            }
+          ],
+          "morsmal": [
+            {
+              "href": "${felles.kodeverk.sprak}/systemid/no"
+            }
+          ],
+          "malform": [
+            {
+              "href": "${felles.kodeverk.sprak}/systemid/nb"
+            }
+          ],
+          "kjonn": [
+            {
+              "href": "${felles.kodeverk.kjonn}/systemid/1"
+            }
+          ],
+          "statsborgerskap": [
+            {
+              "href": "${felles.kodeverk.land}/systemid/NO"
+            }
+          ],
+          "self": [
+            {
+              "href": "${administrasjon.personal.person}/fodselsnummer/13018156789"
+            }
+          ]
+        }
+      },
+      {
+        "kontaktinformasjon": {
+          "epostadresse": "doly.duck@andeby.vgs.no",
+          "mobiltelefonnummer": "87878787"
+        },
+        "postadresse": {
+          "adresselinje": [
+            "Apalveien 22"
+          ],
+          "postnummer": "1000",
+          "poststed": "Andeby"
+        },
+        "bostedsadresse": {
+          "adresselinje": [
+            "Apalveien 22"
+          ],
+          "postnummer": "1000",
+          "poststed": "Andeby"
+        },
+        "fodselsdato": "1981-01-12T00:00:00Z",
+        "fodselsnummer": {
+          "identifikatorverdi": "14018956789"
+        },
+        "navn": {
+          "etternavn": "Duck",
+          "fornavn": "Dolly"
+        },
+        "_links": {
+          "personalressurs": [
+            {
+              "href": "${administrasjon.personal.personalressurs}/ansattnummer/100006"
+            }
+          ],
+          "morsmal": [
+            {
+              "href": "${felles.kodeverk.sprak}/systemid/no"
+            }
+          ],
+          "malform": [
+            {
+              "href": "${felles.kodeverk.sprak}/systemid/nb"
+            }
+          ],
+          "kjonn": [
+            {
+              "href": "${felles.kodeverk.kjonn}/systemid/2"
+            }
+          ],
+          "statsborgerskap": [
+            {
+              "href": "${felles.kodeverk.land}/systemid/NO"
+            }
+          ],
+          "self": [
+            {
+              "href": "${administrasjon.personal.person}/fodselsnummer/14018956789"
+            }
+          ]
+        }
+      },
+      {
+        "kontaktinformasjon": {
+          "epostadresse": "LeonaHansen@dayrep.com",
+          "mobiltelefonnummer": "41109815"
+        },
+        "postadresse": {
+          "adresselinje": [
+            "Scheitlies gate 48"
+          ],
+          "postnummer": "3045",
+          "poststed": "Drammen"
+        },
+        "bostedsadresse": {
+          "adresselinje": [
+            "Scheitlies gate 48"
+          ],
+          "postnummer": "3045",
+          "poststed": "Drammen"
+        },
+        "fodselsdato": "2001-01-18T00:00:00Z",
+        "fodselsnummer": {
+          "identifikatorverdi": "18010197461"
+        },
+        "navn": {
+          "etternavn": "Hansen",
+          "fornavn": "Leona"
+        },
+        "_links": {
+          "elev": [
+            {
+              "href": "${utdanning.elev.elev}/elevnummer/500002"
+            }
+          ],
+          "self": [
+            {
+              "href": "${utdanning.elev.person}/fodselsnummer/18010197461"
+            }
+          ]
+        }
+      },
+      {
+        "kontaktinformasjon": {
+          "epostadresse": "RoseSta@jourrapide.com",
+          "mobiltelefonnummer": "48213268"
+        },
+        "postadresse": {
+          "adresselinje": [
+            "Setra vei 207"
+          ],
+          "postnummer": "0786",
+          "poststed": "Oslo"
+        },
+        "bostedsadresse": {
+          "adresselinje": [
+            "Setra vei 207"
+          ],
+          "postnummer": "0786",
+          "poststed": "Oslo"
+        },
+        "fodselsdato": "1999-02-14T00:00:00Z",
+        "fodselsnummer": {
+          "identifikatorverdi": "14029923273"
+        },
+        "navn": {
+          "etternavn": "Støa",
+          "fornavn": "Rose"
+        },
+        "_links": {
+          "elev": [
+            {
+              "href": "${utdanning.elev.elev}/elevnummer/500001"
+            }
+          ],
+          "self": [
+            {
+              "href": "${utdanning.elev.person}/fodselsnummer/14029923273"
+            }
+          ]
+        }
+      },
+      {
+        "kontaktinformasjon": {
+          "epostadresse": "GustavHofseth@rhyta.com",
+          "mobiltelefonnummer": "94259236"
+        },
+        "postadresse": {
+          "adresselinje": [
+            "Kikkutveien 91"
+          ],
+          "postnummer": "0491",
+          "poststed": "Oslo"
+        },
+        "bostedsadresse": {
+          "adresselinje": [
+            "Kikkutveien 91"
+          ],
+          "postnummer": "0491",
+          "poststed": "Oslo"
+        },
+        "fodselsdato": "2001-01-11T00:00:00Z",
+        "fodselsnummer": {
+          "identifikatorverdi": "11010159115"
+        },
+        "navn": {
+          "etternavn": "Hofseth",
+          "fornavn": "Gustav"
+        },
+        "_links": {
+          "elev": [
+            {
+              "href": "${utdanning.elev.elev}/elevnummer/500003"
+            }
+          ],
+          "self": [
+            {
+              "href": "${utdanning.elev.person}/fodselsnummer/11010159115"
+            }
+          ]
+        }
+      },
+      {
+        "kontaktinformasjon": {
+          "epostadresse": "ole@andebymail.no",
+          "mobiltelefonnummer": "99911111"
+        },
+        "postadresse": {
+          "adresselinje": [
+            "Apalveien 111"
+          ],
+          "postnummer": "1000",
+          "poststed": "Andeby"
+        },
+        "bostedsadresse": {
+          "adresselinje": [
+            "Apalveien 111"
+          ],
+          "postnummer": "1000",
+          "poststed": "Andeby"
+        },
+        "fodselsdato": "2011-01-11T00:00:00Z",
+        "fodselsnummer": {
+          "identifikatorverdi": "11011112345"
+        },
+        "navn": {
+          "etternavn": "Duck",
+          "fornavn": "Ole"
+        },
+        "_links": {
+          "elev": [
+            {
+              "href": "${utdanning.elev.elev}/systemid/500011"
+            }
+          ],
+          "self": [
+            {
+              "href": "${utdanning.elev.person}/fodselsnummer/11011112345"
+            }
+          ]
+        }
+      },
+      {
+        "kontaktinformasjon": {
+          "epostadresse": "dole@andebymail.no",
+          "mobiltelefonnummer": "99922222"
+        },
+        "postadresse": {
+          "adresselinje": [
+            "Apalveien 111"
+          ],
+          "postnummer": "1000",
+          "poststed": "Andeby"
+        },
+        "bostedsadresse": {
+          "adresselinje": [
+            "Apalveien 111"
+          ],
+          "postnummer": "1000",
+          "poststed": "Andeby"
+        },
+        "fodselsdato": "2011-01-12T00:00:00Z",
+        "fodselsnummer": {
+          "identifikatorverdi": "12011112345"
+        },
+        "navn": {
+          "etternavn": "Duck",
+          "fornavn": "Dole"
+        },
+        "_links": {
+          "elev": [
+            {
+              "href": "${utdanning.elev.elev}/systemid/500012"
+            }
+          ],
+          "self": [
+            {
+              "href": "${utdanning.elev.person}/fodselsnummer/12011112345"
+            }
+          ]
+        }
+      },
+      {
+        "kontaktinformasjon": {
+          "epostadresse": "doffen@andebymail.no",
+          "mobiltelefonnummer": "99933333"
+        },
+        "postadresse": {
+          "adresselinje": [
+            "Apalveien 111"
+          ],
+          "postnummer": "1000",
+          "poststed": "Andeby"
+        },
+        "bostedsadresse": {
+          "adresselinje": [
+            "Apalveien 111"
+          ],
+          "postnummer": "1000",
+          "poststed": "Andeby"
+        },
+        "fodselsdato": "2011-01-12T00:00:00Z",
+        "fodselsnummer": {
+          "identifikatorverdi": "13011112345"
+        },
+        "navn": {
+          "etternavn": "Duck",
+          "fornavn": "Doffen"
+        },
+        "_links": {
+          "elev": [
+            {
+              "href": "${utdanning.elev.elev}/systemid/500013"
+            }
+          ],
+          "self": [
+            {
+              "href": "${utdanning.elev.person}/fodselsnummer/13011112345"
+            }
+          ]
+        }
       }
     ]
   },

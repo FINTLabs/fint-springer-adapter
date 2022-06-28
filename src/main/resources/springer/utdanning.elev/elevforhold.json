@@ -124,6 +124,150 @@
             }
           ]
         }
+      },
+      {
+        "beskrivelse": "",
+        "systemId": {
+          "identifikatorverdi": "500011-1"
+        },
+        "gyldighetsperiode": {
+          "slutt": "2022-07-31T00:00:00Z",
+          "start": "2021-08-01T00:00:00Z"
+        },
+        "hovedskole": true,
+        "_links": {
+          "elev": [
+            {
+              "href": "${utdanning.elev.elev}/systemid/500011"
+            }
+          ],
+          "skole": [
+            {
+              "href": "${utdanning.utdanningsprogram.skole}/systemid/1579"
+            }
+          ],
+          "undervisningsgruppe": [
+            {
+              "href": "${utdanning.timeplan.undervisningsgruppe}/systemid/10128458_1IDA"
+            }
+          ],
+          "basisgruppe": [
+            {
+              "href": "${utdanning.elev.basisgruppe}/systemid/1321121"
+            }
+          ],
+          "kontaktlarergruppe": [
+            {
+              "href": "${utdanning.elev.kontaktlarergruppe}/systemid/1321122_1IDA"
+            }
+          ],
+          "kategori": [
+            {
+              "href": "${utdanning.kodeverk.elevkategori}/systemid/heltid"
+            }
+          ],
+          "self": [
+            {
+              "href": "${utdanning.elev.elevforhold}/systemid/500011-1"
+            }
+          ]
+        }
+      },
+      {
+        "beskrivelse": "",
+        "systemId": {
+          "identifikatorverdi": "500012-1"
+        },
+        "gyldighetsperiode": {
+          "slutt": "2022-07-31T00:00:00Z",
+          "start": "2021-08-01T00:00:00Z"
+        },
+        "hovedskole": true,
+        "_links": {
+          "elev": [
+            {
+              "href": "${utdanning.elev.elev}/systemid/500012"
+            }
+          ],
+          "skole": [
+            {
+              "href": "${utdanning.utdanningsprogram.skole}/systemid/1579"
+            }
+          ],
+          "undervisningsgruppe": [
+            {
+              "href": "${utdanning.timeplan.undervisningsgruppe}/systemid/10128458_1IDA"
+            }
+          ],
+          "basisgruppe": [
+            {
+              "href": "${utdanning.elev.basisgruppe}/systemid/1321121"
+            }
+          ],
+          "kontaktlarergruppe": [
+            {
+              "href": "${utdanning.elev.kontaktlarergruppe}/systemid/1321122_1IDA"
+            }
+          ],
+          "kategori": [
+            {
+              "href": "${utdanning.kodeverk.elevkategori}/systemid/heltid"
+            }
+          ],
+          "self": [
+            {
+              "href": "${utdanning.elev.elevforhold}/systemid/500012-1"
+            }
+          ]
+        }
+      },
+      {
+        "beskrivelse": "",
+        "systemId": {
+          "identifikatorverdi": "500013-1"
+        },
+        "gyldighetsperiode": {
+          "slutt": "2022-07-31T00:00:00Z",
+          "start": "2021-08-01T00:00:00Z"
+        },
+        "hovedskole": true,
+        "_links": {
+          "elev": [
+            {
+              "href": "${utdanning.elev.elev}/systemid/500013"
+            }
+          ],
+          "skole": [
+            {
+              "href": "${utdanning.utdanningsprogram.skole}/systemid/1579"
+            }
+          ],
+          "undervisningsgruppe": [
+            {
+              "href": "${utdanning.timeplan.undervisningsgruppe}/systemid/10128458_2IDA"
+            }
+          ],
+          "basisgruppe": [
+            {
+              "href": "${utdanning.elev.basisgruppe}/systemid/1321122"
+            }
+          ],
+          "kontaktlarergruppe": [
+            {
+              "href": "${utdanning.elev.kontaktlarergruppe}/systemid/1321122_2IDA"
+            }
+          ],
+          "kategori": [
+            {
+              "href": "${utdanning.kodeverk.elevkategori}/systemid/heltid"
+            }
+          ],
+          "self": [
+            {
+              "href": "${utdanning.elev.elevforhold}/systemid/500013-1"
+            }
+          ]
+        }
       }
     ]
   },

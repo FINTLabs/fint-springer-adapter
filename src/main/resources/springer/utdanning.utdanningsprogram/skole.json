@@ -77,6 +77,9 @@
           "undervisningsforhold": [
             {
               "href": "${utdanning.elev.undervisningsforhold}/systemid/L_100003_1"
+            },
+            {
+              "href": "${utdanning.elev.undervisningsforhold}/systemid/7024200-93838-0-1-20211001000001"
             }
           ],
           "basisgruppe": [
@@ -190,6 +193,96 @@
             }
           ]
         }
+      },
+      {
+        "kontaktinformasjon": {
+          "epostadresse": "kontakt@andeby.vgs.no",
+          "telefonnummer": "47 58 54 27"
+        },
+        "postadresse": {
+          "adresselinje": [
+            "Postboks 313 Andeby"
+          ]
+        },
+        "organisasjonsnavn": "Andeby videregående skole",
+        "organisasjonsnummer": {
+          "identifikatorverdi": "313131313"
+        },
+        "navn": "Andeby videregående skole",
+        "skolenummer": {
+          "identifikatorverdi": "1579"
+        },
+        "systemId": {
+          "identifikatorverdi": "1579"
+        },
+        "_links": {
+          "organisasjon": [
+            {
+              "href": "${administrasjon.organisasjon.organisasjonselement}/organisasjonsKode/570000"
+            }
+          ],
+          "basisgruppe": [
+            {
+              "href": "${utdanning.elev.basisgruppe}/systemid/1321121"
+            },
+            {
+              "href": "${utdanning.elev.basisgruppe}/systemid/1321122"
+            }
+          ],
+          "fag": [
+            {
+              "href": "${utdanning.timeplan.fag}/systemid/NOR1264"
+            }
+          ],
+          "elevforhold": [
+            {
+              "href": "${utdanning.elev.elevforhold}/systemid/500011-1"
+            },
+            {
+              "href": "${utdanning.elev.elevforhold}/systemid/500012-1"
+            },
+            {
+              "href": "${utdanning.elev.elevforhold}/systemid/500013-1"
+            }
+          ],
+          "kontaktlarergruppe": [
+            {
+              "href": "${utdanning.elev.kontaktlarergruppe}/systemid/1321122_1IDA"
+            },
+            {
+              "href": "${utdanning.elev.kontaktlarergruppe}/systemid/1321122_2IDA"
+            }
+          ],
+          "skoleressurs": [
+            {
+              "href": "${utdanning.elev.skoleressurs}/systemid/9b0205c3-0cba-485a-ac32-dba70500fe55"
+            }
+          ],
+          "undervisningsforhold": [
+            {
+              "href": "${utdanning.elev.undervisningsforhold}/systemId/7024200-93838-0-1-20211001000000"
+            }
+          ],
+          "undervisningsgruppe": [
+            {
+              "href": "${utdanning.timeplan.undervisningsgruppe}/systemid/10128458_1IDA"
+            },
+            {
+              "href": "${utdanning.timeplan.undervisningsgruppe}/systemid/10128458_2IDA"
+            }
+          ],
+          "self": [
+            {
+              "href": "${utdanning.utdanningsprogram.skole}/skolenummer/1579"
+            },
+            {
+              "href": "${utdanning.utdanningsprogram.skole}/systemid/1579"
+            },
+            {
+              "href": "${utdanning.utdanningsprogram.skole}/organisasjonsnummer/313131313"
+            }
+          ]
+        }
       }
     ]
   },
@@ -200,6 +293,6 @@
       }
     ]
   },
-  "total_items": 2,
+  "total_items": 3,
   "_class": "no.fint.model.resource.utdanning.utdanningsprogram.SkoleResource"
 }

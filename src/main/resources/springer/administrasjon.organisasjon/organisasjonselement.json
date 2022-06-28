@@ -292,11 +292,22 @@
             },
             {
               "href": "${administrasjon.organisasjon.organisasjonselement}/organisasjonsid/562000"
+            },
+            {
+              "href": "${administrasjon.organisasjon.organisasjonselement}/organisasjonsid/568000"
+            },
+            {
+              "href": "${administrasjon.organisasjon.organisasjonselement}/organisasjonsid/569000"
             }
           ],
           "leder": [
             {
               "href": "${administrasjon.personal.personalressurs}/ansattnummer/100002"
+            }
+          ],
+          "skole": [
+            {
+              "href": "${utdanning.utdanningsprogram.skole}/systemid/123456"
             }
           ],
           "arbeidsforhold": [
@@ -424,6 +435,9 @@
           "underordnet": [
             {
               "href": "${administrasjon.organisasjon.organisasjonselement}/organisasjonsid/560000"
+            },
+            {
+              "href": "${administrasjon.organisasjon.organisasjonselement}/organisasjonsid/570000"
             }
           ],
           "leder": [
@@ -439,6 +453,59 @@
           "self": [
             {
               "href": "${administrasjon.organisasjon.organisasjonselement}/organisasjonsid/550001"
+            }
+          ]
+        }
+      },
+      {
+        "kontaktinformasjon": {
+          "epostadresse": "kontakt@andeby.vgs.no",
+          "nettsted": "https://andeby.vgs.no"
+        },
+        "forretningsadresse": {
+          "adresselinje": [
+            ""
+          ],
+          "postnummer": "",
+          "poststed": ""
+        },
+        "organisasjonsnavn": "Andeby vgs.",
+        "organisasjonsnummer": {
+          "identifikatorverdi": ""
+        },
+        "gyldighetsperiode": {
+          "start": "2020-11-29T11:21:48Z"
+        },
+        "kortnavn": "",
+        "navn": "Andeby vgs.",
+        "organisasjonsId": {
+          "identifikatorverdi": "570000"
+        },
+        "organisasjonsKode": {
+          "identifikatorverdi": "570000"
+        },
+        "_links": {
+          "overordnet": [
+            {
+              "href": "${administrasjon.organisasjon.organisasjonselement}/organisasjonsId/550001"
+            }
+          ],
+          "leder": [
+            {
+              "href": "${administrasjon.personal.personalressurs}/systemId/100005"
+            }
+          ],
+          "skole": [
+            {
+              "href": "${utdanning.utdanningsprogram.skole}/systemid/1579"
+            }
+          ],
+          "self": [
+            {
+              "href": "${administrasjon.organisasjon.organisasjonselement}/organisasjonsid/570000"
+            },
+            {
+              "href": "${administrasjon.organisasjon.organisasjonselement}/organisasjonskode/570000"
             }
           ]
         }

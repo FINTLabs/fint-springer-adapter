@@ -38,6 +38,9 @@
           "undervisningsforhold":[
             {
               "href": "${utdanning.elev.undervisningsforhold}/systemid/L_100003_1"
+            },
+            {
+              "href": "${utdanning.elev.undervisningsforhold}/systemid/7024200-93838-0-1-20211001000001"
             }
           ],
           "kontaktlarergruppe": [
@@ -61,6 +64,125 @@
           "self": [
             {
               "href": "${utdanning.elev.basisgruppe}/systemid/BG_1STA-2018"
+            }
+          ]
+        }
+      },
+      {
+        "beskrivelse": "1IDA",
+        "navn": "1IDA",
+        "periode": [
+          {
+            "slutt": "2022-07-31T00:00:00Z",
+            "start": "2021-08-01T00:00:00Z"
+          }
+        ],
+        "systemId": {
+          "identifikatorverdi": "1321121"
+        },
+        "_links": {
+          "trinn": [
+            {
+              "href": "${utdanning.utdanningsprogram.arstrinn}/systemid/vg1"
+            }
+          ],
+          "elevforhold": [
+            {
+              "href": "${utdanning.elev.elevforhold}/systemid/500011-1"
+            },
+            {
+              "href": "${utdanning.elev.elevforhold}/systemid/500012-1"
+            }
+          ],
+          "undervisningsforhold": [
+            {
+              "href": "${utdanning.elev.undervisningsforhold}/systemId/7024200-93838-0-1-20211001000000"
+            }
+          ],
+          "kontaktlarergruppe": [
+            {
+              "href": "${utdanning.elev.kontaktlarergruppe}/systemid/1321122_1IDA"
+            }
+          ],
+          "skolear": [
+            {
+              "href": "${utdanning.kodeverk.skolear}/systemid/21-22"
+            }
+          ],
+          "termin": [
+            {
+              "href": "${utdanning.kodeverk.termin}/systemid/H1"
+            },
+            {
+              "href": "${utdanning.kodeverk.termin}/systemid/H2"
+            }
+          ],
+          "skole": [
+            {
+              "href": "${utdanning.utdanningsprogram.skole}/systemid/1579"
+            }
+          ],
+          "self": [
+            {
+              "href": "${utdanning.elev.basisgruppe}/systemid/1321121"
+            }
+          ]
+        }
+      },
+      {
+        "beskrivelse": "2IDA",
+        "navn": "2IDA",
+        "periode": [
+          {
+            "slutt": "2022-07-31T00:00:00Z",
+            "start": "2021-08-01T00:00:00Z"
+          }
+        ],
+        "systemId": {
+          "identifikatorverdi": "1321122"
+        },
+        "_links": {
+          "trinn": [
+            {
+              "href": "${utdanning.utdanningsprogram.arstrinn}/systemid/vg2"
+            }
+          ],
+          "elevforhold": [
+            {
+              "href": "${utdanning.elev.elevforhold}/systemid/500013-1"
+            }
+          ],
+          "undervisningsforhold": [
+            {
+              "href": "${utdanning.elev.undervisningsforhold}/systemId/7024200-93838-0-1-20211001000000"
+            }
+          ],
+          "kontaktlarergruppe": [
+            {
+              "href": "${utdanning.elev.kontaktlarergruppe}/systemid/1321122_2IDA"
+            }
+          ],
+          "skolear": [
+            {
+              "href": "${utdanning.kodeverk.skolear}/systemid/21-22"
+            }
+          ],
+          "termin": [
+            {
+              "href": "${utdanning.kodeverk.termin}/systemid/H1"
+            },
+            {
+              "href": "${utdanning.kodeverk.termin}/systemid/H2"
+            }
+          ],
+          "skole": [
+            {
+              "href": "${utdanning.utdanningsprogram.skole}/systemid/1579"
+            }
+          ],
+          "self": [
+            {
+              "href": "${utdanning.elev.basisgruppe}/systemid/1321122"
             }
           ]
         }
