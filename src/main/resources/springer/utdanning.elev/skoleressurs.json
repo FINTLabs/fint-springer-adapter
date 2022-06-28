@@ -92,6 +92,9 @@
           "undervisningsforhold": [
             {
               "href": "${utdanning.elev.undervisningsforhold}/systemId/7024200-93838-0-1-20211001000000"
+            },
+            {
+              "href": "${utdanning.elev.undervisningsforhold}/systemId/7024200-93838-0-1-20211001000001"
             }
           ],
           "person": [
@@ -102,6 +105,9 @@
           "skole": [
             {
               "href": "${utdanning.utdanningsprogram.skole}/systemid/1579"
+            },
+            {
+              "href": "${utdanning.utdanningsprogram.skole}/systemid/123456"
             }
           ],
           "self": [

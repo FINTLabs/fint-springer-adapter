@@ -95,6 +95,49 @@
             }
           ]
         }
+      },
+      {
+        "beskrivelse": "Adjunkt m/tilleggsutd.",
+        "systemId": {
+          "identifikatorverdi": "7024200-93838-0-1-20211001000001"
+        },
+        "_links": {
+          "skoleressurs": [
+            {
+              "href": "${utdanning.elev.skoleressurs}/systemid/9b0205c3-0cba-485a-ac32-dba70500fe55"
+            }
+          ],
+          "basisgruppe": [
+            {
+              "href": "${utdanning.elev.basisgruppe}/systemid/BG_1STA-2018"
+            }
+          ],
+          "kontaktlarergruppe": [
+            {
+              "href": "${utdanning.elev.kontaktlarergruppe}/systemid/KG_1STA-1"
+            }
+          ],
+          "undervisningsgruppe": [
+            {
+              "href": "${utdanning.timeplan.undervisningsgruppe}/systemid/UG_2018_1STA_NOR1Z41"
+            }
+          ],
+          "arbeidsforhold": [
+            {
+              "href": "${administrasjon.personal.arbeidsforhold}/systemid/100006_1"
+            }
+          ],
+          "skole": [
+            {
+              "href": "${utdanning.utdanningsprogram.skole}/systemid/123456"
+            }
+          ],
+          "self": [
+            {
+              "href": "${utdanning.elev.undervisningsforhold}/systemid/7024200-93838-0-1-20211001000001"
+            }
+          ]
+        }
       }
     ]
   },

@@ -53,6 +53,9 @@
           "undervisningsforhold": [
             {
               "href": "${utdanning.elev.undervisningsforhold}/systemid/L_100003_1"
+            },
+            {
+              "href": "${utdanning.elev.undervisningsforhold}/systemid/7024200-93838-0-1-20211001000001"
             }
           ],
           "skolear": [
