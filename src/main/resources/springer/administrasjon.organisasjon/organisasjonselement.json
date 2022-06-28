@@ -305,6 +305,11 @@
               "href": "${administrasjon.personal.personalressurs}/ansattnummer/100002"
             }
           ],
+          "skole": [
+            {
+              "href": "${utdanning.utdanningsprogram.skole}/systemid/123456"
+            }
+          ],
           "arbeidsforhold": [
             {
               "href": "${administrasjon.personal.arbeidsforhold}/systemid/100002_1"
@@ -488,6 +493,11 @@
           "leder": [
             {
               "href": "${administrasjon.personal.personalressurs}/systemId/100005"
+            }
+          ],
+          "skole": [
+            {
+              "href": "${utdanning.utdanningsprogram.skole}/systemid/1579"
             }
           ],
           "self": [
