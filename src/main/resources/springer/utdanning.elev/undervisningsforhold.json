@@ -57,10 +57,10 @@
           ],
           "basisgruppe": [
             {
-              "href": "${utdanning.elev.basisgruppe}/systemid/10128458_1IDA"
+              "href": "${utdanning.elev.basisgruppe}/systemid/1321121"
             },
             {
-              "href": "${utdanning.elev.basisgruppe}/systemid/10128458_2IDA"
+              "href": "${utdanning.elev.basisgruppe}/systemid/1321122"
             }
           ],
           "kontaktlarergruppe": [
