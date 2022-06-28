@@ -46,54 +46,6 @@
         }
       },
       {
-        "navn": "Fagerslott skole",
-        "systemId": {
-          "identifikatorverdi": "2"
-        },
-        "_links": {
-          "vare": [
-            {
-              "href": "${okonomi.kodeverk.vare}/systemid/1234566"
-            },
-            {
-              "href": "${okonomi.kodeverk.vare}/systemid/007"
-            },
-            {
-              "href": "${okonomi.kodeverk.vare}/systemid/1181"
-            },
-            {
-              "href": "${okonomi.kodeverk.vare}/systemid/925023"
-            },
-            {
-              "href": "${okonomi.kodeverk.vare}/systemid/925006"
-            },
-            {
-              "href": "${okonomi.kodeverk.vare}/systemid/925002"
-            },
-            {
-              "href": "${okonomi.kodeverk.vare}/systemid/1068534"
-            },
-            {
-              "href": "${okonomi.kodeverk.vare}/systemid/10001"
-            },
-            {
-              "href": "${okonomi.kodeverk.vare}/systemid/10002"
-            },
-            {
-              "href": "${okonomi.kodeverk.vare}/systemid/10003"
-            },
-            {
-              "href": "${okonomi.kodeverk.vare}/systemid/10004"
-            }
-          ],
-          "organisasjonselement": [
-            {
-              "href": "${administrasjon.organisasjon.organisasjonselement}/organisasjonsnummer/970123459"
-            }
-          ]
-        }
-      },
-      {
         "navn": "Visma Enterprise TEST",
         "systemId": {
           "identifikatorverdi": "10"
