@@ -107,7 +107,7 @@
               "href": "${utdanning.utdanningsprogram.skole}/systemid/1579"
             },
             {
-              "href": "${utdanning.utdanningsprogram.skole}/systemid/123456"
+              "href": "${utdanning.utdanningsprogram.skole}/systemid/XX1234"
             }
           ],
           "self": [
