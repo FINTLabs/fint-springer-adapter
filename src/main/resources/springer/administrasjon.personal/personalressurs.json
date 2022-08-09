@@ -351,6 +351,56 @@
             }
           ]
         }
+      },
+      {
+        "ansattnummer": {
+          "identifikatorverdi": "100007"
+        },
+        "ansettelsesperiode": {
+          "slutt": "2099-12-31T00:00:00Z",
+          "start": "2021-06-04T00:00:00Z"
+        },
+        "brukernavn": {
+          "gyldighetsperiode": {
+            "slutt": "2099-12-31T00:00:00Z",
+            "start": "2021-06-04T00:00:00Z"
+          },
+          "identifikatorverdi": "bestemor"
+        },
+        "kontaktinformasjon": {
+          "epostadresse": "bestemor.duck@andeby.vgs.no",
+          "mobiltelefonnummer": "87878787",
+          "nettsted": "https://andeby.vgs.no",
+          "sip": "bestemor.duck@andeby.vgs.no"
+        },
+        "systemId": {
+          "identifikatorverdi": "100007"
+        },
+        "_links": {
+          "person": [
+            {
+              "href": "${felles.person}/fodselsnummer/14013956789"
+            }
+          ],
+          "personalressurskategori": [
+            {
+              "href": "${administrasjon.kodeverk.personalressurskategori}/systemid/382752"
+            }
+          ],
+          "arbeidsforhold": [
+            {
+              "href": "${administrasjon.personal.arbeidsforhold}/systemid/100007_1"
+            }
+          ],
+          "self": [
+            {
+              "href": "${administrasjon.personal.personalressurs}/systemid/100007"
+            },
+            {
+              "href": "${administrasjon.personal.personalressurs}/ansattnummer/100007"
+            }
+          ]
+        }
       }
     ]
   },

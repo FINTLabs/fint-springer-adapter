@@ -535,6 +535,64 @@
             }
           ]
         }
+      },
+      {
+        "ansettelsesprosent": 10000,
+        "gyldighetsperiode": {
+          "slutt": "2099-01-01T00:00:00Z",
+          "start": "2021-06-04T19:53:36Z"
+        },
+        "hovedstilling": false,
+        "lonnsprosent": 10000,
+        "stillingsnummer": "1",
+        "stillingstittel": "Adjunkt med opprykk",
+        "systemId": {
+          "identifikatorverdi": "100007_1"
+        },
+        "tilstedeprosent": 8000,
+        "arslonn": 60000000,
+        "_links": {
+          "personalressurs": [
+            {
+              "href": "${administrasjon.personal.personalressurs}/ansattnummer/100007"
+            }
+          ],
+          "arbeidssted": [
+            {
+              "href": "${administrasjon.organisasjon.organisasjonselement}/organisasjonsid/570000"
+            }
+          ],
+          "ansvar": [
+            {
+              "href": "${administrasjon.kodeverk.ansvar}/systemid/33044"
+            }
+          ],
+          "funksjon": [
+            {
+              "href": "${administrasjon.kodeverk.funksjon}/systemid/400602"
+            }
+          ],
+          "arbeidsforholdstype": [
+            {
+              "href": "${administrasjon.kodeverk.arbeidsforholdstype}/systemid/401241"
+            }
+          ],
+          "stillingskode": [
+            {
+              "href": "${administrasjon.kodeverk.stillingskode}/systemid/22407999"
+            }
+          ],
+          "timerperuke": [
+            {
+              "href": "${administrasjon.kodeverk.uketimetall}/systemid/394634"
+            }
+          ],
+          "self": [
+            {
+              "href": "${administrasjon.personal.arbeidsforhold}/systemid/100007_1"
+            }
+          ]
+        }
       }
     ]
   },

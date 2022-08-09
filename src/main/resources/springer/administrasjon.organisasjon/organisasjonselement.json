@@ -495,6 +495,17 @@
               "href": "${administrasjon.personal.personalressurs}/systemId/100005"
             }
           ],
+          "arbeidsforhold": [
+            {
+              "href": "${administrasjon.personal.arbeidsforhold}/systemid/100005_1"
+            },
+            {
+              "href": "${administrasjon.personal.arbeidsforhold}/systemid/100006_2"
+            },
+            {
+              "href": "${administrasjon.personal.arbeidsforhold}/systemid/100007_1"
+            }
+          ],
           "skole": [
             {
               "href": "${utdanning.utdanningsprogram.skole}/systemid/1579"

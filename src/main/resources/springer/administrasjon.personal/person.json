@@ -427,6 +427,66 @@
       },
       {
         "kontaktinformasjon": {
+          "epostadresse": "bestemor.duck@andeby.vgs.no",
+          "mobiltelefonnummer": "87878787"
+        },
+        "postadresse": {
+          "adresselinje": [
+            "Duck-gården"
+          ],
+          "postnummer": "1000",
+          "poststed": "Andeby"
+        },
+        "bostedsadresse": {
+          "adresselinje": [
+            "Duck-gården"
+          ],
+          "postnummer": "1000",
+          "poststed": "Andeby"
+        },
+        "fodselsdato": "1981-01-12T00:00:00Z",
+        "fodselsnummer": {
+          "identifikatorverdi": "14013956789"
+        },
+        "navn": {
+          "etternavn": "Duck",
+          "fornavn": "Bestemor"
+        },
+        "_links": {
+          "personalressurs": [
+            {
+              "href": "${administrasjon.personal.personalressurs}/ansattnummer/100006"
+            }
+          ],
+          "morsmal": [
+            {
+              "href": "${felles.kodeverk.sprak}/systemid/no"
+            }
+          ],
+          "malform": [
+            {
+              "href": "${felles.kodeverk.sprak}/systemid/nb"
+            }
+          ],
+          "kjonn": [
+            {
+              "href": "${felles.kodeverk.kjonn}/systemid/2"
+            }
+          ],
+          "statsborgerskap": [
+            {
+              "href": "${felles.kodeverk.land}/systemid/NO"
+            }
+          ],
+          "self": [
+            {
+              "href": "${administrasjon.personal.person}/fodselsnummer/14013956789"
+            }
+          ]
+        }
+      },
+      {
+        "kontaktinformasjon": {
           "epostadresse": "LeonaHansen@dayrep.com",
           "mobiltelefonnummer": "41109815"
         },
@@ -661,6 +721,46 @@
           "self": [
             {
               "href": "${utdanning.elev.person}/fodselsnummer/13011112345"
+            }
+          ]
+        }
+      },
+      {
+        "kontaktinformasjon": {
+          "epostadresse": "hetti@andebymail.no",
+          "mobiltelefonnummer": "99944444"
+        },
+        "postadresse": {
+          "adresselinje": [
+            "Apalveien 80"
+          ],
+          "postnummer": "1000",
+          "poststed": "Andeby"
+        },
+        "bostedsadresse": {
+          "adresselinje": [
+            "Apalveien 80"
+          ],
+          "postnummer": "1000",
+          "poststed": "Andeby"
+        },
+        "fodselsdato": "2011-01-12T00:00:00Z",
+        "fodselsnummer": {
+          "identifikatorverdi": "14011112345"
+        },
+        "navn": {
+          "etternavn": "Duck",
+          "fornavn": "Hetti"
+        },
+        "_links": {
+          "elev": [
+            {
+              "href": "${utdanning.elev.elev}/systemid/500014"
+            }
+          ],
+          "self": [
+            {
+              "href": "${utdanning.elev.person}/fodselsnummer/14011112345"
             }
           ]
         }

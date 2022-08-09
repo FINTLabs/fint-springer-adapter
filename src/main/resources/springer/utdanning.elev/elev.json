@@ -240,6 +240,53 @@
             }
           ]
         }
+      },
+      {
+        "brukernavn": {
+          "identifikatorverdi": "hettiduck"
+        },
+        "elevnummer": {
+          "identifikatorverdi": "500014"
+        },
+        "feidenavn": {
+          "identifikatorverdi": "hetti@andebymail.no"
+        },
+        "kontaktinformasjon": {
+          "epostadresse": "hetti@andebymail.no",
+          "mobiltelefonnummer": "99944444",
+          "nettsted": "",
+          "sip": "",
+          "telefonnummer": ""
+        },
+        "systemId": {
+          "identifikatorverdi": "500014"
+        },
+        "_links": {
+          "person": [
+            {
+              "href": "${felles.person}/fodselsnummer/14011112345"
+            }
+          ],
+          "elevforhold": [
+            {
+              "href": "${utdanning.elev.elevforhold}/systemid/500014-1"
+            }
+          ],
+          "self": [
+            {
+              "href": "${utdanning.elev.elev}/brukernavn/hettiduck"
+            },
+            {
+              "href": "${utdanning.elev.elev}/elevnummer/500014"
+            },
+            {
+              "href": "${utdanning.elev.elev}/feidenavn/hetti@andebymail.no"
+            },
+            {
+              "href": "${utdanning.elev.elev}/systemid/500014"
+            }
+          ]
+        }
       }
     ]
   },

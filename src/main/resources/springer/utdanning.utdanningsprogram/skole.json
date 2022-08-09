@@ -227,6 +227,9 @@
             },
             {
               "href": "${utdanning.elev.basisgruppe}/systemid/1321122"
+            },
+            {
+              "href": "${utdanning.elev.basisgruppe}/systemid/1321123"
             }
           ],
           "fag": [
@@ -243,6 +246,9 @@
             },
             {
               "href": "${utdanning.elev.elevforhold}/systemid/500013-1"
+            },
+            {
+              "href": "${utdanning.elev.elevforhold}/systemid/500014-1"
             }
           ],
           "kontaktlarergruppe": [
@@ -256,11 +262,17 @@
           "skoleressurs": [
             {
               "href": "${utdanning.elev.skoleressurs}/systemid/9b0205c3-0cba-485a-ac32-dba70500fe55"
+            },
+            {
+              "href": "${utdanning.elev.skoleressurs}/systemid/d9a7860f-cb4b-4198-a9d9-840399fcddec"
             }
           ],
           "undervisningsforhold": [
             {
               "href": "${utdanning.elev.undervisningsforhold}/systemId/7024200-93838-0-1-20211001000000"
+            },
+            {
+              "href": "${utdanning.elev.undervisningsforhold}/systemId/664b9b6b-8b1e-439d-87b3-82e0fedbbc7c"
             }
           ],
           "undervisningsgruppe": [

@@ -119,6 +119,44 @@
             }
           ]
         }
+      },
+      {
+        "feidenavn": {
+          "identifikatorverdi": "bestemor.duck@andeby.vgs.no"
+        },
+        "systemId": {
+          "identifikatorverdi": "d9a7860f-cb4b-4198-a9d9-840399fcddec"
+        },
+        "_links": {
+          "personalressurs": [
+            {
+              "href": "${administrasjon.personal.personalressurs}/ansattnummer/100007"
+            }
+          ],
+          "undervisningsforhold": [
+            {
+              "href": "${utdanning.elev.undervisningsforhold}/systemId/664b9b6b-8b1e-439d-87b3-82e0fedbbc7c"
+            }
+          ],
+          "person": [
+            {
+              "href": "${administrasjon.personal.person}/fodselsnummer/14013956789"
+            }
+          ],
+          "skole": [
+            {
+              "href": "${utdanning.utdanningsprogram.skole}/systemid/1579"
+            }
+          ],
+          "self": [
+            {
+              "href": "${utdanning.elev.skoleressurs}/feidenavn/bestemor.duck@andeby.vgs.no"
+            },
+            {
+              "href": "${utdanning.elev.skoleressurs}/systemid/d9a7860f-cb4b-4198-a9d9-840399fcddec"
+            }
+          ]
+        }
       }
     ]
   },
