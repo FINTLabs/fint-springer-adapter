@@ -455,7 +455,7 @@
         "_links": {
           "personalressurs": [
             {
-              "href": "${administrasjon.personal.personalressurs}/ansattnummer/100006"
+              "href": "${administrasjon.personal.personalressurs}/ansattnummer/100007"
             }
           ],
           "morsmal": [
