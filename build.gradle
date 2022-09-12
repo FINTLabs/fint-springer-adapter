@@ -46,12 +46,13 @@ dependencies {
     implementation 'no.fint:fint-sse:2.0.0'
 
     implementation "no.fint:fint-administrasjon-resource-model-java:${apiVersion}"
-    implementation "no.fint:fint-utdanning-resource-model-java:3.10.0-rc-1"
+    implementation "no.fint:fint-utdanning-resource-model-java:${apiVersion}"
     implementation "no.fint:fint-okonomi-model-java:${apiVersion}"
     implementation "no.fint:fint-okonomi-resource-model-java:${apiVersion}"
-    implementation 'no.fint:fint-vigokv-model:3.9.0'
     implementation "no.fint:fint-arkiv-model-java:${apiVersion}"
     implementation "no.fint:fint-arkiv-resource-model-java:${apiVersion}"
+
+    implementation 'no.fint:fint-vigokv-model:3.9.0'
 
     implementation 'org.springframework.hateoas:spring-hateoas'
     implementation 'org.springframework.plugin:spring-plugin-core'
