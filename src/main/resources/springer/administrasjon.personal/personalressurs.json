@@ -192,6 +192,11 @@
               "href": "${administrasjon.personal.arbeidsforhold}/systemid/100003_1"
             }
           ],
+          "skoleressurs": [
+            {
+              "href": "${utdanning.elev.skoleressurs}/systemid/ABCD213"
+            }
+          ],
           "self": [
             {
               "href": "${}.administrasjon}/personal/personalressurs/ansattnummer/100003"
@@ -342,6 +347,11 @@
               "href": "${administrasjon.personal.arbeidsforhold}/systemid/100006_2"
             }
           ],
+          "skoleressurs": [
+            {
+              "href": "${utdanning.elev.skoleressurs}/systemid/9b0205c3-0cba-485a-ac32-dba70500fe55"
+            }
+          ],
           "self": [
             {
               "href": "${administrasjon.personal.personalressurs}/systemid/100006"
@@ -390,6 +400,11 @@
           "arbeidsforhold": [
             {
               "href": "${administrasjon.personal.arbeidsforhold}/systemid/100007_1"
+            }
+          ],
+          "skoleressurs": [
+            {
+              "href": "${utdanning.elev.skoleressurs}/systemid/d9a7860f-cb4b-4198-a9d9-840399fcddec"
             }
           ],
           "self": [
