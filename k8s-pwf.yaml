@@ -75,6 +75,8 @@ spec:
               value: https://play-with-fint.felleskomponent.no/arkiv/kodeverk/provider
             - name: fint.adapter.organizations
               value: pwf.no
+            - name: fint.adapter.reject-unknown-events
+              value: "false"
             - name: fint.oauth.enabled
               value: "false"
             - name: spring.data.mongodb.uri
