@@ -13,4 +13,4 @@ FINT Springer Adapter serves data from a Mongo database.
 
 
 - **[SSE Configuration](https://github.com/FINTlibs/fint-sse#sse-configuration)**
-- **[OAuth Configuration](https://github.com/FINTlibs/fint-sse#oauth-configuration)** 
+- **[OAuth Configuration](https://github.com/FINTlibs/fint-sse#oauth-configuration)**
