@@ -14,3 +14,4 @@ javadocs/
 .DS_Store
 .java-version
 .vscode/settings.json
+.env

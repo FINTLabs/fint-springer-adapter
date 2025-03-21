@@ -1,0 +1,33 @@
+fint:
+  adapter:
+    endpoints:
+      providers:
+        elev: https://play-with-fint.felleskomponent.no/utdanning/elev/provider
+        felles: https://play-with-fint.felleskomponent.no/felles/kodeverk/provider
+        fullmakt: https://play-with-fint.felleskomponent.no/administrasjon/fullmakt/provider
+        kodeverk-administrasjon: https://play-with-fint.felleskomponent.no/administrasjon/kodeverk/provider
+        kodeverk-utdanning: https://play-with-fint.felleskomponent.no/utdanning/kodeverk/provider
+        organisasjon: https://play-with-fint.felleskomponent.no/administrasjon/organisasjon/provider
+        personal: https://play-with-fint.felleskomponent.no/administrasjon/personal/provider
+        timeplan: https://play-with-fint.felleskomponent.no/utdanning/timeplan/provider
+        utdanningsprogram: https://play-with-fint.felleskomponent.no/utdanning/utdanningsprogram/provider
+        vurdering: https://play-with-fint.felleskomponent.no/utdanning/vurdering/provider
+        okonomi-kodeverk: https://play-with-fint.felleskomponent.no/okonomi/kodeverk/provider
+        okonomi-faktura: https://play-with-fint.felleskomponent.no/okonomi/faktura/provider
+        arkiv-noark: https://play-with-fint.felleskomponent.no/arkiv/noark/provider
+        arkiv-kodeverk: https://play-with-fint.felleskomponent.no/arkiv/kodeverk/provider
+    organizations: pwf.no
+oauth:
+  enabled: false
+logging:
+  level:
+    no.fint: trace
+security:
+  basic:
+    enabled: false
+server:
+  port: 8091
+spring:
+  data:
+    mongodb:
+      database: springer
