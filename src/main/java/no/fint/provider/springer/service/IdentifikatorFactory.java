@@ -7,7 +7,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.mongodb.core.MongoTemplate;
 import org.springframework.stereotype.Service;
 
-import javax.annotation.PostConstruct;
+import jakarta.annotation.PostConstruct;
 import java.util.concurrent.atomic.AtomicInteger;
 
 @Service
@@ -34,7 +34,7 @@ public class IdentifikatorFactory {
 
     public Identifikator create() {
         Identifikator identifikator = new Identifikator();
-        identifikator.setIdentifikatorverdi(String.format("ID%010d", atomicInteger.incrementAndGet()));
+        identifikator.setIdentifikatorverdi("ID%010d".formatted(atomicInteger.incrementAndGet()));
         return identifikator;
     }
 }

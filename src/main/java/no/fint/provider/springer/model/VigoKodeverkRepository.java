@@ -1,7 +1,6 @@
 package no.fint.provider.springer.model;
 
 import com.google.common.collect.ImmutableMultimap;
-import lombok.Getter;
 import lombok.NonNull;
 import lombok.extern.slf4j.Slf4j;
 import no.fint.event.model.Event;
@@ -32,7 +31,6 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.core.ParameterizedTypeReference;
 import org.springframework.data.mongodb.core.MongoTemplate;
-import org.springframework.data.util.StreamUtils;
 import org.springframework.hateoas.CollectionModel;
 import org.springframework.hateoas.EntityModel;
 import org.springframework.http.HttpMethod;
@@ -103,8 +101,7 @@ public class VigoKodeverkRepository implements Handler {
                             .ifPresent(trinn -> trinn.addProgramomrade(Link.with(Programomrade.class, "systemid", p.getKode().getIdentifikatorverdi())));
                 });
 
-        StreamUtils
-                .createStreamFromIterator(mongoTemplate.stream(wrapper.query(BasisgruppeResource.class), Springer.class))
+        mongoTemplate.stream(wrapper.query(BasisgruppeResource.class), Springer.class)
                 .map(wrapper.unwrapper(BasisgruppeResource.class))
                 .forEach(b -> map.values()
                         .stream()
@@ -118,8 +115,7 @@ public class VigoKodeverkRepository implements Handler {
 
     private void getProgramomrade(Event<FintLinks> response) {
         ImmutableMultimap.Builder<String, String> builder = new ImmutableMultimap.Builder<>();
-        StreamUtils
-                .createStreamFromIterator(mongoTemplate.stream(wrapper.query(ElevforholdResource.class), Springer.class))
+        mongoTemplate.stream(wrapper.query(ElevforholdResource.class), Springer.class)
                 .map(wrapper.unwrapper(ElevforholdResource.class))
                 .forEach(s -> s.getProgramomrade()
                         .stream()
@@ -181,8 +177,7 @@ public class VigoKodeverkRepository implements Handler {
 
     private void getUtdanningsprogram(Event<FintLinks> response) {
         ImmutableMultimap.Builder<String, String> builder = new ImmutableMultimap.Builder<>();
-        StreamUtils
-                .createStreamFromIterator(mongoTemplate.stream(wrapper.query(SkoleResource.class), Springer.class))
+        mongoTemplate.stream(wrapper.query(SkoleResource.class), Springer.class)
                 .map(wrapper.unwrapper(SkoleResource.class))
                 .forEach(s -> s.getUtdanningsprogram()
                         .stream()

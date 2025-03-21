@@ -3,7 +3,6 @@ package no.fint.provider.springer.storage;
 import no.fint.model.felles.kompleksedatatyper.Identifikator;
 import no.fint.model.resource.administrasjon.personal.LonnResource;
 import org.apache.commons.lang3.StringUtils;
-import org.springframework.data.util.StreamUtils;
 
 import java.util.List;
 import java.util.Objects;
@@ -19,8 +18,7 @@ public abstract class LonnRepository extends SpringerRepository {
                 .map(Identifikator::getIdentifikatorverdi)
                 .filter(StringUtils::isNotBlank)
                 .collect(Collectors.toSet());
-        return StreamUtils
-                .createStreamFromIterator(mongoTemplate.stream(wrapper.query(type), Springer.class))
+        return mongoTemplate.stream(wrapper.query(type), Springer.class)
                 .map(wrapper.unwrapper(type))
                 .filter(r -> r.getKildesystemId() != null
                         && StringUtils.isNotBlank(r.getKildesystemId().getIdentifikatorverdi())

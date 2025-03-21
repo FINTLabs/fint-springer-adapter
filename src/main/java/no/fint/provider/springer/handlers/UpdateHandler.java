@@ -17,7 +17,6 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.mongodb.core.MongoTemplate;
 import org.springframework.data.mongodb.core.query.Criteria;
 import org.springframework.data.mongodb.core.query.CriteriaDefinition;
-import org.springframework.data.util.StreamUtils;
 
 import java.beans.PropertyDescriptor;
 import java.lang.reflect.InvocationTargetException;
@@ -58,8 +57,7 @@ public abstract class UpdateHandler<T extends FintLinks> implements Handler {
     }
 
     protected Stream<T> stream(CriteriaDefinition criteria) {
-        return StreamUtils
-                .createStreamFromIterator(mongoTemplate.stream(wrapper.query(type).addCriteria(criteria), Springer.class))
+        return mongoTemplate.stream(wrapper.query(type).addCriteria(criteria), Springer.class)
                 .map(wrapper.unwrapper(type));
     }
 
@@ -71,7 +69,7 @@ public abstract class UpdateHandler<T extends FintLinks> implements Handler {
                 .filter(it -> StringUtils.equalsIgnoreCase(it, split[0]))
                 .findFirst()
                 .orElseThrow(IllegalArgumentException::new);
-        return Criteria.where(String.format("value.%s.identifikatorverdi", field)).is(split[1]);
+        return Criteria.where("value.%s.identifikatorverdi".formatted(field)).is(split[1]);
     }
 
     protected <T> Consumer<T> copy(T target) {

@@ -12,3 +12,5 @@ javadocs/
 /.settings/
 /bin/
 .DS_Store
+.java-version
+.vscode/settings.json
