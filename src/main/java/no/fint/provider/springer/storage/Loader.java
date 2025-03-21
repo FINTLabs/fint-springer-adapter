@@ -9,9 +9,8 @@ import org.springframework.core.io.support.PathMatchingResourcePatternResolver;
 import org.springframework.data.mongodb.core.MongoTemplate;
 import org.springframework.stereotype.Service;
 
-import javax.annotation.PostConstruct;
+import jakarta.annotation.PostConstruct;
 import java.io.IOException;
-import java.nio.file.Path;
 import java.util.stream.StreamSupport;
 
 @Slf4j

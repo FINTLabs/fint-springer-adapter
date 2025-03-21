@@ -6,7 +6,6 @@ import no.fint.model.resource.FintLinks;
 import no.fint.provider.springer.service.Handler;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.mongodb.core.MongoTemplate;
-import org.springframework.data.util.StreamUtils;
 
 import java.util.stream.Stream;
 
@@ -24,8 +23,7 @@ public abstract class SpringerRepository implements Handler {
     }
 
     protected Stream<? extends FintLinks> stream(Class<? extends FintLinks> type) {
-        return StreamUtils
-                .createStreamFromIterator(mongoTemplate.stream(wrapper.query(type), Springer.class))
+        return mongoTemplate.stream(wrapper.query(type), Springer.class)
                 .map(wrapper.unwrapper(type));
     }
 }

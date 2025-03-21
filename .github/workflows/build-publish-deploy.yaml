@@ -5,12 +5,6 @@ on:
 
 env:
   REGISTRY_NAME: fintlabsacr
-  ALPHA_CLUSTER_NAME: aks-alpha-fint-2021-11-18
-  ALPHA_CLUSTER_RESOURCE_GROUP: rg-aks-alpha
-  BETA_CLUSTER_NAME: aks-beta-fint-2021-11-23
-  BETA_CLUSTER_RESOURCE_GROUP: rg-aks-beta
-  API_CLUSTER_NAME: aks-api-fint-2022-02-08
-  API_CLUSTER_RESOURCE_GROUP: rg-aks-api
   PWF_CLUSTER_NAME: aks-pwf-fint-2021-10-20
   PWF_CLUSTER_RESOURCE_GROUP: rg-aks-pwf
   NAMESPACE: default
@@ -21,11 +15,11 @@ jobs:
     steps:
       - uses: actions/checkout@v3
 
-      - name: Setup Java 8
+      - name: Setup Java 21
         uses: actions/setup-java@v3
         with:
-          distribution: adopt
-          java-version: 8
+          distribution: 'temurin'
+          java-version: 21
 
       - name: Gradle wrapper validation
         uses: gradle/wrapper-validation-action@v1

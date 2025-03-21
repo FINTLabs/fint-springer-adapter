@@ -108,15 +108,17 @@ public class GrepSparqlService {
 	}
 
 	static final class Constants {
-		static final String ARSTRINN = "PREFIX grep:<http://psi.udir.no/ontologi/kl06/>\n" +
-                "SELECT DISTINCT ?id ?kode ?tittel ?url\n" +
-                "WHERE {\n" +
-                "  ?x a grep:aarstrinn ;\n" +
-                "  grep:id ?id ;\n" +
-                "  grep:kode ?kode ;\n" +
-				"  grep:url-data ?url ;\n" +
-				"  grep:tittel ?tittel\n" +
-                "  FILTER (lang(?tittel) = \"default\")\n" +
-                "}";
+		static final String ARSTRINN = """
+                PREFIX grep:<http://psi.udir.no/ontologi/kl06/>
+                SELECT DISTINCT ?id ?kode ?tittel ?url
+                WHERE {
+                  ?x a grep:aarstrinn ;
+                  grep:id ?id ;
+                  grep:kode ?kode ;
+                  grep:url-data ?url ;
+                  grep:tittel ?tittel
+                  FILTER (lang(?tittel) = "default")
+                }
+                """;
 	}
 }

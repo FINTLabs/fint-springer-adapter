@@ -13,7 +13,7 @@ import no.fint.model.resource.arkiv.noark.KlassifikasjonssystemResource;
 import no.fint.provider.springer.storage.SpringerRepository;
 import org.springframework.stereotype.Repository;
 
-import javax.annotation.PostConstruct;
+import jakarta.annotation.PostConstruct;
 import java.util.EnumMap;
 import java.util.Set;
 import java.util.stream.Collectors;

@@ -93,7 +93,7 @@ public class PersonalRepository extends SpringerRepository {
             PersonalressursResource resource = objectMapper.convertValue(response.getData().get(0), PersonalressursResource.class);
             String[] queryString = StringUtils.split(response.getQuery(), '/');
             Query query = wrapper.query(PersonalressursResource.class)
-                    .addCriteria(Criteria.where(String.format("value.%s.identifikatorverdi", queryString[0])).is(queryString[1]));
+                    .addCriteria(Criteria.where("value.%s.identifikatorverdi".formatted(queryString[0])).is(queryString[1]));
             log.info("Query: {}", query);
             Springer result = mongoTemplate.findOne(query, Springer.class);
             PersonalressursResource personalressurs = wrapper.unwrapper(PersonalressursResource.class).apply(result);

@@ -11,7 +11,7 @@ import no.fint.provider.springer.storage.SpringerRepository;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.stereotype.Repository;
 
-import javax.annotation.PostConstruct;
+import jakarta.annotation.PostConstruct;
 import java.util.EnumMap;
 import java.util.Set;
 import java.util.stream.Collectors;
