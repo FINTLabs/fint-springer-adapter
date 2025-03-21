@@ -62,8 +62,6 @@ dependencies {
     implementation "no.fint:fint-arkiv-model-java:${apiVersion}"
     implementation "no.fint:fint-arkiv-resource-model-java:${apiVersion}"
 
-    implementation 'no.fint:fint-vigokv-model:3.9.0'
-
     implementation 'org.springframework.hateoas:spring-hateoas'
     implementation 'org.springframework.plugin:spring-plugin-core'
     implementation 'org.springframework.boot:spring-boot-actuator'
@@ -71,10 +69,10 @@ dependencies {
     implementation 'org.springframework.boot:spring-boot-starter-hateoas'
     implementation 'org.springframework.boot:spring-boot-starter-web'
     implementation 'org.springframework.boot:spring-boot-starter-data-mongodb'
-
-    // Jersey dependencies for Java 21 compatibility
     implementation 'org.glassfish.jersey.media:jersey-media-sse:2.35'
     implementation 'org.glassfish.jersey.inject:jersey-hk2:2.35'
+    implementation 'com.sun.activation:javax.activation:1.2.0'
+    implementation 'javax.xml.bind:jaxb-api:2.3.1'
 
     testImplementation 'cglib:cglib-nodep:3.3.0'
     testImplementation 'org.spockframework:spock-spring:2.4-M1-groovy-4.0'
@@ -110,8 +108,6 @@ bootRun {
     }
     systemProperties System.properties
 }
-
-// Fjernet den midlertidige deaktiveringen av tester
 
 test {
     testLogging {
