@@ -7,6 +7,7 @@ import no.fint.model.felles.kompleksedatatyper.Identifikator;
 import no.fint.model.resource.Link;
 import no.fint.model.resource.utdanning.utdanningsprogram.ArstrinnResource;
 import org.apache.jena.query.*;
+import org.apache.jena.sparql.exec.http.QueryExecutionHTTP;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
@@ -82,7 +83,7 @@ public class GrepSparqlService {
 	public Stream<ArstrinnResource> getArstrinn() {
 	    Stream.Builder<ArstrinnResource> builder = Stream.builder();
 		Query query = QueryFactory.create(Constants.ARSTRINN);
-		try (QueryExecution qexec = QueryExecutionFactory.sparqlService(grepSparqlEndpoint, query)) {
+		try (QueryExecution qexec = QueryExecutionHTTP.service(grepSparqlEndpoint).query(query).build()) {
 
 			ResultSet results = qexec.execSelect();
 

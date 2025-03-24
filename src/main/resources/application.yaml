@@ -1,10 +1,6 @@
 server:
   port: 8091
 
-springfox:
-  title: '@title@'
-  version: '@version@'
-
 fint:
   adapter:
     endpoints:
