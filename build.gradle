@@ -44,7 +44,7 @@ dependencyManagement {
 
 dependencies {
     implementation 'com.google.guava:guava:33.2.1-jre'
-    implementation 'org.apache.commons:commons-lang3:3.14.0'
+    implementation 'org.apache.commons:commons-lang3:3.19.0'
     implementation 'commons-beanutils:commons-beanutils:1.9.4'
     implementation 'org.apache.jena:jena-arq:5.2.0'
     implementation 'org.glassfish.jersey.core:jersey-client:3.1.5'
