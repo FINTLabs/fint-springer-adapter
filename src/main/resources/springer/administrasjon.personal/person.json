@@ -306,31 +306,31 @@
       },
       {
         "kontaktinformasjon": {
-          "epostadresse": "anton.duck@andeby.vgs.no",
+          "epostadresse": "arne.fjeld@oslo.vgs.no",
           "mobiltelefonnummer": "33333333"
         },
         "postadresse": {
           "adresselinje": [
-            "Bakgaten 123"
+            "Storgata 12"
           ],
-          "postnummer": "1000",
-          "poststed": "Andeby"
+          "postnummer": "0155",
+          "poststed": "Oslo"
         },
         "bostedsadresse": {
           "adresselinje": [
-            "Bakgaten 123"
+            "Storgata 12"
           ],
-          "postnummer": "1000",
-          "poststed": "Andeby"
+          "postnummer": "0155",
+          "poststed": "Oslo"
         },
         "fodselsdato": "1981-01-12T00:00:00Z",
         "fodselsnummer": {
           "identifikatorverdi": "13018156789"
         },
         "navn": {
-          "etternavn": "Duck",
-          "mellomnavn": "Fetter",
-          "fornavn": "Anton"
+          "etternavn": "Fjeld",
+          "mellomnavn": "Marius",
+          "fornavn": "Arne"
         },
         "_links": {
           "personalressurs": [
@@ -367,30 +367,30 @@
       },
       {
         "kontaktinformasjon": {
-          "epostadresse": "doly.duck@andeby.vgs.no",
+          "epostadresse": "siri.solberg@oslo.vgs.no",
           "mobiltelefonnummer": "87878787"
         },
         "postadresse": {
           "adresselinje": [
-            "Apalveien 22"
+            "Soleieveien 5"
           ],
-          "postnummer": "1000",
-          "poststed": "Andeby"
+          "postnummer": "0555",
+          "poststed": "Oslo"
         },
         "bostedsadresse": {
           "adresselinje": [
-            "Apalveien 22"
+            "Soleieveien 5"
           ],
-          "postnummer": "1000",
-          "poststed": "Andeby"
+          "postnummer": "0555",
+          "poststed": "Oslo"
         },
         "fodselsdato": "1981-01-12T00:00:00Z",
         "fodselsnummer": {
           "identifikatorverdi": "14018956789"
         },
         "navn": {
-          "etternavn": "Duck",
-          "fornavn": "Dolly"
+          "etternavn": "Solberg",
+          "fornavn": "Siri"
         },
         "_links": {
           "personalressurs": [
@@ -427,30 +427,30 @@
       },
       {
         "kontaktinformasjon": {
-          "epostadresse": "bestemor.duck@andeby.vgs.no",
+          "epostadresse": "ingrid.hansen@oslo.vgs.no",
           "mobiltelefonnummer": "87878787"
         },
         "postadresse": {
           "adresselinje": [
-            "Duck-gården"
+            "Hageveien 10"
           ],
-          "postnummer": "1000",
-          "poststed": "Andeby"
+          "postnummer": "0560",
+          "poststed": "Oslo"
         },
         "bostedsadresse": {
           "adresselinje": [
-            "Duck-gården"
+            "Hageveien 10"
           ],
-          "postnummer": "1000",
-          "poststed": "Andeby"
+          "postnummer": "0560",
+          "poststed": "Oslo"
         },
         "fodselsdato": "1981-01-12T00:00:00Z",
         "fodselsnummer": {
           "identifikatorverdi": "14013956789"
         },
         "navn": {
-          "etternavn": "Duck",
-          "fornavn": "Bestemor"
+          "etternavn": "Hansen",
+          "fornavn": "Ingrid"
         },
         "_links": {
           "personalressurs": [
@@ -607,29 +607,29 @@
       },
       {
         "kontaktinformasjon": {
-          "epostadresse": "ole@andebymail.no",
+          "epostadresse": "ole.andersen@oslo.vgs.no",
           "mobiltelefonnummer": "99911111"
         },
         "postadresse": {
           "adresselinje": [
-            "Apalveien 111"
+            "Skoleveien 11"
           ],
-          "postnummer": "1000",
-          "poststed": "Andeby"
+          "postnummer": "0550",
+          "poststed": "Oslo"
         },
         "bostedsadresse": {
           "adresselinje": [
-            "Apalveien 111"
+            "Skoleveien 11"
           ],
-          "postnummer": "1000",
-          "poststed": "Andeby"
+          "postnummer": "0550",
+          "poststed": "Oslo"
         },
         "fodselsdato": "2011-01-11T00:00:00Z",
         "fodselsnummer": {
           "identifikatorverdi": "11011112345"
         },
         "navn": {
-          "etternavn": "Duck",
+          "etternavn": "Andersen",
           "fornavn": "Ole"
         },
         "_links": {
@@ -647,30 +647,30 @@
       },
       {
         "kontaktinformasjon": {
-          "epostadresse": "dole@andebymail.no",
+          "epostadresse": "per.olsen@oslo.vgs.no",
           "mobiltelefonnummer": "99922222"
         },
         "postadresse": {
           "adresselinje": [
-            "Apalveien 111"
+            "Skoleveien 13"
           ],
-          "postnummer": "1000",
-          "poststed": "Andeby"
+          "postnummer": "0550",
+          "poststed": "Oslo"
         },
         "bostedsadresse": {
           "adresselinje": [
-            "Apalveien 111"
+            "Skoleveien 13"
           ],
-          "postnummer": "1000",
-          "poststed": "Andeby"
+          "postnummer": "0550",
+          "poststed": "Oslo"
         },
         "fodselsdato": "2011-01-12T00:00:00Z",
         "fodselsnummer": {
           "identifikatorverdi": "12011112345"
         },
         "navn": {
-          "etternavn": "Duck",
-          "fornavn": "Dole"
+          "etternavn": "Olsen",
+          "fornavn": "Per"
         },
         "_links": {
           "elev": [
@@ -687,30 +687,30 @@
       },
       {
         "kontaktinformasjon": {
-          "epostadresse": "doffen@andebymail.no",
+          "epostadresse": "henrik.strand@oslo.vgs.no",
           "mobiltelefonnummer": "99933333"
         },
         "postadresse": {
           "adresselinje": [
-            "Apalveien 111"
+            "Skoleveien 13"
           ],
-          "postnummer": "1000",
-          "poststed": "Andeby"
+          "postnummer": "0550",
+          "poststed": "Oslo"
         },
         "bostedsadresse": {
           "adresselinje": [
-            "Apalveien 111"
+            "Skoleveien 13"
           ],
-          "postnummer": "1000",
-          "poststed": "Andeby"
+          "postnummer": "0550",
+          "poststed": "Oslo"
         },
         "fodselsdato": "2011-01-12T00:00:00Z",
         "fodselsnummer": {
           "identifikatorverdi": "13011112345"
         },
         "navn": {
-          "etternavn": "Duck",
-          "fornavn": "Doffen"
+          "etternavn": "Strand",
+          "fornavn": "Henrik"
         },
         "_links": {
           "elev": [
@@ -727,30 +727,30 @@
       },
       {
         "kontaktinformasjon": {
-          "epostadresse": "hetti@andebymail.no",
+          "epostadresse": "maja.nilsen@oslo.vgs.no",
           "mobiltelefonnummer": "99944444"
         },
         "postadresse": {
           "adresselinje": [
-            "Apalveien 80"
+            "Skoleveien 15"
           ],
-          "postnummer": "1000",
-          "poststed": "Andeby"
+          "postnummer": "0550",
+          "poststed": "Oslo"
         },
         "bostedsadresse": {
           "adresselinje": [
-            "Apalveien 80"
+            "Skoleveien 15"
           ],
-          "postnummer": "1000",
-          "poststed": "Andeby"
+          "postnummer": "0550",
+          "poststed": "Oslo"
         },
         "fodselsdato": "2011-01-12T00:00:00Z",
         "fodselsnummer": {
           "identifikatorverdi": "14011112345"
         },
         "navn": {
-          "etternavn": "Duck",
-          "fornavn": "Hetti"
+          "etternavn": "Nilsen",
+          "fornavn": "Maja"
         },
         "_links": {
           "elev": [
