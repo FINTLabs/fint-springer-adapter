@@ -3,6 +3,7 @@ package no.fint.provider.springer.storage;
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import lombok.extern.slf4j.Slf4j;
+import no.fint.provider.springer.config.SpringerProperties;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.core.io.Resource;
 import org.springframework.core.io.support.PathMatchingResourcePatternResolver;
@@ -25,9 +26,17 @@ public class Loader {
     @Autowired
     private ObjectMapper objectMapper;
 
+    @Autowired
+    private SpringerProperties springerProperties;
+
     @PostConstruct
     public void load() throws IOException, ClassNotFoundException {
         log.info("Checking database content ...");
+        
+        if (springerProperties.isCleanOnStartup()) {
+            log.info("Cleaning database as per configuration... 🧹");
+            mongoTemplate.dropCollection(Springer.class);
+        }
         for (Resource r : new PathMatchingResourcePatternResolver(getClass().getClassLoader()).getResources("classpath*:/springer/**/*.json")) {
             try {
                 log.info("Checking {} ...", r);

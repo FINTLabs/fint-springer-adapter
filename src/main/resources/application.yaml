@@ -2,6 +2,9 @@ server:
   port: 8091
 
 fint:
+  springer:
+    clean-on-startup: false
+
   adapter:
     endpoints:
       sse: /sse/%s
