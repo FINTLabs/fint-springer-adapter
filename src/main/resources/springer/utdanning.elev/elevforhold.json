@@ -27,6 +27,11 @@
               "href": "${utdanning.elev.basisgruppe}/systemid/BG_1STA-2018"
             }
           ],
+          "basisgruppemedlemskap": [
+            {
+              "href": "${utdanning.elev.basisgruppemedlemskap}/systemid/BGM_E_500001_1_BG_1STA-2018"
+            }
+          ],
           "undervisningsgruppe": [
             {
               "href": "${utdanning.timeplan.undervisningsgruppe}/systemid/UG_2018_1STA_NOR1Z41"
@@ -65,6 +70,11 @@
               "href": "${utdanning.elev.basisgruppe}/systemid/BG_1STA-2018"
             }
           ],
+          "basisgruppemedlemskap": [
+            {
+              "href": "${utdanning.elev.basisgruppemedlemskap}/systemid/BGM_E_500002_1_BG_1STA-2018"
+            }
+          ],
           "undervisningsgruppe": [
             {
               "href": "${utdanning.timeplan.undervisningsgruppe}/systemid/UG_2018_1STA_NOR1Z41"
@@ -101,6 +111,11 @@
           "basisgruppe": [
             {
               "href": "${utdanning.elev.basisgruppe}/systemid/BG_1STA-2018"
+            }
+          ],
+          "basisgruppemedlemskap": [
+            {
+              "href": "${utdanning.elev.basisgruppemedlemskap}/systemid/BGM_E_500003_1_BG_1STA-2018"
             }
           ],
           "kontaktlarergruppe": [
@@ -156,6 +171,11 @@
               "href": "${utdanning.elev.basisgruppe}/systemid/1321121"
             }
           ],
+          "basisgruppemedlemskap": [
+            {
+              "href": "${utdanning.elev.basisgruppemedlemskap}/systemid/BGM_500011-1_1321121"
+            }
+          ],
           "kontaktlarergruppe": [
             {
               "href": "${utdanning.elev.kontaktlarergruppe}/systemid/1321122_1IDA"
@@ -204,6 +224,11 @@
               "href": "${utdanning.elev.basisgruppe}/systemid/1321121"
             }
           ],
+          "basisgruppemedlemskap": [
+            {
+              "href": "${utdanning.elev.basisgruppemedlemskap}/systemid/BGM_500012-1_1321121"
+            }
+          ],
           "kontaktlarergruppe": [
             {
               "href": "${utdanning.elev.kontaktlarergruppe}/systemid/1321122_1IDA"
@@ -250,6 +275,11 @@
           "basisgruppe": [
             {
               "href": "${utdanning.elev.basisgruppe}/systemid/1321122"
+            }
+          ],
+          "basisgruppemedlemskap": [
+            {
+              "href": "${utdanning.elev.basisgruppemedlemskap}/systemid/BGM_500013-1_1321122"
             }
           ],
           "kontaktlarergruppe": [
@@ -301,6 +331,14 @@
             },
             {
               "href": "${utdanning.elev.basisgruppe}/systemid/1321123"
+            }
+          ],
+          "basisgruppemedlemskap": [
+            {
+              "href": "${utdanning.elev.basisgruppemedlemskap}/systemid/BGM_500014-1_1321122"
+            },
+            {
+              "href": "${utdanning.elev.basisgruppemedlemskap}/systemid/BGM_500014-1_1321123"
             }
           ],
           "kontaktlarergruppe": [

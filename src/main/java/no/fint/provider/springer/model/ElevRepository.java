@@ -24,6 +24,9 @@ public class ElevRepository extends SpringerRepository {
             case GET_ALL_BASISGRUPPE:
                 query(BasisgruppeResource.class, response);
                 break;
+            case GET_ALL_BASISGRUPPEMEDLEMSKAP:
+                query(BasisgruppemedlemskapResource.class, response);
+                break;
             case GET_ALL_ELEV:
                 query(ElevResource.class, response);
                 break;
@@ -45,6 +48,7 @@ public class ElevRepository extends SpringerRepository {
                 response.setStatusCode("UNSUPPORTED_ACTION");
                 response.setMessage("Unsupported action");
                 break;
+
             default:
                 response.setStatus(Status.ADAPTER_REJECTED);
                 response.setResponseStatus(ResponseStatus.REJECTED);

@@ -35,6 +35,17 @@
               "href": "${utdanning.elev.elevforhold}/systemid/E_500003_1"
             }
           ],
+          "gruppemedlemskap": [
+            {
+              "href": "${utdanning.elev.basisgruppemedlemskap}/systemid/BGM_E_500001_1_BG_1STA-2018"
+            },
+            {
+              "href": "${utdanning.elev.basisgruppemedlemskap}/systemid/BGM_E_500002_1_BG_1STA-2018"
+            },
+            {
+              "href": "${utdanning.elev.basisgruppemedlemskap}/systemid/BGM_E_500003_1_BG_1STA-2018"
+            }
+          ],
           "undervisningsforhold":[
             {
               "href": "${utdanning.elev.undervisningsforhold}/systemid/L_100003_1"
@@ -92,6 +103,14 @@
             },
             {
               "href": "${utdanning.elev.elevforhold}/systemid/500012-1"
+            }
+          ],
+          "gruppemedlemskap": [
+            {
+              "href": "${utdanning.elev.basisgruppemedlemskap}/systemid/BGM_500011-1_1321121"
+            },
+            {
+              "href": "${utdanning.elev.basisgruppemedlemskap}/systemid/BGM_500012-1_1321121"
             }
           ],
           "undervisningsforhold": [
@@ -155,6 +174,14 @@
               "href": "${utdanning.elev.elevforhold}/systemid/500014-1"
             }
           ],
+          "gruppemedlemskap": [
+            {
+              "href": "${utdanning.elev.basisgruppemedlemskap}/systemid/BGM_500013-1_1321122"
+            },
+            {
+              "href": "${utdanning.elev.basisgruppemedlemskap}/systemid/BGM_500014-1_1321122"
+            }
+          ],
           "undervisningsforhold": [
             {
               "href": "${utdanning.elev.undervisningsforhold}/systemId/7024200-93838-0-1-20211001000000"
@@ -211,6 +238,11 @@
           "elevforhold": [
             {
               "href": "${utdanning.elev.elevforhold}/systemid/500014-1"
+            }
+          ],
+          "gruppemedlemskap": [
+            {
+              "href": "${utdanning.elev.basisgruppemedlemskap}/systemid/BGM_500014-1_1321123"
             }
           ],
           "undervisningsforhold": [
