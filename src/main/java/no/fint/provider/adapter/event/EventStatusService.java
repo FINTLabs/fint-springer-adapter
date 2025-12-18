@@ -48,7 +48,7 @@ public class EventStatusService {
             log.info("Rejecting {}", event.getAction());
             event.setStatus(Status.ADAPTER_REJECTED);
         } else {
-            log.debug("verifyEvent returns false");
+            log.debug("Event not verified, skipping: {}", event.getAction());
             return false;
         }
 
