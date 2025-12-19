@@ -26,7 +26,7 @@ spec:
       restartPolicy: Always
       containers:
         - name: springer-pwf
-          image: fintlabsacr.azurecr.io/fint-springer-adapter:none
+          image: ghcr.io/fintlabs/fint-springer-adapter:tba
           ports:
             - containerPort: 8092
           resources:
