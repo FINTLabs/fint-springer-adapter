@@ -63,7 +63,7 @@ jobs:
         run: echo "REPO_NAME=${GITHUB_REPOSITORY#*/}" >> $GITHUB_ENV
 
       - name: Set the target PWF cluster.
-        uses: azure/aks-set-context@v1
+        uses: azure/aks-set-context@v4
         with:
           creds: '${{secrets.AKS_PWF_FINT_GITHUB}}'
           cluster-name: ${{env.PWF_CLUSTER_NAME}}
