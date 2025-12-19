@@ -58,6 +58,11 @@ jobs:
         with:
           creds: '${{secrets.AKS_PWF_FINT_GITHUB}}'
 
+      - name: Set up kubelogin
+        uses: azure/use-kubelogin@v1
+        with:
+          kubelogin-version: 'v0.0.24'
+
       - name: Set the target cluster.
         uses: azure/aks-set-context@v4
         with:
