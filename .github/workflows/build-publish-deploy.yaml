@@ -71,7 +71,7 @@ jobs:
           admin: true
 
       - name: Deploy to PWF
-        uses: azure/k8s-deploy@v5.0.3
+        uses: azure/k8s-deploy@v5.0.4
         with:
           manifests: k8s-pwf.yaml
           images: ${{needs.build-and-publish.outputs.tags}}
