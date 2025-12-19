@@ -10,71 +10,64 @@ env:
   NAMESPACE: default
 
 jobs:
-  build:
+  build-and-publish:
     runs-on: ubuntu-latest
+    outputs:
+      tags: ${{steps.meta.outputs.tags}}
     steps:
-      - uses: actions/checkout@v5
+      - uses: actions/checkout@v6
 
-      - name: Setup Java 21
-        uses: actions/setup-java@v3
+      - name: Login to GitHub Container Registry (GHCR)
+        uses: docker/login-action@v3
         with:
-          distribution: 'temurin'
-          java-version: 21
+          registry: ghcr.io
+          username: ${{github.actor}}
+          password: ${{secrets.GITHUB_TOKEN}}
 
-      - name: Gradle wrapper validation
-        uses: gradle/wrapper-validation-action@v3
-
-      - name: Gradle setup
-        uses: gradle/gradle-build-action@v3
-
-      - name: Gradle build
-        run: |
-          ./gradlew clean build --no-build-cache
-
-  publish:
-    if: github.ref == 'refs/heads/main'
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v5
-
-      - name: Get repo name
-        run: echo "REPO_NAME=${GITHUB_REPOSITORY#*/}" >> $GITHUB_ENV
-
-      - name: Connect to Azure Container Registry (ACR)
-        uses: azure/docker-login@v2
+      - name: Docker meta
+        id: meta
+        uses: docker/metadata-action@v5
         with:
-          login-server: ${{env.REGISTRY_NAME}}.azurecr.io
-          username: ${{secrets.REGISTRY_USERNAME}}
-          password: ${{secrets.REGISTRY_PASSWORD}}
+          images: ghcr.io/${{github.repository}}
+          tags: |
+            type=ref,event=branch,suffix=-{{sha}}
+            type=ref,event=pr,suffix=-{{sha}}
+            type=sha,prefix={{date 'YYYY-MM-DD-'}},enable={{is_default_branch}}
+            type=raw,value=latest,enable={{is_default_branch}}
 
-      - name: Container build and push to a Azure Container Registry (ACR)
-        run: |
-          docker build . -t ${{env.REGISTRY_NAME}}.azurecr.io/${{env.REPO_NAME}}:${{github.sha}}
-          docker push ${{env.REGISTRY_NAME}}.azurecr.io/${{env.REPO_NAME}}:${{github.sha}}
+      - name: Build and push
+        uses: docker/build-push-action@v6
+        with:
+          push: ${{github.actor != 'dependabot[bot]'}}
+          tags: ${{steps.meta.outputs.tags}}
+          labels: ${{steps.meta.outputs.labels}}
 
   deploy-pwf:
-    needs: publish
+    if: github.ref == 'refs/heads/main'
+    needs: build-and-publish
     environment: pwf
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v5
+      - uses: actions/checkout@v6
 
       - name: Get repo name
         run: echo "REPO_NAME=${GITHUB_REPOSITORY#*/}" >> $GITHUB_ENV
 
-      - name: Set the target PWF cluster.
-        uses: azure/aks-set-context@v4
+      - name: Login to Azure
+        uses: azure/login@v2
         with:
           creds: '${{secrets.AKS_PWF_FINT_GITHUB}}'
+
+      - name: Set the target cluster.
+        uses: azure/aks-set-context@v4
+        with:
           cluster-name: ${{env.PWF_CLUSTER_NAME}}
           resource-group: ${{env.PWF_CLUSTER_RESOURCE_GROUP}}
 
       - name: Deploy to PWF
-        uses: azure/k8s-deploy@v3
+        uses: azure/k8s-deploy@v5
         with:
-          manifests: |
-            k8s-pwf.yaml
-          images: |
-            ${{env.REGISTRY_NAME}}.azurecr.io/${{env.REPO_NAME}}:${{github.sha}}
+          manifests: k8s-pwf.yaml
+          images: ${{needs.build-and-publish.outputs.tags}}
           namespace: ${{env.NAMESPACE}}
           pull-images: false

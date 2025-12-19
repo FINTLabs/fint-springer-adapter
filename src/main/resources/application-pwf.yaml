@@ -17,6 +17,10 @@ fint:
         arkiv-noark: https://play-with-fint.felleskomponent.no/arkiv/noark/provider
         arkiv-kodeverk: https://play-with-fint.felleskomponent.no/arkiv/kodeverk/provider
     organizations: pwf.no
+
+  springer:
+    clean-on-startup: false
+
 oauth:
   enabled: false
 logging:

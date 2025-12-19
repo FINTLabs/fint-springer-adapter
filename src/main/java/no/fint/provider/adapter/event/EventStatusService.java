@@ -38,17 +38,17 @@ public class EventStatusService {
      *
      * @param component
      * @param event
-     * @return The inbound event.
+     * @return true if the event was accepted, false otherwise
      */
     public boolean verifyEvent(String component, Event event) {
         if (supportedActions.supports(event.getAction()) || DefaultActions.getDefaultActions().contains(event.getAction())) {
-            log.debug("Adapter accepted");
+            log.debug("Adapter accepted event: {}", event.getAction());
             event.setStatus(Status.ADAPTER_ACCEPTED);
         } else if (props.isRejectUnknownEvents()) {
-            log.info("Rejecting {}", event.getAction());
+            log.info("Rejecting event: {}", event.getAction());
             event.setStatus(Status.ADAPTER_REJECTED);
         } else {
-            log.debug("Event not verified, skipping: {}", event.getAction());
+            log.debug("Event not implemented, skipping: {}", event.getAction());
             return false;
         }
 
