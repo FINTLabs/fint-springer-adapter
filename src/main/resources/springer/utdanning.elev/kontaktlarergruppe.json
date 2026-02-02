@@ -4,12 +4,6 @@
       {
         "beskrivelse": "Kontaktlærergruppe 1, 1. trinn Studiespesialisering 2018-2019",
         "navn": "1STA-1",
-        "periode": [
-          {
-            "slutt": "2099-01-01T00:00:00Z",
-            "start": "2017-06-04T19:53:36Z"
-          }
-        ],
         "systemId": {
           "identifikatorverdi": "KG_1STA-1"
         },
@@ -60,12 +54,6 @@
       {
         "beskrivelse": "1IDA",
         "navn": "1IDA",
-        "periode": [
-          {
-            "slutt": "2022-07-31T00:00:00Z",
-            "start": "2021-08-01T00:00:00Z"
-          }
-        ],
         "systemId": {
           "identifikatorverdi": "1321122_1IDA"
         },
@@ -116,12 +104,6 @@
       {
         "beskrivelse": "2IDA",
         "navn": "2IDA",
-        "periode": [
-          {
-            "slutt": "2022-07-31T00:00:00Z",
-            "start": "2021-08-01T00:00:00Z"
-          }
-        ],
         "systemId": {
           "identifikatorverdi": "1321122_2IDA"
         },
