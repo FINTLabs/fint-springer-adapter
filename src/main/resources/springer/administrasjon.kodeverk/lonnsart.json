@@ -17083,5 +17083,5 @@
     ]
   },
   "total_items": 776,
-  "_class": "no.fint.model.resource.administrasjon.kodeverk.LonnsartResource"
+  "_class": "no.novari.fint.model.resource.administrasjon.kodeverk.LonnsartResource"
 }

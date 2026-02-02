@@ -1,5 +1,5 @@
 {
-  "_class": "no.fint.model.resource.administrasjon.personal.VariabellonnResource",
+  "_class": "no.novari.fint.model.resource.administrasjon.personal.VariabellonnResource",
   "_embedded": {
     "_entries": [
       {

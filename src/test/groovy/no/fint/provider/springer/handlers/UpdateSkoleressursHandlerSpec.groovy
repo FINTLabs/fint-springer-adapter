@@ -2,11 +2,11 @@ package no.fint.provider.springer.handlers
 
 import no.fint.event.model.Event
 import no.fint.event.model.Operation
-import no.fint.model.felles.kompleksedatatyper.Identifikator
-import no.fint.model.felles.kompleksedatatyper.Kontaktinformasjon
-import no.fint.model.resource.utdanning.elev.ElevResource
-import no.fint.model.resource.utdanning.elev.SkoleressursResource
-import no.fint.model.utdanning.elev.ElevActions
+import no.novari.fint.model.felles.kompleksedatatyper.Identifikator
+import no.novari.fint.model.felles.kompleksedatatyper.Kontaktinformasjon
+import no.novari.fint.model.resource.utdanning.elev.ElevResource
+import no.novari.fint.model.resource.utdanning.elev.SkoleressursResource
+import no.novari.fint.model.utdanning.elev.ElevActions
 import org.springframework.beans.factory.annotation.Autowired
 import org.springframework.boot.test.context.SpringBootTest
 import org.springframework.test.context.ActiveProfiles

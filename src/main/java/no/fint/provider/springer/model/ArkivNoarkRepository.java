@@ -4,12 +4,12 @@ import lombok.extern.slf4j.Slf4j;
 import no.fint.event.model.Event;
 import no.fint.event.model.ResponseStatus;
 import no.fint.event.model.Status;
-import no.fint.model.arkiv.noark.NoarkActions;
-import no.fint.model.resource.FintLinks;
-import no.fint.model.resource.arkiv.noark.AdministrativEnhetResource;
-import no.fint.model.resource.arkiv.noark.ArkivdelResource;
-import no.fint.model.resource.arkiv.noark.ArkivressursResource;
-import no.fint.model.resource.arkiv.noark.KlassifikasjonssystemResource;
+import no.novari.fint.model.arkiv.noark.NoarkActions;
+import no.novari.fint.model.resource.FintLinks;
+import no.novari.fint.model.resource.arkiv.noark.AdministrativEnhetResource;
+import no.novari.fint.model.resource.arkiv.noark.ArkivdelResource;
+import no.novari.fint.model.resource.arkiv.noark.ArkivressursResource;
+import no.novari.fint.model.resource.arkiv.noark.KlassifikasjonssystemResource;
 import no.fint.provider.springer.storage.SpringerRepository;
 import org.springframework.stereotype.Repository;
 
@@ -18,7 +18,7 @@ import java.util.EnumMap;
 import java.util.Set;
 import java.util.stream.Collectors;
 
-import static no.fint.model.arkiv.noark.NoarkActions.valueOf;
+import static no.novari.fint.model.arkiv.noark.NoarkActions.valueOf;
 
 @Slf4j
 @Repository

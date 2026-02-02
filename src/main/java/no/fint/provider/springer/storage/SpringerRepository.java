@@ -2,7 +2,7 @@ package no.fint.provider.springer.storage;
 
 import no.fint.event.model.Event;
 import no.fint.event.model.ResponseStatus;
-import no.fint.model.resource.FintLinks;
+import no.novari.fint.model.resource.FintLinks;
 import no.fint.provider.springer.service.Handler;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.mongodb.core.MongoTemplate;

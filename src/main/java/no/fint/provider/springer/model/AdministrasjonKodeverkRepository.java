@@ -4,9 +4,9 @@ import lombok.extern.slf4j.Slf4j;
 import no.fint.event.model.Event;
 import no.fint.event.model.ResponseStatus;
 import no.fint.event.model.Status;
-import no.fint.model.administrasjon.kodeverk.KodeverkActions;
-import no.fint.model.resource.FintLinks;
-import no.fint.model.resource.administrasjon.kodeverk.*;
+import no.novari.fint.model.administrasjon.kodeverk.KodeverkActions;
+import no.novari.fint.model.resource.FintLinks;
+import no.novari.fint.model.resource.administrasjon.kodeverk.*;
 import no.fint.provider.springer.storage.SpringerRepository;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.stereotype.Repository;
@@ -17,7 +17,7 @@ import java.util.Set;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
-import static no.fint.model.administrasjon.kodeverk.KodeverkActions.*;
+import static no.novari.fint.model.administrasjon.kodeverk.KodeverkActions.*;
 
 @Slf4j
 @Repository

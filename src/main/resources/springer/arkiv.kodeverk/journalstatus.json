@@ -333,5 +333,5 @@
     ]
   },
   "total_items": 23,
-  "_class": "no.fint.model.resource.arkiv.kodeverk.JournalStatusResource"
+  "_class": "no.novari.fint.model.resource.arkiv.kodeverk.JournalStatusResource"
 }

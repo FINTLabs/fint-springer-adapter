@@ -29,5 +29,5 @@
     ]
   },
   "total_items": 1,
-  "_class": "no.fint.model.resource.utdanning.timeplan.RomResource"
+  "_class": "no.novari.fint.model.resource.utdanning.timeplan.RomResource"
 }

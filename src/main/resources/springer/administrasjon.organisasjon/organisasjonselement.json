@@ -531,5 +531,5 @@
     ]
   },
   "total_items": 7,
-  "_class": "no.fint.model.resource.administrasjon.organisasjon.OrganisasjonselementResource"
+  "_class": "no.novari.fint.model.resource.administrasjon.organisasjon.OrganisasjonselementResource"
 }

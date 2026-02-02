@@ -177,5 +177,5 @@
     ]
   },
   "total_items": 3,
-  "_class": "no.fint.model.resource.utdanning.elev.SkoleressursResource"
+  "_class": "no.novari.fint.model.resource.utdanning.elev.SkoleressursResource"
 }

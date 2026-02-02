@@ -445,5 +445,5 @@
     ]
   },
   "total_items": 31,
-  "_class": "no.fint.model.resource.arkiv.kodeverk.SkjermingshjemmelResource"
+  "_class": "no.novari.fint.model.resource.arkiv.kodeverk.SkjermingshjemmelResource"
 }

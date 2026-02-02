@@ -27,5 +27,5 @@
     ]
   },
   "total_items": 2,
-  "_class": "no.fint.model.resource.okonomi.kodeverk.MerverdiavgiftResource"
+  "_class": "no.novari.fint.model.resource.okonomi.kodeverk.MerverdiavgiftResource"
 }

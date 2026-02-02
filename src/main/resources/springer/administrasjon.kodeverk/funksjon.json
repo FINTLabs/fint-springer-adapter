@@ -1508,5 +1508,5 @@
     ]
   },
   "total_items": 68,
-  "_class": "no.fint.model.resource.administrasjon.kodeverk.FunksjonResource"
+  "_class": "no.novari.fint.model.resource.administrasjon.kodeverk.FunksjonResource"
 }

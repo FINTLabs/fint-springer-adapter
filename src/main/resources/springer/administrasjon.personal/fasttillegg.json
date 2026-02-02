@@ -1,5 +1,5 @@
 {
-  "_class": "no.fint.model.resource.administrasjon.personal.FasttilleggResource",
+  "_class": "no.novari.fint.model.resource.administrasjon.personal.FasttilleggResource",
   "_embedded": {
     "_entries": [
       {

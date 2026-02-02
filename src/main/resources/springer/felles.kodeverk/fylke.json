@@ -25,5 +25,5 @@
     ]
   },
   "total_items": 1,
-  "_class": "no.fint.model.resource.felles.kodeverk.FylkeResource"
+  "_class": "no.novari.fint.model.resource.felles.kodeverk.FylkeResource"
 }

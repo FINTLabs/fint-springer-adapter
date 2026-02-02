@@ -2,9 +2,9 @@ package no.fint.provider.springer.model;
 
 import lombok.extern.slf4j.Slf4j;
 import no.fint.event.model.Event;
-import no.fint.model.resource.FintLinks;
-import no.fint.model.resource.utdanning.utdanningsprogram.SkoleResource;
-import no.fint.model.utdanning.utdanningsprogram.UtdanningsprogramActions;
+import no.novari.fint.model.resource.FintLinks;
+import no.novari.fint.model.resource.utdanning.utdanningsprogram.SkoleResource;
+import no.novari.fint.model.utdanning.utdanningsprogram.UtdanningsprogramActions;
 import no.fint.provider.springer.storage.SpringerRepository;
 import org.springframework.stereotype.Repository;
 

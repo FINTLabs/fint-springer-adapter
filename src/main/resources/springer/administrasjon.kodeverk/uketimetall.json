@@ -319,5 +319,5 @@
     ]
   },
   "total_items": 14,
-  "_class": "no.fint.model.resource.administrasjon.kodeverk.UketimetallResource"
+  "_class": "no.novari.fint.model.resource.administrasjon.kodeverk.UketimetallResource"
 }

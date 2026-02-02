@@ -95,5 +95,5 @@
     ]
   },
   "total_items": 6,
-  "_class": "no.fint.model.resource.arkiv.kodeverk.DokumentTypeResource"
+  "_class": "no.novari.fint.model.resource.arkiv.kodeverk.DokumentTypeResource"
 }

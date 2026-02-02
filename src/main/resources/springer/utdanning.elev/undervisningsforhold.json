@@ -22,9 +22,9 @@
               "href": "${utdanning.elev.skoleressurs}/systemid/ABCD213"
             }
           ],
-          "basisgruppe": [
+          "klasse": [
             {
-              "href": "${utdanning.elev.basisgruppe}/systemid/BG_1STA-2018"
+              "href": "${utdanning.elev.klasse}/systemid/BG_1STA-2018"
             }
           ],
           "kontaktlarergruppe": [
@@ -55,12 +55,12 @@
               "href": "${utdanning.elev.skoleressurs}/systemid/9b0205c3-0cba-485a-ac32-dba70500fe55"
             }
           ],
-          "basisgruppe": [
+          "klasse": [
             {
-              "href": "${utdanning.elev.basisgruppe}/systemid/1321121"
+              "href": "${utdanning.elev.klasse}/systemid/1321121"
             },
             {
-              "href": "${utdanning.elev.basisgruppe}/systemid/1321122"
+              "href": "${utdanning.elev.klasse}/systemid/1321122"
             }
           ],
           "kontaktlarergruppe": [
@@ -107,9 +107,9 @@
               "href": "${utdanning.elev.skoleressurs}/systemid/9b0205c3-0cba-485a-ac32-dba70500fe55"
             }
           ],
-          "basisgruppe": [
+          "klasse": [
             {
-              "href": "${utdanning.elev.basisgruppe}/systemid/BG_1STA-2018"
+              "href": "${utdanning.elev.klasse}/systemid/BG_1STA-2018"
             }
           ],
           "kontaktlarergruppe": [
@@ -150,9 +150,9 @@
               "href": "${utdanning.elev.skoleressurs}/systemid/d9a7860f-cb4b-4198-a9d9-840399fcddec"
             }
           ],
-          "basisgruppe": [
+          "klasse": [
             {
-              "href": "${utdanning.elev.basisgruppe}/systemid/1321123"
+              "href": "${utdanning.elev.klasse}/systemid/1321123"
             }
           ],
           "arbeidsforhold": [
@@ -182,5 +182,5 @@
     ]
   },
   "total_items": 1,
-  "_class": "no.fint.model.resource.utdanning.elev.UndervisningsforholdResource"
+  "_class": "no.novari.fint.model.resource.utdanning.elev.UndervisningsforholdResource"
 }

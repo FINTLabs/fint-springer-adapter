@@ -691,5 +691,5 @@
     ]
   },
   "total_items": 17,
-  "_class": "no.fint.model.resource.okonomi.kodeverk.VareResource"
+  "_class": "no.novari.fint.model.resource.okonomi.kodeverk.VareResource"
 }

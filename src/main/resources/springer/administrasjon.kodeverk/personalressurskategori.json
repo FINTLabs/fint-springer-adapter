@@ -209,5 +209,5 @@
     ]
   },
   "total_items": 9,
-  "_class": "no.fint.model.resource.administrasjon.kodeverk.PersonalressurskategoriResource"
+  "_class": "no.novari.fint.model.resource.administrasjon.kodeverk.PersonalressurskategoriResource"
 }

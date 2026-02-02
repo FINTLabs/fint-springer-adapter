@@ -22,14 +22,14 @@
               "href": "${utdanning.kodeverk.elevkategori}/systemid/heltid"
             }
           ],
-          "basisgruppe": [
+          "klasse": [
             {
-              "href": "${utdanning.elev.basisgruppe}/systemid/BG_1STA-2018"
+              "href": "${utdanning.elev.klasse}/systemid/BG_1STA-2018"
             }
           ],
-          "basisgruppemedlemskap": [
+          "klassemedlemskap": [
             {
-              "href": "${utdanning.elev.basisgruppemedlemskap}/systemid/BGM_E_500001_1_BG_1STA-2018"
+              "href": "${utdanning.elev.klassemedlemskap}/systemid/BGM_E_500001_1_BG_1STA-2018"
             }
           ],
           "undervisningsgruppe": [
@@ -65,14 +65,14 @@
               "href": "${utdanning.kodeverk.elevkategori}/systemid/heltid"
             }
           ],
-          "basisgruppe": [
+          "klasse": [
             {
-              "href": "${utdanning.elev.basisgruppe}/systemid/BG_1STA-2018"
+              "href": "${utdanning.elev.klasse}/systemid/BG_1STA-2018"
             }
           ],
-          "basisgruppemedlemskap": [
+          "klassemedlemskap": [
             {
-              "href": "${utdanning.elev.basisgruppemedlemskap}/systemid/BGM_E_500002_1_BG_1STA-2018"
+              "href": "${utdanning.elev.klassemedlemskap}/systemid/BGM_E_500002_1_BG_1STA-2018"
             }
           ],
           "undervisningsgruppe": [
@@ -108,14 +108,14 @@
               "href": "${utdanning.kodeverk.elevkategori}/systemid/heltid"
             }
           ],
-          "basisgruppe": [
+          "klasse": [
             {
-              "href": "${utdanning.elev.basisgruppe}/systemid/BG_1STA-2018"
+              "href": "${utdanning.elev.klasse}/systemid/BG_1STA-2018"
             }
           ],
-          "basisgruppemedlemskap": [
+          "klassemedlemskap": [
             {
-              "href": "${utdanning.elev.basisgruppemedlemskap}/systemid/BGM_E_500003_1_BG_1STA-2018"
+              "href": "${utdanning.elev.klassemedlemskap}/systemid/BGM_E_500003_1_BG_1STA-2018"
             }
           ],
           "kontaktlarergruppe": [
@@ -166,14 +166,14 @@
               "href": "${utdanning.timeplan.undervisningsgruppe}/systemid/10128458_1IDA"
             }
           ],
-          "basisgruppe": [
+          "klasse": [
             {
-              "href": "${utdanning.elev.basisgruppe}/systemid/1321121"
+              "href": "${utdanning.elev.klasse}/systemid/1321121"
             }
           ],
-          "basisgruppemedlemskap": [
+          "klassemedlemskap": [
             {
-              "href": "${utdanning.elev.basisgruppemedlemskap}/systemid/BGM_500011-1_1321121"
+              "href": "${utdanning.elev.klassemedlemskap}/systemid/BGM_500011-1_1321121"
             }
           ],
           "kontaktlarergruppe": [
@@ -219,14 +219,14 @@
               "href": "${utdanning.timeplan.undervisningsgruppe}/systemid/10128458_1IDA"
             }
           ],
-          "basisgruppe": [
+          "klasse": [
             {
-              "href": "${utdanning.elev.basisgruppe}/systemid/1321121"
+              "href": "${utdanning.elev.klasse}/systemid/1321121"
             }
           ],
-          "basisgruppemedlemskap": [
+          "klassemedlemskap": [
             {
-              "href": "${utdanning.elev.basisgruppemedlemskap}/systemid/BGM_500012-1_1321121"
+              "href": "${utdanning.elev.klassemedlemskap}/systemid/BGM_500012-1_1321121"
             }
           ],
           "kontaktlarergruppe": [
@@ -272,14 +272,14 @@
               "href": "${utdanning.timeplan.undervisningsgruppe}/systemid/10128458_2IDA"
             }
           ],
-          "basisgruppe": [
+          "klasse": [
             {
-              "href": "${utdanning.elev.basisgruppe}/systemid/1321122"
+              "href": "${utdanning.elev.klasse}/systemid/1321122"
             }
           ],
-          "basisgruppemedlemskap": [
+          "klassemedlemskap": [
             {
-              "href": "${utdanning.elev.basisgruppemedlemskap}/systemid/BGM_500013-1_1321122"
+              "href": "${utdanning.elev.klassemedlemskap}/systemid/BGM_500013-1_1321122"
             }
           ],
           "kontaktlarergruppe": [
@@ -325,20 +325,20 @@
               "href": "${utdanning.timeplan.undervisningsgruppe}/systemid/10128458_2IDA"
             }
           ],
-          "basisgruppe": [
+          "klasse": [
             {
-              "href": "${utdanning.elev.basisgruppe}/systemid/1321122"
+              "href": "${utdanning.elev.klasse}/systemid/1321122"
             },
             {
-              "href": "${utdanning.elev.basisgruppe}/systemid/1321123"
+              "href": "${utdanning.elev.klasse}/systemid/1321123"
             }
           ],
-          "basisgruppemedlemskap": [
+          "klassemedlemskap": [
             {
-              "href": "${utdanning.elev.basisgruppemedlemskap}/systemid/BGM_500014-1_1321122"
+              "href": "${utdanning.elev.klassemedlemskap}/systemid/BGM_500014-1_1321122"
             },
             {
-              "href": "${utdanning.elev.basisgruppemedlemskap}/systemid/BGM_500014-1_1321123"
+              "href": "${utdanning.elev.klassemedlemskap}/systemid/BGM_500014-1_1321123"
             }
           ],
           "kontaktlarergruppe": [
@@ -368,5 +368,5 @@
     ]
   },
   "total_items": 3,
-  "_class": "no.fint.model.resource.utdanning.elev.ElevforholdResource"
+  "_class": "no.novari.fint.model.resource.utdanning.elev.ElevforholdResource"
 }

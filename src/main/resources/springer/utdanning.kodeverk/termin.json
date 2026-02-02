@@ -48,5 +48,5 @@
     ]
   },
   "total_items": 2,
-  "_class": "no.fint.model.resource.utdanning.kodeverk.TerminResource"
+  "_class": "no.novari.fint.model.resource.utdanning.kodeverk.TerminResource"
 }

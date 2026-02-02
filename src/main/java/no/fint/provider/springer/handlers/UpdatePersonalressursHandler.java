@@ -1,7 +1,7 @@
 package no.fint.provider.springer.handlers;
 
-import no.fint.model.administrasjon.personal.PersonalActions;
-import no.fint.model.resource.administrasjon.personal.PersonalressursResource;
+import no.novari.fint.model.administrasjon.personal.PersonalActions;
+import no.novari.fint.model.resource.administrasjon.personal.PersonalressursResource;
 import org.springframework.stereotype.Service;
 
 import java.util.Collections;

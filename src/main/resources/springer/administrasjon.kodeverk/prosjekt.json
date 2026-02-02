@@ -77,5 +77,5 @@
     ]
   },
   "total_items": 3,
-  "_class": "no.fint.model.resource.administrasjon.kodeverk.ProsjektResource"
+  "_class": "no.novari.fint.model.resource.administrasjon.kodeverk.ProsjektResource"
 }

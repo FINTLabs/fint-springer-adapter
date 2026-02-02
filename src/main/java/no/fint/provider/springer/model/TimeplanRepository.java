@@ -4,12 +4,12 @@ import lombok.extern.slf4j.Slf4j;
 import no.fint.event.model.Event;
 import no.fint.event.model.ResponseStatus;
 import no.fint.event.model.Status;
-import no.fint.model.resource.FintLinks;
-import no.fint.model.resource.utdanning.timeplan.FagResource;
-import no.fint.model.resource.utdanning.timeplan.RomResource;
-import no.fint.model.resource.utdanning.timeplan.TimeResource;
-import no.fint.model.resource.utdanning.timeplan.UndervisningsgruppeResource;
-import no.fint.model.utdanning.timeplan.TimeplanActions;
+import no.novari.fint.model.resource.FintLinks;
+import no.novari.fint.model.resource.utdanning.timeplan.FagResource;
+import no.novari.fint.model.resource.utdanning.timeplan.RomResource;
+import no.novari.fint.model.resource.utdanning.timeplan.TimeResource;
+import no.novari.fint.model.resource.utdanning.timeplan.UndervisningsgruppeResource;
+import no.novari.fint.model.utdanning.timeplan.TimeplanActions;
 import no.fint.provider.springer.storage.SpringerRepository;
 import org.springframework.stereotype.Repository;
 

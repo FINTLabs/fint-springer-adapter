@@ -427,5 +427,5 @@
     ]
   },
   "total_items": 5,
-  "_class": "no.fint.model.resource.administrasjon.personal.PersonalressursResource"
+  "_class": "no.novari.fint.model.resource.administrasjon.personal.PersonalressursResource"
 }

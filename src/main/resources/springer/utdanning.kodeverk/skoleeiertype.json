@@ -27,5 +27,5 @@
     } ]
   },
   "total_items" : 4,
-  "_class": "no.fint.model.resource.utdanning.kodeverk.SkoleeiertypeResource"
+  "_class": "no.novari.fint.model.resource.utdanning.kodeverk.SkoleeiertypeResource"
 }

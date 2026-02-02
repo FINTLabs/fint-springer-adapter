@@ -5050,5 +5050,5 @@
     ]
   },
   "total_items": 228,
-  "_class": "no.fint.model.resource.administrasjon.kodeverk.AnsvarResource"
+  "_class": "no.novari.fint.model.resource.administrasjon.kodeverk.AnsvarResource"
 }

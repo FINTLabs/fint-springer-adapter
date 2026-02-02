@@ -123,5 +123,5 @@
     ]
   },
   "total_items": 8,
-  "_class": "no.fint.model.resource.arkiv.kodeverk.VariantformatResource"
+  "_class": "no.novari.fint.model.resource.arkiv.kodeverk.VariantformatResource"
 }

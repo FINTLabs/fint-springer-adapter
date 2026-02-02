@@ -1,5 +1,5 @@
 {
-  "_class": "no.fint.model.resource.administrasjon.fullmakt.FullmaktResource",
+  "_class": "no.novari.fint.model.resource.administrasjon.fullmakt.FullmaktResource",
   "_embedded" : {
     "_entries" : [ {
       "gyldighetsperiode" : {

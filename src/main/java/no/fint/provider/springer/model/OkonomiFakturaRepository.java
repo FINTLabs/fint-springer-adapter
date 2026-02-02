@@ -4,9 +4,9 @@ import lombok.extern.slf4j.Slf4j;
 import no.fint.event.model.Event;
 import no.fint.event.model.ResponseStatus;
 import no.fint.event.model.Status;
-import no.fint.model.okonomi.faktura.FakturaActions;
-import no.fint.model.resource.FintLinks;
-import no.fint.model.resource.okonomi.faktura.FakturautstederResource;
+import no.novari.fint.model.okonomi.faktura.FakturaActions;
+import no.novari.fint.model.resource.FintLinks;
+import no.novari.fint.model.resource.okonomi.faktura.FakturautstederResource;
 import no.fint.provider.springer.storage.SpringerRepository;
 import org.springframework.stereotype.Repository;
 

@@ -4,9 +4,9 @@ import lombok.extern.slf4j.Slf4j;
 import no.fint.event.model.Event;
 import no.fint.event.model.ResponseStatus;
 import no.fint.event.model.Status;
-import no.fint.model.administrasjon.organisasjon.OrganisasjonActions;
-import no.fint.model.resource.FintLinks;
-import no.fint.model.resource.administrasjon.organisasjon.OrganisasjonselementResource;
+import no.novari.fint.model.administrasjon.organisasjon.OrganisasjonActions;
+import no.novari.fint.model.resource.FintLinks;
+import no.novari.fint.model.resource.administrasjon.organisasjon.OrganisasjonselementResource;
 import no.fint.provider.springer.storage.SpringerRepository;
 import org.springframework.stereotype.Repository;
 

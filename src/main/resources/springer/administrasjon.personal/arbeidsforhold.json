@@ -604,5 +604,5 @@
     ]
   },
   "total_items": 9,
-  "_class": "no.fint.model.resource.administrasjon.personal.ArbeidsforholdResource"
+  "_class": "no.novari.fint.model.resource.administrasjon.personal.ArbeidsforholdResource"
 }

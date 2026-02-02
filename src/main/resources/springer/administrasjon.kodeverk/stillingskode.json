@@ -13827,5 +13827,5 @@
     ]
   },
   "total_items": 627,
-  "_class": "no.fint.model.resource.administrasjon.kodeverk.StillingskodeResource"
+  "_class": "no.novari.fint.model.resource.administrasjon.kodeverk.StillingskodeResource"
 }

@@ -1,5 +1,5 @@
 {
-  "_class": "no.fint.model.resource.administrasjon.personal.FravarResource",
+  "_class": "no.novari.fint.model.resource.administrasjon.personal.FravarResource",
   "_embedded": {
     "_entries": [
       {

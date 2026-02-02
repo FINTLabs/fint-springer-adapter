@@ -298,5 +298,5 @@
     ]
   },
   "total_items": 3,
-  "_class": "no.fint.model.resource.utdanning.elev.ElevResource"
+  "_class": "no.novari.fint.model.resource.utdanning.elev.ElevResource"
 }

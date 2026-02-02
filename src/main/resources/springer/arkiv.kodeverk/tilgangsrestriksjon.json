@@ -39,5 +39,5 @@
     ]
   },
   "total_items": 2,
-  "_class": "no.fint.model.resource.arkiv.kodeverk.TilgangsrestriksjonResource"
+  "_class": "no.novari.fint.model.resource.arkiv.kodeverk.TilgangsrestriksjonResource"
 }

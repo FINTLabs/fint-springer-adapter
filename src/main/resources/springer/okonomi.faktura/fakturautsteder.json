@@ -1,5 +1,5 @@
 {
-  "_class": "no.fint.model.resource.okonomi.faktura.FakturautstederResource",
+  "_class": "no.novari.fint.model.resource.okonomi.faktura.FakturautstederResource",
   "_embedded": {
     "_entries": [
       {

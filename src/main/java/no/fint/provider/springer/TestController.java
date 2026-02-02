@@ -1,7 +1,7 @@
 package no.fint.provider.springer;
 
 import no.fint.event.model.Event;
-import no.fint.model.resource.FintLinks;
+import no.novari.fint.model.resource.FintLinks;
 import no.fint.provider.springer.service.EventHandlerService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PostMapping;

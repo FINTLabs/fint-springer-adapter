@@ -154,5 +154,5 @@
     ]
   },
   "total_items": 11,
-  "_class": "no.fint.model.resource.arkiv.noark.ArkivdelResource"
+  "_class": "no.novari.fint.model.resource.arkiv.noark.ArkivdelResource"
 }

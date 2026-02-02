@@ -14333,5 +14333,5 @@
     ]
   },
   "total_items": 651,
-  "_class": "no.fint.model.resource.administrasjon.kodeverk.ArtResource"
+  "_class": "no.novari.fint.model.resource.administrasjon.kodeverk.ArtResource"
 }

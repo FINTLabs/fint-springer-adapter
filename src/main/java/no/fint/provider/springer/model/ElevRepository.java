@@ -4,9 +4,9 @@ import lombok.extern.slf4j.Slf4j;
 import no.fint.event.model.Event;
 import no.fint.event.model.ResponseStatus;
 import no.fint.event.model.Status;
-import no.fint.model.resource.FintLinks;
-import no.fint.model.resource.utdanning.elev.*;
-import no.fint.model.utdanning.elev.ElevActions;
+import no.novari.fint.model.resource.FintLinks;
+import no.novari.fint.model.resource.utdanning.elev.*;
+import no.novari.fint.model.utdanning.elev.ElevActions;
 import no.fint.provider.springer.storage.SpringerRepository;
 import org.springframework.stereotype.Repository;
 
@@ -21,11 +21,11 @@ public class ElevRepository extends SpringerRepository {
     @Override
     public void accept(Event<FintLinks> response) {
         switch (ElevActions.valueOf(response.getAction())) {
-            case GET_ALL_BASISGRUPPE:
-                query(BasisgruppeResource.class, response);
+            case GET_ALL_KLASSE:
+                query(KlasseResource.class, response);
                 break;
-            case GET_ALL_BASISGRUPPEMEDLEMSKAP:
-                query(BasisgruppemedlemskapResource.class, response);
+            case GET_ALL_KLASSEMEDLEMSKAP:
+                query(KlassemedlemskapResource.class, response);
                 break;
             case GET_ALL_ELEV:
                 query(ElevResource.class, response);
@@ -41,12 +41,6 @@ public class ElevRepository extends SpringerRepository {
                 break;
             case GET_ALL_UNDERVISNINGSFORHOLD:
                 query(UndervisningsforholdResource.class, response);
-                break;
-            case GET_ALL_MEDLEMSKAP:
-                response.setStatus(Status.ADAPTER_REJECTED);
-                response.setResponseStatus(ResponseStatus.REJECTED);
-                response.setStatusCode("UNSUPPORTED_ACTION");
-                response.setMessage("Unsupported action");
                 break;
 
             default:

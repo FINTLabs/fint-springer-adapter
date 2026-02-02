@@ -3,9 +3,9 @@ package no.fint.provider.springer.service;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.Data;
 import lombok.extern.slf4j.Slf4j;
-import no.fint.model.felles.kompleksedatatyper.Identifikator;
-import no.fint.model.resource.Link;
-import no.fint.model.resource.utdanning.utdanningsprogram.ArstrinnResource;
+import no.novari.fint.model.felles.kompleksedatatyper.Identifikator;
+import no.novari.fint.model.resource.Link;
+import no.novari.fint.model.resource.utdanning.utdanningsprogram.ArstrinnResource;
 import org.apache.jena.query.*;
 import org.apache.jena.sparql.exec.http.QueryExecutionHTTP;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -44,7 +44,6 @@ public class GrepSparqlService {
 								.findFirst()
 								.orElse(null)
 						);
-						resource.setPeriode(Collections.emptyList());
 						Identifikator systemId = new Identifikator();
 						systemId.setIdentifikatorverdi(grepObject.getCode());
 						resource.setSystemId(systemId);
@@ -92,7 +91,6 @@ public class GrepSparqlService {
                 ArstrinnResource r = new ArstrinnResource();
                 r.setNavn(next.get("kode").toString());
                 r.setBeskrivelse(next.get("tittel").toString());
-                r.setPeriode(Collections.emptyList());
                 Identifikator systemid = new Identifikator();
                 systemid.setIdentifikatorverdi(r.getNavn());
                 r.setSystemId(systemid);

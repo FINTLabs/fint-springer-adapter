@@ -82,9 +82,9 @@
               "href": "${utdanning.elev.undervisningsforhold}/systemid/7024200-93838-0-1-20211001000001"
             }
           ],
-          "basisgruppe": [
+          "klasse": [
             {
-              "href": "${utdanning.elev.basisgruppe}/systemid/BG_1STA-2018"
+              "href": "${utdanning.elev.klasse}/systemid/BG_1STA-2018"
             }
           ],
           "kontaktlarergruppe": [
@@ -169,9 +169,9 @@
               "href": "${utdanning.elev.undervisningsforhold}/systemid/UF_ANNA"
             }
           ],
-          "basisgruppe": [
+          "klasse": [
             {
-              "href": "${utdanning.elev.basisgruppe}/systemid/BG_1STA-2018"
+              "href": "${utdanning.elev.klasse}/systemid/BG_1STA-2018"
             }
           ],
           "kontaktlarergruppe": [
@@ -221,15 +221,15 @@
               "href": "${administrasjon.organisasjon.organisasjonselement}/organisasjonsKode/570000"
             }
           ],
-          "basisgruppe": [
+          "klasse": [
             {
-              "href": "${utdanning.elev.basisgruppe}/systemid/1321121"
+              "href": "${utdanning.elev.klasse}/systemid/1321121"
             },
             {
-              "href": "${utdanning.elev.basisgruppe}/systemid/1321122"
+              "href": "${utdanning.elev.klasse}/systemid/1321122"
             },
             {
-              "href": "${utdanning.elev.basisgruppe}/systemid/1321123"
+              "href": "${utdanning.elev.klasse}/systemid/1321123"
             }
           ],
           "fag": [
@@ -306,5 +306,5 @@
     ]
   },
   "total_items": 3,
-  "_class": "no.fint.model.resource.utdanning.utdanningsprogram.SkoleResource"
+  "_class": "no.novari.fint.model.resource.utdanning.utdanningsprogram.SkoleResource"
 }

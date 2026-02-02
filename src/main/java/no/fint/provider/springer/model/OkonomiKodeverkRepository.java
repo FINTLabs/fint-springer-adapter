@@ -4,10 +4,10 @@ import lombok.extern.slf4j.Slf4j;
 import no.fint.event.model.Event;
 import no.fint.event.model.ResponseStatus;
 import no.fint.event.model.Status;
-import no.fint.model.okonomi.kodeverk.KodeverkActions;
-import no.fint.model.resource.FintLinks;
-import no.fint.model.resource.okonomi.kodeverk.MerverdiavgiftResource;
-import no.fint.model.resource.okonomi.kodeverk.VareResource;
+import no.novari.fint.model.okonomi.kodeverk.KodeverkActions;
+import no.novari.fint.model.resource.FintLinks;
+import no.novari.fint.model.resource.okonomi.kodeverk.MerverdiavgiftResource;
+import no.novari.fint.model.resource.okonomi.kodeverk.VareResource;
 import no.fint.provider.springer.storage.SpringerRepository;
 import org.springframework.stereotype.Repository;
 

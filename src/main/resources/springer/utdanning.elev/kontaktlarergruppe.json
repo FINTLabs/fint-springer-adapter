@@ -32,9 +32,9 @@
               "href": "${utdanning.elev.undervisningsforhold}/systemid/7024200-93838-0-1-20211001000001"
             }
           ],
-          "basisgruppe": [
+          "klasse": [
             {
-              "href": "${utdanning.elev.basisgruppe}/systemid/BG_1STA-2018"
+              "href": "${utdanning.elev.klasse}/systemid/BG_1STA-2018"
             }
           ],
           "skolear": [
@@ -70,9 +70,9 @@
           "identifikatorverdi": "1321122_1IDA"
         },
         "_links": {
-          "basisgruppe": [
+          "klasse": [
             {
-              "href": "${utdanning.elev.basisgruppe}/systemid/1321121"
+              "href": "${utdanning.elev.klasse}/systemid/1321121"
             }
           ],
           "elevforhold": [
@@ -126,9 +126,9 @@
           "identifikatorverdi": "1321122_2IDA"
         },
         "_links": {
-          "basisgruppe": [
+          "klasse": [
             {
-              "href": "${utdanning.elev.basisgruppe}/systemid/1321122"
+              "href": "${utdanning.elev.klasse}/systemid/1321122"
             }
           ],
           "elevforhold": [
@@ -176,5 +176,5 @@
     ]
   },
   "total_items": 1,
-  "_class": "no.fint.model.resource.utdanning.elev.KontaktlarergruppeResource"
+  "_class": "no.novari.fint.model.resource.utdanning.elev.KontaktlarergruppeResource"
 }

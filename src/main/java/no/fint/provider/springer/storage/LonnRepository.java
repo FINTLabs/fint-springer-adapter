@@ -1,7 +1,7 @@
 package no.fint.provider.springer.storage;
 
-import no.fint.model.felles.kompleksedatatyper.Identifikator;
-import no.fint.model.resource.administrasjon.personal.LonnResource;
+import no.novari.fint.model.felles.kompleksedatatyper.Identifikator;
+import no.novari.fint.model.resource.administrasjon.personal.LonnResource;
 import org.apache.commons.lang3.StringUtils;
 
 import java.util.List;

@@ -4,10 +4,10 @@ import lombok.extern.slf4j.Slf4j;
 import no.fint.event.model.Event;
 import no.fint.event.model.ResponseStatus;
 import no.fint.event.model.Status;
-import no.fint.model.felles.FellesActions;
-import no.fint.model.resource.FintLinks;
-import no.fint.model.resource.felles.KontaktpersonResource;
-import no.fint.model.resource.felles.PersonResource;
+import no.novari.fint.model.felles.FellesActions;
+import no.novari.fint.model.resource.FintLinks;
+import no.novari.fint.model.resource.felles.KontaktpersonResource;
+import no.novari.fint.model.resource.felles.PersonResource;
 import no.fint.provider.springer.storage.SpringerRepository;
 import org.springframework.stereotype.Repository;
 
