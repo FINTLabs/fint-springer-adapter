@@ -79,12 +79,12 @@ spec:
               value: "false"
             - name: fint.oauth.enabled
               value: "false"
-            - name: spring.data.mongodb.uri
+            - name: spring.mongodb.uri
               valueFrom:
                 secretKeyRef:
                   name: fint-mongo
                   key: mongodb
-            - name: spring.data.mongodb.database
+            - name: spring.mongodb.database
               value: springer
             - name: server.port
               value: "8092"

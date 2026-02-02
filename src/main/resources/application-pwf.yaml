@@ -32,6 +32,5 @@ security:
 server:
   port: 8091
 spring:
-  data:
     mongodb:
       database: springer
