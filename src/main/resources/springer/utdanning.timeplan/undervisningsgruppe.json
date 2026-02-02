@@ -4,12 +4,6 @@
       {
         "beskrivelse": "1STA 2018 NOR1Z41",
         "navn": "1STA NOR1",
-        "periode": [
-          {
-            "slutt": "2018-06-30T00:00:00Z",
-            "start": "2017-08-01T00:00:00Z"
-          }
-        ],
         "systemId": {
           "identifikatorverdi": "UG_2018_1STA_NOR1Z41"
         },
@@ -81,12 +75,6 @@
       {
         "beskrivelse": "1IDA/NOR1264",
         "navn": "1IDA/NOR1264",
-        "periode": [
-          {
-            "slutt": "2022-07-31T00:00:00Z",
-            "start": "2021-08-01T00:00:00Z"
-          }
-        ],
         "systemId": {
           "identifikatorverdi": "10128458_1IDA"
         },
@@ -137,12 +125,6 @@
       {
         "beskrivelse": "2IDA/NOR1264",
         "navn": "2IDA/NOR1264",
-        "periode": [
-          {
-            "slutt": "2022-07-31T00:00:00Z",
-            "start": "2021-08-01T00:00:00Z"
-          }
-        ],
         "systemId": {
           "identifikatorverdi": "10128458_2IDA"
         },
