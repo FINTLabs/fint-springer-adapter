@@ -3,7 +3,7 @@ server:
 
 fint:
   springer:
-    clean-on-startup: false
+    clean-on-startup: true
 
   adapter:
     endpoints:
