@@ -42,8 +42,8 @@ repositories {
 dependencyManagement {
     dependencies {
         // Downgrade MongoDB driver for compatibility with MongoDB 3.6: https://www.mongodb.com/docs/drivers/java/sync/current/compatibility/
-        dependency("org.mongodb:mongodb-driver-core:5.1.4")
-        dependency("org.mongodb:mongodb-driver-sync:5.1.4")
+        dependency("org.mongodb:mongodb-driver-core:5.6.3")
+        dependency("org.mongodb:mongodb-driver-sync:5.6.3")
     }
 }
 
