@@ -4,11 +4,6 @@
       {
         "beskrivelse": "Norsk Vg1 studieforberedende utdanningsprogram",
         "navn": "NOR1Z41",
-        "periode": [
-          {
-            "start": "2006-08-01T00:00:00Z"
-          }
-        ],
         "systemId": {
           "identifikatorverdi": "FA_NOR1Z41_2018"
         },
@@ -48,7 +43,6 @@
       {
         "beskrivelse": "Norsk, studieforberedende utdanningsprogram, skriftlig",
         "navn": "Norsk, skriftlig",
-        "periode": [],
         "systemId": {
           "identifikatorverdi": "NOR1264"
         },
