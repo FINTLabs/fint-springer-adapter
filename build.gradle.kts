@@ -60,7 +60,7 @@ dependencies {
     annotationProcessor("org.projectlombok:lombok")
 
     implementation("no.fint:fint-model-resource:0.4.1")
-    implementation("no.fint:fint-event-model:3.0.2")
+    implementation("no.fint:fint-event-model:3.3.1")
     implementation("no.fint:fint-relation-model:1.1.6")
     implementation("no.fintlabs:fint-spring-secrets:1.0.0-rc-4")
     implementation("no.fintlabs:fint-sse:3.1.0-rc-2")
