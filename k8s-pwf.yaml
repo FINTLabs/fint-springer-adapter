@@ -26,7 +26,7 @@ spec:
       restartPolicy: Always
       containers:
         - name: springer-pwf
-          image: ghcr.io/fintlabs/fint-springer-adapter:tba
+          image: ghcr.io/fintlabs/fint-springer-adapter:2026-02-03-6c5b128
           ports:
             - containerPort: 8092
           resources:
@@ -45,6 +45,8 @@ spec:
           env:
             - name: TZ
               value: Europe/Oslo
+            - name: JAVA_TOOL_OPTIONS
+              value: "-XX:+ExitOnOutOfMemoryError"
             - name: fint.adapter.endpoints.providers.felles
               value: https://play-with-fint.felleskomponent.no/felles/kodeverk/provider
             - name: fint.adapter.endpoints.providers.elev
