@@ -10,7 +10,7 @@ class IdentifikatorFactorySpec extends Specification {
 
     def "Creates valid identifikator"() {
         given:
-        def identifikatorFactory = new IdentifikatorFactory(atomicInteger: new AtomicInteger())
+        def identifikatorFactory = new IdentifikatorFactory(null)
 
         when:
         def id = identifikatorFactory.create()
@@ -21,7 +21,7 @@ class IdentifikatorFactorySpec extends Specification {
 
     def "Creates distinct identifikator values"() {
         given:
-        def identifikatorFactory = new IdentifikatorFactory(atomicInteger: new AtomicInteger())
+        def identifikatorFactory = new IdentifikatorFactory(null)
 
         when:
         def id1 = identifikatorFactory.create()

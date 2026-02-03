@@ -16,7 +16,7 @@ class EventResponseServiceSpec extends Specification {
     void setup() {
         endpoints = Mock()
         restTemplate = Mock(RestTemplate)
-        eventResponseService = new EventResponseService(endpoints: endpoints, restTemplate: restTemplate)
+        eventResponseService = new EventResponseService(endpoints, restTemplate)
     }
 
     def "Post response"() {
