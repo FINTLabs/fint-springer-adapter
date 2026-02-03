@@ -51,7 +51,7 @@ dependencies {
     implementation(kotlin("stdlib"))
     implementation(kotlin("reflect"))
     implementation("com.google.guava:guava:33.5.0-jre")
-    implementation("org.apache.commons:commons-lang3:3.19.0")
+    implementation("org.apache.commons:commons-lang3:3.20.0")
     implementation("commons-beanutils:commons-beanutils:1.11.0")
     implementation("org.apache.jena:jena-arq:5.6.0")
     implementation("org.jooq:jool-java-8:0.9.15")
