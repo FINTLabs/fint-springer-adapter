@@ -10,8 +10,8 @@ import org.springframework.stereotype.Service
 class RejectLessThanOneHour : Behaviour<VariabellonnResource> {
     private val log = LoggerFactory.getLogger(RejectLessThanOneHour::class.java)
 
-    override fun accept(event: Event<*>, variabellonn: VariabellonnResource) {
-        if (variabellonn.antall < 100L) {
+    override fun accept(event: Event<*>, resource: VariabellonnResource) {
+        if (resource.antall < 100L) {
             event.responseStatus = ResponseStatus.REJECTED
             event.message = "Antall kan ikke være under 100"
             event.statusCode = "VLX004"

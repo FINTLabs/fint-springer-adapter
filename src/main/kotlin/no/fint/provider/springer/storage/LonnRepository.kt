@@ -12,7 +12,6 @@ abstract class LonnRepository(
 
     protected fun <T : LonnResource> findConflicts(data: List<T>, type: Class<T>): List<T> {
         val sourceSystemIds = data
-            .filterNotNull()
             .mapNotNull { it.kildesystemId?.identifikatorverdi }
             .filter(StringUtils::isNotBlank)
             .toSet()

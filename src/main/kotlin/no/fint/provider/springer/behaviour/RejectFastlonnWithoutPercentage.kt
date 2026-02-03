@@ -10,8 +10,8 @@ import org.springframework.stereotype.Service
 class RejectFastlonnWithoutPercentage : Behaviour<FastlonnResource> {
     private val log = LoggerFactory.getLogger(RejectFastlonnWithoutPercentage::class.java)
 
-    override fun accept(event: Event<*>, fastlonn: FastlonnResource) {
-        val prosent = fastlonn.prosent
+    override fun accept(event: Event<*>, resource: FastlonnResource) {
+        val prosent = resource.prosent
         if (prosent == null || prosent < 0L) {
             event.responseStatus = ResponseStatus.REJECTED
             event.message = "Fastlønn må ha prosent > 0"

@@ -34,7 +34,7 @@ abstract class UpdateHandler<T : FintLinks>(
         Arrays.stream(PropertyUtils.getPropertyDescriptors(type))
             .filter { it.propertyType == Identifikator::class.java }
             .map(PropertyDescriptor::getName)
-            .anyMatch { StringUtils.startsWithIgnoreCase(query, "$it/") }
+            .anyMatch { query.startsWith("$it/", ignoreCase = true) }
 
     protected fun reject(event: Event<FintLinks>, statusCode: String) {
         event.status = Status.ADAPTER_REJECTED
@@ -51,7 +51,7 @@ abstract class UpdateHandler<T : FintLinks>(
         val field = Arrays.stream(PropertyUtils.getPropertyDescriptors(type))
             .filter { it.propertyType == Identifikator::class.java }
             .map(PropertyDescriptor::getName)
-            .filter { StringUtils.equalsIgnoreCase(it, split[0]) }
+            .filter { it.equals(split[0], ignoreCase = true) }
             .findFirst()
             .orElseThrow { IllegalArgumentException() }
         return Criteria.where("value.%s.identifikatorverdi".format(field)).`is`(split[1])
@@ -73,25 +73,25 @@ abstract class UpdateHandler<T : FintLinks>(
             }
     }
 
-    override fun accept(event: Event<FintLinks>) {
-        if (event.operation != Operation.UPDATE) {
-            reject(event, "INVALID_OPERATION")
+    override fun accept(response: Event<FintLinks>) {
+        if (response.operation != Operation.UPDATE) {
+            reject(response, "INVALID_OPERATION")
             return
         }
-        if (!validQuery(event.query)) {
-            reject(event, "INVALID_QUERY")
+        if (!validQuery(response.query)) {
+            reject(response, "INVALID_QUERY")
             return
         }
-        val updates: List<T> = mapper.convertValue(event.data, mapper.typeFactory.constructCollectionType(List::class.java, type))
-        event.data = ArrayList()
-        stream(createCriteria(event.query))
+        val updates: List<T> = mapper.convertValue(response.data, mapper.typeFactory.constructCollectionType(List::class.java, type))
+        response.data = ArrayList()
+        stream(createCriteria(response.query))
             .peek { existing -> updates.forEach(copy(existing)) }
-            .forEach { event.addObject(it) }
-        if (event.data.isEmpty()) {
-            reject(event, "NOT_FOUND")
+            .forEach { response.addObject(it) }
+        if (response.data.isEmpty()) {
+            reject(response, "NOT_FOUND")
             return
         }
-        event.responseStatus = ResponseStatus.ACCEPTED
-        event.status = Status.ADAPTER_ACCEPTED
+        response.responseStatus = ResponseStatus.ACCEPTED
+        response.status = Status.ADAPTER_ACCEPTED
     }
 }

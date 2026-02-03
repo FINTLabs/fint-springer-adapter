@@ -10,7 +10,6 @@ import no.novari.fint.model.resource.FintLinks
 import no.novari.fint.model.resource.utdanning.vurdering.EksamensgruppeResource
 import no.novari.fint.model.resource.utdanning.vurdering.KarakterverdiResource
 import no.novari.fint.model.utdanning.vurdering.VurderingActions
-import org.apache.commons.lang3.StringUtils
 import org.springframework.data.mongodb.core.MongoTemplate
 import org.springframework.stereotype.Repository
 import java.util.*
@@ -31,7 +30,7 @@ class VurderingRepository(
     }
 
     override fun accept(response: Event<FintLinks>) {
-        if (!StringUtils.contains(response.source, "utdanning")) {
+        if (!response.source.contains("utdanning")) {
             return
         }
         val action = VurderingActions.valueOf(response.action)

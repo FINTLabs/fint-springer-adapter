@@ -9,7 +9,6 @@ import no.fint.provider.springer.storage.Wrapper
 import no.novari.fint.model.administrasjon.kodeverk.KodeverkActions
 import no.novari.fint.model.resource.FintLinks
 import no.novari.fint.model.resource.administrasjon.kodeverk.*
-import org.apache.commons.lang3.StringUtils
 import org.springframework.data.mongodb.core.MongoTemplate
 import org.springframework.stereotype.Repository
 import java.util.*
@@ -40,7 +39,7 @@ class AdministrasjonKodeverkRepository(
     }
 
     override fun accept(response: Event<FintLinks>) {
-        if (!StringUtils.contains(response.source, "administrasjon")) {
+        if (!response.source.contains("administrasjon")) {
             return
         }
         val action = KodeverkActions.valueOf(response.action)

@@ -5,7 +5,7 @@ import no.fint.event.model.Problem
 import java.util.*
 
 fun interface Behaviour<T> {
-    fun accept(event: Event<*>, payload: T)
+    fun accept(event: Event<*>, resource: T)
 
     fun addProblem(event: Event<*>, field: String, message: String) {
         if (event.problems == null) {

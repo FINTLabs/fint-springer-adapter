@@ -36,7 +36,7 @@ class PersonalRepository(
             PersonalActions.GET_ALL_PERSONALRESSURS -> query(PersonalressursResource::class.java, response)
             PersonalActions.GET_ALL_ARBEIDSFORHOLD -> query(ArbeidsforholdResource::class.java, response)
             PersonalActions.GET_ALL_FRAVAR -> {
-                if (StringUtils.contains(response.source, "personal")) query(FravarResource::class.java, response)
+                if (response.source.contains("personal")) query(FravarResource::class.java, response)
             }
             PersonalActions.GET_ALL_FASTLONN -> query(FastlonnResource::class.java, response)
             PersonalActions.GET_ALL_FASTTILLEGG -> query(FasttilleggResource::class.java, response)
@@ -54,11 +54,11 @@ class PersonalRepository(
         response.message = "Unsupported action"
     }
 
-    private fun invalid(response: Event<FintLinks>) {
-        response.status = Status.ADAPTER_REJECTED
-        response.responseStatus = ResponseStatus.REJECTED
-        response.statusCode = "INVALID_ACTION"
-        response.message = "Invalid action"
+    private fun invalid(event: Event<FintLinks>) {
+        event.status = Status.ADAPTER_REJECTED
+        event.responseStatus = ResponseStatus.REJECTED
+        event.statusCode = "INVALID_ACTION"
+        event.message = "Invalid action"
     }
 
     private fun handleUpdatePersonalressurs(response: Event<FintLinks>) {
@@ -97,23 +97,23 @@ class PersonalRepository(
             }
             resource.kontaktinformasjon?.let { n ->
                 val o: Kontaktinformasjon = personalressurs.kontaktinformasjon ?: Kontaktinformasjon()
-                if (isNoneBlank(n.epostadresse) && !StringUtils.equals(n.epostadresse, o.epostadresse)) {
+                if (isNoneBlank(n.epostadresse) && n.epostadresse != o.epostadresse) {
                     log.info("Updating epostadresse from {} to {}", o.epostadresse, n.epostadresse)
                     o.epostadresse = n.epostadresse
                 }
-                if (isNoneBlank(n.telefonnummer) && !StringUtils.equals(n.telefonnummer, o.telefonnummer)) {
+                if (isNoneBlank(n.telefonnummer) && n.telefonnummer != o.telefonnummer) {
                     log.info("Updating telefonnummer from {} to {}", o.telefonnummer, n.telefonnummer)
                     o.telefonnummer = n.telefonnummer
                 }
-                if (isNoneBlank(n.mobiltelefonnummer) && !StringUtils.equals(n.mobiltelefonnummer, o.mobiltelefonnummer)) {
+                if (isNoneBlank(n.mobiltelefonnummer) && n.mobiltelefonnummer != o.mobiltelefonnummer) {
                     log.info("Updating mobiltelefonnummer from {} to {}", o.mobiltelefonnummer, n.mobiltelefonnummer)
                     o.mobiltelefonnummer = n.mobiltelefonnummer
                 }
-                if (isNoneBlank(n.nettsted) && !StringUtils.equals(n.nettsted, o.nettsted)) {
+                if (isNoneBlank(n.nettsted) && n.nettsted != o.nettsted) {
                     log.info("Updating nettsted from {} to {}", o.nettsted, n.nettsted)
                     o.nettsted = n.nettsted
                 }
-                if (isNoneBlank(n.sip) && !StringUtils.equals(n.sip, o.sip)) {
+                if (isNoneBlank(n.sip) && n.sip != o.sip) {
                     log.info("Updating sip from {} to {}", o.sip, n.sip)
                     o.sip = n.sip
                 }

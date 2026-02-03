@@ -9,7 +9,6 @@ import no.novari.fint.model.administrasjon.fullmakt.FullmaktActions
 import no.novari.fint.model.resource.FintLinks
 import no.novari.fint.model.resource.administrasjon.fullmakt.FullmaktResource
 import no.novari.fint.model.resource.administrasjon.fullmakt.RolleResource
-import org.apache.commons.lang3.StringUtils
 import org.springframework.data.mongodb.core.MongoTemplate
 import org.springframework.stereotype.Repository
 import java.util.stream.Collectors
@@ -22,7 +21,7 @@ class FullmaktRepository(
 ) : SpringerRepository(mongoTemplate, wrapper) {
 
     override fun accept(response: Event<FintLinks>) {
-        if (!StringUtils.equals(response.source, "administrasjon-fullmakt")) {
+        if (response.source != "administrasjon-fullmakt") {
             return
         }
         when (FullmaktActions.valueOf(response.action)) {

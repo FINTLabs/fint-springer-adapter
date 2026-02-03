@@ -10,8 +10,8 @@ import org.springframework.stereotype.Service
 class RejectFravarWithoutReason : Behaviour<FravarResource> {
     private val log = LoggerFactory.getLogger(RejectFravarWithoutReason::class.java)
 
-    override fun accept(event: Event<*>, fravar: FravarResource) {
-        if (fravar.fravarsgrunn.isEmpty()) {
+    override fun accept(event: Event<*>, resource: FravarResource) {
+        if (resource.fravarsgrunn.isEmpty()) {
             event.responseStatus = ResponseStatus.REJECTED
             event.message = "Fravær må ha fraværsgrunn"
             event.statusCode = "FVX003"

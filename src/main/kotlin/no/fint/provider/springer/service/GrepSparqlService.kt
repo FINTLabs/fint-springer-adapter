@@ -19,9 +19,9 @@ import java.util.stream.Stream
 @Service
 class GrepSparqlService(
     private val restTemplate: RestTemplate,
-    @Value("\${fint.grep.sparql.endpoint:http://data.udir.no/kl06/sparql}")
+    @param:Value($$"${fint.grep.sparql.endpoint:https://data.udir.no/kl06/sparql}")
     private val grepSparqlEndpoint: String,
-    @Value("\${fint.grep.rest.endpoint:https://data.udir.no/kl06/v201906/{id}}")
+    @param:Value($$"${fint.grep.rest.endpoint:https://data.udir.no/kl06/v201906/{id}}")
     private val grepRestEndpoint: String
 ) {
 
@@ -70,13 +70,13 @@ class GrepSparqlService(
     }
 
     data class GrepObject(
-        @JsonProperty("url-data") val urlData: String,
-        @JsonProperty("kode") val code: String,
-        @JsonProperty("tittel") val titles: List<Title>
+        @param:JsonProperty("url-data") val urlData: String,
+        @param:JsonProperty("kode") val code: String,
+        @param:JsonProperty("tittel") val titles: List<Title>
     ) {
         data class Title(
-            @JsonProperty("spraak") val language: String,
-            @JsonProperty("verdi") val value: String
+            @param:JsonProperty("spraak") val language: String,
+            @param:JsonProperty("verdi") val value: String
         )
     }
 

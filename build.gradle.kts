@@ -79,6 +79,7 @@ dependencies {
     implementation("org.springframework.boot:spring-boot-starter-hateoas")
     implementation("org.springframework.boot:spring-boot-starter-web")
     implementation("org.springframework.boot:spring-boot-starter-data-mongodb")
+    implementation("org.springframework.boot:spring-boot-starter-validation")
 
     testImplementation("cglib:cglib-nodep:3.3.0")
     testImplementation("org.spockframework:spock-spring:2.4-groovy-5.0")
