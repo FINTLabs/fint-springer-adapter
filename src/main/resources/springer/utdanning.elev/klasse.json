@@ -4,12 +4,6 @@
       {
         "beskrivelse": "1. trinn Studiespesialisering 2018-2019",
         "navn": "1STA",
-        "periode": [
-          {
-            "slutt": "2099-01-01T00:00:00Z",
-            "start": "2017-06-04T19:53:36Z"
-          }
-        ],
         "systemId": {
           "identifikatorverdi": "BG_1STA-2018"
         },
@@ -82,12 +76,6 @@
       {
         "beskrivelse": "1IDA",
         "navn": "1IDA",
-        "periode": [
-          {
-            "slutt": "2022-07-31T00:00:00Z",
-            "start": "2021-08-01T00:00:00Z"
-          }
-        ],
         "systemId": {
           "identifikatorverdi": "1321121"
         },
@@ -151,12 +139,6 @@
       {
         "beskrivelse": "2IDA",
         "navn": "2IDA",
-        "periode": [
-          {
-            "slutt": "2022-07-31T00:00:00Z",
-            "start": "2021-08-01T00:00:00Z"
-          }
-        ],
         "systemId": {
           "identifikatorverdi": "1321122"
         },
@@ -220,12 +202,6 @@
       {
         "beskrivelse": "3IDA",
         "navn": "3IDA",
-        "periode": [
-          {
-            "slutt": "2022-07-31T00:00:00Z",
-            "start": "2021-08-01T00:00:00Z"
-          }
-        ],
         "systemId": {
           "identifikatorverdi": "1321123"
         },
