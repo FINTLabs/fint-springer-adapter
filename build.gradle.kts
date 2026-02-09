@@ -51,6 +51,7 @@ dependencies {
     implementation(kotlin("stdlib"))
     implementation(kotlin("reflect"))
     implementation("com.google.guava:guava:33.5.0-jre")
+    implementation("net.datafaker:datafaker:2.5.0")
     implementation("org.apache.commons:commons-lang3:3.20.0")
     implementation("commons-beanutils:commons-beanutils:1.11.0")
     implementation("org.apache.jena:jena-arq:6.0.0")
