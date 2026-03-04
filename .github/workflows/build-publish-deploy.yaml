@@ -27,7 +27,7 @@ jobs:
       - run: ./gradlew build --no-daemon --parallel
 
       - name: Login to GitHub Container Registry (GHCR)
-        uses: docker/login-action@v3
+        uses: docker/login-action@v4
         with:
           registry: ghcr.io
           username: ${{github.actor}}
