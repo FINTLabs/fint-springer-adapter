@@ -68,7 +68,7 @@ jobs:
           resource-group: ${{env.PWF_CLUSTER_RESOURCE_GROUP}}
           admin: true
 
-      - uses: azure/k8s-deploy@v5.0.4
+      - uses: azure/k8s-deploy@v5.1.0
         with:
           manifests: k8s-pwf.yaml
           images: ${{needs.build-and-publish.outputs.tags}}
