@@ -22,8 +22,6 @@ class FasttilleggSeeder(
 
     fun generateEntitiesForTest(): List<FasttilleggResource> = generateEntities()
 
-    private inline fun <reified T> link(systemid: String, param: String = "systemid") =
-        Link.with(T::class.java, param, systemid)
 
     override fun generateEntities(): List<FasttilleggResource> {
         return listOf(

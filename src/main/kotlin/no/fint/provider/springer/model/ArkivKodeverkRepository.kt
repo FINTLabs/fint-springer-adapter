@@ -29,6 +29,7 @@ class ArkivKodeverkRepository(
                 KodeverkActions.GET_ALL_DOKUMENTSTATUS -> query(DokumentStatusResource::class.java, response)
                 KodeverkActions.GET_ALL_DOKUMENTTYPE -> query(DokumentTypeResource::class.java, response)
                 KodeverkActions.GET_ALL_JOURNALSTATUS -> query(JournalStatusResource::class.java, response)
+                KodeverkActions.GET_ALL_KORRESPONDANSEPARTTYPE -> query(KorrespondansepartTypeResource::class.java, response)
                 KodeverkActions.GET_ALL_VARIANTFORMAT -> query(VariantformatResource::class.java, response)
                 KodeverkActions.GET_ALL_ROLLE -> query(RolleResource::class.java, response)
                 else -> invalid(response)

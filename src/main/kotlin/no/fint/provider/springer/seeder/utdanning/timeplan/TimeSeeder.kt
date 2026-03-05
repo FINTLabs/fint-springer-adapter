@@ -19,8 +19,6 @@ class TimeSeeder(
 
     fun generateEntitiesForTest(): List<TimeResource> = generateEntities()
 
-    private inline fun <reified T> link(systemid: String, param: String = "systemid") =
-        Link.with(T::class.java, param, systemid)
 
     override fun generateEntities(): List<TimeResource> {
         return listOf(

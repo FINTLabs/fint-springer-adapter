@@ -16,8 +16,6 @@ class StillingskodeSeeder(
 
     fun generateEntitiesForTest(): List<StillingskodeResource> = generateEntities()
 
-    private inline fun <reified T> link(systemid: String, param: String = "systemid") =
-        Link.with(T::class.java, param, systemid)
 
     override fun generateEntities(): List<StillingskodeResource> {
         return listOf(

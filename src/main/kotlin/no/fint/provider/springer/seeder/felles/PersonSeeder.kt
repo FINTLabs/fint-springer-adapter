@@ -26,8 +26,6 @@ class PersonSeeder(
     // Public method for testing
     fun generateEntitiesForTest(): List<PersonResource> = generateEntities()
 
-    private inline fun <reified T> link(systemid: String, param: String = "systemid") =
-        Link.with(T::class.java, param, systemid)
 
     private fun fakerFor(seedKey: String): Faker {
         val seed = seedKey.filter { it.isDigit() }.toLongOrNull() ?: seedKey.hashCode().toLong()

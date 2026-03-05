@@ -22,8 +22,6 @@ class ArbeidsforholdSeeder(
 
     fun generateEntitiesForTest(): List<ArbeidsforholdResource> = generateEntities()
 
-    private inline fun <reified T> link(systemid: String, param: String = "systemid") =
-        Link.with(T::class.java, param, systemid)
 
     override fun generateEntities(): List<ArbeidsforholdResource> {
         return listOf(

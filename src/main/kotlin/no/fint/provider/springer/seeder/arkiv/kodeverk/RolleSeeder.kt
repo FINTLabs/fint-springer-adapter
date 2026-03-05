@@ -10,14 +10,12 @@ import org.springframework.stereotype.Service
 import java.util.Date
 
 @Service
-class ArkivRolleSeeder(
+class RolleSeeder(
     seederRepository: SeederRepository
 ) : AbstractSeeder<RolleResource>(seederRepository, RolleResource::class.java) {
 
     fun generateEntitiesForTest(): List<RolleResource> = generateEntities()
 
-    private inline fun <reified T> link(systemid: String, param: String = "systemid") =
-        Link.with(T::class.java, param, systemid)
 
     override fun generateEntities(): List<RolleResource> {
         return listOf(

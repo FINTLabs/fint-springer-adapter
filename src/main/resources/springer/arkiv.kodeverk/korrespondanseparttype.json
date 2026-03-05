@@ -1,0 +1,57 @@
+{
+  "_embedded": {
+    "_entries": [
+      {
+        "kode": "A",
+        "navn": "Avsender",
+        "systemId": {
+          "identifikatorverdi": "A"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${arkiv.kodeverk.korrespondanseparttype}/systemid/A"
+            }
+          ]
+        }
+      },
+      {
+        "kode": "M",
+        "navn": "Mottaker",
+        "systemId": {
+          "identifikatorverdi": "M"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${arkiv.kodeverk.korrespondanseparttype}/systemid/M"
+            }
+          ]
+        }
+      },
+      {
+        "kode": "I",
+        "navn": "Intern",
+        "systemId": {
+          "identifikatorverdi": "I"
+        },
+        "_links": {
+          "self": [
+            {
+              "href": "${arkiv.kodeverk.korrespondanseparttype}/systemid/I"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "_links": {
+    "self": [
+      {
+        "href": "${arkiv.kodeverk.korrespondanseparttype}/"
+      }
+    ]
+  },
+  "total_items": 3,
+  "_class": "no.novari.fint.model.resource.arkiv.kodeverk.KorrespondansepartTypeResource"
+}

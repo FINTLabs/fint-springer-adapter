@@ -16,8 +16,6 @@ class FagSeeder(
 
     fun generateEntitiesForTest(): List<FagResource> = generateEntities()
 
-    private inline fun <reified T> link(systemid: String, param: String = "systemid") =
-        Link.with(T::class.java, param, systemid)
 
     override fun generateEntities(): List<FagResource> {
         return listOf(
