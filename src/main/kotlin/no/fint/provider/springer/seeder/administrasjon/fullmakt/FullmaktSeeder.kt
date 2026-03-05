@@ -1,10 +1,9 @@
 package no.fint.provider.springer.seeder.administrasjon.fullmakt
 
-import no.fint.provider.springer.seeder.AbstractSeeder
+import no.fint.provider.springer.seeder.BaseSeeder
 import no.fint.provider.springer.storage.SeederRepository
 import no.novari.fint.model.felles.kompleksedatatyper.Identifikator
 import no.novari.fint.model.felles.kompleksedatatyper.Periode
-import no.novari.fint.model.resource.Link
 import no.novari.fint.model.resource.administrasjon.fullmakt.FullmaktResource
 import no.novari.fint.model.resource.administrasjon.fullmakt.RolleResource
 import no.novari.fint.model.resource.administrasjon.kodeverk.AnsvarResource
@@ -15,7 +14,7 @@ import java.util.Date
 @Service
 class FullmaktSeeder(
     seederRepository: SeederRepository
-) : AbstractSeeder<FullmaktResource>(seederRepository, FullmaktResource::class.java) {
+) : BaseSeeder<FullmaktResource>(seederRepository, FullmaktResource::class.java) {
 
     fun generateEntitiesForTest(): List<FullmaktResource> = generateEntities()
 

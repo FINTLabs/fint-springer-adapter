@@ -1,16 +1,15 @@
 package no.fint.provider.springer.seeder.felles.kodeverk
 
-import no.fint.provider.springer.seeder.AbstractSeeder
+import no.fint.provider.springer.seeder.BaseSeeder
 import no.fint.provider.springer.storage.SeederRepository
 import no.novari.fint.model.felles.kompleksedatatyper.Identifikator
-import no.novari.fint.model.resource.Link
 import no.novari.fint.model.resource.felles.kodeverk.iso.LandkodeResource
 import org.springframework.stereotype.Service
 
 @Service
 class LandkodeSeeder(
     seederRepository: SeederRepository
-) : AbstractSeeder<LandkodeResource>(seederRepository, LandkodeResource::class.java) {
+) : BaseSeeder<LandkodeResource>(seederRepository, LandkodeResource::class.java) {
 
     fun generateEntitiesForTest(): List<LandkodeResource> = generateEntities()
 

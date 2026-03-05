@@ -1,9 +1,8 @@
 package no.fint.provider.springer.seeder.utdanning.elev
 
-import no.fint.provider.springer.seeder.AbstractSeeder
+import no.fint.provider.springer.seeder.BaseSeeder
 import no.fint.provider.springer.storage.SeederRepository
 import no.novari.fint.model.felles.kompleksedatatyper.Identifikator
-import no.novari.fint.model.resource.Link
 import no.novari.fint.model.resource.administrasjon.personal.ArbeidsforholdResource
 import no.novari.fint.model.resource.utdanning.elev.KlasseResource
 import no.novari.fint.model.resource.utdanning.elev.KontaktlarergruppeResource
@@ -16,7 +15,7 @@ import org.springframework.stereotype.Service
 @Service
 class UndervisningsforholdSeeder(
     seederRepository: SeederRepository
-) : AbstractSeeder<UndervisningsforholdResource>(seederRepository, UndervisningsforholdResource::class.java) {
+) : BaseSeeder<UndervisningsforholdResource>(seederRepository, UndervisningsforholdResource::class.java) {
 
     fun generateEntitiesForTest(): List<UndervisningsforholdResource> = generateEntities()
 

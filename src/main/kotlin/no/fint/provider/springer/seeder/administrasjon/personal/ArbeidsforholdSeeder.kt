@@ -1,10 +1,9 @@
 package no.fint.provider.springer.seeder.administrasjon.personal
 
-import no.fint.provider.springer.seeder.AbstractSeeder
+import no.fint.provider.springer.seeder.BaseSeeder
 import no.fint.provider.springer.storage.SeederRepository
 import no.novari.fint.model.felles.kompleksedatatyper.Identifikator
 import no.novari.fint.model.felles.kompleksedatatyper.Periode
-import no.novari.fint.model.resource.Link
 import no.novari.fint.model.resource.administrasjon.kodeverk.*
 import no.novari.fint.model.resource.administrasjon.organisasjon.OrganisasjonselementResource
 import no.novari.fint.model.resource.administrasjon.personal.ArbeidsforholdResource
@@ -18,7 +17,7 @@ import java.util.Date
 @Service
 class ArbeidsforholdSeeder(
     seederRepository: SeederRepository
-) : AbstractSeeder<ArbeidsforholdResource>(seederRepository, ArbeidsforholdResource::class.java) {
+) : BaseSeeder<ArbeidsforholdResource>(seederRepository, ArbeidsforholdResource::class.java) {
 
     fun generateEntitiesForTest(): List<ArbeidsforholdResource> = generateEntities()
 

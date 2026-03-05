@@ -1,10 +1,9 @@
 package no.fint.provider.springer.seeder.administrasjon.kodeverk
 
-import no.fint.provider.springer.seeder.AbstractSeeder
+import no.fint.provider.springer.seeder.BaseSeeder
 import no.fint.provider.springer.storage.SeederRepository
 import no.novari.fint.model.felles.kompleksedatatyper.Identifikator
 import no.novari.fint.model.felles.kompleksedatatyper.Periode
-import no.novari.fint.model.resource.Link
 import no.novari.fint.model.resource.administrasjon.kodeverk.FravarstypeResource
 import org.springframework.stereotype.Service
 import java.util.Date
@@ -12,7 +11,7 @@ import java.util.Date
 @Service
 class FravarstypeSeeder(
     seederRepository: SeederRepository
-) : AbstractSeeder<FravarstypeResource>(seederRepository, FravarstypeResource::class.java) {
+) : BaseSeeder<FravarstypeResource>(seederRepository, FravarstypeResource::class.java) {
 
     fun generateEntitiesForTest(): List<FravarstypeResource> = generateEntities()
 

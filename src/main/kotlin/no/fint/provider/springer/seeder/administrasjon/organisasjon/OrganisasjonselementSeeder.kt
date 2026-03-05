@@ -1,12 +1,10 @@
 package no.fint.provider.springer.seeder.administrasjon.organisasjon
 
-import no.fint.provider.springer.seeder.AbstractSeeder
+import no.fint.provider.springer.seeder.BaseSeeder
 import no.fint.provider.springer.storage.SeederRepository
-import no.novari.fint.model.felles.kompleksedatatyper.Adresse
 import no.novari.fint.model.felles.kompleksedatatyper.Identifikator
 import no.novari.fint.model.felles.kompleksedatatyper.Kontaktinformasjon
 import no.novari.fint.model.felles.kompleksedatatyper.Periode
-import no.novari.fint.model.resource.Link
 import no.novari.fint.model.resource.administrasjon.organisasjon.OrganisasjonselementResource
 import no.novari.fint.model.resource.administrasjon.personal.PersonalressursResource
 import no.novari.fint.model.resource.felles.kompleksedatatyper.AdresseResource
@@ -16,7 +14,7 @@ import java.util.Date
 @Service
 class OrganisasjonselementSeeder(
     seederRepository: SeederRepository
-) : AbstractSeeder<OrganisasjonselementResource>(seederRepository, OrganisasjonselementResource::class.java) {
+) : BaseSeeder<OrganisasjonselementResource>(seederRepository, OrganisasjonselementResource::class.java) {
 
     fun generateEntitiesForTest(): List<OrganisasjonselementResource> = generateEntities()
 

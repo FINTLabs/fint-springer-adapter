@@ -1,16 +1,15 @@
 package no.fint.provider.springer.seeder.arkiv.kodeverk
 
-import no.fint.provider.springer.seeder.AbstractSeeder
+import no.fint.provider.springer.seeder.BaseSeeder
 import no.fint.provider.springer.storage.SeederRepository
 import no.novari.fint.model.felles.kompleksedatatyper.Identifikator
-import no.novari.fint.model.resource.Link
 import no.novari.fint.model.resource.arkiv.kodeverk.DokumentTypeResource
 import org.springframework.stereotype.Service
 
 @Service
 class DokumenttypeSeeder(
     seederRepository: SeederRepository
-) : AbstractSeeder<DokumentTypeResource>(seederRepository, DokumentTypeResource::class.java) {
+) : BaseSeeder<DokumentTypeResource>(seederRepository, DokumentTypeResource::class.java) {
 
     fun generateEntitiesForTest(): List<DokumentTypeResource> = generateEntities()
 

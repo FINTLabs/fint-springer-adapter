@@ -1,6 +1,6 @@
 package no.fint.provider.springer.seeder.utdanning.kodeverk
 
-import no.fint.provider.springer.seeder.AbstractSeeder
+import no.fint.provider.springer.seeder.BaseSeeder
 import no.fint.provider.springer.storage.SeederRepository
 import no.novari.fint.model.felles.kompleksedatatyper.Identifikator
 import no.novari.fint.model.felles.kompleksedatatyper.Periode
@@ -13,7 +13,7 @@ import java.util.Date
 @Service
 class SkolearSeeder(
     seederRepository: SeederRepository
-) : AbstractSeeder<SkolearResource>(seederRepository, SkolearResource::class.java) {
+) : BaseSeeder<SkolearResource>(seederRepository, SkolearResource::class.java) {
 
     fun generateEntitiesForTest(): List<SkolearResource> = generateEntities()
 

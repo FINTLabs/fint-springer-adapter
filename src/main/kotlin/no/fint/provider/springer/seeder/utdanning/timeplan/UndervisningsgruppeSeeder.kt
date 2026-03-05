@@ -1,9 +1,8 @@
 package no.fint.provider.springer.seeder.utdanning.timeplan
 
-import no.fint.provider.springer.seeder.AbstractSeeder
+import no.fint.provider.springer.seeder.BaseSeeder
 import no.fint.provider.springer.storage.SeederRepository
 import no.novari.fint.model.felles.kompleksedatatyper.Identifikator
-import no.novari.fint.model.resource.Link
 import no.novari.fint.model.resource.utdanning.elev.UndervisningsforholdResource
 import no.novari.fint.model.resource.utdanning.kodeverk.SkolearResource
 import no.novari.fint.model.resource.utdanning.kodeverk.TerminResource
@@ -16,7 +15,7 @@ import org.springframework.stereotype.Service
 @Service
 class UndervisningsgruppeSeeder(
     seederRepository: SeederRepository
-) : AbstractSeeder<UndervisningsgruppeResource>(seederRepository, UndervisningsgruppeResource::class.java) {
+) : BaseSeeder<UndervisningsgruppeResource>(seederRepository, UndervisningsgruppeResource::class.java) {
 
     fun generateEntitiesForTest(): List<UndervisningsgruppeResource> = generateEntities()
 

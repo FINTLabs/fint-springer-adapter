@@ -1,13 +1,9 @@
 package no.fint.provider.springer.seeder.administrasjon.personal
 
-import no.fint.provider.springer.seeder.AbstractSeeder
+import no.fint.provider.springer.seeder.BaseSeeder
 import no.fint.provider.springer.storage.SeederRepository
 import no.novari.fint.model.felles.kompleksedatatyper.Identifikator
 import no.novari.fint.model.felles.kompleksedatatyper.Periode
-import no.novari.fint.model.resource.Link
-import no.novari.fint.model.resource.administrasjon.kodeverk.AnsvarResource
-import no.novari.fint.model.resource.administrasjon.kodeverk.ArtResource
-import no.novari.fint.model.resource.administrasjon.kodeverk.FunksjonResource
 import no.novari.fint.model.resource.administrasjon.kodeverk.LonnsartResource
 import no.novari.fint.model.resource.administrasjon.personal.ArbeidsforholdResource
 import no.novari.fint.model.resource.administrasjon.personal.FastlonnResource
@@ -18,7 +14,7 @@ import java.util.Date
 @Service
 class FastlonnSeeder(
     seederRepository: SeederRepository
-) : AbstractSeeder<FastlonnResource>(seederRepository, FastlonnResource::class.java) {
+) : BaseSeeder<FastlonnResource>(seederRepository, FastlonnResource::class.java) {
 
     fun generateEntitiesForTest(): List<FastlonnResource> = generateEntities()
 

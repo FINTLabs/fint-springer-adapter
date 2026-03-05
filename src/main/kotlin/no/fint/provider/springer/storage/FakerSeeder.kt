@@ -1,6 +1,6 @@
 package no.fint.provider.springer.storage
 
-import no.fint.provider.springer.seeder.AbstractSeeder
+import no.fint.provider.springer.seeder.BaseSeeder
 import org.slf4j.LoggerFactory
 import org.springframework.boot.context.event.ApplicationReadyEvent
 import org.springframework.context.ApplicationContext
@@ -24,7 +24,7 @@ class FakerSeeder(
         log.info("Starting data seeding...")
 
         // Automatically find and run all seeders
-        val seeders = applicationContext.getBeansOfType(AbstractSeeder::class.java).values
+        val seeders = applicationContext.getBeansOfType(BaseSeeder::class.java).values
 
         seeders.forEach { seeder ->
             log.info("Running seeder: ${seeder::class.simpleName}")

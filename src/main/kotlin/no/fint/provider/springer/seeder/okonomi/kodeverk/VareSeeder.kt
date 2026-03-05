@@ -1,16 +1,15 @@
 package no.fint.provider.springer.seeder.okonomi.kodeverk
 
-import no.fint.provider.springer.seeder.AbstractSeeder
+import no.fint.provider.springer.seeder.BaseSeeder
 import no.fint.provider.springer.storage.SeederRepository
 import no.novari.fint.model.felles.kompleksedatatyper.Identifikator
-import no.novari.fint.model.resource.Link
 import no.novari.fint.model.resource.okonomi.kodeverk.VareResource
 import org.springframework.stereotype.Service
 
 @Service
 class VareSeeder(
     seederRepository: SeederRepository
-) : AbstractSeeder<VareResource>(seederRepository, VareResource::class.java) {
+) : BaseSeeder<VareResource>(seederRepository, VareResource::class.java) {
 
     fun generateEntitiesForTest(): List<VareResource> = generateEntities()
 

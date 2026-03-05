@@ -1,10 +1,9 @@
 package no.fint.provider.springer.seeder.administrasjon.personal
 
-import no.fint.provider.springer.seeder.AbstractSeeder
+import no.fint.provider.springer.seeder.BaseSeeder
 import no.fint.provider.springer.storage.SeederRepository
 import no.novari.fint.model.felles.kompleksedatatyper.Identifikator
 import no.novari.fint.model.felles.kompleksedatatyper.Periode
-import no.novari.fint.model.resource.Link
 import no.novari.fint.model.resource.administrasjon.kodeverk.LonnsartResource
 import no.novari.fint.model.resource.administrasjon.personal.ArbeidsforholdResource
 import no.novari.fint.model.resource.administrasjon.personal.PersonalressursResource
@@ -15,7 +14,7 @@ import java.util.Date
 @Service
 class VariabellonnSeeder(
     seederRepository: SeederRepository
-) : AbstractSeeder<VariabellonnResource>(seederRepository, VariabellonnResource::class.java) {
+) : BaseSeeder<VariabellonnResource>(seederRepository, VariabellonnResource::class.java) {
 
     fun generateEntitiesForTest(): List<VariabellonnResource> = generateEntities()
 

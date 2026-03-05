@@ -1,6 +1,6 @@
 package no.fint.provider.springer.seeder.felles.kodeverk
 
-import no.fint.provider.springer.seeder.AbstractSeeder
+import no.fint.provider.springer.seeder.BaseSeeder
 import no.fint.provider.springer.storage.SeederRepository
 import no.novari.fint.model.felles.kompleksedatatyper.Identifikator
 import no.novari.fint.model.resource.Link
@@ -10,7 +10,7 @@ import org.springframework.stereotype.Service
 @Service
 class KjonnSeeder(
     seederRepository: SeederRepository
-) : AbstractSeeder<KjonnResource>(seederRepository, KjonnResource::class.java) {
+) : BaseSeeder<KjonnResource>(seederRepository, KjonnResource::class.java) {
 
     fun generateEntitiesForTest(): List<KjonnResource> = generateEntities()
 

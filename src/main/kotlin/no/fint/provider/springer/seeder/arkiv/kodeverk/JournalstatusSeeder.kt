@@ -1,16 +1,15 @@
 package no.fint.provider.springer.seeder.arkiv.kodeverk
 
-import no.fint.provider.springer.seeder.AbstractSeeder
+import no.fint.provider.springer.seeder.BaseSeeder
 import no.fint.provider.springer.storage.SeederRepository
 import no.novari.fint.model.felles.kompleksedatatyper.Identifikator
-import no.novari.fint.model.resource.Link
 import no.novari.fint.model.resource.arkiv.kodeverk.JournalStatusResource
 import org.springframework.stereotype.Service
 
 @Service
 class JournalstatusSeeder(
     seederRepository: SeederRepository
-) : AbstractSeeder<JournalStatusResource>(seederRepository, JournalStatusResource::class.java) {
+) : BaseSeeder<JournalStatusResource>(seederRepository, JournalStatusResource::class.java) {
 
     fun generateEntitiesForTest(): List<JournalStatusResource> = generateEntities()
 

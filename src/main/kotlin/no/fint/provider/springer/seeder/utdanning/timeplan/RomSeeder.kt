@@ -1,9 +1,8 @@
 package no.fint.provider.springer.seeder.utdanning.timeplan
 
-import no.fint.provider.springer.seeder.AbstractSeeder
+import no.fint.provider.springer.seeder.BaseSeeder
 import no.fint.provider.springer.storage.SeederRepository
 import no.novari.fint.model.felles.kompleksedatatyper.Identifikator
-import no.novari.fint.model.resource.Link
 import no.novari.fint.model.resource.utdanning.timeplan.RomResource
 import no.novari.fint.model.resource.utdanning.timeplan.TimeResource
 import org.springframework.stereotype.Service
@@ -11,7 +10,7 @@ import org.springframework.stereotype.Service
 @Service
 class RomSeeder(
     seederRepository: SeederRepository
-) : AbstractSeeder<RomResource>(seederRepository, RomResource::class.java) {
+) : BaseSeeder<RomResource>(seederRepository, RomResource::class.java) {
 
     fun generateEntitiesForTest(): List<RomResource> = generateEntities()
 

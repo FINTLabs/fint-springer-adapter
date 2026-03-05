@@ -1,10 +1,9 @@
 package no.fint.provider.springer.seeder.administrasjon.kodeverk
 
-import no.fint.provider.springer.seeder.AbstractSeeder
+import no.fint.provider.springer.seeder.BaseSeeder
 import no.fint.provider.springer.storage.SeederRepository
 import no.novari.fint.model.felles.kompleksedatatyper.Identifikator
 import no.novari.fint.model.felles.kompleksedatatyper.Periode
-import no.novari.fint.model.resource.Link
 import no.novari.fint.model.resource.administrasjon.kodeverk.StillingskodeResource
 import org.springframework.stereotype.Service
 import java.util.Date
@@ -12,7 +11,7 @@ import java.util.Date
 @Service
 class StillingskodeSeeder(
     seederRepository: SeederRepository
-) : AbstractSeeder<StillingskodeResource>(seederRepository, StillingskodeResource::class.java) {
+) : BaseSeeder<StillingskodeResource>(seederRepository, StillingskodeResource::class.java) {
 
     fun generateEntitiesForTest(): List<StillingskodeResource> = generateEntities()
 

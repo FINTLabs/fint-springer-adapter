@@ -6,7 +6,7 @@ import no.novari.fint.model.resource.Link
 import org.slf4j.LoggerFactory
 import java.util.Locale
 
-abstract class AbstractSeeder<T>(
+abstract class BaseSeeder<T>(
     protected val seederRepository: SeederRepository,
     private val entityClass: Class<T>
 ) {
@@ -14,14 +14,14 @@ abstract class AbstractSeeder<T>(
     protected val faker = Faker(Locale.of("no"))
 
     fun seedIfMissing() {
-        if (seederRepository.exists(entityClass)) return
+        if (seederRepository.exists(entityClass))  return
         
         val entities = generateEntities()
         entities.forEach { entity ->
             seederRepository.save(entity, entityClass)
         }
         
-        log.info("Added {} {} resources", entities.size, entityClass.simpleName)
+        log.info(" - Added {} {} resources", entities.size, entityClass.simpleName)
     }
 
     protected inline fun <reified R> link(identificatorValue: String, identificatorName: String = "systemid"): Link =

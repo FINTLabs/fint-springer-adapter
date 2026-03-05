@@ -1,16 +1,15 @@
 package no.fint.provider.springer.seeder.utdanning.kodeverk
 
-import no.fint.provider.springer.seeder.AbstractSeeder
+import no.fint.provider.springer.seeder.BaseSeeder
 import no.fint.provider.springer.storage.SeederRepository
 import no.novari.fint.model.felles.kompleksedatatyper.Identifikator
-import no.novari.fint.model.resource.Link
 import no.novari.fint.model.resource.utdanning.kodeverk.SkoleeiertypeResource
 import org.springframework.stereotype.Service
 
 @Service
 class SkoleeiertypeSeeder(
     seederRepository: SeederRepository
-) : AbstractSeeder<SkoleeiertypeResource>(seederRepository, SkoleeiertypeResource::class.java) {
+) : BaseSeeder<SkoleeiertypeResource>(seederRepository, SkoleeiertypeResource::class.java) {
 
     fun generateEntitiesForTest(): List<SkoleeiertypeResource> = generateEntities()
 

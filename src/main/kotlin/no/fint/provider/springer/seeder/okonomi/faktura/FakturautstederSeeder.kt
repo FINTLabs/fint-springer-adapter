@@ -1,9 +1,8 @@
 package no.fint.provider.springer.seeder.okonomi.faktura
 
-import no.fint.provider.springer.seeder.AbstractSeeder
+import no.fint.provider.springer.seeder.BaseSeeder
 import no.fint.provider.springer.storage.SeederRepository
 import no.novari.fint.model.felles.kompleksedatatyper.Identifikator
-import no.novari.fint.model.resource.Link
 import no.novari.fint.model.resource.okonomi.faktura.FakturautstederResource
 import no.novari.fint.model.resource.okonomi.kodeverk.VareResource
 import org.springframework.stereotype.Service
@@ -11,7 +10,7 @@ import org.springframework.stereotype.Service
 @Service
 class FakturautstederSeeder(
     seederRepository: SeederRepository
-) : AbstractSeeder<FakturautstederResource>(seederRepository, FakturautstederResource::class.java) {
+) : BaseSeeder<FakturautstederResource>(seederRepository, FakturautstederResource::class.java) {
 
     fun generateEntitiesForTest(): List<FakturautstederResource> = generateEntities()
 

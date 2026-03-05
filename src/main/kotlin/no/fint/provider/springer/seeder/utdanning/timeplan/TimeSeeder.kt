@@ -1,10 +1,9 @@
 package no.fint.provider.springer.seeder.utdanning.timeplan
 
-import no.fint.provider.springer.seeder.AbstractSeeder
+import no.fint.provider.springer.seeder.BaseSeeder
 import no.fint.provider.springer.storage.SeederRepository
 import no.novari.fint.model.felles.kompleksedatatyper.Identifikator
 import no.novari.fint.model.felles.kompleksedatatyper.Periode
-import no.novari.fint.model.resource.Link
 import no.novari.fint.model.resource.utdanning.elev.UndervisningsforholdResource
 import no.novari.fint.model.resource.utdanning.timeplan.RomResource
 import no.novari.fint.model.resource.utdanning.timeplan.TimeResource
@@ -15,7 +14,7 @@ import java.util.Date
 @Service
 class TimeSeeder(
     seederRepository: SeederRepository
-) : AbstractSeeder<TimeResource>(seederRepository, TimeResource::class.java) {
+) : BaseSeeder<TimeResource>(seederRepository, TimeResource::class.java) {
 
     fun generateEntitiesForTest(): List<TimeResource> = generateEntities()
 

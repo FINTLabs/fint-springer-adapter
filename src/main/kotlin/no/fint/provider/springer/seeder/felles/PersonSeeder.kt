@@ -1,12 +1,11 @@
 package no.fint.provider.springer.seeder.felles
 
 import net.datafaker.Faker
-import no.fint.provider.springer.seeder.AbstractSeeder
+import no.fint.provider.springer.seeder.BaseSeeder
 import no.fint.provider.springer.storage.SeederRepository
 import no.novari.fint.model.felles.kompleksedatatyper.Identifikator
 import no.novari.fint.model.felles.kompleksedatatyper.Kontaktinformasjon
 import no.novari.fint.model.felles.kompleksedatatyper.Personnavn
-import no.novari.fint.model.resource.Link
 import no.novari.fint.model.resource.administrasjon.personal.PersonalressursResource
 import no.novari.fint.model.resource.felles.PersonResource
 import no.novari.fint.model.resource.felles.kodeverk.iso.KjonnResource
@@ -21,7 +20,7 @@ import java.util.Random
 @Service
 class PersonSeeder(
     seederRepository: SeederRepository
-) : AbstractSeeder<PersonResource>(seederRepository, PersonResource::class.java) {
+) : BaseSeeder<PersonResource>(seederRepository, PersonResource::class.java) {
 
     // Public method for testing
     fun generateEntitiesForTest(): List<PersonResource> = generateEntities()

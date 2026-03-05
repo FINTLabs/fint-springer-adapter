@@ -1,16 +1,15 @@
 package no.fint.provider.springer.seeder.okonomi.kodeverk
 
-import no.fint.provider.springer.seeder.AbstractSeeder
+import no.fint.provider.springer.seeder.BaseSeeder
 import no.fint.provider.springer.storage.SeederRepository
 import no.novari.fint.model.felles.kompleksedatatyper.Identifikator
-import no.novari.fint.model.resource.Link
 import no.novari.fint.model.resource.okonomi.kodeverk.MerverdiavgiftResource
 import org.springframework.stereotype.Service
 
 @Service
 class MerverdiavgiftSeeder(
     seederRepository: SeederRepository
-) : AbstractSeeder<MerverdiavgiftResource>(seederRepository, MerverdiavgiftResource::class.java) {
+) : BaseSeeder<MerverdiavgiftResource>(seederRepository, MerverdiavgiftResource::class.java) {
 
     fun generateEntitiesForTest(): List<MerverdiavgiftResource> = generateEntities()
 

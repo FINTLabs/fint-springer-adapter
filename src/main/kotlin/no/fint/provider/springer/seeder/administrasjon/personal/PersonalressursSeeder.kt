@@ -1,7 +1,6 @@
 package no.fint.provider.springer.seeder.administrasjon.personal
 
-import no.fint.provider.springer.seeder.AbstractSeeder
-import no.novari.fint.model.resource.Link
+import no.fint.provider.springer.seeder.BaseSeeder
 import no.novari.fint.model.felles.kompleksedatatyper.Identifikator
 import no.novari.fint.model.felles.kompleksedatatyper.Periode
 import no.novari.fint.model.resource.administrasjon.personal.PersonalressursResource
@@ -15,7 +14,7 @@ import java.util.Date
 @Service
 class PersonalressursSeeder(
     seederRepository: SeederRepository
-) : AbstractSeeder<PersonalressursResource>(seederRepository, PersonalressursResource::class.java) {
+) : BaseSeeder<PersonalressursResource>(seederRepository, PersonalressursResource::class.java) {
     
     // Public method for testing
     fun generateEntitiesForTest(): List<PersonalressursResource> = generateEntities()
