@@ -10,6 +10,7 @@ import no.novari.fint.model.resource.utdanning.timeplan.FagResource
 import no.novari.fint.model.resource.utdanning.timeplan.RomResource
 import no.novari.fint.model.resource.utdanning.timeplan.TimeResource
 import no.novari.fint.model.resource.utdanning.timeplan.UndervisningsgruppeResource
+import no.novari.fint.model.resource.utdanning.timeplan.UndervisningsgruppemedlemskapResource
 import no.novari.fint.model.utdanning.timeplan.TimeplanActions
 import org.springframework.data.mongodb.core.MongoTemplate
 import org.springframework.stereotype.Repository
@@ -28,6 +29,7 @@ class TimeplanRepository(
             TimeplanActions.GET_ALL_ROM -> query(RomResource::class.java, response)
             TimeplanActions.GET_ALL_TIME -> query(TimeResource::class.java, response)
             TimeplanActions.GET_ALL_UNDERVISNINGSGRUPPE -> query(UndervisningsgruppeResource::class.java, response)
+            TimeplanActions.GET_ALL_UNDERVISNINGSGRUPPEMEDLEMSKAP -> query(UndervisningsgruppemedlemskapResource::class.java, response)
             else -> invalid(response)
         }
     }

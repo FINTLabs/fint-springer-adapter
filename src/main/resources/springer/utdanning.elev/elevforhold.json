@@ -32,9 +32,9 @@
               "href": "${utdanning.elev.klassemedlemskap}/systemid/BGM_E_500001_1_BG_1STA-2018"
             }
           ],
-          "undervisningsgruppe": [
+          "undervisningsgruppemedlemskap": [
             {
-              "href": "${utdanning.timeplan.undervisningsgruppe}/systemid/UG_2018_1STA_NOR1Z41"
+              "href": "${utdanning.timeplan.undervisningsgruppemedlemskap}/systemid/UGM_E_500001_1_UG_2018_1STA_NOR1Z41"
             }
           ],
           "self": [
@@ -75,9 +75,9 @@
               "href": "${utdanning.elev.klassemedlemskap}/systemid/BGM_E_500002_1_BG_1STA-2018"
             }
           ],
-          "undervisningsgruppe": [
+          "undervisningsgruppemedlemskap": [
             {
-              "href": "${utdanning.timeplan.undervisningsgruppe}/systemid/UG_2018_1STA_NOR1Z41"
+              "href": "${utdanning.timeplan.undervisningsgruppemedlemskap}/systemid/UGM_E_500002_1_UG_2018_1STA_NOR1Z41"
             }
           ],
           "self": [
@@ -123,9 +123,9 @@
               "href": "${utdanning.elev.kontaktlarergruppe}/systemid/KG_1STA-1"
             }
           ],
-          "undervisningsgruppe": [
+          "undervisningsgruppemedlemskap": [
             {
-              "href": "${utdanning.timeplan.undervisningsgruppe}/systemid/UG_2018_1STA_NOR1Z41"
+              "href": "${utdanning.timeplan.undervisningsgruppemedlemskap}/systemid/UGM_E_500003_1_UG_2018_1STA_NOR1Z41"
             }
           ],
           "eksamensgruppe": [
@@ -161,9 +161,9 @@
               "href": "${utdanning.utdanningsprogram.skole}/systemid/1579"
             }
           ],
-          "undervisningsgruppe": [
+          "undervisningsgruppemedlemskap": [
             {
-              "href": "${utdanning.timeplan.undervisningsgruppe}/systemid/10128458_1IDA"
+              "href": "${utdanning.timeplan.undervisningsgruppemedlemskap}/systemid/UGM_500011-1_10128458_1IDA"
             }
           ],
           "klasse": [
@@ -214,9 +214,9 @@
               "href": "${utdanning.utdanningsprogram.skole}/systemid/1579"
             }
           ],
-          "undervisningsgruppe": [
+          "undervisningsgruppemedlemskap": [
             {
-              "href": "${utdanning.timeplan.undervisningsgruppe}/systemid/10128458_1IDA"
+              "href": "${utdanning.timeplan.undervisningsgruppemedlemskap}/systemid/UGM_500012-1_10128458_1IDA"
             }
           ],
           "klasse": [
@@ -267,9 +267,9 @@
               "href": "${utdanning.utdanningsprogram.skole}/systemid/1579"
             }
           ],
-          "undervisningsgruppe": [
+          "undervisningsgruppemedlemskap": [
             {
-              "href": "${utdanning.timeplan.undervisningsgruppe}/systemid/10128458_2IDA"
+              "href": "${utdanning.timeplan.undervisningsgruppemedlemskap}/systemid/UGM_500013-1_10128458_2IDA"
             }
           ],
           "klasse": [
@@ -320,9 +320,9 @@
               "href": "${utdanning.utdanningsprogram.skole}/systemid/1579"
             }
           ],
-          "undervisningsgruppe": [
+          "undervisningsgruppemedlemskap": [
             {
-              "href": "${utdanning.timeplan.undervisningsgruppe}/systemid/10128458_2IDA"
+              "href": "${utdanning.timeplan.undervisningsgruppemedlemskap}/systemid/UGM_500014-1_10128458_2IDA"
             }
           ],
           "klasse": [

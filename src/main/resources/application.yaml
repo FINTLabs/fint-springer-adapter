@@ -3,7 +3,15 @@ server:
 
 fint:
   springer:
-    clean-on-startup: false
+    reseedTypes:
+      - no.novari.fint.model.resource.felles.PersonResource
+      - no.novari.fint.model.resource.administrasjon.personal.PersonalressursResource
+      - no.novari.fint.model.resource.utdanning.utdanningsprogram.ArstrinnResource
+      - no.novari.fint.model.resource.utdanning.elev.KlasseResource
+      - no.novari.fint.model.resource.utdanning.elev.ElevforholdResource
+      - no.novari.fint.model.resource.utdanning.elev.SkoleressursResource
+      - no.novari.fint.model.resource.utdanning.timeplan.UndervisningsgruppeResource
+      - no.novari.fint.model.resource.utdanning.timeplan.UndervisningsgruppemedlemskapResource
 
   adapter:
     endpoints:

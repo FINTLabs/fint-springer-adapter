@@ -6,6 +6,5 @@ import org.springframework.stereotype.Component
 @Component
 @ConfigurationProperties(prefix = "fint.springer")
 data class SpringerProperties(
-    /** Whether to clean the database before loading initial data on startup */
-    var cleanOnStartup: Boolean = false
+    var reseedTypes: List<String> = emptyList()
 )
