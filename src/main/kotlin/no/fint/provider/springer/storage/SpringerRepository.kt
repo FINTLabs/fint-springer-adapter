@@ -20,6 +20,8 @@ abstract class SpringerRepository(
     }
 
     protected fun stream(type: Class<out FintLinks>): Stream<out FintLinks> =
-        mongoTemplate.stream(wrapper.query(type), Springer::class.java)
-            .map(wrapper.unwrapper(type))
+        mongoTemplate.execute { session ->
+            mongoTemplate.stream(wrapper.query(type), Springer::class.java)
+                .map(wrapper.unwrapper(type))
+        } ?: Stream.empty()
 }

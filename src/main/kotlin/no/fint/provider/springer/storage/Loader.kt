@@ -7,6 +7,8 @@ import no.fint.provider.springer.config.SpringerProperties
 import org.slf4j.LoggerFactory
 import org.springframework.core.io.support.PathMatchingResourcePatternResolver
 import org.springframework.data.mongodb.core.MongoTemplate
+import org.springframework.data.mongodb.core.query.Criteria
+import org.springframework.data.mongodb.core.query.Query
 import org.springframework.stereotype.Service
 import java.io.IOException
 import java.util.stream.StreamSupport
@@ -16,7 +18,8 @@ class Loader(
     private val mongoTemplate: MongoTemplate,
     private val wrapper: Wrapper,
     private val objectMapper: ObjectMapper,
-    private val springerProperties: SpringerProperties
+    private val springerProperties: SpringerProperties,
+    private val fakerSeeder: FakerSeeder
 ) {
     private val log = LoggerFactory.getLogger(Loader::class.java)
 
@@ -24,11 +27,25 @@ class Loader(
     @Throws(IOException::class, ClassNotFoundException::class)
     fun load() {
         log.info("Checking database content ...")
+        reseedConfiguredTypes()
+        loadJsonResourcesIfMissing()
+        fakerSeeder.seedIfEmpty()
 
-        if (springerProperties.cleanOnStartup) {
-            log.info("Cleaning database as per configuration... 🧹")
-            mongoTemplate.dropCollection(Springer::class.java)
+        log.info("Completed database initialization.")
+    }
+
+    private fun reseedConfiguredTypes() {
+        if (springerProperties.reseedTypes.isEmpty()) return
+
+        springerProperties.reseedTypes.forEach { type ->
+            val result = mongoTemplate.remove(Query(Criteria.where("type").`is`(type)), Springer::class.java)
+            if (result.deletedCount > 0) {
+                log.info("Removed {} elements of {} as per configuration.", result.deletedCount, type)
+            }
         }
+    }
+
+    private fun loadJsonResourcesIfMissing() {
         for (r in PathMatchingResourcePatternResolver(javaClass.classLoader).getResources("classpath*:/springer/**/*.json")) {
             try {
                 log.info("Checking {} ...", r)
@@ -47,7 +64,5 @@ class Loader(
                 throw e
             }
         }
-
-        log.info("Completed database initialization.")
     }
 }
