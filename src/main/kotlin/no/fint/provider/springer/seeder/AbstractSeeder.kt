@@ -4,8 +4,6 @@ import net.datafaker.Faker
 import no.fint.provider.springer.storage.SeederRepository
 import no.novari.fint.model.resource.Link
 import org.slf4j.LoggerFactory
-import java.time.LocalDate
-import java.time.ZoneOffset
 import java.util.Locale
 
 abstract class AbstractSeeder<T>(
@@ -26,8 +24,8 @@ abstract class AbstractSeeder<T>(
         log.info("Added {} {} resources", entities.size, entityClass.simpleName)
     }
 
-    protected inline fun <reified R> link(systemid: String, param: String = "systemid"): Link =
-        Link.with(R::class.java, param, systemid)
+    protected inline fun <reified R> link(identificatorValue: String, identificatorName: String = "systemid"): Link =
+        Link.with(R::class.java, identificatorName, identificatorValue)
 
     protected abstract fun generateEntities(): List<T>
 }

@@ -90,7 +90,7 @@ class PersonalRepository(
                 response.message = "No match for query"
                 return
             }
-            val personalressurs = wrapper.unwrapper(PersonalressursResource::class.java)(result!!)
+            val personalressurs = wrapper.unwrapper(PersonalressursResource::class.java)(result)
             resource.brukernavn?.takeIf { it != personalressurs.brukernavn }?.let {
                 log.info("Updating brukernavn from {} to {}", personalressurs.brukernavn, it)
                 personalressurs.brukernavn = it
