@@ -50,6 +50,18 @@ class SkoleSeeder(
                 addSelf(link<SkoleResource>("XX1234"))
                 addOrganisasjon(link<OrganisasjonselementResource>("970123458", "organisasjonsnummer"))
                 addFag(link<FagResource>("FA_NOR1Z41_2018"))
+            },
+            SkoleResource().apply {
+                systemId = Identifikator().apply { identifikatorverdi = "1579" }
+                skolenummer = Identifikator().apply { identifikatorverdi = "1579" }
+                organisasjonsnummer = Identifikator().apply { identifikatorverdi = "313131313" }
+                navn = "Andeby videregående skole"
+                organisasjonsnavn = "Andeby videregående skole"
+                juridiskNavn = "Andeby videregående skole"
+
+                addSelf(link<SkoleResource>("1579"))
+                addOrganisasjon(link<OrganisasjonselementResource>("313131313", "organisasjonsnummer"))
+                addFag(link<FagResource>("NOR1264"))
             }
         )
     }

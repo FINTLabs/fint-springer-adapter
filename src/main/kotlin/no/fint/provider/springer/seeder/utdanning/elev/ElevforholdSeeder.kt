@@ -57,6 +57,30 @@ class ElevforholdSeeder(
                 addUndervisningsgruppemedlemskap(link<UndervisningsgruppemedlemskapResource>("UGM_E_500003_1_UG_2018_1STA_NOR1Z41"))
             },
             ElevforholdResource().apply {
+                systemId = Identifikator().apply { identifikatorverdi = "E_ZZZZZZ_2" }
+                beskrivelse = "Historisk elevforhold"
+                addSelf(link<ElevforholdResource>("E_ZZZZZZ_2"))
+                addElev(link<ElevResource>("500003", "elevnummer"))
+                addSkole(link<SkoleResource>("123456", "skolenummer"))
+                addKategori(link<ElevkategoriResource>("heltid"))
+            },
+            ElevforholdResource().apply {
+                systemId = Identifikator().apply { identifikatorverdi = "E_ZZZZZZ_1" }
+                beskrivelse = "Historisk elevforhold"
+                addSelf(link<ElevforholdResource>("E_ZZZZZZ_1"))
+                addElev(link<ElevResource>("500002", "elevnummer"))
+                addSkole(link<SkoleResource>("123456", "skolenummer"))
+                addKategori(link<ElevkategoriResource>("heltid"))
+            },
+            ElevforholdResource().apply {
+                systemId = Identifikator().apply { identifikatorverdi = "E_2341_1" }
+                beskrivelse = "Historisk elevforhold"
+                addSelf(link<ElevforholdResource>("E_2341_1"))
+                addElev(link<ElevResource>("500001", "elevnummer"))
+                addSkole(link<SkoleResource>("123456", "skolenummer"))
+                addKategori(link<ElevkategoriResource>("heltid"))
+            },
+            ElevforholdResource().apply {
                 systemId = Identifikator().apply { identifikatorverdi = "500011-1" }
                 beskrivelse = ""
                 hovedskole = true

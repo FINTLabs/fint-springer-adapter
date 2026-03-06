@@ -110,6 +110,15 @@ class OrganisasjonselementSeeder(
                 addSelf(link<OrganisasjonselementResource>("550001", "organisasjonsid"))
             },
             OrganisasjonselementResource().apply {
+                navn = "Fagerslott barneskole"
+                organisasjonsId = Identifikator().apply { identifikatorverdi = "570001" }
+                organisasjonsnummer = Identifikator().apply { identifikatorverdi = "970123459" }
+                gyldighetsperiode = Periode().apply {
+                    start = Date(1496606016000L)
+                }
+                addSelf(link<OrganisasjonselementResource>("570001", "organisasjonsid"))
+            },
+            OrganisasjonselementResource().apply {
                 navn = "Andeby vgs."
                 organisasjonsId = Identifikator().apply { identifikatorverdi = "570000" }
                 organisasjonsnummer = Identifikator().apply { identifikatorverdi = "313131313" }

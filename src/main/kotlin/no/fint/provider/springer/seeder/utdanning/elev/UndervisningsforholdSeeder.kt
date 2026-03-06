@@ -47,6 +47,16 @@ class UndervisningsforholdSeeder(
                 systemId = Identifikator().apply { identifikatorverdi = "664b9b6b-8b1e-439d-87b3-82e0fedbbc7c" }
                 beskrivelse = "Adjunkt m/tilleggsutd."
                 addSelf(link<UndervisningsforholdResource>("664b9b6b-8b1e-439d-87b3-82e0fedbbc7c"))
+            },
+            UndervisningsforholdResource().apply {
+                systemId = Identifikator().apply { identifikatorverdi = "UF_NORA" }
+                beskrivelse = "Undervisningsforhold Nora"
+                addSelf(link<UndervisningsforholdResource>("UF_NORA"))
+            },
+            UndervisningsforholdResource().apply {
+                systemId = Identifikator().apply { identifikatorverdi = "UF_ANNA" }
+                beskrivelse = "Undervisningsforhold Anna"
+                addSelf(link<UndervisningsforholdResource>("UF_ANNA"))
             }
         )
     }

@@ -14,18 +14,22 @@ abstract class BaseSeeder<T>(
     protected val faker = Faker(Locale.of("no"))
 
     fun seedIfMissing() {
-        if (seederRepository.exists(entityClass))  return
-        
+        if (seederRepository.exists(entityClass)) {
+            log.trace("No need to seed ${entityClass.simpleName} - already exists.")
+            return
+        }
+
         val entities = generateEntities()
         entities.forEach { entity ->
             seederRepository.save(entity, entityClass)
         }
-        
-        log.info(" - Added {} {} resources", entities.size, entityClass.simpleName)
+        log.info("Running seeder for ${entityClass.simpleName}: Added ${entities.size} entities.")
     }
 
     protected inline fun <reified R> link(identificatorValue: String, identificatorName: String = "systemid"): Link =
         Link.with(R::class.java, identificatorName, identificatorValue)
+
+    fun handledTypeName(): String = entityClass.canonicalName
 
     protected abstract fun generateEntities(): List<T>
 }

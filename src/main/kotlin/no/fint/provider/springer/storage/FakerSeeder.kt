@@ -23,11 +23,9 @@ class FakerSeeder(
     fun seedIfEmpty() {
         log.info("Starting data seeding...")
 
-        // Automatically find and run all seeders
         val seeders = applicationContext.getBeansOfType(BaseSeeder::class.java).values
 
         seeders.forEach { seeder ->
-            log.info("Running seeder: ${seeder::class.simpleName}")
             seeder.seedIfMissing()
         }
 

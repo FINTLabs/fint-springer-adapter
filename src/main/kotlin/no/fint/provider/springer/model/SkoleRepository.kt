@@ -8,6 +8,7 @@ import no.fint.provider.springer.storage.Wrapper
 import no.novari.fint.model.resource.FintLinks
 import no.novari.fint.model.resource.utdanning.utdanningsprogram.ArstrinnResource
 import no.novari.fint.model.resource.utdanning.utdanningsprogram.SkoleResource
+import no.novari.fint.model.resource.utdanning.utdanningsprogram.UtdanningsprogramResource
 import no.novari.fint.model.utdanning.utdanningsprogram.UtdanningsprogramActions
 import org.springframework.data.mongodb.core.MongoTemplate
 import org.springframework.stereotype.Repository
@@ -22,6 +23,7 @@ class UtdanningsprogramRepository(
         when (UtdanningsprogramActions.valueOf(response.action)) {
             UtdanningsprogramActions.GET_ALL_SKOLE -> query(SkoleResource::class.java, response)
             UtdanningsprogramActions.GET_ALL_ARSTRINN -> query(ArstrinnResource::class.java, response)
+            UtdanningsprogramActions.GET_ALL_UTDANNINGSPROGRAM -> query(UtdanningsprogramResource::class.java, response)
             else -> {
                 response.status = Status.ADAPTER_REJECTED
                 response.responseStatus = ResponseStatus.REJECTED
@@ -34,7 +36,8 @@ class UtdanningsprogramRepository(
     override fun actions(): Set<String> =
     setOf(
         UtdanningsprogramActions.GET_ALL_SKOLE,
-        UtdanningsprogramActions.GET_ALL_ARSTRINN
+        UtdanningsprogramActions.GET_ALL_ARSTRINN,
+        UtdanningsprogramActions.GET_ALL_UTDANNINGSPROGRAM
     ).map { it.name }
      .toSet()
 }

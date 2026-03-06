@@ -26,6 +26,30 @@ class FagSeeder(
                 addSelf(link<FagResource>("FA_NOR1Z41_2018"))
                 addSkole(link<SkoleResource>("XX1234"))
                 addUndervisningsgruppe(link<UndervisningsgruppeResource>("UG_2018_1STA_NOR1Z41"))
+            },
+            FagResource().apply {
+                systemId = Identifikator().apply { identifikatorverdi = "NOR1264" }
+                navn = "NOR1264"
+                beskrivelse = "Norsk for Andeby VGS"
+
+                addSelf(link<FagResource>("NOR1264"))
+                addSkole(link<SkoleResource>("1579"))
+                addUndervisningsgruppe(link<UndervisningsgruppeResource>("10128458_1IDA"))
+                addUndervisningsgruppe(link<UndervisningsgruppeResource>("10128458_2IDA"))
+            },
+            FagResource().apply {
+                systemId = Identifikator().apply { identifikatorverdi = "NOR0207" }
+                navn = "NOR0207"
+                beskrivelse = "Norsk"
+
+                addSelf(link<FagResource>("NOR0207"))
+            },
+            FagResource().apply {
+                systemId = Identifikator().apply { identifikatorverdi = "ENGK007" }
+                navn = "ENGK007"
+                beskrivelse = "Engelsk"
+
+                addSelf(link<FagResource>("ENGK007"))
             }
         )
     }
