@@ -8,7 +8,7 @@ import no.novari.fint.model.resource.arkiv.kodeverk.RolleResource
 import org.springframework.stereotype.Service
 import java.util.Date
 
-@Service
+@Service("arkivRolleSeeder")
 class RolleSeeder(
     seederRepository: SeederRepository
 ) : BaseSeeder<RolleResource>(seederRepository, RolleResource::class.java) {

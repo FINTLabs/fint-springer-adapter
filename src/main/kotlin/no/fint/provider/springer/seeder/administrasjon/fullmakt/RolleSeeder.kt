@@ -7,7 +7,7 @@ import no.novari.fint.model.resource.administrasjon.fullmakt.FullmaktResource
 import no.novari.fint.model.resource.administrasjon.fullmakt.RolleResource
 import org.springframework.stereotype.Service
 
-@Service
+@Service("fullmaktRolleSeeder")
 class RolleSeeder(
     seederRepository: SeederRepository
 ) : BaseSeeder<RolleResource>(seederRepository, RolleResource::class.java) {
