@@ -2,8 +2,10 @@ package no.fint.provider.springer.storage
 
 import no.fint.event.model.Event
 import no.fint.event.model.ResponseStatus
+import no.fint.provider.springer.service.GetAllBurstReseedService
 import no.fint.provider.springer.service.Handler
 import no.novari.fint.model.resource.FintLinks
+import org.springframework.beans.factory.annotation.Autowired
 import org.springframework.data.mongodb.core.MongoTemplate
 import org.springframework.stereotype.Repository
 import java.util.stream.Stream
@@ -14,7 +16,11 @@ abstract class SpringerRepository(
     protected val wrapper: Wrapper
 ) : Handler {
 
+    @Autowired
+    private lateinit var getAllBurstReseedService: GetAllBurstReseedService
+
     protected fun query(type: Class<out FintLinks>, response: Event<FintLinks>) {
+        getAllBurstReseedService.registerGetAll(type, response.action)
         stream(type).forEach { response.addData(it) }
         response.responseStatus = ResponseStatus.ACCEPTED
     }
