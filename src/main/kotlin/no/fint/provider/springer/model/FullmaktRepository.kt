@@ -21,9 +21,8 @@ class FullmaktRepository(
 ) : SpringerRepository(mongoTemplate, wrapper) {
 
     override fun accept(response: Event<FintLinks>) {
-        if (response.source != "administrasjon-fullmakt") {
-            return
-        }
+        if (response.source != "administrasjon-fullmakt") return
+
         when (FullmaktActions.valueOf(response.action)) {
             FullmaktActions.GET_ALL_FULLMAKT -> query(FullmaktResource::class.java, response)
             FullmaktActions.GET_ALL_ROLLE -> query(RolleResource::class.java, response)
@@ -39,8 +38,8 @@ class FullmaktRepository(
     }
 
     override fun actions(): Set<String> =
-        Stream.of(*FullmaktActions.values())
+        FullmaktActions.entries
             .map { it.name }
             .filter { it.startsWith("GET_ALL_") }
-            .collect(Collectors.toSet())
+            .toSet()
 }

@@ -20,6 +20,8 @@ class ArkivKodeverkRepository(
 ) : SpringerRepository(mongoTemplate, wrapper) {
 
     override fun accept(response: Event<FintLinks>) {
+        if (response.source != "arkiv-kodeverk") return
+
         when {
             KodeverkActions.getActions().contains(response.action) -> when (KodeverkActions.valueOf(response.action)) {
                 KodeverkActions.GET_ALL_SAKSSTATUS -> query(SaksstatusResource::class.java, response)
