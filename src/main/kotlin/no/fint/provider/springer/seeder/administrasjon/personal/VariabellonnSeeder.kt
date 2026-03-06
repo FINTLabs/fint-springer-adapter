@@ -40,9 +40,33 @@ class VariabellonnSeeder(
                 antall = 10000
                 
                 addSelf(link<VariabellonnResource>("FAKE"))
-                addLonnsart(link<LonnsartResource>("8"))
-                addArbeidsforhold(link<ArbeidsforholdResource>("1234"))
-                addAttestant(link<PersonalressursResource>("120000", "ansattnummer"))
+                addLonnsart(link<LonnsartResource>("394636"))
+                addArbeidsforhold(link<ArbeidsforholdResource>("100003_1"))
+                addAttestant(link<PersonalressursResource>("100003", "ansattnummer"))
+                addAnviser(link<PersonalressursResource>("100000", "ansattnummer"))
+            },
+            VariabellonnResource().apply {
+                systemId = Identifikator().apply { identifikatorverdi = "VL_JIOPTPUSO" }
+                anvist = Date(1522939880000L)
+                attestert = Date(1522939870000L)
+                kontert = null
+                periode = Periode().apply {
+                    beskrivelse = null
+                    slutt = null
+                    start = Date(1522939880000L)
+                }
+                beskrivelse = "Variabellønn for arbeidsforhold 100003_1"
+                opptjent = Periode().apply {
+                    beskrivelse = null
+                    slutt = null
+                    start = Date(1522939880000L)
+                }
+                antall = 10000
+
+                addSelf(link<VariabellonnResource>("VL_JIOPTPUSO"))
+                addLonnsart(link<LonnsartResource>("394636"))
+                addArbeidsforhold(link<ArbeidsforholdResource>("100003_1"))
+                addAttestant(link<PersonalressursResource>("100003", "ansattnummer"))
                 addAnviser(link<PersonalressursResource>("100000", "ansattnummer"))
             }
         )
