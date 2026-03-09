@@ -40,7 +40,7 @@ class VariabellonnSeeder(
                 antall = 10000
                 
                 addSelf(link<VariabellonnResource>("FAKE"))
-                addLonnsart(link<LonnsartResource>("394636"))
+                addLonnsart(link<LonnsartResource>("391818"))
                 addArbeidsforhold(link<ArbeidsforholdResource>("100003_1"))
                 addAttestant(link<PersonalressursResource>("100003", "ansattnummer"))
                 addAnviser(link<PersonalressursResource>("100000", "ansattnummer"))
@@ -64,7 +64,7 @@ class VariabellonnSeeder(
                 antall = 10000
 
                 addSelf(link<VariabellonnResource>("VL_JIOPTPUSO"))
-                addLonnsart(link<LonnsartResource>("394636"))
+                addLonnsart(link<LonnsartResource>("391818"))
                 addArbeidsforhold(link<ArbeidsforholdResource>("100003_1"))
                 addAttestant(link<PersonalressursResource>("100003", "ansattnummer"))
                 addAnviser(link<PersonalressursResource>("100000", "ansattnummer"))
