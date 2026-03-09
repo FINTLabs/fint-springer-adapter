@@ -7,6 +7,7 @@ import no.novari.fint.model.felles.kompleksedatatyper.Periode
 import no.novari.fint.model.resource.utdanning.elev.ElevResource
 import no.novari.fint.model.resource.utdanning.elev.ElevforholdResource
 import no.novari.fint.model.resource.utdanning.elev.KlassemedlemskapResource
+import no.novari.fint.model.resource.utdanning.elev.KontaktlarergruppemedlemskapResource
 import no.novari.fint.model.resource.utdanning.kodeverk.ElevkategoriResource
 import no.novari.fint.model.resource.utdanning.timeplan.UndervisningsgruppemedlemskapResource
 import no.novari.fint.model.resource.utdanning.utdanningsprogram.SkoleResource
@@ -55,6 +56,7 @@ class ElevforholdSeeder(
                 addKategori(link<ElevkategoriResource>("heltid"))
                 addKlassemedlemskap(link<KlassemedlemskapResource>("BGM_E_500003_1_BG_1STA-2018"))
                 addUndervisningsgruppemedlemskap(link<UndervisningsgruppemedlemskapResource>("UGM_E_500003_1_UG_2018_1STA_NOR1Z41"))
+                addKontaktlarergruppemedlemskap(link<KontaktlarergruppemedlemskapResource>("KGM_E_500003_1_KG_1STA-1"))
             },
             ElevforholdResource().apply {
                 systemId = Identifikator().apply { identifikatorverdi = "E_ZZZZZZ_2" }
@@ -94,6 +96,23 @@ class ElevforholdSeeder(
                 addKategori(link<ElevkategoriResource>("heltid"))
                 addKlassemedlemskap(link<KlassemedlemskapResource>("BGM_500011-1_1321121"))
                 addUndervisningsgruppemedlemskap(link<UndervisningsgruppemedlemskapResource>("UGM_500011-1_10128458_1IDA"))
+                addKontaktlarergruppemedlemskap(link<KontaktlarergruppemedlemskapResource>("KGM_500011-1_1321122_1IDA"))
+            },
+            ElevforholdResource().apply {
+                systemId = Identifikator().apply { identifikatorverdi = "500011-2" }
+                beskrivelse = ""
+                hovedskole = true
+                gyldighetsperiode = Periode().apply {
+                    this.start = start
+                    this.slutt = slutt
+                }
+                addSelf(link<ElevforholdResource>("500011-2"))
+                addElev(link<ElevResource>("500011"))
+                addSkole(link<SkoleResource>("1579"))
+                addKategori(link<ElevkategoriResource>("heltid"))
+                addKlassemedlemskap(link<KlassemedlemskapResource>("BGM_500011-2_1321121"))
+                addUndervisningsgruppemedlemskap(link<UndervisningsgruppemedlemskapResource>("UGM_500011-2_10128458_1IDA"))
+                addKontaktlarergruppemedlemskap(link<KontaktlarergruppemedlemskapResource>("KGM_500011-2_1321122_1IDA"))
             },
             ElevforholdResource().apply {
                 systemId = Identifikator().apply { identifikatorverdi = "500012-1" }
@@ -124,6 +143,7 @@ class ElevforholdSeeder(
                 addKategori(link<ElevkategoriResource>("heltid"))
                 addKlassemedlemskap(link<KlassemedlemskapResource>("BGM_500013-1_1321122"))
                 addUndervisningsgruppemedlemskap(link<UndervisningsgruppemedlemskapResource>("UGM_500013-1_10128458_2IDA"))
+                addKontaktlarergruppemedlemskap(link<KontaktlarergruppemedlemskapResource>("KGM_500013-1_1321122_2IDA"))
             },
             ElevforholdResource().apply {
                 systemId = Identifikator().apply { identifikatorverdi = "500014-1" }

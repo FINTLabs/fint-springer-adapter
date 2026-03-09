@@ -26,6 +26,7 @@ class ElevRepository(
             ElevActions.GET_ALL_ELEV -> query(ElevResource::class.java, response)
             ElevActions.GET_ALL_ELEVFORHOLD -> query(ElevforholdResource::class.java, response)
             ElevActions.GET_ALL_KONTAKTLARERGRUPPE -> query(KontaktlarergruppeResource::class.java, response)
+            ElevActions.GET_ALL_KONTAKTLARERGRUPPEMEDLEMSKAP -> query(KontaktlarergruppemedlemskapResource::class.java, response)
             ElevActions.GET_ALL_SKOLERESSURS -> query(SkoleressursResource::class.java, response)
             ElevActions.GET_ALL_UNDERVISNINGSFORHOLD -> query(UndervisningsforholdResource::class.java, response)
             else -> invalid(response)
