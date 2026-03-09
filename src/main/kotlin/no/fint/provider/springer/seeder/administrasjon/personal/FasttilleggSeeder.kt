@@ -40,9 +40,9 @@ class FasttilleggSeeder(
                 }
                 
                 addSelf(link<FasttilleggResource>("FAKE"))
-                addLonnsart(link<LonnsartResource>("8"))
-                addArbeidsforhold(link<ArbeidsforholdResource>("1234"))
-                addAttestant(link<PersonalressursResource>("120000", "ansattnummer"))
+                addLonnsart(link<LonnsartResource>("391818"))
+                addArbeidsforhold(link<ArbeidsforholdResource>("100003_1"))
+                addAttestant(link<PersonalressursResource>("100003", "ansattnummer"))
                 addAnviser(link<PersonalressursResource>("100000", "ansattnummer"))
             }
         )

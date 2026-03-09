@@ -3,6 +3,12 @@ package no.fint.provider.springer.seeder.okonomi.kodeverk
 import no.fint.provider.springer.seeder.BaseSeeder
 import no.fint.provider.springer.storage.SeederRepository
 import no.novari.fint.model.felles.kompleksedatatyper.Identifikator
+import no.novari.fint.model.resource.administrasjon.kodeverk.AnsvarResource
+import no.novari.fint.model.resource.administrasjon.kodeverk.ArtResource
+import no.novari.fint.model.resource.administrasjon.kodeverk.FunksjonResource
+import no.novari.fint.model.resource.administrasjon.kompleksedatatyper.KontostrengResource
+import no.novari.fint.model.resource.okonomi.faktura.FakturautstederResource
+import no.novari.fint.model.resource.okonomi.kodeverk.MerverdiavgiftResource
 import no.novari.fint.model.resource.okonomi.kodeverk.VareResource
 import org.springframework.stereotype.Service
 
@@ -15,7 +21,7 @@ class VareSeeder(
 
 
     override fun generateEntities(): List<VareResource> {
-        return listOf(
+        val varer = listOf(
             VareResource().apply {
                 systemId = Identifikator().apply { identifikatorverdi = "1234566" }
                 kode = "1234566"
@@ -153,5 +159,33 @@ class VareSeeder(
                 addSelf(link<VareResource>("102"))
             }
         )
+
+        varer.forEach { vare ->
+            val (art, ansvar, funksjon, merverdiavgift, fakturautsteder) = when (vare.systemId?.identifikatorverdi) {
+                "20001" -> RelationIds("16249", "13300", "4200", "205", "299")
+                "20002" -> RelationIds("16006", "13300", "4200", "205", "299")
+                "20003" -> RelationIds("16004", "13300", "4200", "205", "299")
+                "100", "101", "102" -> RelationIds("16249", "13300", "4200", "205", "10")
+                else -> RelationIds("1", "2", "3", "25", "1")
+            }
+
+            vare.kontering = KontostrengResource().apply {
+                addArt(link<ArtResource>(art))
+                addAnsvar(link<AnsvarResource>(ansvar))
+                addFunksjon(link<FunksjonResource>(funksjon))
+            }
+            vare.addMerverdiavgift(link<MerverdiavgiftResource>(merverdiavgift))
+            vare.addFakturautsteder(link<FakturautstederResource>(fakturautsteder))
+        }
+
+        return varer
     }
+
+    private data class RelationIds(
+        val art: String,
+        val ansvar: String,
+        val funksjon: String,
+        val merverdiavgift: String,
+        val fakturautsteder: String
+    )
 }

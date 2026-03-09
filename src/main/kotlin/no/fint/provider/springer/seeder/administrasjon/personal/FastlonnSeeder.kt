@@ -40,7 +40,7 @@ class FastlonnSeeder(
                 prosent = 10000
                 
                 addSelf(link<FastlonnResource>("FAKE"))
-                addLonnsart(link<LonnsartResource>("394636"))
+                addLonnsart(link<LonnsartResource>("391818"))
                 addArbeidsforhold(link<ArbeidsforholdResource>("100003_1"))
                 addAttestant(link<PersonalressursResource>("100003", "ansattnummer"))
                 addAnviser(link<PersonalressursResource>("100000", "ansattnummer"))
@@ -64,7 +64,7 @@ class FastlonnSeeder(
                 prosent = 10000
 
                 addSelf(link<FastlonnResource>("FL_DFRTIYUGO"))
-                addLonnsart(link<LonnsartResource>("394636"))
+                addLonnsart(link<LonnsartResource>("391818"))
                 addArbeidsforhold(link<ArbeidsforholdResource>("100003_1"))
                 addAttestant(link<PersonalressursResource>("100003", "ansattnummer"))
                 addAnviser(link<PersonalressursResource>("100000", "ansattnummer"))

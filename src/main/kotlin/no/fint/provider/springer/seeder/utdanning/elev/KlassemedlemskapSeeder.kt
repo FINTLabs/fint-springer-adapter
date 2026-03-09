@@ -21,6 +21,7 @@ class KlassemedlemskapSeeder(
             klassemedlemskap("BGM_E_500002_1_BG_1STA-2018", "E_500002_1", "BG_1STA-2018"),
             klassemedlemskap("BGM_E_500003_1_BG_1STA-2018", "E_500003_1", "BG_1STA-2018"),
             klassemedlemskap("BGM_500011-1_1321121", "500011-1", "1321121"),
+            klassemedlemskap("BGM_500011-2_1321121", "500011-2", "1321121"),
             klassemedlemskap("BGM_500012-1_1321121", "500012-1", "1321121"),
             klassemedlemskap("BGM_500013-1_1321122", "500013-1", "1321122"),
             klassemedlemskap("BGM_500014-1_1321122", "500014-1", "1321122"),

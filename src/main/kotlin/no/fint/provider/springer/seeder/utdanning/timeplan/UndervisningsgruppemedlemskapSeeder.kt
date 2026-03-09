@@ -24,6 +24,7 @@ class UndervisningsgruppemedlemskapSeeder(
             undervisningsgruppemedlemskap("UGM_E_500002_1_UG_2018_1STA_NOR1Z41", "E_500002_1", "UG_2018_1STA_NOR1Z41"),
             undervisningsgruppemedlemskap("UGM_E_500003_1_UG_2018_1STA_NOR1Z41", "E_500003_1", "UG_2018_1STA_NOR1Z41"),
             undervisningsgruppemedlemskap("UGM_500011-1_10128458_1IDA", "500011-1", "10128458_1IDA"),
+            undervisningsgruppemedlemskap("UGM_500011-2_10128458_1IDA", "500011-2", "10128458_1IDA"),
             undervisningsgruppemedlemskap("UGM_500012-1_10128458_1IDA", "500012-1", "10128458_1IDA"),
             undervisningsgruppemedlemskap("UGM_500013-1_10128458_2IDA", "500013-1", "10128458_2IDA"),
             undervisningsgruppemedlemskap("UGM_500014-1_10128458_2IDA", "500014-1", "10128458_2IDA")
