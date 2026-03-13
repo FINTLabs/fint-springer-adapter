@@ -11,7 +11,7 @@ abstract class BaseSeeder<T>(
     private val entityClass: Class<T>
 ) {
     private val log = LoggerFactory.getLogger(this::class.java)
-    protected val faker = Faker(Locale.of("no"))
+    protected val faker = Faker(Locale.of("nb", "NO"))
 
     fun seedIfMissing() {
         if (seederRepository.exists(entityClass)) {
