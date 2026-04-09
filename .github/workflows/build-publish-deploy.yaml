@@ -3,6 +3,10 @@ on:
   push:
   workflow_dispatch:
 
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
 env:
   PWF_CLUSTER_NAME: aks-pwf-fint-2021-10-20
   PWF_CLUSTER_RESOURCE_GROUP: rg-aks-pwf
