@@ -4,6 +4,7 @@ import no.fint.provider.springer.seeder.BaseSeeder
 import no.fint.provider.springer.storage.SeederRepository
 import no.novari.fint.model.felles.kompleksedatatyper.Identifikator
 import no.novari.fint.model.resource.utdanning.elev.KlasseResource
+import no.novari.fint.model.resource.utdanning.elev.KlassemedlemskapResource
 import no.novari.fint.model.resource.utdanning.elev.KontaktlarergruppeResource
 import no.novari.fint.model.resource.utdanning.elev.UndervisningsforholdResource
 import no.novari.fint.model.resource.utdanning.kodeverk.SkolearResource
@@ -34,6 +35,7 @@ class KlasseSeeder(
                 addSkolear(link<SkolearResource>("21-22"))
                 addTermin(link<TerminResource>("H1"))
                 addTermin(link<TerminResource>("H2"))
+                addKlassemedlemskap(link<KlassemedlemskapResource>("BGM_E_500001_1_BG_1STA-2018"))
             },
             KlasseResource().apply {
                 systemId = Identifikator().apply { identifikatorverdi = "1321121" }
@@ -47,6 +49,7 @@ class KlasseSeeder(
                 addSkolear(link<SkolearResource>("21-22"))
                 addTermin(link<TerminResource>("H1"))
                 addTermin(link<TerminResource>("H2"))
+                addKlassemedlemskap(link<KlassemedlemskapResource>("BGM_500011-1_1321121"))
             },
             KlasseResource().apply {
                 systemId = Identifikator().apply { identifikatorverdi = "1321122" }
@@ -60,6 +63,7 @@ class KlasseSeeder(
                 addSkolear(link<SkolearResource>("21-22"))
                 addTermin(link<TerminResource>("H1"))
                 addTermin(link<TerminResource>("H2"))
+                addKlassemedlemskap(link<KlassemedlemskapResource>("BGM_500013-1_1321122"))
             },
             KlasseResource().apply {
                 systemId = Identifikator().apply { identifikatorverdi = "1321123" }
@@ -72,6 +76,7 @@ class KlasseSeeder(
                 addSkolear(link<SkolearResource>("21-22"))
                 addTermin(link<TerminResource>("H1"))
                 addTermin(link<TerminResource>("H2"))
+                addKlassemedlemskap(link<KlassemedlemskapResource>("BGM_500014-1_1321123"))
             }
         )
     }
