@@ -300,6 +300,63 @@
         }
       },
       {
+        "beskrivelse": "Elevforhold til doffen",
+        "systemId": {
+          "identifikatorverdi": "E_500004343_2"
+      },
+      "gyldighetsperiode": {
+        "slutt": "2026-07-31T00:00:00Z",
+        "start": "2029-08-01T00:00:00Z"
+      },
+        "_links": {
+          "elev": [
+            {
+              "href": "${utdanning.elev.elev}/elevnummer/500013"
+            }
+          ],
+          "skole": [
+            {
+              "href": "${utdanning.utdanningsprogram.skole}/skolenummer/1579"
+            }
+          ],
+          "kategori": [
+            {
+              "href": "${utdanning.kodeverk.elevkategori}/systemid/heltid"
+            }
+          ],
+          "klasse": [
+            {
+              "href": "${utdanning.elev.klasse}/systemid/BG_1STA-2026"
+            }
+          ],
+          "klassemedlemskap": [
+            {
+              "href": "${utdanning.elev.klassemedlemskap}/systemid/BGM_E_500003_1_BG_1STA-2018"
+            }
+          ],
+          "kontaktlarergruppe": [
+            {
+              "href": "${utdanning.elev.kontaktlarergruppe}/systemid/KG_1STA-1"
+            }
+          ],
+          "undervisningsgruppemedlemskap": [
+            {
+              "href": "${utdanning.timeplan.undervisningsgruppemedlemskap}/systemid/UGM_E_500003_1_UG_2018_1STA_NOR1Z41"
+            }
+          ],
+          "eksamensgruppe": [
+            {
+              "href": "${utdanning.vurdering.eksamensgruppe}/systemid/EG_NOR1Z41_2018"
+            }
+          ],
+          "self": [
+            {
+              "href": "${utdanning.elev.elevforhold}/systemid/E_500003_1"
+            }
+          ]
+        }
+      },
+      {
         "beskrivelse": "",
         "systemId": {
           "identifikatorverdi": "500014-1"
