@@ -12,6 +12,8 @@ import no.novari.fint.model.resource.utdanning.kodeverk.ElevkategoriResource
 import no.novari.fint.model.resource.utdanning.timeplan.UndervisningsgruppemedlemskapResource
 import no.novari.fint.model.resource.utdanning.utdanningsprogram.SkoleResource
 import org.springframework.stereotype.Service
+import java.time.LocalDate
+import java.time.ZoneOffset
 import java.util.Date
 
 @Service
@@ -23,8 +25,9 @@ class ElevforholdSeeder(
 
 
     override fun generateEntities(): List<ElevforholdResource> {
-        val start = Date(1627776000000L)
-        val slutt = Date(1659225600000L)
+        val currentYear = LocalDate.now(ZoneOffset.UTC).year
+        val start = Date.from(LocalDate.of(currentYear - 1, 8, 1).atStartOfDay().toInstant(ZoneOffset.UTC))
+        val slutt = Date.from(LocalDate.of(currentYear, 6, 31).atStartOfDay().toInstant(ZoneOffset.UTC))
 
         return listOf(
             ElevforholdResource().apply {
