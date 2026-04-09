@@ -27,7 +27,7 @@ class ElevforholdSeeder(
     override fun generateEntities(): List<ElevforholdResource> {
         val currentYear = LocalDate.now(ZoneOffset.UTC).year
         val start = Date.from(LocalDate.of(currentYear - 1, 8, 1).atStartOfDay().toInstant(ZoneOffset.UTC))
-        val slutt = Date.from(LocalDate.of(currentYear, 6, 31).atStartOfDay().toInstant(ZoneOffset.UTC))
+        val slutt = Date.from(LocalDate.of(currentYear, 7, 31).atStartOfDay().toInstant(ZoneOffset.UTC))
 
         return listOf(
             ElevforholdResource().apply {
