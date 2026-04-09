@@ -20,14 +20,14 @@ jobs:
           distribution: corretto
           java-version: '21'
 
-      - uses: gradle/actions/setup-gradle@v5
+      - uses: gradle/actions/setup-gradle@v6
         with:
           gradle-version: wrapper
 
       - run: ./gradlew build --no-daemon --parallel
 
       - name: Set up Docker Buildx
-        uses: docker/setup-buildx-action@v3
+        uses: docker/setup-buildx-action@v4
         with:
           driver: docker-container
 
@@ -63,17 +63,17 @@ jobs:
     steps:
       - uses: actions/checkout@v6
 
-      - uses: azure/login@v2
+      - uses: azure/login@v3
         with:
           creds: '${{secrets.AKS_PWF_FINT_GITHUB}}'
 
-      - uses: azure/aks-set-context@v4
+      - uses: azure/aks-set-context@v5
         with:
           cluster-name: ${{env.PWF_CLUSTER_NAME}}
           resource-group: ${{env.PWF_CLUSTER_RESOURCE_GROUP}}
           admin: true
 
-      - uses: azure/k8s-deploy@v5.0.4
+      - uses: azure/k8s-deploy@v5.1.0
         with:
           manifests: k8s-pwf.yaml
           images: ${{needs.build-and-publish.outputs.tags}}
