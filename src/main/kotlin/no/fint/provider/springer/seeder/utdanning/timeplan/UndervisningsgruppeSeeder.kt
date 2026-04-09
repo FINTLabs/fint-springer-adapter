@@ -9,6 +9,7 @@ import no.novari.fint.model.resource.utdanning.kodeverk.TerminResource
 import no.novari.fint.model.resource.utdanning.timeplan.FagResource
 import no.novari.fint.model.resource.utdanning.timeplan.TimeResource
 import no.novari.fint.model.resource.utdanning.timeplan.UndervisningsgruppeResource
+import no.novari.fint.model.resource.utdanning.timeplan.UndervisningsgruppemedlemskapResource
 import no.novari.fint.model.resource.utdanning.utdanningsprogram.SkoleResource
 import org.springframework.stereotype.Service
 
@@ -35,6 +36,9 @@ class UndervisningsgruppeSeeder(
                 addSkolear(link<SkolearResource>("21-22"))
                 addTermin(link<TerminResource>("H1"))
                 addTermin(link<TerminResource>("H2"))
+                addGruppemedlemskap(link<UndervisningsgruppemedlemskapResource>("UGM_E_500001_1_UG_2018_1STA_NOR1Z41"))
+                addGruppemedlemskap(link<UndervisningsgruppemedlemskapResource>("UGM_E_500002_1_UG_2018_1STA_NOR1Z41"))
+                addGruppemedlemskap(link<UndervisningsgruppemedlemskapResource>("UGM_E_500003_1_UG_2018_1STA_NOR1Z41"))
             },
             UndervisningsgruppeResource().apply {
                 systemId = Identifikator().apply { identifikatorverdi = "10128458_1IDA" }
@@ -47,6 +51,9 @@ class UndervisningsgruppeSeeder(
                 addSkolear(link<SkolearResource>("21-22"))
                 addTermin(link<TerminResource>("H1"))
                 addTermin(link<TerminResource>("H2"))
+                addGruppemedlemskap(link<UndervisningsgruppemedlemskapResource>("UGM_500011-1_10128458_1IDA"))
+                addGruppemedlemskap(link<UndervisningsgruppemedlemskapResource>("UGM_500011-2_10128458_1IDA"))
+                addGruppemedlemskap(link<UndervisningsgruppemedlemskapResource>("UGM_500012-1_10128458_1IDA"))
             },
             UndervisningsgruppeResource().apply {
                 systemId = Identifikator().apply { identifikatorverdi = "10128458_2IDA" }
@@ -59,6 +66,8 @@ class UndervisningsgruppeSeeder(
                 addSkolear(link<SkolearResource>("21-22"))
                 addTermin(link<TerminResource>("H1"))
                 addTermin(link<TerminResource>("H2"))
+                addGruppemedlemskap(link<UndervisningsgruppemedlemskapResource>("UGM_500013-1_10128458_2IDA"))
+                addGruppemedlemskap(link<UndervisningsgruppemedlemskapResource>("UGM_500014-1_10128458_2IDA"))
             }
         )
     }

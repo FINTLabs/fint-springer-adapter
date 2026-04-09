@@ -36,6 +36,8 @@ class KlasseSeeder(
                 addTermin(link<TerminResource>("H1"))
                 addTermin(link<TerminResource>("H2"))
                 addKlassemedlemskap(link<KlassemedlemskapResource>("BGM_E_500001_1_BG_1STA-2018"))
+                addKlassemedlemskap(link<KlassemedlemskapResource>("BGM_E_500002_1_BG_1STA-2018"))
+                addKlassemedlemskap(link<KlassemedlemskapResource>("BGM_E_500003_1_BG_1STA-2018"))
             },
             KlasseResource().apply {
                 systemId = Identifikator().apply { identifikatorverdi = "1321121" }
@@ -50,6 +52,8 @@ class KlasseSeeder(
                 addTermin(link<TerminResource>("H1"))
                 addTermin(link<TerminResource>("H2"))
                 addKlassemedlemskap(link<KlassemedlemskapResource>("BGM_500011-1_1321121"))
+                addKlassemedlemskap(link<KlassemedlemskapResource>("BGM_500011-2_1321121"))
+                addKlassemedlemskap(link<KlassemedlemskapResource>("BGM_500012-1_1321121"))
             },
             KlasseResource().apply {
                 systemId = Identifikator().apply { identifikatorverdi = "1321122" }
@@ -64,6 +68,7 @@ class KlasseSeeder(
                 addTermin(link<TerminResource>("H1"))
                 addTermin(link<TerminResource>("H2"))
                 addKlassemedlemskap(link<KlassemedlemskapResource>("BGM_500013-1_1321122"))
+                addKlassemedlemskap(link<KlassemedlemskapResource>("BGM_500014-1_1321122"))
             },
             KlasseResource().apply {
                 systemId = Identifikator().apply { identifikatorverdi = "1321123" }
