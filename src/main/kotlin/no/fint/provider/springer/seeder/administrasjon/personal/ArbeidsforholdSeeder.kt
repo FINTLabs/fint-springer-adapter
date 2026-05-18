@@ -252,7 +252,57 @@ class ArbeidsforholdSeeder(
                 addStillingskode(link<StillingskodeResource>("22407999"))
                 addTimerPerUke(link<UketimetallResource>("394634"))
             },
-            
+
+            // 100008_1 - Adjunkt med opprykk (20%)
+            ArbeidsforholdResource().apply {
+                systemId = Identifikator().apply { identifikatorverdi = "100008_1" }
+                ansettelsesprosent = 2000
+                gyldighetsperiode = Periode().apply {
+                    start = Date(1622835216000L) // 2021-06-04T19:53:36Z
+                    slutt = Date(4070908800000L)  // 2099-01-01T00:00:00Z
+                }
+                hovedstilling = false
+                lonnsprosent = 2000
+                stillingsnummer = "1"
+                stillingstittel = "Adjunkt med opprykk"
+                tilstedeprosent = 2000
+                arslonn = 64000000
+
+                addSelf(link<ArbeidsforholdResource>("100008_1"))
+                addPersonalressurs(link<PersonalressursResource>("100008", "ansattnummer"))
+                addArbeidssted(link<OrganisasjonselementResource>("562000", "organisasjonsid"))
+                addAnsvar(link<AnsvarResource>("33044"))
+                addFunksjon(link<FunksjonResource>("400602"))
+                addArbeidsforholdstype(link<ArbeidsforholdstypeResource>("401241"))
+                addStillingskode(link<StillingskodeResource>("22407999"))
+                addTimerPerUke(link<UketimetallResource>("394634"))
+            },
+
+            // 100008_2 - Adjunkt med opprykk (80%)
+            ArbeidsforholdResource().apply {
+                systemId = Identifikator().apply { identifikatorverdi = "100008_2" }
+                ansettelsesprosent = 8000
+                gyldighetsperiode = Periode().apply {
+                    start = Date(1622835216000L) // 2021-06-04T19:53:36Z
+                    slutt = Date(4070908800000L)  // 2099-01-01T00:00:00Z
+                }
+                hovedstilling = false
+                lonnsprosent = 8000
+                stillingsnummer = "1"
+                stillingstittel = "Adjunkt med opprykk"
+                tilstedeprosent = 8000
+                arslonn = 64000000
+
+                addSelf(link<ArbeidsforholdResource>("100008_2"))
+                addPersonalressurs(link<PersonalressursResource>("100008", "ansattnummer"))
+                addArbeidssted(link<OrganisasjonselementResource>("570000", "organisasjonsid"))
+                addAnsvar(link<AnsvarResource>("33044"))
+                addFunksjon(link<FunksjonResource>("400602"))
+                addArbeidsforholdstype(link<ArbeidsforholdstypeResource>("401241"))
+                addStillingskode(link<StillingskodeResource>("22407999"))
+                addTimerPerUke(link<UketimetallResource>("394634"))
+            },
+
             // 100007_1 - Adjunkt med opprykk
             ArbeidsforholdResource().apply {
                 systemId = Identifikator().apply { identifikatorverdi = "100007_1" }

@@ -61,6 +61,18 @@ class SkoleressursSeeder(
                 addSkole(link<SkoleResource>("XX1234"))
             },
             SkoleressursResource().apply {
+                systemId = Identifikator().apply { identifikatorverdi = "8f5f5ea0-84f2-4b0d-9d67-fdcf86d73f1f" }
+                feidenavn = Identifikator().apply { identifikatorverdi = "donald.duck@andeby.vgs.no" }
+                addSelf(link<SkoleressursResource>("donald.duck@andeby.vgs.no", "feidenavn"))
+                addSelf(link<SkoleressursResource>("8f5f5ea0-84f2-4b0d-9d67-fdcf86d73f1f"))
+                addPersonalressurs(link<PersonalressursResource>("100008", "ansattnummer"))
+                addUndervisningsforhold(link<UndervisningsforholdResource>("7024200-93838-0-1-20211001000000"))
+                addUndervisningsforhold(link<UndervisningsforholdResource>("7024200-93838-0-1-20211001000001"))
+                addPerson(personByFodselsnummer("15018956789"))
+                addSkole(link<SkoleResource>("1579"))
+                addSkole(link<SkoleResource>("XX1234"))
+            },
+            SkoleressursResource().apply {
                 systemId = Identifikator().apply { identifikatorverdi = "d9a7860f-cb4b-4198-a9d9-840399fcddec" }
                 feidenavn = Identifikator().apply { identifikatorverdi = "bestemor.duck@andeby.vgs.no" }
                 addSelf(link<SkoleressursResource>("bestemor.duck@andeby.vgs.no", "feidenavn"))

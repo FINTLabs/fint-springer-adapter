@@ -129,7 +129,8 @@ class PersonSeeder(
             "100004" to "12018156789",
             "100005" to "13018156789",
             "100006" to "14018956789",
-            "100007" to "14013956789"
+            "100007" to "14013956789",
+            "100008" to "15018956789"
         ).map { (ansattnummer, fnr) ->
             buildPerson(fnr = fnr, personalressursAnsattnummer = ansattnummer)
         }

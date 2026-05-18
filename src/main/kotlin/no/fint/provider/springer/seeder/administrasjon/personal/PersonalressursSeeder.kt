@@ -227,7 +227,38 @@ class PersonalressursSeeder(
                 addSelf(link<PersonalressursResource>("100006", "systemid"))
                 addSelf(link<PersonalressursResource>("100006", "ansattnummer"))
             },
-            
+
+            // 100008 - Donald Duck
+            PersonalressursResource().apply {
+                ansattnummer = Identifikator().apply { identifikatorverdi = "100008" }
+                ansettelsesperiode = Periode().apply {
+                    start = Date(1622784000000L) // 2021-06-04
+                    slutt = Date(4102444800000L)  // 2099-12-31
+                }
+                brukernavn = Identifikator().apply {
+                    identifikatorverdi = "donald"
+                    gyldighetsperiode = Periode().apply {
+                        start = Date(1622784000000L) // 2021-06-04
+                        slutt = Date(4102444800000L)  // 2099-12-31
+                    }
+                }
+                kontaktinformasjon = no.novari.fint.model.felles.kompleksedatatyper.Kontaktinformasjon().apply {
+                    epostadresse = "donald.duck@andeby.vgs.no"
+                    mobiltelefonnummer = "87878787"
+                    nettsted = "http://andeby.vgs.no"
+                    sip = "donald.duck@andeby.vgs.no"
+                }
+                systemId = Identifikator().apply { identifikatorverdi = "100008" }
+
+                addPerson(link<PersonResource>("15018956789", "fodselsnummer"))
+                addPersonalressurskategori(link<PersonalressurskategoriResource>("382752"))
+                addArbeidsforhold(link<no.novari.fint.model.resource.administrasjon.personal.ArbeidsforholdResource>("100008_1"))
+                addArbeidsforhold(link<no.novari.fint.model.resource.administrasjon.personal.ArbeidsforholdResource>("100008_2"))
+                addSkoleressurs(link<SkoleressursResource>("8f5f5ea0-84f2-4b0d-9d67-fdcf86d73f1f"))
+                addSelf(link<PersonalressursResource>("100008", "systemid"))
+                addSelf(link<PersonalressursResource>("100008", "ansattnummer"))
+            },
+
             // 100007 - Bestemor Duck
             PersonalressursResource().apply {
                 ansattnummer = Identifikator().apply { identifikatorverdi = "100007" }
