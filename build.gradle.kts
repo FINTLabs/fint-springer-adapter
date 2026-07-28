@@ -50,7 +50,7 @@ dependencyManagement {
 dependencies {
     implementation(kotlin("stdlib"))
     implementation(kotlin("reflect"))
-    implementation("com.google.guava:guava:33.5.0-jre")
+    implementation("com.google.guava:guava:33.6.0-jre")
     implementation("net.datafaker:datafaker:2.5.4")
     implementation("org.apache.commons:commons-lang3:3.20.0")
     implementation("commons-beanutils:commons-beanutils:1.11.0")
