@@ -13,14 +13,14 @@ permissions:
 jobs:
 
   build-push:
-    uses: fintlabs/shared-workflows/.github/workflows/java-gradle-build-push.yaml@main
+    uses: fintlabs/shared-workflows/.github/workflows/java-gradle-build-push.yaml@v0
     with:
       java-version: '21'
     secrets: inherit
 
   pwf:
     needs: build-push
-    uses: fintlabs/shared-workflows/.github/workflows/java-kustomize-deploy.yaml@main
+    uses: fintlabs/shared-workflows/.github/workflows/java-kustomize-deploy.yaml@v0
     with:
       tags: ${{ needs.build-push.outputs.tags }}
       environment: pwf
