@@ -15,3 +15,4 @@ javadocs/
 .java-version
 .vscode/settings.json
 .env
+.kotlin/errors
