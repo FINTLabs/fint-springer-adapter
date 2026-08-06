@@ -20,7 +20,7 @@ jobs:
 
   pwf:
     needs: build-push
-    uses: fintlabs/shared-workflows/.github/workflows/java-kustomize-deploy.yaml@v0
+    uses: fintlabs/shared-workflows/.github/workflows/kustomize-deploy.yaml@v0
     with:
       tags: ${{ needs.build-push.outputs.tags }}
       environment: pwf
