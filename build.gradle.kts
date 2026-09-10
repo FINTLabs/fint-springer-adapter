@@ -1,15 +1,17 @@
+import com.github.benmanes.gradle.versions.updates.DependencyUpdatesTask
+
 plugins {
     id("org.springframework.boot") version "4.0.5"
     id("io.spring.dependency-management") version "1.1.7"
-    kotlin("jvm") version "2.3.20"
-    kotlin("plugin.spring") version "2.3.10"
+    kotlin("jvm") version "2.4.20"
+    kotlin("plugin.spring") version "2.4.20"
     id("groovy")
-    id("com.github.ben-manes.versions") version "0.53.0"
+    id("io.github.ben-manes.versions") version "0.61.0"
 }
 
 group = "no.novari"
 
-val apiVersion: String by project
+val apiVersion: String = project.property("apiVersion") as String
 
 configurations {
     compileOnly {
@@ -50,15 +52,15 @@ dependencyManagement {
 dependencies {
     implementation(kotlin("stdlib"))
     implementation(kotlin("reflect"))
-    implementation("com.google.guava:guava:33.5.0-jre")
-    implementation("net.datafaker:datafaker:2.5.4")
+    implementation("com.google.guava:guava:33.7.1-jre")
+    implementation("net.datafaker:datafaker:2.7.0")
     implementation("org.apache.commons:commons-lang3:3.20.0")
     implementation("commons-beanutils:commons-beanutils:1.11.0")
-    implementation("org.apache.jena:jena-arq:6.0.0")
+    implementation("org.apache.jena:jena-arq:6.2.0")
     implementation("org.jooq:jool-java-8:0.9.15")
 
-    compileOnly("org.projectlombok:lombok")
-    annotationProcessor("org.projectlombok:lombok")
+    compileOnly("org.projectlombok:lombok:1.18.48")
+    annotationProcessor("org.projectlombok:lombok:1.18.48")
 
     implementation("no.fint:fint-model-resource:0.4.1")
     implementation("no.fint:fint-event-model:3.3.1")
@@ -85,12 +87,24 @@ dependencies {
     testImplementation("cglib:cglib-nodep:3.3.0")
     testImplementation("org.spockframework:spock-spring:2.4-groovy-5.0")
     testImplementation("org.spockframework:spock-core:2.4-groovy-5.0")
-    testImplementation("org.apache.groovy:groovy:5.0.4")
+    testImplementation("org.apache.groovy:groovy:5.1.2")
     testImplementation("org.springframework.boot:spring-boot-starter-test")
 }
 
 tasks.named<org.springframework.boot.gradle.tasks.run.BootRun>("bootRun") {
     systemProperties = System.getProperties().entries.associate { it.key.toString() to it.value }
+}
+
+tasks.named<DependencyUpdatesTask>("dependencyUpdates") {
+    rejectVersionIf {
+        isNonStable(candidate.version)
+    }
+}
+
+fun isNonStable(version: String): Boolean {
+    return listOf("alpha", "beta", "rc", "snapshot", "m", "eap", "dev").any {
+        version.lowercase().contains(it)
+    }
 }
 
 tasks.test {
