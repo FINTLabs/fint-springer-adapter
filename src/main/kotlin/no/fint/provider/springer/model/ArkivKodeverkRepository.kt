@@ -10,8 +10,6 @@ import no.novari.fint.model.arkiv.kodeverk.KodeverkActions
 import no.novari.fint.model.resource.arkiv.kodeverk.*
 import org.springframework.data.mongodb.core.MongoTemplate
 import org.springframework.stereotype.Repository
-import java.util.stream.Collectors
-import java.util.stream.Stream
 
 @Repository
 class ArkivKodeverkRepository(
@@ -48,8 +46,8 @@ class ArkivKodeverkRepository(
     }
 
     override fun actions(): Set<String> =
-        Stream.of(*KodeverkActions.values())
+        KodeverkActions.entries
             .map { it.name }
             .filter { it.startsWith("GET_ALL_") }
-            .collect(Collectors.toSet())
+            .toSet()
 }

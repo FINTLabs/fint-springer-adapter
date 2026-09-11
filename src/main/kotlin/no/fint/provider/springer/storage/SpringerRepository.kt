@@ -16,8 +16,12 @@ abstract class SpringerRepository(
     protected val wrapper: Wrapper
 ) : Handler {
 
-    @Autowired
     private lateinit var getAllBurstReseedService: GetAllBurstReseedService
+
+    @Autowired
+    fun setGetAllBurstReseedService(getAllBurstReseedService: GetAllBurstReseedService) {
+        this.getAllBurstReseedService = getAllBurstReseedService
+    }
 
     protected fun query(type: Class<out FintLinks>, response: Event<FintLinks>) {
         getAllBurstReseedService.registerGetAll(type, response.action)

@@ -11,8 +11,6 @@ import no.novari.fint.model.resource.felles.KontaktpersonResource
 import no.novari.fint.model.resource.felles.PersonResource
 import org.springframework.data.mongodb.core.MongoTemplate
 import org.springframework.stereotype.Repository
-import java.util.stream.Collectors
-import java.util.stream.Stream
 
 @Repository
 class PersonRepository(
@@ -34,8 +32,8 @@ class PersonRepository(
     }
 
     override fun actions(): Set<String> =
-        Stream.of(*FellesActions.values())
+        FellesActions.entries
             .map { it.name }
             .filter { it.startsWith("GET_ALL_") }
-            .collect(Collectors.toSet())
+            .toSet()
 }

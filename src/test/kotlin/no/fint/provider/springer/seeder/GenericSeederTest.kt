@@ -27,7 +27,6 @@ class GenericSeederTest {
         val entityName = "Fravar"
         val jsonPath = "springer/administrasjon.personal/fravar.json"
         val seederEntities = TestFravarSeeder().generateTestEntities()
-        val resourceClass = no.novari.fint.model.resource.administrasjon.personal.FravarResource::class.java
         
         runSeederTest(entityName, jsonPath, seederEntities)
     }
@@ -390,7 +389,7 @@ class GenericSeederTest {
         jsonEntries.forEachIndexed { index, jsonEntry ->
             if (index < seederEntries.size) {
                 val seederEntry = seederEntries[index]
-                compareEntityRelations(jsonEntry, seederEntry, index, entityName)
+                compareEntityRelations(jsonEntry, seederEntry, index)
             }
         }
     }
@@ -401,8 +400,7 @@ class GenericSeederTest {
     private fun compareEntityRelations(
         jsonEntry: JsonNode,
         seederEntry: JsonNode,
-        index: Int,
-        entityName: String
+        index: Int
     ) {
         val jsonLinks = jsonEntry.get("_links")
         val seederLinks = seederEntry.get("_links")

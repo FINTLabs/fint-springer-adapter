@@ -15,8 +15,6 @@ import no.novari.fint.model.resource.felles.kodeverk.iso.LandkodeResource
 import no.novari.fint.model.resource.felles.kodeverk.iso.SprakResource
 import org.springframework.data.mongodb.core.MongoTemplate
 import org.springframework.stereotype.Repository
-import java.util.stream.Collectors
-import java.util.stream.Stream
 
 @Repository
 class FellesKodeverkRepository(
@@ -49,10 +47,8 @@ class FellesKodeverkRepository(
     }
 
     override fun actions(): Set<String> =
-        Stream.concat(
-            Stream.of(*KodeverkActions.values()).map { it.name },
-            Stream.of(*IsoActions.values()).map { it.name }
-        )
+        (KodeverkActions.entries + IsoActions.entries)
+            .map { it.name }
             .filter { it.startsWith("GET_ALL_") }
-            .collect(Collectors.toSet())
+            .toSet()
 }

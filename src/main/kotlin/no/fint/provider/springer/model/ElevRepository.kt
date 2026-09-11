@@ -10,8 +10,6 @@ import no.novari.fint.model.resource.utdanning.elev.*
 import no.novari.fint.model.utdanning.elev.ElevActions
 import org.springframework.data.mongodb.core.MongoTemplate
 import org.springframework.stereotype.Repository
-import java.util.stream.Collectors
-import java.util.stream.Stream
 
 @Repository
 class ElevRepository(
@@ -41,8 +39,8 @@ class ElevRepository(
     }
 
     override fun actions(): Set<String> =
-        Stream.of(*ElevActions.values())
+        ElevActions.entries
             .map { it.name }
             .filter { it.startsWith("GET_ALL_") }
-            .collect(Collectors.toSet())
+            .toSet()
 }

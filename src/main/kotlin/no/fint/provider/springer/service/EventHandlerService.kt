@@ -13,7 +13,6 @@ import no.novari.fint.model.resource.FintLinks
 import org.apache.commons.lang3.exception.ExceptionUtils
 import org.slf4j.LoggerFactory
 import org.springframework.stereotype.Service
-import java.util.Collection
 import java.util.concurrent.ThreadLocalRandom
 
 /**
@@ -101,6 +100,6 @@ class EventHandlerService(
             }
         }
         actionsHandlerMap = builder.build()
-        log.info("Registered {} handlers, supporting actions: {}", handlers.size(), supportedActions.getActions().size)
+        log.info("Registered {} handlers, supporting actions: {}", handlers.size, supportedActions.getActions().size)
     }
 }

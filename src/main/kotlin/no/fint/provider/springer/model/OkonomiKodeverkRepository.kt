@@ -12,8 +12,6 @@ import no.novari.fint.model.resource.okonomi.kodeverk.*
 import org.springframework.data.mongodb.core.MongoTemplate
 import org.springframework.stereotype.Repository
 import java.util.*
-import java.util.stream.Collectors
-import java.util.stream.Stream
 
 @Repository
 class OkonomiKodeverkRepository(
@@ -47,8 +45,8 @@ class OkonomiKodeverkRepository(
     }
 
     override fun actions(): Set<String> =
-        Stream.of(*KodeverkActions.values())
+        KodeverkActions.entries
             .map { it.name }
             .filter { it.startsWith("GET_ALL_") }
-            .collect(Collectors.toSet())
+            .toSet()
 }

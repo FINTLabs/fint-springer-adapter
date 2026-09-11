@@ -5,7 +5,6 @@ import no.fint.provider.springer.storage.SeederRepository
 import no.novari.fint.model.felles.kompleksedatatyper.Identifikator
 import no.novari.fint.model.resource.Link
 import no.novari.fint.model.resource.administrasjon.personal.PersonalressursResource
-import no.novari.fint.model.resource.felles.PersonResource
 import no.novari.fint.model.resource.utdanning.elev.SkoleressursResource
 import no.novari.fint.model.resource.utdanning.elev.UndervisningsforholdResource
 import no.novari.fint.model.resource.utdanning.utdanningsprogram.SkoleResource

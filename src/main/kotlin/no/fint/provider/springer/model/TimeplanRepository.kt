@@ -14,8 +14,6 @@ import no.novari.fint.model.resource.utdanning.timeplan.Undervisningsgruppemedle
 import no.novari.fint.model.utdanning.timeplan.TimeplanActions
 import org.springframework.data.mongodb.core.MongoTemplate
 import org.springframework.stereotype.Repository
-import java.util.stream.Collectors
-import java.util.stream.Stream
 
 @Repository
 class TimeplanRepository(
@@ -42,8 +40,8 @@ class TimeplanRepository(
     }
 
     override fun actions(): Set<String> =
-        Stream.of(*TimeplanActions.values())
+        TimeplanActions.entries
             .map { it.name }
             .filter { it.startsWith("GET_ALL_") }
-            .collect(Collectors.toSet())
+            .toSet()
 }

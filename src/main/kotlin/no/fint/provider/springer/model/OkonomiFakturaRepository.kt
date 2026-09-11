@@ -10,8 +10,6 @@ import no.novari.fint.model.resource.FintLinks
 import no.novari.fint.model.resource.okonomi.faktura.FakturautstederResource
 import org.springframework.data.mongodb.core.MongoTemplate
 import org.springframework.stereotype.Repository
-import java.util.stream.Collectors
-import java.util.stream.Stream
 
 @Repository
 class OkonomiFakturaRepository(
@@ -35,8 +33,8 @@ class OkonomiFakturaRepository(
     }
 
     override fun actions(): Set<String> =
-        Stream.of(*FakturaActions.values())
+        FakturaActions.entries
             .map { it.name }
             .filter { it.startsWith("GET_ALL_") }
-            .collect(Collectors.toSet())
+            .toSet()
 }

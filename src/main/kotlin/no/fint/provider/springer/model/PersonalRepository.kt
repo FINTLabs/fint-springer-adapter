@@ -19,8 +19,6 @@ import org.slf4j.LoggerFactory
 import org.springframework.data.mongodb.core.MongoTemplate
 import org.springframework.data.mongodb.core.query.Criteria
 import org.springframework.stereotype.Repository
-import java.util.stream.Collectors
-import java.util.stream.Stream
 
 @Repository
 class PersonalRepository(
@@ -130,8 +128,8 @@ class PersonalRepository(
     }
 
     override fun actions(): Set<String> =
-        Stream.of(*PersonalActions.values())
+        PersonalActions.entries
             .map { it.name }
             .filter { it.startsWith("GET_ALL_") }
-            .collect(Collectors.toSet())
+            .toSet()
 }
