@@ -1,7 +1,7 @@
 import com.github.benmanes.gradle.versions.updates.DependencyUpdatesTask
 
 plugins {
-    id("org.springframework.boot") version "4.0.5"
+    id("org.springframework.boot") version "4.1.1"
     id("io.spring.dependency-management") version "1.1.7"
     kotlin("jvm") version "2.4.20"
     kotlin("plugin.spring") version "2.4.20"
@@ -42,13 +42,6 @@ repositories {
     mavenLocal()
 }
 
-dependencyManagement {
-    dependencies {
-        // Downgrade MongoDB driver for compatibility with MongoDB 3.6: https://www.mongodb.com/docs/drivers/java/sync/current/compatibility/
-        dependency("org.mongodb:mongodb-driver-core:5.1.4")
-        dependency("org.mongodb:mongodb-driver-sync:5.1.4")
-    }
-}
 
 dependencies {
     implementation(kotlin("stdlib"))
