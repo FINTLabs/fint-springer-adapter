@@ -7,6 +7,7 @@ plugins {
     kotlin("plugin.spring") version "2.4.20"
     id("groovy")
     id("io.github.ben-manes.versions") version "0.61.0"
+    kotlin("plugin.lombok") version "2.4.20"
 }
 
 group = "no.novari"
@@ -89,6 +90,7 @@ dependencies {
     testImplementation("org.spockframework:spock-core:2.4-groovy-5.0")
     testImplementation("org.apache.groovy:groovy:5.1.2")
     testImplementation("org.springframework.boot:spring-boot-starter-test")
+    testImplementation(kotlin("test"))
 }
 
 tasks.named<org.springframework.boot.gradle.tasks.run.BootRun>("bootRun") {

@@ -6,7 +6,6 @@ import no.fint.provider.springer.storage.SeederRepository
 import no.novari.fint.model.felles.kompleksedatatyper.Identifikator
 import no.novari.fint.model.felles.kompleksedatatyper.Kontaktinformasjon
 import no.novari.fint.model.felles.kompleksedatatyper.Personnavn
-import no.novari.fint.model.resource.Link
 import no.novari.fint.model.resource.administrasjon.personal.PersonalressursResource
 import no.novari.fint.model.resource.felles.PersonResource
 import no.novari.fint.model.resource.felles.kodeverk.iso.KjonnResource

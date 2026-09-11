@@ -26,7 +26,7 @@ spec:
       restartPolicy: Always
       containers:
         - name: springer-pwf
-          image: ghcr.io/fintlabs/fint-springer-adapter:2026-02-03-6c5b128
+          image: ghcr.io/fintlabs/fint-springer-adapter:latest
           ports:
             - containerPort: 8092
           resources:
@@ -84,10 +84,10 @@ spec:
             - name: spring.mongodb.uri
               valueFrom:
                 secretKeyRef:
-                  name: fint-mongo
-                  key: mongodb
+                  name: fint-pwf-adapter-cluster-pwf
+                  key: spring.mongodb.uri
             - name: spring.mongodb.database
-              value: springer
+              value: fint-pwf-adapter-cluster-pwf
             - name: server.port
               value: "8092"
             - name: security.basic.enabled

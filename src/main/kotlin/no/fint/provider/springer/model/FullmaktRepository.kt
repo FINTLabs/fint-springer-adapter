@@ -11,8 +11,6 @@ import no.novari.fint.model.resource.administrasjon.fullmakt.FullmaktResource
 import no.novari.fint.model.resource.administrasjon.fullmakt.RolleResource
 import org.springframework.data.mongodb.core.MongoTemplate
 import org.springframework.stereotype.Repository
-import java.util.stream.Collectors
-import java.util.stream.Stream
 
 @Repository
 class FullmaktRepository(

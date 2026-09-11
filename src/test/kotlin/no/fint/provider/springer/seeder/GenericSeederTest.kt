@@ -2,7 +2,6 @@ package no.fint.provider.springer.seeder
 
 import com.fasterxml.jackson.databind.JsonNode
 import com.fasterxml.jackson.databind.ObjectMapper
-import no.novari.fint.model.resource.felles.PersonResource
 import org.junit.jupiter.api.Assertions.*
 import org.junit.jupiter.api.Test
 import org.springframework.core.io.ClassPathResource
