@@ -84,8 +84,8 @@ spec:
             - name: spring.mongodb.uri
               valueFrom:
                 secretKeyRef:
-                  name: fint-pwf-adapter-cluster-pwf
-                  key: spring.mongodb.uri
+                  name: fint-mongo
+                  key: mongodb2
             - name: spring.mongodb.database
               value: fint-pwf-adapter-cluster-pwf
             - name: server.port
