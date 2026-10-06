@@ -46,7 +46,7 @@ repositories {
 dependencies {
     implementation(kotlin("stdlib"))
     implementation(kotlin("reflect"))
-    implementation("com.google.guava:guava:33.7.1-jre")
+    implementation("com.google.guava:guava:33.7.2-jre")
     implementation("net.datafaker:datafaker:2.7.0")
     implementation("org.apache.commons:commons-lang3:3.20.0")
     implementation("commons-beanutils:commons-beanutils:1.11.0")
