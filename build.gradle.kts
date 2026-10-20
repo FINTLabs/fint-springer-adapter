@@ -81,7 +81,7 @@ dependencies {
     testImplementation("cglib:cglib-nodep:3.3.0")
     testImplementation("org.spockframework:spock-spring:2.4-groovy-5.0")
     testImplementation("org.spockframework:spock-core:2.4-groovy-5.0")
-    testImplementation("org.apache.groovy:groovy:5.1.3")
+    testImplementation("org.apache.groovy:groovy:6.0.0")
     testImplementation("org.springframework.boot:spring-boot-starter-test")
     testImplementation(kotlin("test"))
 }
