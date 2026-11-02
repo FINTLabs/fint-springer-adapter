@@ -7,7 +7,7 @@ plugins {
     kotlin("plugin.spring") version "2.4.20"
     id("groovy")
     id("io.github.ben-manes.versions") version "0.64.0"
-    kotlin("plugin.lombok") version "2.4.20"
+    kotlin("plugin.lombok") version "2.4.21"
 }
 
 group = "no.novari"
