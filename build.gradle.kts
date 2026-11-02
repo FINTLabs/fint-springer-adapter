@@ -6,7 +6,7 @@ plugins {
     kotlin("jvm") version "2.4.21"
     kotlin("plugin.spring") version "2.4.21"
     id("groovy")
-    id("io.github.ben-manes.versions") version "0.64.0"
+    id("io.github.ben-manes.versions") version "0.66.0"
     kotlin("plugin.lombok") version "2.4.21"
 }
 
