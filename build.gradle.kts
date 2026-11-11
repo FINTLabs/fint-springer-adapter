@@ -1,13 +1,13 @@
 import com.github.benmanes.gradle.versions.updates.DependencyUpdatesTask
 
 plugins {
-    id("org.springframework.boot") version "4.1.1"
+    id("org.springframework.boot") version "4.1.2"
     id("io.spring.dependency-management") version "1.1.7"
-    kotlin("jvm") version "2.4.20"
-    kotlin("plugin.spring") version "2.4.20"
+    kotlin("jvm") version "2.4.21"
+    kotlin("plugin.spring") version "2.4.21"
     id("groovy")
-    id("io.github.ben-manes.versions") version "0.64.0"
-    kotlin("plugin.lombok") version "2.4.20"
+    id("io.github.ben-manes.versions") version "0.66.0"
+    kotlin("plugin.lombok") version "2.4.21"
 }
 
 group = "no.novari"
@@ -48,10 +48,10 @@ dependencies {
     implementation(kotlin("reflect"))
     implementation("com.google.guava:guava:33.7.2-jre")
     implementation("net.datafaker:datafaker:2.7.0")
-    implementation("org.apache.commons:commons-lang3:3.20.0")
+    implementation("org.apache.commons:commons-lang3:3.21.0")
     implementation("commons-beanutils:commons-beanutils:1.11.0")
     implementation("org.apache.jena:jena-arq:6.2.0")
-    implementation("org.jooq:jool-java-8:0.9.15")
+    implementation("org.jooq:jool-java-8:0.9.16")
 
     compileOnly("org.projectlombok:lombok:1.18.48")
     annotationProcessor("org.projectlombok:lombok:1.18.48")
@@ -79,8 +79,8 @@ dependencies {
     implementation("org.springframework.boot:spring-boot-starter-validation")
 
     testImplementation("cglib:cglib-nodep:3.3.0")
-    testImplementation("org.spockframework:spock-spring:2.4-groovy-5.0")
-    testImplementation("org.spockframework:spock-core:2.4-groovy-5.0")
+    testImplementation("org.spockframework:spock-spring:2.5-groovy-6.0")
+    testImplementation("org.spockframework:spock-core:2.5-groovy-6.0")
     testImplementation("org.apache.groovy:groovy:6.0.0")
     testImplementation("org.springframework.boot:spring-boot-starter-test")
     testImplementation(kotlin("test"))
