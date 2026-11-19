@@ -15,7 +15,7 @@ jobs:
   build-push:
     uses: fintlabs/shared-workflows/.github/workflows/java-gradle-build-push.yaml@v0
     with:
-      java-version: '25'
+      java-version: '25.0.5.1+2'
     secrets: inherit
 
   pwf:
@@ -24,5 +24,5 @@ jobs:
     with:
       tags: ${{ needs.build-push.outputs.tags }}
       environment: pwf
-      deploy-every-branch: true
+      deploy-every-branch: false
     secrets: inherit
