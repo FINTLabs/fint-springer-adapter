@@ -50,7 +50,7 @@ dependencies {
     implementation("net.datafaker:datafaker:2.7.0")
     implementation("org.apache.commons:commons-lang3:3.22.0")
     implementation("commons-beanutils:commons-beanutils:1.11.0")
-    implementation("org.apache.jena:jena-arq:6.2.0")
+    implementation("org.apache.jena:jena-arq:6.3.0")
     implementation("org.jooq:jool-java-8:0.9.16")
 
     compileOnly("org.projectlombok:lombok:1.18.48")
